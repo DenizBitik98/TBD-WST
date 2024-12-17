@@ -1,0 +1,1850 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <base href="https://www.gotur.kz/">
+    <meta charset="UTF-8">
+<link rel="apple-touch-icon" sizes="180x180" href="/appicon/apple-touch-icon.png">
+<link rel="mask-icon" href="/appicon/safari-pinned-tab.svg" color="#f06251">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/appicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/appicon/favicon-16x16.png">
+<link rel="shortcut icon" href="/appicon/favicon.ico">
+
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#0071d4">
+<meta name="msapplication-TileImage" content="/appicon/ms-icon-144x144.png">
+
+<meta name="theme-color" content="#0071d4">
+<meta name="apple-mobile-web-app-status-bar-style" content="#0071d4">
+
+<meta name="apple-mobile-web-app-title" content="Турагентство GOTOUR.KZ">
+<meta name="application-name" content="Турагентство GOTOUR.KZ"><meta name="google-site-verification" content="nobn0mtbRwAQHcL3W59PH-Gao9rteXQYgcYvaPQZkbU" />
+<meta name="wmail-verification" content='36246c1762379c1cad53ce96f5535c4b' />
+<meta name="yandex-verification" content="e4a55cdfe208dc62" />
+<meta name="facebook-domain-verification" content="mms3bvse53ek441uksblgotrfn182b" />
+    <title>Все об отдыхе в Казахстане: новости, отзывы, путеводитель.</title>
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="VH6l3fYteFZamdK3WJ7GgcaUiAzN0lFNpTR9kr6lJHM5LuO6jGw7ZWzRmPwA0ffQq8zwWpmgMhT0ejLd1cNTKg==">
+<script>
+    app = {
+        staticDomain: "https://static.gotur.kz",
+        googleMapApiKey: "AIzaSyDebOpjG3l-Y3fcxlzMKxBG6dAJwmdgy8Q",
+        yandexMapApiKey: "0f162d03-62bd-432b-86bb-653a4b66ff89",
+        urls: {
+            getShortId: "/tour/get-short-id.html",
+            addSubscription: "/subscription.html",
+            addSubscriptionSuccess: "/subscription-success.html",
+            findTour: "/tour/find.html",
+            addCallback: "/callback/create.html",
+            changeCallbackCallTime: "/callback/change-call-time.html",
+            setCity: "/site/set-city.html",
+            setCurrency: "/site/set-currency.html"
+        },
+        city: {
+            id: 1,
+        },
+        realCity: {
+            name: ""        },
+        cities: {"1":{"id":1,"name":"Алматы","depart_id":1,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"https://www.instagram.com/gotour.kz/","facebook":"https://www.facebook.com/gotour.kz/"},"contactsHidden":false},"2":{"id":2,"name":"Астана","depart_id":2,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"4":{"id":4,"name":"Актобе","depart_id":6,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"5":{"id":5,"name":"Актау","depart_id":8,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"8":{"id":8,"name":"Караганда","depart_id":4,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"9":{"id":9,"name":"Шымкент","depart_id":5,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"10":{"id":10,"name":"Атырау","depart_id":12,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"11":{"id":11,"name":"Семей","depart_id":0,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"12":{"id":12,"name":"Талдыкорган","depart_id":0,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"13":{"id":13,"name":"Темиртау","depart_id":0,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"14":{"id":14,"name":"Уральск","depart_id":10,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"15":{"id":15,"name":"Усть-Каменогорск","depart_id":11,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"16":{"id":16,"name":"Павлодар","depart_id":9,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true}},
+        cityTemplate: {
+            hiddenPhone: "<span class=\"hidden-phone\" role=\"button\" data-city=\"{{cityId}}\" data-type=\"{{type}}\"><span class=\"phone-code\">{{phoneCode}}</span><span class=\"btn-show-hidden-phone\">Показать</span></span>",
+            phoneLink: "<a class=\"site-phone-link phone-{{clearPhone}} clickable-phone\" href=\"{{href}}\">{{phone}}</a>",
+        },
+        sock: {
+            local: "//127.0.0.1:8888/serv",
+            main: "https://ws.gotour.kz/serv",
+        },
+                srcCount: 30,
+        v_uid: undefined,
+        currency: "kzt",
+        isMobile: 0,
+        isGeolocationEnabled: 0,
+        debug: 0,
+        loading: {
+            data: "",
+            dots: "",
+            circle: "<div class=\"circle-loader\"><svg viewBox=\"25 25 50 50\"><circle cx=\"50\" cy=\"50\" r=\"20\"></circle></svg></div>",
+        },
+                quizCountdownMs: 1000,
+    };
+</script>
+<meta name="description" content="Подготовка к поездке в Казахстан - советы путешественнику. Самые свежие новости про Казахстан. Читайте и делитесь своим опытом путешествий с сайтом goTUR.kz">
+<meta name="keywords" content="">
+<link href="https://www.gotur.kz/strany/kazakhstan.html" rel="canonical">
+<link href="/css/plugins/bootstrap.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/common/main/css/main.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/pages/countries/css/countries.min.css?v=1730179335" rel="stylesheet">
+<link href="/assets/e9fe3a75/css/popular-countries.min.css?v=1733117065" rel="stylesheet">
+<link href="/dist/desktop/pages/blog/css/blog.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/country-panel/css/country-panel.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/banner/css/banner.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/callback/core/css/core.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/subscription-form/column/css/column.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/subscription-form/compact/css/compact.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/subscription-form/leave-subscribe-modal/css/leave-subscribe-modal.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/quiz/css/quiz.min.css?v=1730179335" rel="stylesheet">
+<script>
+    // Google Tag Manager
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXVW283');
+    // End Google Tag Manager
+
+var yandexConfig = {"params":{"pageType":"other"},"enableClickMap":false,"enableWebVisor":false};</script></head>
+<body class="gotour-theme ">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","additionalType":"TravelAgency","address":{"@type":"PostalAddress","addressLocality":"Алматы, Казахстан","streetAddress":"Проспект Назарбаева 193, 1 этаж"},"name":"туристское агентство","email":"almaty@gotour.kz","openingHours":["Mo-Fr 10:00-19:00","Sa 10:00-15:00"],"priceRange":"155000-2150000KZT","telephone":["+7 (727) 344‒97‒88","+7 (747) 344‒97‒88","+7 (771) 171‒71‒86"],"image":"https://www.gotur.kz/img/gt-logo-white.png","url":"//www.gotur.kz","geo":{"@type":"GeoCoordinates","latitude":"76.948285","longitude":"43.239908"}}</script>    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.gotur.kz/","name":"Главная"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.gotur.kz/strany.html","name":"Страны"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.gotur.kz/strany/kazakhstan.html","name":"Казахстан"}}]}</script><script>    function registerBootstrapTooltip() {
+        if (window.jQuery && $.isFunction($.fn.tooltip)) {
+            jQuery.fn.extend({ bootstrapTooltip: $.fn.tooltip })
+        }
+    }
+function initSentry() {
+                    Sentry.init({
+                        dsn: 'https://72ea944f82714cbc9cc44c7e09d6315c@o50394.ingest.sentry.io/5377892',
+                        ignoreErrors: ["Failed to fetch","$ is not defined","Can't find variable: jQuery","Can't find variable: $","adsbygoogle.push() error: No slot size for availableWidth=0"],
+                        denyUrls: [],
+                        integrations: [
+                            new Sentry.Integrations.GlobalHandlers({
+                                onerror: true,
+                                onunhandledrejection: false
+                            })
+                        ]
+                    });
+                }</script><div class="wrapper">
+    
+<nav class="nav-bar">
+    <div class="container nav-bar-container">
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                <li>
+    <a href="/tury/goryashchie-tury/almaty.html" class="direct-link">Горящие туры</a>
+</li>
+                <li>
+    <a href="/tury/iz-almaty.html" class="direct-link">Цены на туры</a>
+</li>
+                <li class="dropdown">
+    <a href="/poisk-tura.html">Поиск онлайн <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/poisk-tura.html">Поиск туров</a></li>
+                    <li><a href="/aviabilety.html">Поиск авиабилетов</a></li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/tury.html">Отдых за рубежом <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/turciya/almaty.html">Туры в Турцию</a></li>
+                                            <li><a href="/tury/thailand/almaty.html">Туры в Таиланд</a></li>
+                                            <li><a href="/tury/oae/almaty.html">Туры в ОАЭ</a></li>
+                                            <li><a href="/tury/india/almaty.html">Туры в ГОА, Индия</a></li>
+                                            <li><a href="/tury/egypet/almaty.html">Туры в Египет</a></li>
+                                            <li><a href="/tury/vietnam/almaty.html">Туры в Вьетнам</a></li>
+                                            <li><a href="/tury/dominikanskaia-resp/almaty.html">Туры в Доминикану</a></li>
+                                            <li><a href="/tury/kitaj/almaty.html">Туры в Китай(Хайнань)</a></li>
+                                            <li><a href="/tury.html">Смотреть все туры</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Тематические туры <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/rannee-bronirovanie.html">Раннее бронирование туров</a></li>
+                                            <li><a href="/tury/gornolyzhnye-tury.html">Горнолыжные туры</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Горящие туры</a></li>
+                                            <li><a href="/tury/individualnye-i-vip-tury.html">Индивидуальные и VIP туры</a></li>
+                                            <li><a href="/tury/kombinirovannye-tury.html">Комбинированные туры</a></li>
+                                            <li><a href="/tury/morskie-kruizy.html">Морские круизы</a></li>
+                                            <li><a href="/tury/lechebnye-tury.html">Лечебные туры</a></li>
+                                            <li><a href="/tury/plyazhnyj-otdykh.html">Пляжный отдых</a></li>
+                                            <li><a href="/tury/svadebnye-tury.html">Свадебные туры</a></li>
+                                            <li><a href="/tury/tury-na-prazdniki-meropriyatiya.html">Туры на праздники, мероприятия</a></li>
+                                            <li><a href="/tury/shop-tury.html">Шоп-туры</a></li>
+                                            <li><a href="/tury/ekskursionnye-tury.html">Экскурсионные туры</a></li>
+                                            <li><a href="/tury/avtobusnye-tury.html">Автобусные туры</a></li>
+                                            <li><a href="/tury/detskij-otdykh.html">Детский отдых</a></li>
+                                            <li><a href="/tury/newyear.html">Новогодние туры</a></li>
+                                            <li><a href="/tury/spring-break-and-nauryz.html">Весенние каникулы и Наурыз</a></li>
+                                            <li><a href="/tury/may_holidays_tours.html">Туры на майские праздники</a></li>
+                                            <li><a href="/tury/osennie-kanikuly.html">Осенние каникулы</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Смотреть все</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Полезно знать <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/strany.html">О странах</a></li>
+                                            <li><a href="/oteli.html">Отели</a></li>
+                                            <li><a href="/blogs.html">Интересные статьи</a></li>
+                                            <li><a href="/news.html">Новости туризма</a></li>
+                                            <li><a href="/tury/vizy-registratsiya.html">Визы, регистрация</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/oteli/kazakhstan.html">Отдых в Казахстане <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Регионы <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan.html">Все зоны отдыха, санатории в Казахстане</a></li>
+                                            <li><a href="/oteli/kazakhstan/almatinskaia-obl.html">Алматинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/aktiubinskaia-obl.html">Актюбинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/atyrausaia-obl.html">Атыраусая обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/vostochno-kazakhstanskaia-obl.html">Восточно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zhambylskaia-oblast.html">Жамбылская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zapadno-kazakhstanskaia-obl.html">Западно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/karagandinskaia-obl.html">Карагандинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kostanaiskaia-obl.html">Костанайская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kyzylordinskaia-obl.html">Кызылординская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/mangistauskaia-obl.html">Мангистауская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/pavlodarskaia-obl.html">Павлодарская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/severo-kazakhstanskaia-obl.html">Северо-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/iuzhno-kazakhstanskaia-obl.html">Южно-Казахстанская обл.</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kapchagae.html">Отдых на Капчагае</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-alakole.html">Отдых на Алаколе</a></li>
+                                            <li><a href="/oteli/kazakhstan/goryachie-istochniki.html">Горячие источники</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-borovom.html">Отдых в Боровом</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-s-detmi.html">Отдых с детьми</a></li>
+                                            <li><a href="/oteli/kazakhstan/pokatatsya-na-lyzhakh-sankakh.html">Покататься на лыжах, санках</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-zerende.html">Отдых в Зеренде</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-balkhashe.html">Отдых на Балхаше</a></li>
+                                            <li><a href="/oteli/kazakhstan/vip-otdykh.html">VIP отдых</a></li>
+                                            <li><a href="/oteli/kazakhstan/okhota.html">Охота</a></li>
+                                            <li><a href="/oteli/kazakhstan/bassejny-i-akvaparki.html">Бассейны и Аквапарки</a></li>
+                                            <li><a href="/oteli/kazakhstan/rybalka.html">Рыбалка</a></li>
+                                            <li><a href="/oteli/kazakhstan/anatorii-lechenie-spa.html">Санатории, Лечение, СПА</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kaspii.html">Отдых на Каспии</a></li>
+                                            <li><a href="/oteli/kazakhstan/piknik.html">Пикник</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Виды зон отдыха <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/hostel.html">Hostel</a></li>
+                                            <li><a href="/oteli/kazakhstan/baza-otdykha.html">База отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/butik-otel.html">Бутик отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostevoj-dom.html">Гостевой дом</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinitsa.html">Гостиница</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinichnyj-kompleks.html">Гостиничный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/dom-otdykha.html">Дом отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/sanatorij.html">Санаторий</a></li>
+                                            <li><a href="/oteli/kazakhstan/kemping-otel.html">Кемпинг</a></li>
+                                            <li><a href="/oteli/kazakhstan/kottedzhnyj-kompleks.html">Коттеджный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/pansionat.html">Пансионат</a></li>
+                                            <li><a href="/oteli/kazakhstan/turbaza.html">Турбаза</a></li>
+                                            <li><a href="/oteli/kazakhstan/eko-otel.html">Эко отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/chastnyj-sektor.html">Частный сектор</a></li>
+                                            <li><a href="/oteli/kazakhstan/detskij-lager.html">Детский лагерь</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Туры выходного дня <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/holiday.html">Все туры выходного дня</a></li>
+                                            <li><a href="/holiday/almaty.html">В Алматы</a></li>
+                                            <li><a href="/holiday/astana.html">В Нур-Cултане (Астана)</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/company.html">О нас <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/turagentstva/operator.html">Наши партнеры</a></li>
+            </ul>
+</li>
+                <li>
+    <a href="/kontakti.html" class="direct-link">Контакты</a>
+</li>
+            </ul>
+        </div>
+        <div class="nav-bar-city-select">
+    Ваш город:&nbsp;
+    <div class="h-select main_hSelect" id="hSelectMainCity">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face" data-value="1">
+                <span>Алматы</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="1">
+                    <span>Алматы</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="2">
+                    <span>Астана</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="4">
+                    <span>Актобе</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="5">
+                    <span>Актау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="8">
+                    <span>Караганда</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="9">
+                    <span>Шымкент</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="10">
+                    <span>Атырау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="11">
+                    <span>Семей</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="12">
+                    <span>Талдыкорган</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="13">
+                    <span>Темиртау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="14">
+                    <span>Уральск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="15">
+                    <span>Усть-Каменогорск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="16">
+                    <span>Павлодар</span>
+                </div>
+                        </div>
+    </div>
+</div>
+        <div class="nav-bar-currency-select">
+    <div class="h-select main_hSelect" id="hSelectCurrency">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face">
+                <span>KZT</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="kzt">
+                    <span>KZT</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="usd">
+                    <span>USD</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="eur">
+                    <span>EUR</span>
+                </div>
+                    </div>
+    </div>
+</div>
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                    <li>
+        <a href="/login.html" class="direct-link login-button">Войти</a>
+    </li>
+                </ul>
+        </div>
+    </div>
+</nav>
+    
+<header class="header-country main">
+    <div class="container">
+        <div class="header-common-elements">
+    <div class="logo">
+                    <a href="/">
+                <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            </a>
+                </div>
+                <div class="header-phone">
+            <img src="/img/phone-circle.png"
+                 alt="">
+            <span class="phone-text">Наш телефон:</span>
+            <span class="site-phone"><a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a></span>
+        </div>
+                    <div class="header-whatsapp-phone">
+                <img src="/img/whatsapp.svg"
+                     alt="">
+                <span class="whatsapp-text">Наш WhatsApp:</span>
+                <span class="site-phone"><a class="js-whatsapp-phone-conversion site-phone-link whatsapp-button" href="https://wa.me/77711717126?text=Здравствуйте. Я хочу подобрать тур.">+7 (771) 171-71-26</a></span>
+            </div>
+                    <div class="clearfix"></div>
+</div>
+        <div class="header-content">
+            <div class="header-content-wrapper">
+                <div class="header-title">
+                    <h1 class="header-title-value akrobat-extra-bold">Все об отдыхе в Казахстане</h1>                </div>
+
+                
+<div class="country-panel">
+            <a href="/strany/kazakhstan.html" class="country-panel_item
+         active ">
+            Казахстан        </a>
+            <a href="/tury/goryashchie-tury/kazakhstan.html" class="country-panel_item
+        ">
+            Горящие туры        </a>
+            <a href="/tury/kazakhstan.html" class="country-panel_item
+        ">
+            Туры        </a>
+            <a href="/oteli/kazakhstan.html" class="country-panel_item
+        ">
+            Отели        </a>
+            <a href="/tury/vizy-registratsiya/kazakhstan.html" class="country-panel_item
+        ">
+            Визы        </a>
+            <a href="/blogs/country/kazakhstan.html" class="country-panel_item
+        ">
+            Статьи        </a>
+    </div>            </div>
+        </div>
+    </div>
+</header>
+
+
+    <div class="promo promo-pos-dt">
+            <a href="/banner/go.html?id=53" rel="nofollow">
+            <img src="/uploads/banners/64490e5f3413e.jpg" alt="Бронируйте туры через наш чат бот в телеграме" title="Бронируйте туры через наш чат бот в телеграме">
+        </a>
+    </div>
+
+
+    <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Главная</a></li>
+<li><a href="/strany.html">Страны</a></li>
+<li class="active">Казахстан</li>
+</ul>    </div>
+            <main>
+        
+<div class="container">
+    <div class="columns">
+        <div class="column-left">
+            <div class="popular-countries">
+    <div class="site-block">
+        <div class="popular-countries-header">
+            <h2>Популярные страны</h2>
+            <p>Цены указаны за одного человека</p>
+        </div>
+        <div class="popular-countries-menu dropdown">
+        <span class="dropdown-toggle arrow"
+              data-toggle="dropdown">из Алматы</span>
+            <ul class="dropdown-menu">
+                                    <li class="active">
+                            <span data-name="Алматы"
+                                  data-city="city1"
+                                  data-alternative-city="alter-city">
+                                Алматы                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Астана"
+                                  data-city="city2"
+                                  data-alternative-city="alter-city">
+                                Астана                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Москва"
+                                  data-city="city3"
+                                  data-alternative-city="alter-city">
+                                Москва                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Актобе"
+                                  data-city="city4"
+                                  data-alternative-city="alter-city1">
+                                Актобе                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Актау"
+                                  data-city="city5"
+                                  data-alternative-city="alter-city1">
+                                Актау                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Караганда"
+                                  data-city="city8"
+                                  data-alternative-city="alter-city1">
+                                Караганда                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Шымкент"
+                                  data-city="city9"
+                                  data-alternative-city="alter-city1">
+                                Шымкент                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Атырау"
+                                  data-city="city10"
+                                  data-alternative-city="alter-city1">
+                                Атырау                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Семей"
+                                  data-city="city11"
+                                  data-alternative-city="alter-city1">
+                                Семей                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Талдыкорган"
+                                  data-city="city12"
+                                  data-alternative-city="alter-city1">
+                                Талдыкорган                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Темиртау"
+                                  data-city="city13"
+                                  data-alternative-city="alter-city1">
+                                Темиртау                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Уральск"
+                                  data-city="city14"
+                                  data-alternative-city="alter-city1">
+                                Уральск                            </span>
+                    </li>
+                                    <li class="">
+                            <span data-name="Усть-Каменогорск"
+                                  data-city="city15"
+                                  data-alternative-city="alter-city1">
+                                Усть-Каменогорск                            </span>
+                    </li>
+                            </ul>
+        </div>
+        <div class="popular-countries-wrapper">
+                            <div class="popular-countries-items active city1">
+                                                                            <a href="/tury/oae/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/ae.svg"
+                                         alt="ae">
+                                </div>
+                                <div class="description">
+                                    <span class="country">ОАЭ</span>
+                                    <span class="price">
+                                        от 91 573₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/egypet/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/eg.svg"
+                                         alt="eg">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Египет</span>
+                                    <span class="price">
+                                        от 165 879₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/turciya/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/tr.svg"
+                                         alt="tr">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Турция</span>
+                                    <span class="price">
+                                        от 155 616₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/maldivskie-ostrova/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/mv.svg"
+                                         alt="mv">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Мальдивы</span>
+                                    <span class="price">
+                                        от 343 270₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/thailand/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/th.svg"
+                                         alt="th">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Таиланд</span>
+                                    <span class="price">
+                                        от 229 719₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/gruziia/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/ge.svg"
+                                         alt="ge">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Грузия</span>
+                                    <span class="price">
+                                        от 202 508₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/india/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/in.svg"
+                                         alt="in">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Индия (ГОА)</span>
+                                    <span class="price">
+                                        от 124 017₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/kitaj/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/cn.svg"
+                                         alt="cn">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Китай (Хайнань)</span>
+                                    <span class="price">
+                                        от 154 890₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/shri-lanka/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/lk.svg"
+                                         alt="lk">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Шри-Ланка</span>
+                                    <span class="price">
+                                        от 167 449₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/vietnam/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/vn.svg"
+                                         alt="vn">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Вьетнам</span>
+                                    <span class="price">
+                                        от 192 043₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/malaysia/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/my.svg"
+                                         alt="my">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Малайзия</span>
+                                    <span class="price">
+                                        от 272 628₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/bali/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/id.svg"
+                                         alt="id">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Бали</span>
+                                    <span class="price">
+                                        от 546 826₸                                    </span>
+                                </div>
+                            </a>
+                                                                                                            <a href="/tury/italy/almaty.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/it.svg"
+                                         alt="it">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Италия</span>
+                                    <span class="price">
+                                        от 420 885₸                                    </span>
+                                </div>
+                            </a>
+                                                                    </div>
+                            <div class="popular-countries-items  city2">
+                                                <!--noindex-->                            <div data-href="/tury/oae/astana.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/ae.svg"
+                                         alt="ae">
+                                </div>
+                                <div class="description">
+                                    <span class="country">ОАЭ</span>
+                                    <span class="price">
+                                        от 86 341₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/egypet/astana.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/eg.svg"
+                                         alt="eg">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Египет</span>
+                                    <span class="price">
+                                        от 132 912₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/turciya/astana.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/tr.svg"
+                                         alt="tr">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Турция</span>
+                                    <span class="price">
+                                        от 267 483₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/thailand/astana.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/th.svg"
+                                         alt="th">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Таиланд</span>
+                                    <span class="price">
+                                        от 164 309₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/gruziia/astana.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/ge.svg"
+                                         alt="ge">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Грузия</span>
+                                    <span class="price">
+                                        от 181 577₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/chekhiya/astana.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/cz.svg"
+                                         alt="cz">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Чехия</span>
+                                    <span class="price">
+                                        от 269 145₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/india/astana.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/in.svg"
+                                         alt="in">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Индия (ГОА)</span>
+                                    <span class="price">
+                                        от 155 937₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/kitaj/astana.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/cn.svg"
+                                         alt="cn">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Китай (Хайнань)</span>
+                                    <span class="price">
+                                        от 145 994₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/vietnam/astana.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/vn.svg"
+                                         alt="vn">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Вьетнам</span>
+                                    <span class="price">
+                                        от 163 786₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                        </div>
+                            <div class="popular-countries-items  city3">
+                                                <!--noindex-->                            <div data-href="/tury/oae/moscow.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/ae.svg"
+                                         alt="ae">
+                                </div>
+                                <div class="description">
+                                    <span class="country">ОАЭ</span>
+                                    <span class="price">
+                                        от 162 739₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/thailand/moscow.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/th.svg"
+                                         alt="th">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Таиланд</span>
+                                    <span class="price">
+                                        от 392 982₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/kuba/moscow.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/cu.svg"
+                                         alt="cu">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Куба</span>
+                                    <span class="price">
+                                        от 401 878₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                        </div>
+                            <div class="popular-countries-items  city4">
+                                                <!--noindex-->                            <div data-href="/tury/egypet/aktobe.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/eg.svg"
+                                         alt="eg">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Египет</span>
+                                    <span class="price">
+                                        от 138 145₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/thailand/aktobe.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/th.svg"
+                                         alt="th">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Таиланд</span>
+                                    <span class="price">
+                                        от 317 106₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                        </div>
+                            <div class="popular-countries-items  city5">
+                                                <!--noindex-->                            <div data-href="/tury/egypet/aktay.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/eg.svg"
+                                         alt="eg">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Египет</span>
+                                    <span class="price">
+                                        от 176 868₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/gruziia/aktay.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/ge.svg"
+                                         alt="ge">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Грузия</span>
+                                    <span class="price">
+                                        от 160 123₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                        </div>
+                            <div class="popular-countries-items  city8">
+                                    </div>
+                            <div class="popular-countries-items  city9">
+                                                <!--noindex-->                            <div data-href="/tury/oae/shymkent.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/ae.svg"
+                                         alt="ae">
+                                </div>
+                                <div class="description">
+                                    <span class="country">ОАЭ</span>
+                                    <span class="price">
+                                        от 174 775₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/egypet/shymkent.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/eg.svg"
+                                         alt="eg">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Египет</span>
+                                    <span class="price">
+                                        от 208 264₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/turciya/shymkent.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/tr.svg"
+                                         alt="tr">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Турция</span>
+                                    <span class="price">
+                                        от 260 284₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/thailand/shymkent.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/th.svg"
+                                         alt="th">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Таиланд</span>
+                                    <span class="price">
+                                        от 290 943₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/vietnam/shymkent.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/vn.svg"
+                                         alt="vn">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Вьетнам</span>
+                                    <span class="price">
+                                        от 253 790₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                        </div>
+                            <div class="popular-countries-items  city10">
+                                                <!--noindex-->                            <div data-href="/tury/oae/atiray.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/ae.svg"
+                                         alt="ae">
+                                </div>
+                                <div class="description">
+                                    <span class="country">ОАЭ</span>
+                                    <span class="price">
+                                        от 153 843₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/egypet/atiray.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/eg.svg"
+                                         alt="eg">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Египет</span>
+                                    <span class="price">
+                                        от 121 400₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/turciya/atiray.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/tr.svg"
+                                         alt="tr">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Турция</span>
+                                    <span class="price">
+                                        от 220 410₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/gruziia/atiray.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/ge.svg"
+                                         alt="ge">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Грузия</span>
+                                    <span class="price">
+                                        от 183 147₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                        </div>
+                            <div class="popular-countries-items  city11">
+                                    </div>
+                            <div class="popular-countries-items  city12">
+                                    </div>
+                            <div class="popular-countries-items  city13">
+                                    </div>
+                            <div class="popular-countries-items  city14">
+                                                <!--noindex-->                            <div data-href="/tury/egypet/uralsk.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/eg.svg"
+                                         alt="eg">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Египет</span>
+                                    <span class="price">
+                                        от 112 504₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                                    <!--noindex-->                            <div data-href="/tury/turciya/uralsk.html"
+                                class="destination-item">
+                                <div class="country-flag">
+                                    <img src="/img/flag/round/tr.svg"
+                                         alt="tr">
+                                </div>
+                                <div class="description">
+                                    <span class="country">Турция</span>
+                                    <span class="price">
+                                        от 270 806₸                                    </span>
+                                </div>
+                            </div>
+                            <!--/noindex-->                                        </div>
+                            <div class="popular-countries-items  city15">
+                                    </div>
+                    </div>
+    </div>
+
+            <div class="site-block alter-city1 popular-countries-flight ">
+            <div class="popular-countries-flight-header">
+                <h2>Вылет из Алматы</h2>
+            </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/oae/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/ae.svg"
+                                 alt="ae">
+                        </div>
+                        <div class="description">
+                            <span class="country">ОАЭ</span>
+                            <span class="price">
+                                от 91 573₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/egypet/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/eg.svg"
+                                 alt="eg">
+                        </div>
+                        <div class="description">
+                            <span class="country">Египет</span>
+                            <span class="price">
+                                от 165 879₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/turciya/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/tr.svg"
+                                 alt="tr">
+                        </div>
+                        <div class="description">
+                            <span class="country">Турция</span>
+                            <span class="price">
+                                от 155 616₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/maldivskie-ostrova/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/mv.svg"
+                                 alt="mv">
+                        </div>
+                        <div class="description">
+                            <span class="country">Мальдивы</span>
+                            <span class="price">
+                                от 343 270₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/thailand/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/th.svg"
+                                 alt="th">
+                        </div>
+                        <div class="description">
+                            <span class="country">Таиланд</span>
+                            <span class="price">
+                                от 229 719₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/gruziia/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/ge.svg"
+                                 alt="ge">
+                        </div>
+                        <div class="description">
+                            <span class="country">Грузия</span>
+                            <span class="price">
+                                от 202 508₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/india/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/in.svg"
+                                 alt="in">
+                        </div>
+                        <div class="description">
+                            <span class="country">Индия (ГОА)</span>
+                            <span class="price">
+                                от 124 017₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/kitaj/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/cn.svg"
+                                 alt="cn">
+                        </div>
+                        <div class="description">
+                            <span class="country">Китай (Хайнань)</span>
+                            <span class="price">
+                                от 154 890₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/shri-lanka/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/lk.svg"
+                                 alt="lk">
+                        </div>
+                        <div class="description">
+                            <span class="country">Шри-Ланка</span>
+                            <span class="price">
+                                от 167 449₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/vietnam/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/vn.svg"
+                                 alt="vn">
+                        </div>
+                        <div class="description">
+                            <span class="country">Вьетнам</span>
+                            <span class="price">
+                                от 192 043₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/malaysia/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/my.svg"
+                                 alt="my">
+                        </div>
+                        <div class="description">
+                            <span class="country">Малайзия</span>
+                            <span class="price">
+                                от 272 628₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/bali/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/id.svg"
+                                 alt="id">
+                        </div>
+                        <div class="description">
+                            <span class="country">Бали</span>
+                            <span class="price">
+                                от 546 826₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                            <div class="popular-countries-flight-items">
+                                                            <a href="/tury/italy/almaty.html"
+                        class="destination-item">
+                        <div class="country-flag">
+                            <img src="/img/flag/round/it.svg"
+                                 alt="it">
+                        </div>
+                        <div class="description">
+                            <span class="country">Италия</span>
+                            <span class="price">
+                                от 420 885₸                            </span>
+                        </div>
+                    </a>
+                                    </div>
+                        <p class="popular-countries-price-description">*(Цена указана за 1 человека, при 2-х местном
+                размещении)</p>
+        </div>
+    </div>
+        </div>
+        <div class="column">
+            <div class="site-block">
+                <div class="site-header">
+                    <h4>Казахстан</h4>
+                </div>
+                <div class="country-index">
+                                            <div class="country-image">
+                            <img src="/uploads/img_countrys/1894.jpg"
+                                 alt="Казахстан">
+                        </div>
+                                            <div class="country-info">
+                        <p><strong>Название:</strong> Казахстан (Республика Казахстан, Kazakhstan)<br />
+<strong>Столица:</strong> Астана<br />
+<strong>Язык:</strong> казахский, русский<br />
+<strong>Виза:</strong> необходима<br />
+<strong>Валюта:</strong> казахстанский тенге.<br />
+<strong>Напряжение электросети:</strong> 220 В</p>
+
+<p>Казахстан привлекательная страна с замечательной природой, разнообразным ландшафтом, столичным блеском городов, сочетающих в себе и восточную умиротворенность, и западную роскошь, таящая в себе и современность, и древность, множество бережно хранимых из прошлого традиций и настоящую экзотику азиатской культуры. Кроме того, страна эта, единственная во всем Среднеазиатском регионе, смогла достичь на мировой арене тех высот, благодаря которым она является не последней в списках таких мировых сообществ, как ОБСЕ, СНГ, ОДКБ, ЦАС (Центрально-Азиатское сотрудничество), Организация Исламская Конференция, ЕвразЭС (Евразийское Экономическое Сообщество), ШОС (Шанхайская Организация Сотрудничества), СВМДА, Совет Тюркоязычных Стран, Тюркский Военный Совет, Индивидуальный План Партнерства с НАТО (с 1994 года).</p>
+
+<h1 class="itemTitle">Общая информация о Казахстане</h1>
+
+<div class="itemIntroText">
+<p>Республика Казахстан является унитарным государством с президентской формой правления, утверждающее себя демократическим, светским, правовым и социальным государством, высшими ценностями которого являются человек, его жизнь, права и свободы.</p>
+</div>
+
+<p><strong>Площадь:</strong> 2 724 000 кв. км.<br />
+<strong>Население:</strong> 16 млн. 196,8 тыс. чел. (01.01.2010 г.)<br />
+<strong>Столица: </strong>Астана<br />
+<strong>Язык:</strong> казахский, русский<br />
+<strong>Религия:</strong> ислам, христианство<br />
+<strong>Денежная единица:</strong> 1 казахский тенге = 100 тиын<br />
+<strong>Интернет зона:</strong> .kz</p>
+
+<p><strong>Расположение</strong><br />
+Казахстан расположен на стыке двух континентов - Европы и Азии, между 45 и 87 градусами восточной долготы, между 40 и 55 градусами северной широты. Географический центр европейско-азиатского континента находится в Казахстане (на пересечении 78 меридиана и 50 параллелью). По площади Казахстан занимает 9-е место в мире, уступая России, Китаю, США, Аргентине, Бразилии, Канаде, Индии и Австралии. О размерах республики говорит тот факт, что на территории Казахстана могли бы разместиться такие страны как Франция, Италия, Испания, Швеция, Португалия, Греция, Финляндия и Норвегия.</p>
+
+<p>Казахстан граничит: с КНР - 1460 км, с Кыргызстаном - 980 км, с Туркменистаном - 380 км, с Узбекистаном - 2300 км, с Российской Федерацией - 6467 км. Общая протяженность границ - 12187 км.</p>
+
+<p>Территория республики простирается от нижнего течения Волги на западе до подножия Алтайских гор на востоке, занимая два часовых пояса, от Западно-Сибирской низменности на севере до пустыни Кызылкум и горной системы Тянь-Шань на юге.</p>
+
+<p>Самая северная точка Казахстана - 55\&#39;26\&#39; c.ш. - соответствует южной широте центральной части Восточно-Европейской равнины и югу Британских островов (широта Москвы), самая южная - 40\&#39;56\&#39; с.ш. - широтам Закавказья и Средиземноморских стран Южной Европы (широта Мадрида, Стамбула и Баку).</p>
+
+<p><strong>Рельеф</strong><br />
+Более 3/4 территории Казахстана занимают равнины с высотами от 100 до 300 м над у.м. На крайнем юго-востоке и востоке простираются хребты Тянь-Шаня, Джунгарского Алатау и Алтая с высотами от 3000 до 6995 м (пик Хан-Тенгри). На крайнем западе расположена Прикаспийская низменность, частично лежащая ниже уровня Мирового океана (уровень Каспийского моря -27 м). В центре страны обширные территории занимает разрушенная горная система Казахского мелкосопочника.<br />
+<br />
+В пределах равнин распространены песчаные и глинистые пустыни (Кызылкум, Муюнкум, Бетпак-Дала), полупустыни и сухие степи. Для молодых гор юго-востока характерны сильная расчлененность и вертикальная поясность. На севере республики преобладают степи и лесостепи. 23% территории страны (северная часть) пригодны для земледелия, 70% - для отгонного животноводства.<br />
+<br />
+<strong>Водные ресурсы</strong><br />
+В Казахстане - 8,5 тысяч больших и малых рек. Около 80% территории республики относится к бессточным областям и бассейнам внутреннего стока. Иртыш, Ишим и Тобол, протекающие по северной и северо-восточной окраине страны, относятся к бассейну Северного Ледовитого океана. Все остальные крупные реки на территории страны несут свои воды в замкнутые внутренние водоемы: Урал - в Каспийское море, Сырдарья - в Аральское море, Или - в оз. Балхаш. Множество малых и средних рек летом пересыхают.<br />
+<br />
+Каспийское море входит в пределы республики своей северо-восточной акваторией с наиболее пресной водой и небольшими глубинами (5-7 м). Кроме Казахстана, Каспийским морем владеют Россия, Азербайджан, Иран и Туркмения. Аральское море разделено между Казахстаном и Узбекистаном. Это усыхающий водоем, площадь которого сократилась в 2 раза за 1960-1995. Озеро Балхаш полностью принадлежит Казахстану. Водоем имеет пресную западную акваторию и соленую восточную.</p>
+
+<p>В Казахстане насчитывается 48000 больших и малых озер. Среди них самые большие - Аральское море, Балхаш, Зайсан, Алакол, Тенгиз, Селетенгиз.<br />
+<br />
+<strong>Почвы</strong><br />
+За исключением северных районов, почвы в Казахстане бедные и засоленные. В целом для страны характерна широтная зональность почв: на севере - черноземы, далее на юге - каштановые, бурые полупустынные почвы, такыры и пески пустынь. В горах развиты каштановые, серые лесные и горно-луговые черноземные почвы.<br />
+<br />
+<strong>Растительный и животный мир</strong><br />
+26% территории Казахстана занимают степи. 167 млн.га составляют пустыни (44%) и полупустыни (12%). Леса занимают всего 3,5% (21 млн.га) территории Казахстана. Большей частью это хвойные леса, хотя в горах встречаются береза, осина, яблоня и арчевники. На остальной территории страны распространена разнотравно-злаковая, полынно-злаковая, полынно-солянковая и пустынная растительность. В высокогорьях имеются субальпийские и альпийские луга. В Казахстане насчитывается 250 видов лекарственных растений. На юге Казахстана растет нигде больше не встречающиеся в мире растения - сантонинная или цитварная полынь.<br />
+<br />
+Животный мир Казахстана своеобразен. На территории республики встречаются 155 видов млекопитающих, 480 - птиц, 150 - рыб. Насекомые и рептилии преобладают в пустынях и полупустынях. В степной зоне встречаются джейран, сайга, волк, заяц, лиса, шакал, различные грызуны (мыши, суслики, хомяки). Многие казахстанские озера служат постоянными или сезонными местами обитания для гусей, лебедей, уток, чаек, фламинго. Наиболее разнообразна фауна гор. Здесь водятся медведи, горные козлы и бараны, снежные барсы, олени, множество видов птиц. Для охраны дикой природы созданы заповедники во всех природных зонах - от пустынь до высокогорий.</p>
+
+<p><strong>Язык</strong><br />
+Официальный язык в Республике Казахстан &ndash; казахский, относящийся к группе тюркских языков, родственный узбекскому, кыргызскому, туркменскому и турецкому языкам. В государственных организациях и органах местного самоуправления наравне с казахским официально употребляется русский язык. Каждый человек вправе разговаривать на своем родном языке и выбирать язык для общения, образования и работы, что помогает людям разных этнических слоев жить и работать в мире и согласии.<br />
+<br />
+Русский язык сохраняет статус языка межнационального общения и широко используется в городской местности, в то время как основным языком общения сельского населения остаётся казахский. Уйгуры, корейцы, а также представители других национальных меньшинств, проживающих в Казахстане, говорят на своих национальных языках и их местных диалектах.</p>
+
+<p><strong>Культура</strong><br />
+Казахи &ndash; гостеприимный народ. Если вы придете в гости к казаху неожиданно, он будет так же рад, как если бы вы пришли по приглашению. Уважение к гостям, к старшим, миролюбие и терпимость, которые закладываются с детства, являются основной национальной чертой казахов, поэтому в Казахстане никогда не было межнациональных и религиозных конфликтов.</p>
+
+<p><strong>Обычаи и традиции</strong><br />
+Казахи гостеприимный народ и очень любят принимать гостей. Уважение к старшим, миролюбие и терпимость, которые закладываются в детстве, является основной национальной чертой казахов. Для того, чтобы лучше узнать и познакомится с обычаями и традициями казахского народа приглашаем Вас приехать сюда и увидеть все своими глазами.</p>
+
+<p><strong>Государственные праздники:</strong><br />
+1 января - Новый Год<br />
+8 марта - Международный Женский День<br />
+22 марта &ndash; Наурыз<br />
+1 мая - Казахстанский праздник единства наций<br />
+9 мая - День Победы<br />
+6 июля - День Столицы<br />
+30 августа - День Конституции<br />
+16 декабря - День Независимости</p>
+
+<p><strong>Религиозные праздники</strong> с меняющимися датами:<br />
+Рамазан Айт<br />
+Курбан Айт</p>
+
+<h1 class="itemTitle">Таможенные правила в Казахстане</h1>
+
+<div class="itemIntroText">
+<p>Физическим лицам, независимо от страны их постоянного проживания, разрешается ввоз наличной иностранной и национальной валют на территорию Республики Казахстан без ограничений, при соблюдении требований законодательства республики.</p>
+
+<p>Письменное декларирование и таможенное оформление наличной иностранной валюты, ввозимой на территорию Республики Казахстан, осуществляется по инициативе физического лица.</p>
+</div>
+
+<div class="itemFullText">
+<p>Отказ физического лица произвести письменное декларирование и таможенное оформление ввозимой наличной иностранной валюты, не освобождает его от необходимости предоставления документов, подтверждающих легальность происхождения данной валюты в случае последующего вывоза с территории Республики Казахстан.</p>
+
+<h3>Порядок вывоза валюты</h3>
+
+<p>Министерством юстиции Республики Казахстан 8 сентября 2003 года зарегистрировано постановление Правления Национального Банка Республики Казахстан от 25.07.03г. №256 &quot;Об утверждении дополнений и изменений в постановление Правления Национального Банка РК от 20 апреля 2001 года №115 &quot;Об утверждении Правил проведения валютных операций в Республике Казахстан&quot; (далее - Постановление).</p>
+
+<p>Данным Постановлением определен следующий порядок вывоза из Республики Казахстан физическими лицами наличной иностранной валюты.</p>
+
+<p>Физические лица-резиденты могут вывозить из Республики Казахстан наличную иностранную валюту в размере, не превышающем эквивалент десяти тысяч долларов США, без предоставления документов, подтверждающих происхождение вывозимой наличной иностранной валюты.</p>
+
+<p>Вывоз из Республики Казахстан физическими лицами-резидентами наличной иностранной валюты в размере, превышающем эквивалент десяти тысяч долларов США, не допускается, за исключением случаев вывоза данными лицами ранее ввезенной валюты.</p>
+
+<p>При этом установлено, что порядок таможенного оформления ввоза и вывоза валютных ценностей определяется таможенным законодательством Республики Казахстан.</p>
+
+<p>Документы, предъявляемые для подтверждения легальности происхождения вывозимой валюты, прилагаются к экземпляру пассажирской таможенной декларации, оставляемому в таможенном органе, где было произведено таможенное оформление.</p>
+
+<p>Перемещение иностранной валюты с использованием платежных пластиковых карт производится без декларирования в письменной форме.<br />
+В случае письменного декларирования вывоза иностранной валюты из Республики Казахстан и невозможности предоставления документов, подтверждающих легальность ее происхождения, она может передаваться на хранение в таможенные органы для последующего возврата владельцу при его въезде на территорию Республики Казахстан.</p>
+
+<h3>Порядок перемещения товаров через таможенную границу Республики Казахстан</h3>
+
+<p>При следовании через таможенную границу Республики Казахстан пассажиры могут ввозить с полным освобождением от таможенных пошлин и налогов товар общей стоимостью до тысячи долларов США включительно при условии, что общий вес товаров не превышает 50 килограммов. Исключение составляют товары подакцизной группы, к которым относятся вино-водочные, пиво, табачные, ювелирные изделия, а также деликатесы из осетровых и лососевых рыб (перечень и нормы провоза указаны на информационных стендах таможенных органов).</p>
+
+<p>В части превышения указанных ограничений, взимание таможенных платежей и налогов, применение мер экономической политики, таможенное оформление, включая предоставление грузовой таможенной декларации производятся в общеустановленном порядке в соответствии с законодательными актами и актами Президента и Правительства Республики Казахстан.</p>
+
+<h3>Порядок заполнения пассажирской таможенной декларации</h3>
+
+<p>Пассажирская таможенная декларация заполняется пассажирами, следующими через таможенную границу Республики Казахстан и достигшими 16-летнего возраста.</p>
+
+<p>Декларация заполняется в двух экземплярах на казахском, русском или английском языках.</p>
+
+<p>Заполненные бланки таможенной декларации вручаются сотруднику таможенного органа для проведения таможенного оформления.</p>
+
+<p>По окончании таможенного оформления один экземпляр таможенной декларации с номерной печатью и подписью сотрудника таможенного органа возвращается пассажиру.</p>
+
+<p>В декларации пассажиром в специальных графах указываются сведения о товарах, личных вещах и денежных средствах. Также необходимо указывать сведения о наличии у пассажира ограниченных или запрещенных к перемещению через таможенную границу товаров (перечень таких товаров имеется на стендах в залах аэропортов).</p>
+</div>
+
+<div class="itemFullText">
+<h1 class="itemTitle">Погода в Казахстане</h1>
+
+<div class="itemIntroText">
+<p><strong>Климат Казахстана</strong> &mdash; Резко-Континентальный, относительно сухой. Температура воздуха колеблется в течение всего года и суток.</p>
+
+<p>Характерны для этого региона холодная сухая зима и жаркое сухое лето, с небольшим количеством осадков. Особенность климата является, то что страна удалена от мирового океана более чем примерно на 3000 километров. В Казахстане в основном преобладают западные ветра. Летом при втрожении жарких и сухий воздушных масс с суб-тропических пустынь Средней Азии устанавливается жаркая сухая погода. Западные ветра приносят в страну дождевые облака, вследствие чего идут дожди, чаще ливни и грозы. На юге и в центре страны летом бывают пыльные бури. Видимость при этом уменьшается до 20 метров.</p>
+</div>
+
+<p>Зимой устанавливается ясная морозная погода. В течение недели может стоять ясная морозная погода без осадков. Почти для всей территории страны характерны бураны. Ветер может достигать скорости даже - 40м/с. Из-за этого в Казахстане почти каждую зиму в снежном плену оказываются люди и транспорт. В зимнее время Казахстан могут достичь сибирские морозы, которые вызывают резкое похолодание в стране. На юге-востоке страны, в горах Заилийского Алатау климат подвержен изменениями со стороны гор. Заилийский Алатау самый влажный регион в Казахстане. Здесь выпадает больше всего осадков. В горах выше 1000 метров над уровнем моря устанавливается собственный микроклимат с теплым влажным летом и прохладной снежной зимой. В предгорьях этих гор ветра дуют не постоянно, поэтому воздух здесь относительно теплее,чем в области. Самый жаркие места в Казахстане находятся на юге и юго-западе. В этих регонах зима приходит с опозданием, лето жаркое сухое. Самые холодные области расположены на севере и востоке. В мангистауской области несмотря на Каспийское море климат Резко-Континентальный. Лето жаркое, зима мягкая. Одновременно в Южном Казахстане зимой могут быть оттепели до +20 C&deg; и заморозки до -17 С&deg; Также в Казахстане существуют традиции и легенды, связанные с климатическим явлениями. В частности, период в апреле месяце, именуемый &laquo;Бес конак&raquo;</p>
+
+<div class="BodyAllTop">&nbsp;</div>
+
+<h1 class="itemTitle">Государственная валюта - Тенге</h1>
+
+<p>&nbsp;</p>
+
+<div class="itemIntroText">
+<p>Казахстанский тенге (м. р. нескл.) &mdash; национальная валюта Казахстана. На купюрах и монетах принято обозначение просто тенге. В ноябре 2006 Национальный банк Республики Казахстан провёл конкурс на рисунок символа тенге. Из 30 тысяч представленных на конкурс рисунков 30 марта 2007 года был утверждён новый символ тенге, авторы которого, Вадим Давиденко и Санжар Амерханов, получили премию в один миллион тенге (около 8000 долларов). После публикации результатов конкурса разразился скандал, так как выяснилось, что новый символ является плагиатом &mdash; символ тенге ничем не отличается от символа японской почтовой службы, использующегося уже более 120 лет.</p>
+</div>
+
+<h3>Название</h3>
+
+<p>Название &laquo;тенге&raquo; происходит от средневековых тюркских серебряных монет &laquo;денге&raquo; или &laquo;таньга&raquo;, от которых, в свою очередь, произошли также название русской монеты деньга и слово деньги.</p>
+
+<h3>Банкноты и монеты</h3>
+
+<p>В настоящий момент на территории Казахстана имеют хождение денежные знаки достоинством:</p>
+
+<h3>Банкноты</h3>
+
+<ul>
+	<li>200 тенге</li>
+	<li>500 тенге</li>
+	<li>1000 тенге</li>
+	<li>2000 тенге</li>
+	<li>5000 тенге</li>
+	<li>10000 тенге</li>
+</ul>
+
+<h3>Монеты</h3>
+
+<ul>
+	<li>1 тенге</li>
+	<li>2 тенге</li>
+	<li>5 тенге</li>
+	<li>10 тенге</li>
+	<li>20 тенге</li>
+	<li>50 тенге</li>
+	<li>100 тенге</li>
+</ul>
+
+<p>Наряду с монетами денежного обращения в Республике имеют хождение юбилейные и памятные монеты. Юбилейные и памятные монеты обладают платёжеспособностью в соответствии с обозначенным на них номиналом, но основное их назначение &mdash; культурно-просветительное. Как правило, они выпускаются строго ограниченным тиражом и предназначены для продажи на территории Республики Казахстан и за рубежом по коллекционной стоимости.</p>
+
+<p style="padding-left: 30px;">У казахстанского тенге 18 степеней защиты. Тенге в числе самых &laquo;экипированных&raquo; валют мира.</p>
+</div>
+                    </div>
+                                            <div class="country-consul">
+                            <img src="/uploads/img_countrys_flag/1894.jpg"
+                                 alt="Казахстан">
+                            <div class="itemIntroText">
+<p>Всем иностранным гражданам требуются деловые или туристические визы для въезда в Казахстан. Чтобы получить визу иностранные граждане должны обратиться в дипломатическое/консульское учреждение Казахстана в своей стране.</p>
+</div>
+
+<h3>Документы, необходимые для получения визы:</h3>
+
+<p>1. Копия первых двух страниц действующего паспорта (или международный проездной документ)</p>
+
+<p>2. Копия письма приглашения с отметкой номера визовой поддержки от ДКС МИД (или оригинал частного приглашения, оформленного органами внутренних дел РК)</p>
+
+<p>3. Заполненная визовая анкета и 1 фото паспортного размера</p>
+
+<p>4. Консульский сбор, оплачиваемый при получении визы</p>
+
+<p>Для получения транзитной визы (5 дней), требуется виза для въезда в страну следования и соответствующие проездные билеты с подтверждением в них даты выезда из пункта пересадки на территории Казахстана.</p>
+
+<p>Срок действия паспорта должен истекать не ранее 6 месяцев после окончания срока действия запрашиваемой визы. Необходимость предоставления других документов определяется консулом на месте.</p>
+
+<p>Визы рассматриваются МИД в пределах 7 календарных дней со дня предоставления всех документов. Документы принимаются с письмом приглашения из Дипломатического/консульского учреждения Министерства иностранных Дел Республики Казахстана.</p>
+
+<p>Для того, чтобы получить однократную служебную, частную, туристическую или деловую визу в Посольстве Казахстана, подданные следующих стран не нуждаются в письме приглашении (визовая поддержка): Австралия, Австрия, Бельгия, Канада, Великобритания, Греция, Дания, Италия, Ирландия, Исландия, Германия, Япония, Лихтенштейн, Люксембург, Малайзия, Монако, Нидерланды, Новая Зеландия, Норвегия, Испания, Португалия, Сингапур, США, Швейцария, Швеция, Финляндия, Франция, Республика Кореи.</p>
+
+<p>Граждане следующих стран не нуждаются во въездной визе в Казахстан: Армения, Азербайджан, Белоруссия, Грузия, Кыргызстан, Молдавия, Монголия, Российская Федерация, Таджикистан, Турция, Узбекистан, Украина.</p>
+
+<h3>Где получить визу Казахстана?</h3>
+
+<p>Вы можете получить визу Казахстана в любой стране, где имеется Посольство или Консульство Казахстана.</p>
+
+<p>Национальности, которые не нуждаются в письме приглашении могут также получить туристическую визу по прибытии при консульских пунктах МИД в аэропортах г. Астана, г. Алматы, г. Атырау, г. Уральск и г. Усть-Каменогорск по ходатайствам турорганизации в ДКС МИД РК.</p>
+
+<h3>Типы виз для въезда в Казахстан</h3>
+
+<p><strong>Дипломатические визы РК</strong> выдаются обладателям дипломатических паспортов и в отдельных случаях, когда выдача дипломатической визы признана целесообразной. Оформляются без взимания консульских сборов.</p>
+
+<p><strong>Служебные визы</strong> выдаются персоналу иностранных дипломатических и иных представительств и международных организаций, не входящих в разряд дипломатических, а также иностранным гражданам и лицам без гражданства, следующим по служебным делам, приглашаемым государственными юридическими лицами Республики Казахстан.</p>
+
+<p><strong>Инвесторские визы</strong> выдаются реальным инвесторам &ndash; руководителям и представителям управленческого звена крупных зарубежных компании, работающих на казахстанском рынке или имеющих реальные планы по развитию бизнес проектов.</p>
+
+<p>Для оформления визы РК категории &ldquo;<strong>на работу</strong>&quot;, кроме прочих документов, необходимо наличие разрешения на привлечение иностранной рабочей силы, если международным договором и соглашением РК не предусмотрено иное.</p>
+
+<p><strong>Деловые визы</strong> выдаются иностранным гражданам и лицам без гражданства, направляющихся в Казахстан с деловыми целями (для участия в деловых переговорах, форумах, изучения рынка и т.д.) на основании ходатайств негосударственных юридических лиц, зарегистрированных на территории РК выдаются деловые визы.</p>
+
+<p><strong>Для оформления туристских виз РК</strong> необходимо наличие подтверждения о приеме туристской организацией РК, имеющей лицензию на право осуществление туристской деятельности.</p>
+
+<p><strong>Визы на учебу</strong> оформляются при наличии разрешений органов внутренних дел (миграционной полиции), выдаваемых на основании ходатайств учебного заведения, согласно цели пребывания, соответствующего названию категории визы.</p>
+
+<p><strong>Визы на лечение</strong> выдаются иностранцам и лицам без гражданства, следующих в Казахстан для лечения, медицинского обследования, консультаций и других аналогичных целей на основании ходатайств соответствующих учреждений и организаций, подтверждающих характер приглашения.</p>
+
+<p><strong>Визы РК &quot;на постоянное жительство&quot;</strong> выдаются при наличии необходимых документов, оформленных в установленном законодательством порядке.</p>
+
+<p><strong>Транзитные визы</strong> оформляются при наличии документов (визы), действительных для въезда в страну следования и соответствующих проездных билетов с подтверждением в них даты выезда из пункта пересадки на территории Казахстана, не позднее чем 5 суток с момента прибытия в порт или станцию на территории Казахстана. Транзитная виза дает право пребывания сроком на пять дней.</p>
+                        </div>
+                                            <div class="blog country-blog">
+                        <div class="blog-menu">
+    <a class="" href="/blogs/country/kazakhstan/novosti.html">Новости</a><a class="" href="/blogs/country/kazakhstan/poleznie-soveti.html">Полезные советы</a><a class="" href="/blogs/country/kazakhstan/turisticheskie-zametki.html">Туристические заметки</a><a class="" href="/blogs/country/kazakhstan/raznoe.html">Разное</a><a class="" href="/blogs/country/kazakhstan/razvlecheniya.html">Развлечения</a></div>
+<div id="w0" class="blog-list">
+<div class="col2 0" data-key="319"><a href="/blogs/319-kazakhstan-otmenil-pcr-testy-dlya-vakcinirovannykh.html" class="blog-list-item shadow-overlay-text lazy-img-bg-watch"
+        data-image="/uploads/blog/319/thumb-62186147e0f9a.jpg">
+    <div class="blog-types">
+        <label class="blog-type-poleznie-soveti">Полезные советы</label>
+    </div>
+    <div class="blog-list-item-name">Казахстан отменил ПЦР-тесты для вакцинированных</div>
+</a>
+
+</div>
+<div class="col2 1" data-key="313"><a href="/blogs/313-vazhno-informatsiya-dlya-nashykh-turistov+.html" class="blog-list-item shadow-overlay-text lazy-img-bg-watch"
+        data-image="/uploads/blog/313/thumb-61dd29a89a7c6.jpg">
+    <div class="blog-types">
+        <label class="blog-type-poleznie-soveti">Полезные советы</label>
+    </div>
+    <div class="blog-list-item-name">Важно: информация для туристов Gotour</div>
+</a>
+
+</div>
+<div class="col3 2" data-key="312"><a href="/blogs/312-chto-nuzhno-znat-kazakhstancam-novaya-electronnaya-anketa.html" class="blog-list-item shadow-overlay-text lazy-img-bg-watch"
+        data-image="/uploads/blog/312/default-61b96b0147786.jpg">
+    <div class="blog-types">
+        <label class="blog-type-poleznie-soveti">Полезные советы</label>
+    </div>
+    <div class="blog-list-item-name">Что нужно знать въезжающим в Казахстан: новая электронная анкета</div>
+</a>
+
+</div>
+</div>    <div class="blog-more-publication">
+        <a href="/blogs.html" class="btn-brand">Все статьи</a>
+    </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="clearfix"></div>
+    </main>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="logo">
+            <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            <div class="copyright">
+                Copyright © 2012–2024 «Gotour.kz».<br/>
+                    Юридический адрес:
+                    050010, Республика Казахстан,
+                    г. Алматы, Бостандыкский район,<br/>
+                    пр. Назарбаева д. 193, н.п. 66<br/>
+                    БИН 180940008518<br />
+                    Сайт не является публичной офертой            </div>
+        </div>
+        <div class="footer-links">
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Города вылета</div>
+                <div class="cities-list">
+                    <ul>
+                                                    <li>
+                                <a href="/tury/iz-almaty.html">
+                                    Алматы                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-astana.html">
+                                    Астана                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-moscow.html">
+                                    Москва                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktobe.html">
+                                    Актобе                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktay.html">
+                                    Актау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-karaganda.html">
+                                    Караганда                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-shymkent.html">
+                                    Шымкент                                </a>
+                            </li>
+                            </ul><ul>                            <li>
+                                <a href="/tury/iz-atiray.html">
+                                    Атырау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-semei.html">
+                                    Семей                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-taldikorgan.html">
+                                    Талдыкорган                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-temirtay.html">
+                                    Темиртау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-uralsk.html">
+                                    Уральск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-ust-kamenogorsk.html">
+                                    Усть-Каменогорск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-pavlodar.html">
+                                    Павлодар                                </a>
+                            </li>
+                                                </ul>
+                </div>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Популярные страны</div>
+                <ul>
+                    <li><a href="/tury/turciya.html">Турция</a></li>
+                    <li><a href="/tury/egypet.html">Египет</a></li>
+                    <li><a href="/tury/oae.html">ОАЭ</a></li>
+                    <li><a href="/tury/thailand.html">Таиланд</a></li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Другое</div>
+                <ul>
+                    <li><a href="/privacy.html">Политика
+                            конфиденциальности</a></li>
+                    <li><a href="/how-to-buy-tour.html">Как купить тур</a></li>
+                    <li><a href="/banners.html">Реклама</a></li>
+                    <li><a href="/for-hotel-admin.html">Для отельеров и
+                            заведений
+                        </a></li>
+                    <li>
+                        <a href="/legal-information/user-agreement.html" target="_blank">
+                            Пользовательское соглашение
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <a href="https://www.instagram.com/gotour.kz/" target="_blank" class="smm-link instagram-link">
+                    <img src="/img/social/instagram.png" alt="Instagram" class="smm-icon"></a>
+                <a href="https://www.facebook.com/gotour.kz" target="_blank" class="smm-link facebook-link">
+                    <img src="/img/social/facebook.png" alt="Facebook" class="smm-icon"></a>
+                <a href="https://t.me/gotour_kz" target="_blank" class="smm-link telegram-link">
+                    <img src="/img/social/telegram.svg" alt="Telegram" class="smm-icon"></a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</footer>
+
+<div class="modal fade" id="bspopup">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="callback-form-popup" class="hidden">
+    <div class="callback-form callback-form-popup text-center">
+        <div class="callback-on-working hidden">
+            <img src="/img/france-woman.png" alt="">
+            <p class="block-title">ПЕРЕЗВОНИМ ВАМ</p>
+        </div>
+        <div class="callback-night-time">
+            <img src="/img/night-time.png" alt="">
+            <p class="block-title">Извините, в данный момент офисы закрыты!</p>
+            <p class="block-hint">
+                Мы перезвоним вам <span class="fw-m nowrap">сегодня (09.12)</span> в удобное для вас время:
+            </p>
+            <div class="callback-choose-time">
+                <button type="button" class="active" data-time="11:00">11:00</button><button type="button" class="" data-time="12:00">12:00</button><button type="button" class="" data-time="13:00">13:00</button><button type="button" class="" data-time="14:00">14:00</button><button type="button" class="" data-time="15:00">15:00</button><button type="button" class="" data-time="16:00">16:00</button><button type="button" class="" data-time="17:00">17:00</button><button type="button" class="" data-time="18:00">18:00</button>            </div>
+        </div>
+        <div class="callback-inputs">
+            <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">            <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">            <input type="hidden" class="form-control callback-widget-delayed-time" name="callback-widget-delayed-time" value="11:00"><input type="hidden" class="form-control callback-widget-delayed-date" name="callback-widget-delayed-date" value="09.12.2024"><input type="hidden" class="form-control callback-widget-is-choose-time" name="callback-widget-is-choose-time" value="0">            <div class="form-group">
+                <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Укажите ваш номер телефона">                <span class="callback-submit-wrap">
+                    <button type="button"
+                        class="btn-carrot callback-form-submit callback-form-analytics">ПЕРЕЗВОНИТЕ МНЕ</button>
+                </span>
+            </div>
+        </div>
+        <div class="callback-result-wrap hidden"></div>
+    </div>
+</div>
+
+<script type="text/html" id="leave-subscribe-modal-content">
+    <div class="column-subscription subscription subscription-control leave-subscribe-modal">
+        <div>
+            <img class="lifehaker" src="/img/lifehaker.png" alt="lifehacker">
+        </div>
+        <div class="text-left subscribe-form-block">
+            <div class="leave-subscribe-modal-hint">Подпишитесь на рассылку и экономьте до 50% на турах!</div>
+            <div class="form-group tooltip-error">
+                <input type="hidden" class="subscription-city-control" value="3">
+                <input type="text" class="subscription-email-validate" placeholder="Введите ваш email">
+                <button type="submit" class="subscribe-btn subscribe-btn-analytics">Подписаться</button>
+
+                <div class="subscription-loading hide">
+                    Пожалуйста подождите <img src="/img/load.gif" alt="loading">
+                </div>
+                <div class="subscription-result hide"></div>
+            </div>
+        </div>
+    </div>
+</script>
+<div id="quiz-widget">
+    <div class="the-quiz">
+        <div class="quiz-content">
+            <header class="quiz-header">
+                <h4 class="text-title">
+                    Получите подборку туров по вашим<br/>критериям на
+                    <em class="hyperlink">WhatsApp</em>
+                </h4>
+                <p class="text-secondary">
+                    Туры подбираются вручную нашими специалистами!
+                </p>
+            </header>
+            <div class="quiz-body">
+                <form class="quiz-form" action="/quiz/create.html" method="post">
+<input type="hidden" name="_csrf" value="VH6l3fYteFZamdK3WJ7GgcaUiAzN0lFNpTR9kr6lJHM5LuO6jGw7ZWzRmPwA0ffQq8zwWpmgMhT0ejLd1cNTKg==">                    <div class="quiz-group">
+                        <p class="text-title">
+                            Куда?                        </p>
+                        <div class="quiz-row item-list">
+                                                            <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-40" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="40" data-attr="countries"><label class="quiz-control" for="quiz-country-40">ОАЭ</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-9" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="9" data-attr="countries"><label class="quiz-control" for="quiz-country-9">Египет</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-25" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="25" data-attr="countries"><label class="quiz-control" for="quiz-country-25">Турция</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-58" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="58" data-attr="countries"><label class="quiz-control" for="quiz-country-58">Мальдивы</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-45" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="45" data-attr="countries"><label class="quiz-control" for="quiz-country-45">Доминикана</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-53" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="53" data-attr="countries"><label class="quiz-control" for="quiz-country-53">Танзания</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-8" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="8" data-attr="countries"><label class="quiz-control" for="quiz-country-8">Грузия</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-28" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="28" data-attr="countries"><label class="quiz-control" for="quiz-country-28">Чехия</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-0" class="quiz-toggle quiz-checkbox" data-role="customCountries"><label class="quiz-control" for="quiz-country-0">Другое</label>                                </div>
+                                                        </div>
+                        <div class="quiz-row">
+                            <label class="quiz-control type-text invisible field-quizform-customcountries">
+<input type="text" class="quiz-input" name="QuizForm[customCountries]" value="" maxlength="50" data-attr="customCountries" placeholder="Укажите страну:">
+</label>                        </div>
+                    </div>
+                    <div class="quiz-group">
+                        <p class="text-title">
+                            Когда?                        </p>
+                        <div class="quiz-row item-list">
+                                                            <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-7d" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="7d" data-attr="periods"><label class="quiz-control" for="quiz-period-7d">В течение 7 дней</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-14d" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="14d" data-attr="periods"><label class="quiz-control" for="quiz-period-14d">В течение 14 дней</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-1m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="1m" data-attr="periods"><label class="quiz-control" for="quiz-period-1m">В течение месяца</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-2m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="2m" data-attr="periods"><label class="quiz-control" for="quiz-period-2m">Через 2 месяца</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-3m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="3m" data-attr="periods"><label class="quiz-control" for="quiz-period-3m">Через 3 месяца</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-6m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="6m" data-attr="periods"><label class="quiz-control" for="quiz-period-6m">В течение 6 месяцев</label>                                </div>
+                                                        </div>
+                    </div>
+                    <div class="quiz-group">
+                        <p class="text-title">
+                            На какой номер вам скинуть?                        </p>
+                        <div class="quiz-row">
+                            <label class="quiz-control type-text type-phone social-whatsapp field-quizform-phone required">
+<input type="text" class="quiz-input" name="QuizForm[phone]" maxlength="18" data-attr="phone" data-mask="(999) 999-99-99" placeholder="(___) ___-__-__" aria-required="true">
+</label>                        </div>
+                        <div class="quiz-row item-list">
+                            <div class="quiz-item">
+                                
+<input type="hidden" name="QuizForm[isCallbackAllowed]" value="0"><input type="checkbox" id="quiz-is-callback-allowed" class="quiz-toggle quiz-checkbox" name="QuizForm[isCallbackAllowed]" value="1" aria-required="true">
+<label class="quiz-control" for="quiz-is-callback-allowed">Можете мне позвонить!</label>                            </div>
+                        </div>
+                    </div>
+                </form>            </div>
+            <footer class="quiz-footer">
+                <p class="quiz-feedback"></p>
+                <button class="quiz-button" data-role="progress">
+                    <span class="progress-caption">Далее</span>
+                    <span class="progress-indicator"></span>
+                </button>
+            </footer>
+        </div>
+        <div class="quiz-completion">
+            <p class="text-title">Спасибо за заявку!</p>
+            <p>
+                Наши специалисты скоро свяжутся<br/>
+                с вами и предложат самые лучшие<br/>
+                варианты для отдыха!
+            </p>
+            <footer class="quiz-completion-footer">
+                <button class="quiz-button" data-role="complete">Отлично, жду!</button>
+            </footer>
+        </div>
+    </div>
+</div>
+<div class="hidden" id="timeoutPopup">
+    <div id="timeoutForm">
+        <img src="/img/waiting-man.png" alt="">
+        <div class="timeoutTitle">Получить свежие цены</div>
+        <div class="timeoutHelp">
+            Результаты поиска актуальны в течение <strong>15 минут!</strong>
+        </div>
+        <button id="repeatCurrentSearch" class="btn-brand">
+            Обновить поиск
+        </button>
+    </div>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXVW283"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Pixel -->
+<!-- /Pixel -->
+<div id="emerge-callback-form" class="callback-form">
+    <div class="emerge-callback-form">
+        <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">        <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">        <div class="form-group">
+        <input type="text" class="form-group callback-widget-name" name="callback-widget-name" value="" placeholder="Ваше Имя">        </div>
+        <div class="form-group">
+            <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Телефон">        </div>
+    </div>
+    <div class="emerge-callback">
+        <span class="site-phone"><a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a></span>
+        <button id="show-emerge-callback" type="button" class="btn-show-callback-form">Перезвоните мне</button>
+    </div>
+    <div class="callback-result-wrap hidden"></div>
+</div>
+
+<script src="/assets/6afec75e/jquery.min.js?v=1733117057"></script>
+<script src="/assets/ac4c6828/yii.js?v=1733117057"></script>
+<script src="/js/plugins/jquery.cookie.min.js?v=1730179335"></script>
+<script src="/js/plugins/bootstrap.min.js?v=1730179335" onload="window.registerBootstrapTooltip &amp;&amp; window.registerBootstrapTooltip()"></script>
+<script src="/assets/97214d0d/bundle.min.js?v=1733117057" onload="initSentry &amp;&amp; initSentry()"></script>
+<script src="/js/moment-with-locales.min.js?v=1730179335"></script>
+<script src="/js/plugins/maskedinput.min.js?v=1730179335"></script>
+<script src="/js/jquery.actual.min.js?v=1730179335"></script>
+<script src="/js/sockjs-0.3.2.min.js?v=1730179335"></script>
+<script src="/dist/common/core/js/core.min.js?v=1730179335"></script>
+<script src="/dist/desktop/common/main/js/main.min.js?v=1730179335"></script>
+<script src="/assets/e9fe3a75/js/popular-countries.min.js?v=1733117065" async="async"></script>
+<script src="/dist/desktop/widgets/callback/core/js/core.min.js?v=1730179335" async="async"></script>
+<script src="/dist/desktop/widgets/subscription-form/common/js/common.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/subscription-form/leave-subscribe-modal/js/leave-subscribe-modal.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/quiz/js/quiz.min.js?v=1730179335" async="async"></script>
+<script>jQuery(window).on('load', function () {
+if (window.Sentry) {
+                Sentry.configureScope(function(scope) {
+                    if (window.yaCounter18493072) {
+                        scope.setExtra("yandex_client_id", yaCounter18493072.getClientID());
+                    }
+                    scope.setExtra("is_mobile_version", window.app.isMobile);
+                });
+            }
+});</script></body>
+</html>

@@ -1,0 +1,2780 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <base href="https://www.gotur.kz/">
+    <meta charset="UTF-8">
+<link rel="apple-touch-icon" sizes="180x180" href="/appicon/apple-touch-icon.png">
+<link rel="mask-icon" href="/appicon/safari-pinned-tab.svg" color="#f06251">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/appicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/appicon/favicon-16x16.png">
+<link rel="shortcut icon" href="/appicon/favicon.ico">
+
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#0071d4">
+<meta name="msapplication-TileImage" content="/appicon/ms-icon-144x144.png">
+
+<meta name="theme-color" content="#0071d4">
+<meta name="apple-mobile-web-app-status-bar-style" content="#0071d4">
+
+<meta name="apple-mobile-web-app-title" content="Турагентство GOTOUR.KZ">
+<meta name="application-name" content="Турагентство GOTOUR.KZ"><meta name="google-site-verification" content="nobn0mtbRwAQHcL3W59PH-Gao9rteXQYgcYvaPQZkbU" />
+<meta name="wmail-verification" content='36246c1762379c1cad53ce96f5535c4b' />
+<meta name="yandex-verification" content="e4a55cdfe208dc62" />
+<meta name="facebook-domain-verification" content="mms3bvse53ek441uksblgotrfn182b" />
+    <title>Отель THE BEACH HEIGHTS RESORT 4* в Таиланд, Пхукет - цены на Gotour</title>
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="YKh57XCX4Av66Wx_GR7p-bkGdlGzVZGhR6F7Ju2ajlAN-D-KCtajOMyhJjRBUdio1F4OB-cn8vgW7zRphvz5CQ==">
+<script>
+    app = {
+        staticDomain: "https://static.gotur.kz",
+        googleMapApiKey: "AIzaSyDebOpjG3l-Y3fcxlzMKxBG6dAJwmdgy8Q",
+        yandexMapApiKey: "0f162d03-62bd-432b-86bb-653a4b66ff89",
+        urls: {
+            getShortId: "/tour/get-short-id.html",
+            addSubscription: "/subscription.html",
+            addSubscriptionSuccess: "/subscription-success.html",
+            findTour: "/tour/find.html",
+            addCallback: "/callback/create.html",
+            changeCallbackCallTime: "/callback/change-call-time.html",
+            setCity: "/site/set-city.html",
+            setCurrency: "/site/set-currency.html"
+        },
+        city: {
+            id: 1,
+        },
+        realCity: {
+            name: ""        },
+        cities: {"1":{"id":1,"name":"Алматы","depart_id":1,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"https://www.instagram.com/gotour.kz/","facebook":"https://www.facebook.com/gotour.kz/"},"contactsHidden":false},"2":{"id":2,"name":"Астана","depart_id":2,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"4":{"id":4,"name":"Актобе","depart_id":6,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"5":{"id":5,"name":"Актау","depart_id":8,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"8":{"id":8,"name":"Караганда","depart_id":4,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"9":{"id":9,"name":"Шымкент","depart_id":5,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"10":{"id":10,"name":"Атырау","depart_id":12,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"11":{"id":11,"name":"Семей","depart_id":0,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"12":{"id":12,"name":"Талдыкорган","depart_id":0,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"13":{"id":13,"name":"Темиртау","depart_id":0,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"14":{"id":14,"name":"Уральск","depart_id":10,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"15":{"id":15,"name":"Усть-Каменогорск","depart_id":11,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"16":{"id":16,"name":"Павлодар","depart_id":9,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true}},
+        cityTemplate: {
+            hiddenPhone: "<span class=\"hidden-phone\" role=\"button\" data-city=\"{{cityId}}\" data-type=\"{{type}}\"><span class=\"phone-code\">{{phoneCode}}</span><span class=\"btn-show-hidden-phone\">Показать</span></span>",
+            phoneLink: "<a class=\"site-phone-link phone-{{clearPhone}} clickable-phone\" href=\"{{href}}\">{{phone}}</a>",
+        },
+        sock: {
+            local: "//127.0.0.1:8888/serv",
+            main: "https://ws.gotour.kz/serv",
+        },
+                srcCount: 30,
+        v_uid: undefined,
+        currency: "kzt",
+        isMobile: 0,
+        isGeolocationEnabled: 0,
+        debug: 0,
+        loading: {
+            data: "",
+            dots: "",
+            circle: "<div class=\"circle-loader\"><svg viewBox=\"25 25 50 50\"><circle cx=\"50\" cy=\"50\" r=\"20\"></circle></svg></div>",
+        },
+                quizCountdownMs: 1000,
+    };
+</script>
+<meta name="description" content="Хотите купить тур в THE BEACH HEIGHTS RESORT 4*? ➤➤➤ Сравнивайте цены на туры в режиме онлайн на сайте gotur.kz ⛱️ Бронируйте тур вашей мечты!">
+<link href="https://www.gotur.kz/hotel/beach-heights-resort.html" rel="canonical">
+<link href="/css/plugins/bootstrap.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/common/main/css/main.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/pages/hotel/css/hotel.min.css?v=1730179335" rel="stylesheet">
+<link href="/assets/69fe9865/styles.css?v=1733117078" rel="stylesheet">
+<link href="/dist/desktop/widgets/managerContact/css/managerContact.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/callback/core/css/core.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/find-form/form/css/form.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/callback/tour-detail/css/tour-detail.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/banner/css/banner.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/subscription-form/column/css/column.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/subscription-form/compact/css/compact.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/subscription-form/leave-subscribe-modal/css/leave-subscribe-modal.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/quiz/css/quiz.min.css?v=1730179335" rel="stylesheet">
+<script>var hotTableParams = {"tourIncludes":["hotel","transfer","flight","insurance","meal"],"hidePriceOnPages":false,"toursCollection":{"groupTours":false,"groupFields":["hotel.id","isCombined"],"pagination":{"pageSize":20},"sort":{"attribute":"price.forTour","direction":"ASC"}},"noPhotoLink":"\/img\/no-hotel.jpg","photoBasePath":"https:\/\/static.gotur.kz\/img\/h","searchByFilters":false,"isShowPriceByOne":false,"isShowHotelSearchInput":true,"isShowSameTours":false,"isRenderFilters":false,"isRenderShortTour":true,"isRenderTitle":false,"useTourRequestButton":true,"currencySign":"₸","paginationScrollToSelectorId":"hotel-search-tours","isPhotoSliderAvailable":false,"isRenderTourInclude":true,"isNeedScrollToTableTopOnFirstSearch":true,"isRenderChart":false,"tourViewUrl":"\/tour\/view.html?tour=","suggestHotelsUrl":"\/find-tours\/suggest-hotels.html","priceBoundRanges":[{"from":0,"to":10000,"label":"до 10 000 ₸"},{"from":10000,"to":20000,"label":"10 000 - 20 000 ₸"},{"from":20000,"to":30000,"label":"20 000 - 30 000 ₸"},{"from":30000,"to":40000,"label":"30 000 - 40 000 ₸"},{"from":40000,"to":50000,"label":"40 000 - 50 000 ₸"},{"from":50000,"to":60000,"label":"50 000 - 60 000 ₸"},{"from":60000,"to":70000,"label":"60 000 - 70 000 ₸"},{"from":70000,"to":999999999,"label":"₸ 70 000+"}]};
+
+    // Google Tag Manager
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXVW283');
+    // End Google Tag Manager
+
+var yandexConfig = {"params":{"pageType":"hotel"},"enableClickMap":false,"enableWebVisor":false};</script></head>
+<body class="gotour-theme ">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","additionalType":"TravelAgency","address":{"@type":"PostalAddress","addressLocality":"Алматы, Казахстан","streetAddress":"Проспект Назарбаева 193, 1 этаж"},"name":"туристское агентство","email":"almaty@gotour.kz","openingHours":["Mo-Fr 10:00-19:00","Sa 10:00-15:00"],"priceRange":"155000-2150000KZT","telephone":["+7 (727) 344‒97‒88","+7 (747) 344‒97‒88","+7 (771) 171‒71‒86"],"image":"https://www.gotur.kz/img/gt-logo-white.png","url":"//www.gotur.kz","geo":{"@type":"GeoCoordinates","latitude":"76.948285","longitude":"43.239908"}}</script><script>    function registerBootstrapTooltip() {
+        if (window.jQuery && $.isFunction($.fn.tooltip)) {
+            jQuery.fn.extend({ bootstrapTooltip: $.fn.tooltip })
+        }
+    }
+function initSentry() {
+                    Sentry.init({
+                        dsn: 'https://72ea944f82714cbc9cc44c7e09d6315c@o50394.ingest.sentry.io/5377892',
+                        ignoreErrors: ["Failed to fetch","$ is not defined","Can't find variable: jQuery","Can't find variable: $","adsbygoogle.push() error: No slot size for availableWidth=0"],
+                        denyUrls: [],
+                        integrations: [
+                            new Sentry.Integrations.GlobalHandlers({
+                                onerror: true,
+                                onunhandledrejection: false
+                            })
+                        ]
+                    });
+                }
+var tourHotel = {"name":"THE BEACH HEIGHTS RESORT 4*","coordinates":{"lat":7.82421595,"lng":98.30044717}};</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Hotel","name":"THE BEACH HEIGHTS RESORT 4*","image":"https://static.ht.kz/img/h/sm4x3/42/8373_1_50a3b901.jpg","description":"Курортный отель The Beach Heights находится в 6 минутах ходьбы от пляжа Ката. К услугам гостей ресторан и фитнес-центр. Номера отеля оформлены в 4 стилях, свойственных различным тайским регионам. В них предоставляется бесплатный Wi-Fi.\nНомера с балконом оборудованы кондиционером и телевизором с плоским экраном. В числе удобств обеденная зона с холодильником и электрическим чайником. В собственной ванной комнате установлен душ и предоставляются фен и бесплатные туалетно-косметические принадлежности. Также в распоряжении гостей мини-бар и гостиная зона.\nК услугам гостей курортного отеля Beach Heights круглосуточная стойка регистрации, сад, открытый бассейн и экскурсионное бюро. Обустроена бесплатная парковка.\nОтель находится в 3 км от обзорной площадки и в 1,5 км от статуи Большого Будды. Расстояние до международного аэропорта Пхукет составляет 32 км.Парам особенно нравится расположение — они оценили проживание в этом районе вдвоем на 8,4.Расстояние, указанное в описании, рассчитано с помощью © OpenStreetMap","address":{"@type":"PostalAddress","addressLocality":"Пхукет","addressCountry":"Таиланд"},"aggregateRating":{"@type":"AggregateRating","ratingValue":7.4},"starRating":"4","amenityFeature":[],"review":[{"@type":"Review","reviewRating":{"ratingValue":10},"author":{"@type":"Person","name":"Olga"},"reviewBody":"Расположение, номера, бассейн, чистота, персонал, порадовали разнообразные завтраки, рядом услуги стирка (самостоятельно загрузил машину)"},{"@type":"Review","reviewRating":{"ratingValue":10},"author":{"@type":"Person","name":"Sergey"},"reviewBody":"Отличное соотношение цена/качество. пришлось из-за того что все забронировано было в 4 отелях данной ценовой категории, тут на удивление лучшие завтраки. Номер чистый, без запаха плесени.(останавливались тут же в апартах, был неочень номер)"},{"@type":"Review","reviewRating":{"ratingValue":8},"author":{"@type":"Person","name":"Pavel"},"reviewBody":"Месть расположение"},{"@type":"Review","reviewRating":{"ratingValue":5},"author":{"@type":"Person","name":"Anna"},"reviewBody":"Удобное месторасположение, хороший номер с выходом в бассейн. Уборка каждый день."},{"@type":"Review","reviewRating":{"ratingValue":6},"author":{"@type":"Person","name":"Ekaterina"},"reviewBody":"хорошее расположение ,персонал"},{"@type":"Review","reviewRating":{"ratingValue":5},"author":{"@type":"Person","name":"Nayman_7"},"reviewBody":"Просили заселиться пораньше, так как после длинного перелёта, нам не то что дали заселиться пораньше, но ещё и с опозданием заселили,когда начал спрашивать в чем дело, показывают на свет и говорят свет отключается лифт не работает"}]}</script><div class="wrapper">
+    
+<nav class="nav-bar">
+    <div class="container nav-bar-container">
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                <li>
+    <a href="/tury/goryashchie-tury/almaty.html" class="direct-link">Горящие туры</a>
+</li>
+                <li>
+    <a href="/tury/iz-almaty.html" class="direct-link">Цены на туры</a>
+</li>
+                <li class="dropdown">
+    <a href="/poisk-tura.html">Поиск онлайн <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/poisk-tura.html">Поиск туров</a></li>
+                    <li><a href="/aviabilety.html">Поиск авиабилетов</a></li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/tury.html">Отдых за рубежом <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/turciya/almaty.html">Туры в Турцию</a></li>
+                                            <li><a href="/tury/thailand/almaty.html">Туры в Таиланд</a></li>
+                                            <li><a href="/tury/oae/almaty.html">Туры в ОАЭ</a></li>
+                                            <li><a href="/tury/india/almaty.html">Туры в ГОА, Индия</a></li>
+                                            <li><a href="/tury/egypet/almaty.html">Туры в Египет</a></li>
+                                            <li><a href="/tury/vietnam/almaty.html">Туры в Вьетнам</a></li>
+                                            <li><a href="/tury/dominikanskaia-resp/almaty.html">Туры в Доминикану</a></li>
+                                            <li><a href="/tury/kitaj/almaty.html">Туры в Китай(Хайнань)</a></li>
+                                            <li><a href="/tury.html">Смотреть все туры</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Тематические туры <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/rannee-bronirovanie.html">Раннее бронирование туров</a></li>
+                                            <li><a href="/tury/gornolyzhnye-tury.html">Горнолыжные туры</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Горящие туры</a></li>
+                                            <li><a href="/tury/individualnye-i-vip-tury.html">Индивидуальные и VIP туры</a></li>
+                                            <li><a href="/tury/kombinirovannye-tury.html">Комбинированные туры</a></li>
+                                            <li><a href="/tury/morskie-kruizy.html">Морские круизы</a></li>
+                                            <li><a href="/tury/lechebnye-tury.html">Лечебные туры</a></li>
+                                            <li><a href="/tury/plyazhnyj-otdykh.html">Пляжный отдых</a></li>
+                                            <li><a href="/tury/svadebnye-tury.html">Свадебные туры</a></li>
+                                            <li><a href="/tury/tury-na-prazdniki-meropriyatiya.html">Туры на праздники, мероприятия</a></li>
+                                            <li><a href="/tury/shop-tury.html">Шоп-туры</a></li>
+                                            <li><a href="/tury/ekskursionnye-tury.html">Экскурсионные туры</a></li>
+                                            <li><a href="/tury/avtobusnye-tury.html">Автобусные туры</a></li>
+                                            <li><a href="/tury/detskij-otdykh.html">Детский отдых</a></li>
+                                            <li><a href="/tury/newyear.html">Новогодние туры</a></li>
+                                            <li><a href="/tury/spring-break-and-nauryz.html">Весенние каникулы и Наурыз</a></li>
+                                            <li><a href="/tury/may_holidays_tours.html">Туры на майские праздники</a></li>
+                                            <li><a href="/tury/osennie-kanikuly.html">Осенние каникулы</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Смотреть все</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Полезно знать <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/strany.html">О странах</a></li>
+                                            <li><a href="/oteli.html">Отели</a></li>
+                                            <li><a href="/blogs.html">Интересные статьи</a></li>
+                                            <li><a href="/news.html">Новости туризма</a></li>
+                                            <li><a href="/tury/vizy-registratsiya.html">Визы, регистрация</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/oteli/kazakhstan.html">Отдых в Казахстане <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Регионы <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan.html">Все зоны отдыха, санатории в Казахстане</a></li>
+                                            <li><a href="/oteli/kazakhstan/almatinskaia-obl.html">Алматинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/aktiubinskaia-obl.html">Актюбинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/atyrausaia-obl.html">Атыраусая обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/vostochno-kazakhstanskaia-obl.html">Восточно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zhambylskaia-oblast.html">Жамбылская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zapadno-kazakhstanskaia-obl.html">Западно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/karagandinskaia-obl.html">Карагандинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kostanaiskaia-obl.html">Костанайская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kyzylordinskaia-obl.html">Кызылординская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/mangistauskaia-obl.html">Мангистауская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/pavlodarskaia-obl.html">Павлодарская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/severo-kazakhstanskaia-obl.html">Северо-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/iuzhno-kazakhstanskaia-obl.html">Южно-Казахстанская обл.</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kapchagae.html">Отдых на Капчагае</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-alakole.html">Отдых на Алаколе</a></li>
+                                            <li><a href="/oteli/kazakhstan/goryachie-istochniki.html">Горячие источники</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-borovom.html">Отдых в Боровом</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-s-detmi.html">Отдых с детьми</a></li>
+                                            <li><a href="/oteli/kazakhstan/pokatatsya-na-lyzhakh-sankakh.html">Покататься на лыжах, санках</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-zerende.html">Отдых в Зеренде</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-balkhashe.html">Отдых на Балхаше</a></li>
+                                            <li><a href="/oteli/kazakhstan/vip-otdykh.html">VIP отдых</a></li>
+                                            <li><a href="/oteli/kazakhstan/okhota.html">Охота</a></li>
+                                            <li><a href="/oteli/kazakhstan/bassejny-i-akvaparki.html">Бассейны и Аквапарки</a></li>
+                                            <li><a href="/oteli/kazakhstan/rybalka.html">Рыбалка</a></li>
+                                            <li><a href="/oteli/kazakhstan/anatorii-lechenie-spa.html">Санатории, Лечение, СПА</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kaspii.html">Отдых на Каспии</a></li>
+                                            <li><a href="/oteli/kazakhstan/piknik.html">Пикник</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Виды зон отдыха <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/hostel.html">Hostel</a></li>
+                                            <li><a href="/oteli/kazakhstan/baza-otdykha.html">База отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/butik-otel.html">Бутик отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostevoj-dom.html">Гостевой дом</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinitsa.html">Гостиница</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinichnyj-kompleks.html">Гостиничный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/dom-otdykha.html">Дом отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/sanatorij.html">Санаторий</a></li>
+                                            <li><a href="/oteli/kazakhstan/kemping-otel.html">Кемпинг</a></li>
+                                            <li><a href="/oteli/kazakhstan/kottedzhnyj-kompleks.html">Коттеджный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/pansionat.html">Пансионат</a></li>
+                                            <li><a href="/oteli/kazakhstan/turbaza.html">Турбаза</a></li>
+                                            <li><a href="/oteli/kazakhstan/eko-otel.html">Эко отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/chastnyj-sektor.html">Частный сектор</a></li>
+                                            <li><a href="/oteli/kazakhstan/detskij-lager.html">Детский лагерь</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Туры выходного дня <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/holiday.html">Все туры выходного дня</a></li>
+                                            <li><a href="/holiday/almaty.html">В Алматы</a></li>
+                                            <li><a href="/holiday/astana.html">В Нур-Cултане (Астана)</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/company.html">О нас <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/turagentstva/operator.html">Наши партнеры</a></li>
+            </ul>
+</li>
+                <li>
+    <a href="/kontakti.html" class="direct-link">Контакты</a>
+</li>
+            </ul>
+        </div>
+        <div class="nav-bar-city-select">
+    Ваш город:&nbsp;
+    <div class="h-select main_hSelect" id="hSelectMainCity">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face" data-value="1">
+                <span>Алматы</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="1">
+                    <span>Алматы</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="2">
+                    <span>Астана</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="4">
+                    <span>Актобе</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="5">
+                    <span>Актау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="8">
+                    <span>Караганда</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="9">
+                    <span>Шымкент</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="10">
+                    <span>Атырау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="11">
+                    <span>Семей</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="12">
+                    <span>Талдыкорган</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="13">
+                    <span>Темиртау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="14">
+                    <span>Уральск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="15">
+                    <span>Усть-Каменогорск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="16">
+                    <span>Павлодар</span>
+                </div>
+                        </div>
+    </div>
+</div>
+        <div class="nav-bar-currency-select">
+    <div class="h-select main_hSelect" id="hSelectCurrency">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face">
+                <span>KZT</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="kzt">
+                    <span>KZT</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="usd">
+                    <span>USD</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="eur">
+                    <span>EUR</span>
+                </div>
+                    </div>
+    </div>
+</div>
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                    <li>
+        <a href="/login.html" class="direct-link login-button">Войти</a>
+    </li>
+                </ul>
+        </div>
+    </div>
+</nav>
+    <header class="only-contacts">
+    <div class="container">
+        <div class="header-common-elements">
+    <div class="logo">
+                    <a href="/">
+                <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            </a>
+                </div>
+                <div class="header-phone">
+            <img src="/img/phone-circle.png"
+                 alt="">
+            <span class="phone-text">Наш телефон:</span>
+            <span class="site-phone"><a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a></span>
+        </div>
+                    <div class="header-whatsapp-phone">
+                <img src="/img/whatsapp.svg"
+                     alt="">
+                <span class="whatsapp-text">Наш WhatsApp:</span>
+                <span class="site-phone"><a class="js-whatsapp-phone-conversion site-phone-link whatsapp-button" href="https://wa.me/77711717126?text=Здравствуйте. Я хочу подобрать тур.">+7 (771) 171-71-26</a></span>
+            </div>
+                    <div class="clearfix"></div>
+</div>
+    </div>
+</header>
+
+    <div class="promo promo-pos-dt">
+            <a href="/banner/go.html?id=53" rel="nofollow">
+            <img src="/uploads/banners/64490e5f3413e.jpg" alt="Бронируйте туры через наш чат бот в телеграме" title="Бронируйте туры через наш чат бот в телеграме">
+        </a>
+    </div>
+
+
+    <div class="container">
+            </div>
+            <main>
+            <div class="container">
+        <div class="columns">
+            <div class="column-left">
+                <div class="site-block">
+                    <div class="site-header">
+    <h4>Расположение отеля</h4>
+</div>
+<div class="hotel-map">
+            <div class="tour-hotel-map hotel-map__skeleton-bg" id="tour-hotel-map">
+            <button type="button" class="btn-secondary hotel-map__load-map">Показать на карте</button>
+        </div>
+                    <button type="button"
+                class="btn-brand js-slide-to"
+                data-target="#hotel-info">Подробнее об отеле
+        </button>
+    </div>
+                </div>
+                <div class="manager-contacts">
+    <div class="avatar">
+        <div class="avatar-wrapper">
+            <img src="https://static.gotur.kz/fls/avatar/16974437972a18a386.png"
+                 alt=" ">
+        </div>
+        <span class="status-green">На связи</span>
+    </div>
+    <div class="name">
+             </div>
+    <div class="address">пр. Назарбаева 193</div>
+    <div class="site-phone">
+        <a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a>    </div>
+    <div class="callback-form callback-offer-manager">
+    <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">    <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">    <div class="form-group">
+        <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Укажите ваш номер телефона">    </div>
+    <div class="callback-result-wrap hidden"></div>
+    <div class="callback-submit-wrap">
+        <button type="button" class="btn-carrot callback-form-submit callback-form-analytics">Перезвоните мне</button>
+    </div>
+</div>
+</div>
+            </div>
+            <div class="column">
+                <div class="site-block">
+                    <div class="hotel-wrapper">
+                        <div class="hotel-intro">
+                            <div class="hotel-name">
+                                <span class="name">THE BEACH HEIGHTS RESORT 4*</span>
+                                <span class="region">Таиланд, Пхукет</span>
+                            </div>
+                                                            <div class="hotel-rating">
+                                    <div class="reviews">
+                                        <span>У отеля хороший рейтинг</span>
+                                                                                    <a href="#"
+                                               class="js-slide-to"
+                                               data-target="#hotel-reviews">
+                                                Показать все отзывы (34)
+                                            </a>
+                                                                            </div>
+                                    <div class="rating">
+                                        7.4/10
+                                    </div>
+                                </div>
+                                                        </div>
+                        <div class="hotel-gallery">
+    <div class="gallery-main-image" id="bigImg_wrap">
+        <div class="hotel-min-price-wrapper hidden">
+            <span class="hotel-min-price"></span><br />
+            <span class="search-people-count">за 2 взрослых</span>
+        </div>
+        <div class="controls gallery-controls">
+            <span class="bigImg_wrap_left left"></span>
+            <span class="bigImg_wrap_right right"></span>
+            <div class="blur-bg"
+                 style="background-image: url('https://static.gotur.kz/img/h/big/42/8373_1_50a3b901.jpg')"></div>
+        </div>
+        <img id="bigImg" data-max="176" data-cur="0"
+             src="https://static.gotur.kz/img/h/big/42/8373_1_50a3b901.jpg" alt="">
+    </div>
+    <div class="hotel-pictures-slider">
+        <div class="images gallery-images-list" id="previewImagesWrap">
+                            <div class="list-item active"
+                     data-index="0"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_1_50a3b901.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_1_50a3b901.jpg"
+                         alt="Фото отеля #0">
+                </div>
+                                <div class="list-item "
+                     data-index="1"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_8_f46f4645.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_8_f46f4645.jpg"
+                         alt="Фото отеля #1">
+                </div>
+                                <div class="list-item "
+                     data-index="2"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_1_b95741ea.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_1_b95741ea.jpg"
+                         alt="Фото отеля #2">
+                </div>
+                                <div class="list-item "
+                     data-index="3"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_16_18ac4fd1.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_16_18ac4fd1.jpg"
+                         alt="Фото отеля #3">
+                </div>
+                                <div class="list-item "
+                     data-index="4"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_8_359fc2aa.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_8_359fc2aa.jpg"
+                         alt="Фото отеля #4">
+                </div>
+                                <div class="list-item "
+                     data-index="5"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_9_68101155.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_9_68101155.jpg"
+                         alt="Фото отеля #5">
+                </div>
+                                <div class="list-item "
+                     data-index="6"
+                     data-big="https://static.gotur.kz/img/h/big/42/83734.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/83734.jpg"
+                         alt="Фото отеля #6">
+                </div>
+                                <div class="list-item "
+                     data-index="7"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_5_a6bea922.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_5_a6bea922.jpg"
+                         alt="Фото отеля #7">
+                </div>
+                                <div class="list-item "
+                     data-index="8"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_14_c376fb67.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_14_c376fb67.jpg"
+                         alt="Фото отеля #8">
+                </div>
+                                <div class="list-item "
+                     data-index="9"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_5_aeeb2bd1.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_5_aeeb2bd1.jpg"
+                         alt="Фото отеля #9">
+                </div>
+                                <div class="list-item "
+                     data-index="10"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_6_cdfc1e3a.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_6_cdfc1e3a.jpg"
+                         alt="Фото отеля #10">
+                </div>
+                                <div class="list-item "
+                     data-index="11"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_7_38b0bab4.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_7_38b0bab4.jpg"
+                         alt="Фото отеля #11">
+                </div>
+                                <div class="list-item "
+                     data-index="12"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_8_84a0d2f6.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_8_84a0d2f6.jpg"
+                         alt="Фото отеля #12">
+                </div>
+                                <div class="list-item "
+                     data-index="13"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_9_8d689c1f.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_9_8d689c1f.jpg"
+                         alt="Фото отеля #13">
+                </div>
+                                <div class="list-item "
+                     data-index="14"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_10_1d0acdef.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_10_1d0acdef.jpg"
+                         alt="Фото отеля #14">
+                </div>
+                                <div class="list-item "
+                     data-index="15"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_11_7d270512.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_11_7d270512.jpg"
+                         alt="Фото отеля #15">
+                </div>
+                                <div class="list-item "
+                     data-index="16"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_12_77d9c13a.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_12_77d9c13a.jpg"
+                         alt="Фото отеля #16">
+                </div>
+                                <div class="list-item "
+                     data-index="17"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_13_d2cc9543.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_13_d2cc9543.jpg"
+                         alt="Фото отеля #17">
+                </div>
+                                <div class="list-item "
+                     data-index="18"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_14_2a34e6b5.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_14_2a34e6b5.jpg"
+                         alt="Фото отеля #18">
+                </div>
+                                <div class="list-item "
+                     data-index="19"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_15_2caa394f.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_15_2caa394f.jpg"
+                         alt="Фото отеля #19">
+                </div>
+                                <div class="list-item "
+                     data-index="20"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_16_0f88f56b.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_16_0f88f56b.jpg"
+                         alt="Фото отеля #20">
+                </div>
+                                <div class="list-item "
+                     data-index="21"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_17_82fd79a6.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_17_82fd79a6.jpg"
+                         alt="Фото отеля #21">
+                </div>
+                                <div class="list-item "
+                     data-index="22"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_18_7d516798.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_18_7d516798.jpg"
+                         alt="Фото отеля #22">
+                </div>
+                                <div class="list-item "
+                     data-index="23"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_19_f5490b18.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_19_f5490b18.jpg"
+                         alt="Фото отеля #23">
+                </div>
+                                <div class="list-item "
+                     data-index="24"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_20_34ecf332.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_20_34ecf332.jpg"
+                         alt="Фото отеля #24">
+                </div>
+                                <div class="list-item "
+                     data-index="25"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_21_b971aa51.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_21_b971aa51.jpg"
+                         alt="Фото отеля #25">
+                </div>
+                                <div class="list-item "
+                     data-index="26"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_22_528ca5e3.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_22_528ca5e3.jpg"
+                         alt="Фото отеля #26">
+                </div>
+                                <div class="list-item "
+                     data-index="27"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_23_de1a8d80.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_23_de1a8d80.jpg"
+                         alt="Фото отеля #27">
+                </div>
+                                <div class="list-item "
+                     data-index="28"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_25_36c241b9.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_25_36c241b9.jpg"
+                         alt="Фото отеля #28">
+                </div>
+                                <div class="list-item "
+                     data-index="29"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_26_1c1717fe.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_26_1c1717fe.jpg"
+                         alt="Фото отеля #29">
+                </div>
+                                <div class="list-item "
+                     data-index="30"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_27_18913e6d.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_27_18913e6d.jpg"
+                         alt="Фото отеля #30">
+                </div>
+                                <div class="list-item "
+                     data-index="31"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_28_610a8912.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_28_610a8912.jpg"
+                         alt="Фото отеля #31">
+                </div>
+                                <div class="list-item "
+                     data-index="32"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_29_2b671c7d.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_29_2b671c7d.jpg"
+                         alt="Фото отеля #32">
+                </div>
+                                <div class="list-item "
+                     data-index="33"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_30_5330383b.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_30_5330383b.jpg"
+                         alt="Фото отеля #33">
+                </div>
+                                <div class="list-item "
+                     data-index="34"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_31_d4c1c664.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_31_d4c1c664.jpg"
+                         alt="Фото отеля #34">
+                </div>
+                                <div class="list-item "
+                     data-index="35"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_32_36b465e7.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_32_36b465e7.jpg"
+                         alt="Фото отеля #35">
+                </div>
+                                <div class="list-item "
+                     data-index="36"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_33_c742ef53.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_33_c742ef53.jpg"
+                         alt="Фото отеля #36">
+                </div>
+                                <div class="list-item "
+                     data-index="37"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_34_d7eb3c3a.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_34_d7eb3c3a.jpg"
+                         alt="Фото отеля #37">
+                </div>
+                                <div class="list-item "
+                     data-index="38"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_35_a73adecc.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_35_a73adecc.jpg"
+                         alt="Фото отеля #38">
+                </div>
+                                <div class="list-item "
+                     data-index="39"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_36_d112e2bf.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_36_d112e2bf.jpg"
+                         alt="Фото отеля #39">
+                </div>
+                                <div class="list-item "
+                     data-index="40"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_37_1abd98b3.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_37_1abd98b3.jpg"
+                         alt="Фото отеля #40">
+                </div>
+                                <div class="list-item "
+                     data-index="41"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_38_c408cc38.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_38_c408cc38.jpg"
+                         alt="Фото отеля #41">
+                </div>
+                                <div class="list-item "
+                     data-index="42"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_39_3660132a.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_39_3660132a.jpg"
+                         alt="Фото отеля #42">
+                </div>
+                                <div class="list-item "
+                     data-index="43"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_40_8732bb34.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_40_8732bb34.jpg"
+                         alt="Фото отеля #43">
+                </div>
+                                <div class="list-item "
+                     data-index="44"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_41_4838ef37.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_41_4838ef37.jpg"
+                         alt="Фото отеля #44">
+                </div>
+                                <div class="list-item "
+                     data-index="45"
+                     data-big="https://static.gotur.kz/img/h/big/42/837310.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837310.jpg"
+                         alt="Фото отеля #45">
+                </div>
+                                <div class="list-item "
+                     data-index="46"
+                     data-big="https://static.gotur.kz/img/h/big/42/837317.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837317.jpg"
+                         alt="Фото отеля #46">
+                </div>
+                                <div class="list-item "
+                     data-index="47"
+                     data-big="https://static.gotur.kz/img/h/big/42/83739.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/83739.jpg"
+                         alt="Фото отеля #47">
+                </div>
+                                <div class="list-item "
+                     data-index="48"
+                     data-big="https://static.gotur.kz/img/h/big/42/837327.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837327.jpg"
+                         alt="Фото отеля #48">
+                </div>
+                                <div class="list-item "
+                     data-index="49"
+                     data-big="https://static.gotur.kz/img/h/big/42/83733.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/83733.jpg"
+                         alt="Фото отеля #49">
+                </div>
+                                <div class="list-item "
+                     data-index="50"
+                     data-big="https://static.gotur.kz/img/h/big/42/83737.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/83737.jpg"
+                         alt="Фото отеля #50">
+                </div>
+                                <div class="list-item "
+                     data-index="51"
+                     data-big="https://static.gotur.kz/img/h/big/42/837311.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837311.jpg"
+                         alt="Фото отеля #51">
+                </div>
+                                <div class="list-item "
+                     data-index="52"
+                     data-big="https://static.gotur.kz/img/h/big/42/83735.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/83735.jpg"
+                         alt="Фото отеля #52">
+                </div>
+                                <div class="list-item "
+                     data-index="53"
+                     data-big="https://static.gotur.kz/img/h/big/42/837312.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837312.jpg"
+                         alt="Фото отеля #53">
+                </div>
+                                <div class="list-item "
+                     data-index="54"
+                     data-big="https://static.gotur.kz/img/h/big/42/837315.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837315.jpg"
+                         alt="Фото отеля #54">
+                </div>
+                                <div class="list-item "
+                     data-index="55"
+                     data-big="https://static.gotur.kz/img/h/big/42/837313.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837313.jpg"
+                         alt="Фото отеля #55">
+                </div>
+                                <div class="list-item "
+                     data-index="56"
+                     data-big="https://static.gotur.kz/img/h/big/42/837321.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837321.jpg"
+                         alt="Фото отеля #56">
+                </div>
+                                <div class="list-item "
+                     data-index="57"
+                     data-big="https://static.gotur.kz/img/h/big/42/837322.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837322.jpg"
+                         alt="Фото отеля #57">
+                </div>
+                                <div class="list-item "
+                     data-index="58"
+                     data-big="https://static.gotur.kz/img/h/big/42/837331.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837331.jpg"
+                         alt="Фото отеля #58">
+                </div>
+                                <div class="list-item "
+                     data-index="59"
+                     data-big="https://static.gotur.kz/img/h/big/42/83738.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/83738.jpg"
+                         alt="Фото отеля #59">
+                </div>
+                                <div class="list-item "
+                     data-index="60"
+                     data-big="https://static.gotur.kz/img/h/big/42/837330.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837330.jpg"
+                         alt="Фото отеля #60">
+                </div>
+                                <div class="list-item "
+                     data-index="61"
+                     data-big="https://static.gotur.kz/img/h/big/42/837314.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837314.jpg"
+                         alt="Фото отеля #61">
+                </div>
+                                <div class="list-item "
+                     data-index="62"
+                     data-big="https://static.gotur.kz/img/h/big/42/837316.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837316.jpg"
+                         alt="Фото отеля #62">
+                </div>
+                                <div class="list-item "
+                     data-index="63"
+                     data-big="https://static.gotur.kz/img/h/big/42/837324.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837324.jpg"
+                         alt="Фото отеля #63">
+                </div>
+                                <div class="list-item "
+                     data-index="64"
+                     data-big="https://static.gotur.kz/img/h/big/42/837328.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837328.jpg"
+                         alt="Фото отеля #64">
+                </div>
+                                <div class="list-item "
+                     data-index="65"
+                     data-big="https://static.gotur.kz/img/h/big/42/837326.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837326.jpg"
+                         alt="Фото отеля #65">
+                </div>
+                                <div class="list-item "
+                     data-index="66"
+                     data-big="https://static.gotur.kz/img/h/big/42/837323.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837323.jpg"
+                         alt="Фото отеля #66">
+                </div>
+                                <div class="list-item "
+                     data-index="67"
+                     data-big="https://static.gotur.kz/img/h/big/42/837325.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837325.jpg"
+                         alt="Фото отеля #67">
+                </div>
+                                <div class="list-item "
+                     data-index="68"
+                     data-big="https://static.gotur.kz/img/h/big/42/837340.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837340.jpg"
+                         alt="Фото отеля #68">
+                </div>
+                                <div class="list-item "
+                     data-index="69"
+                     data-big="https://static.gotur.kz/img/h/big/42/83731.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/83731.jpg"
+                         alt="Фото отеля #69">
+                </div>
+                                <div class="list-item "
+                     data-index="70"
+                     data-big="https://static.gotur.kz/img/h/big/42/83732.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/83732.jpg"
+                         alt="Фото отеля #70">
+                </div>
+                                <div class="list-item "
+                     data-index="71"
+                     data-big="https://static.gotur.kz/img/h/big/42/83736.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/83736.jpg"
+                         alt="Фото отеля #71">
+                </div>
+                                <div class="list-item "
+                     data-index="72"
+                     data-big="https://static.gotur.kz/img/h/big/42/837332.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837332.jpg"
+                         alt="Фото отеля #72">
+                </div>
+                                <div class="list-item "
+                     data-index="73"
+                     data-big="https://static.gotur.kz/img/h/big/42/837338.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837338.jpg"
+                         alt="Фото отеля #73">
+                </div>
+                                <div class="list-item "
+                     data-index="74"
+                     data-big="https://static.gotur.kz/img/h/big/42/837329.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837329.jpg"
+                         alt="Фото отеля #74">
+                </div>
+                                <div class="list-item "
+                     data-index="75"
+                     data-big="https://static.gotur.kz/img/h/big/42/837318.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837318.jpg"
+                         alt="Фото отеля #75">
+                </div>
+                                <div class="list-item "
+                     data-index="76"
+                     data-big="https://static.gotur.kz/img/h/big/42/837320.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837320.jpg"
+                         alt="Фото отеля #76">
+                </div>
+                                <div class="list-item "
+                     data-index="77"
+                     data-big="https://static.gotur.kz/img/h/big/42/837319.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837319.jpg"
+                         alt="Фото отеля #77">
+                </div>
+                                <div class="list-item "
+                     data-index="78"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_7_72597faf.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_7_72597faf.jpg"
+                         alt="Фото отеля #78">
+                </div>
+                                <div class="list-item "
+                     data-index="79"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_41_671960a1.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_41_671960a1.jpg"
+                         alt="Фото отеля #79">
+                </div>
+                                <div class="list-item "
+                     data-index="80"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_25_ca0652c8.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_25_ca0652c8.jpg"
+                         alt="Фото отеля #80">
+                </div>
+                                <div class="list-item "
+                     data-index="81"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_24_962b5950.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_24_962b5950.jpg"
+                         alt="Фото отеля #81">
+                </div>
+                                <div class="list-item "
+                     data-index="82"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_38_0b368ada.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_38_0b368ada.jpg"
+                         alt="Фото отеля #82">
+                </div>
+                                <div class="list-item "
+                     data-index="83"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_26_60c48dc4.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_26_60c48dc4.jpg"
+                         alt="Фото отеля #83">
+                </div>
+                                <div class="list-item "
+                     data-index="84"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_40_0c694506.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_40_0c694506.jpg"
+                         alt="Фото отеля #84">
+                </div>
+                                <div class="list-item "
+                     data-index="85"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_42_5dac68d8.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_42_5dac68d8.jpg"
+                         alt="Фото отеля #85">
+                </div>
+                                <div class="list-item "
+                     data-index="86"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_5_5b75690d.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_5_5b75690d.jpg"
+                         alt="Фото отеля #86">
+                </div>
+                                <div class="list-item "
+                     data-index="87"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_39_85d96f48.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_39_85d96f48.jpg"
+                         alt="Фото отеля #87">
+                </div>
+                                <div class="list-item "
+                     data-index="88"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_44_b0167ef8.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_44_b0167ef8.jpg"
+                         alt="Фото отеля #88">
+                </div>
+                                <div class="list-item "
+                     data-index="89"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_10_2a379663.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_10_2a379663.jpg"
+                         alt="Фото отеля #89">
+                </div>
+                                <div class="list-item "
+                     data-index="90"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_3_e81cf630.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_3_e81cf630.jpg"
+                         alt="Фото отеля #90">
+                </div>
+                                <div class="list-item "
+                     data-index="91"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_11_c98e311a.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_11_c98e311a.jpg"
+                         alt="Фото отеля #91">
+                </div>
+                                <div class="list-item "
+                     data-index="92"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_14_a6a20efd.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_14_a6a20efd.jpg"
+                         alt="Фото отеля #92">
+                </div>
+                                <div class="list-item "
+                     data-index="93"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_15_63ddc758.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_15_63ddc758.jpg"
+                         alt="Фото отеля #93">
+                </div>
+                                <div class="list-item "
+                     data-index="94"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_4_92cc5964.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_4_92cc5964.jpg"
+                         alt="Фото отеля #94">
+                </div>
+                                <div class="list-item "
+                     data-index="95"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_17_995196a9.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_17_995196a9.jpg"
+                         alt="Фото отеля #95">
+                </div>
+                                <div class="list-item "
+                     data-index="96"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_12_aa6347d7.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_12_aa6347d7.jpg"
+                         alt="Фото отеля #96">
+                </div>
+                                <div class="list-item "
+                     data-index="97"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_19_5ece9a58.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_19_5ece9a58.jpg"
+                         alt="Фото отеля #97">
+                </div>
+                                <div class="list-item "
+                     data-index="98"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_13_cd0f99aa.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_13_cd0f99aa.jpg"
+                         alt="Фото отеля #98">
+                </div>
+                                <div class="list-item "
+                     data-index="99"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_22_1266c47c.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_22_1266c47c.jpg"
+                         alt="Фото отеля #99">
+                </div>
+                                <div class="list-item "
+                     data-index="100"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_21_fae67555.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_21_fae67555.jpg"
+                         alt="Фото отеля #100">
+                </div>
+                                <div class="list-item "
+                     data-index="101"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_18_ca4d22cc.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_18_ca4d22cc.jpg"
+                         alt="Фото отеля #101">
+                </div>
+                                <div class="list-item "
+                     data-index="102"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_16_cfa09597.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_16_cfa09597.jpg"
+                         alt="Фото отеля #102">
+                </div>
+                                <div class="list-item "
+                     data-index="103"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_23_df698268.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_23_df698268.jpg"
+                         alt="Фото отеля #103">
+                </div>
+                                <div class="list-item "
+                     data-index="104"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_20_9fd3e71d.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_20_9fd3e71d.jpg"
+                         alt="Фото отеля #104">
+                </div>
+                                <div class="list-item "
+                     data-index="105"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_3_bf11bbae.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_3_bf11bbae.jpg"
+                         alt="Фото отеля #105">
+                </div>
+                                <div class="list-item "
+                     data-index="106"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_4_dbe8acc9.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_4_dbe8acc9.jpg"
+                         alt="Фото отеля #106">
+                </div>
+                                <div class="list-item "
+                     data-index="107"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_2_a13d8e97.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_2_a13d8e97.jpg"
+                         alt="Фото отеля #107">
+                </div>
+                                <div class="list-item "
+                     data-index="108"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_7_6e4d5697.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_7_6e4d5697.jpg"
+                         alt="Фото отеля #108">
+                </div>
+                                <div class="list-item "
+                     data-index="109"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_30_253b066e.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_30_253b066e.jpg"
+                         alt="Фото отеля #109">
+                </div>
+                                <div class="list-item "
+                     data-index="110"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_18_ad7c0cdf.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_18_ad7c0cdf.jpg"
+                         alt="Фото отеля #110">
+                </div>
+                                <div class="list-item "
+                     data-index="111"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_20_f7e31d2a.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_20_f7e31d2a.jpg"
+                         alt="Фото отеля #111">
+                </div>
+                                <div class="list-item "
+                     data-index="112"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_31_3387aa34.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_31_3387aa34.jpg"
+                         alt="Фото отеля #112">
+                </div>
+                                <div class="list-item "
+                     data-index="113"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_34_47907753.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_34_47907753.jpg"
+                         alt="Фото отеля #113">
+                </div>
+                                <div class="list-item "
+                     data-index="114"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_37_0d39ba72.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_37_0d39ba72.jpg"
+                         alt="Фото отеля #114">
+                </div>
+                                <div class="list-item "
+                     data-index="115"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_16_cf7b5164.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_16_cf7b5164.jpg"
+                         alt="Фото отеля #115">
+                </div>
+                                <div class="list-item "
+                     data-index="116"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_28_87723f92.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_28_87723f92.jpg"
+                         alt="Фото отеля #116">
+                </div>
+                                <div class="list-item "
+                     data-index="117"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_35_a961adbe.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_35_a961adbe.jpg"
+                         alt="Фото отеля #117">
+                </div>
+                                <div class="list-item "
+                     data-index="118"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_32_4d8a9ecd.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_32_4d8a9ecd.jpg"
+                         alt="Фото отеля #118">
+                </div>
+                                <div class="list-item "
+                     data-index="119"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_38_20ce52a7.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_38_20ce52a7.jpg"
+                         alt="Фото отеля #119">
+                </div>
+                                <div class="list-item "
+                     data-index="120"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_42_d24484b1.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_42_d24484b1.jpg"
+                         alt="Фото отеля #120">
+                </div>
+                                <div class="list-item "
+                     data-index="121"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_36_35e6a0da.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_36_35e6a0da.jpg"
+                         alt="Фото отеля #121">
+                </div>
+                                <div class="list-item "
+                     data-index="122"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_39_70c01446.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_39_70c01446.jpg"
+                         alt="Фото отеля #122">
+                </div>
+                                <div class="list-item "
+                     data-index="123"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_15_16c4cb5d.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_15_16c4cb5d.jpg"
+                         alt="Фото отеля #123">
+                </div>
+                                <div class="list-item "
+                     data-index="124"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_18_00d976e2.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_18_00d976e2.jpg"
+                         alt="Фото отеля #124">
+                </div>
+                                <div class="list-item "
+                     data-index="125"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_8_8312c581.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_8_8312c581.jpg"
+                         alt="Фото отеля #125">
+                </div>
+                                <div class="list-item "
+                     data-index="126"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_7_d847af89.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_7_d847af89.jpg"
+                         alt="Фото отеля #126">
+                </div>
+                                <div class="list-item "
+                     data-index="127"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_9_35ebc6d2.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_9_35ebc6d2.jpg"
+                         alt="Фото отеля #127">
+                </div>
+                                <div class="list-item "
+                     data-index="128"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_10_715809f5.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_10_715809f5.jpg"
+                         alt="Фото отеля #128">
+                </div>
+                                <div class="list-item "
+                     data-index="129"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_19_8a2f3985.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_19_8a2f3985.jpg"
+                         alt="Фото отеля #129">
+                </div>
+                                <div class="list-item "
+                     data-index="130"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_20_baa5d2b3.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_20_baa5d2b3.jpg"
+                         alt="Фото отеля #130">
+                </div>
+                                <div class="list-item "
+                     data-index="131"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_17_e42034e6.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_17_e42034e6.jpg"
+                         alt="Фото отеля #131">
+                </div>
+                                <div class="list-item "
+                     data-index="132"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_23_704c12aa.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_23_704c12aa.jpg"
+                         alt="Фото отеля #132">
+                </div>
+                                <div class="list-item "
+                     data-index="133"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_15_1bf11efe.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_15_1bf11efe.jpg"
+                         alt="Фото отеля #133">
+                </div>
+                                <div class="list-item "
+                     data-index="134"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_21_a58ae727.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_21_a58ae727.jpg"
+                         alt="Фото отеля #134">
+                </div>
+                                <div class="list-item "
+                     data-index="135"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_25_4f79ed02.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_25_4f79ed02.jpg"
+                         alt="Фото отеля #135">
+                </div>
+                                <div class="list-item "
+                     data-index="136"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_24_8f4762e6.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_24_8f4762e6.jpg"
+                         alt="Фото отеля #136">
+                </div>
+                                <div class="list-item "
+                     data-index="137"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_39_5629f9d8.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_39_5629f9d8.jpg"
+                         alt="Фото отеля #137">
+                </div>
+                                <div class="list-item "
+                     data-index="138"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_40_cb042aaf.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_40_cb042aaf.jpg"
+                         alt="Фото отеля #138">
+                </div>
+                                <div class="list-item "
+                     data-index="139"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_26_8d87f164.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_26_8d87f164.jpg"
+                         alt="Фото отеля #139">
+                </div>
+                                <div class="list-item "
+                     data-index="140"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_33_e9004f76.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_33_e9004f76.jpg"
+                         alt="Фото отеля #140">
+                </div>
+                                <div class="list-item "
+                     data-index="141"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_32_5e397733.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_32_5e397733.jpg"
+                         alt="Фото отеля #141">
+                </div>
+                                <div class="list-item "
+                     data-index="142"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_43_49e052bf.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_43_49e052bf.jpg"
+                         alt="Фото отеля #142">
+                </div>
+                                <div class="list-item "
+                     data-index="143"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_44_3aa2da5c.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_44_3aa2da5c.jpg"
+                         alt="Фото отеля #143">
+                </div>
+                                <div class="list-item "
+                     data-index="144"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_6_c59efbae.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_6_c59efbae.jpg"
+                         alt="Фото отеля #144">
+                </div>
+                                <div class="list-item "
+                     data-index="145"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_8_3b2585a3.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_8_3b2585a3.jpg"
+                         alt="Фото отеля #145">
+                </div>
+                                <div class="list-item "
+                     data-index="146"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_9_35dec4cd.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_9_35dec4cd.jpg"
+                         alt="Фото отеля #146">
+                </div>
+                                <div class="list-item "
+                     data-index="147"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_5_a27b86c5.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_5_a27b86c5.jpg"
+                         alt="Фото отеля #147">
+                </div>
+                                <div class="list-item "
+                     data-index="148"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_14_36e2fb0e.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_14_36e2fb0e.jpg"
+                         alt="Фото отеля #148">
+                </div>
+                                <div class="list-item "
+                     data-index="149"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_4_1491efac.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_4_1491efac.jpg"
+                         alt="Фото отеля #149">
+                </div>
+                                <div class="list-item "
+                     data-index="150"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_2_6a595cb3.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_2_6a595cb3.jpg"
+                         alt="Фото отеля #150">
+                </div>
+                                <div class="list-item "
+                     data-index="151"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_13_5e3189a3.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_13_5e3189a3.jpg"
+                         alt="Фото отеля #151">
+                </div>
+                                <div class="list-item "
+                     data-index="152"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_6_8e6946ea.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_6_8e6946ea.jpg"
+                         alt="Фото отеля #152">
+                </div>
+                                <div class="list-item "
+                     data-index="153"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_11_b4ecdb18.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_11_b4ecdb18.jpg"
+                         alt="Фото отеля #153">
+                </div>
+                                <div class="list-item "
+                     data-index="154"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_10_2cd03f8b.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_10_2cd03f8b.jpg"
+                         alt="Фото отеля #154">
+                </div>
+                                <div class="list-item "
+                     data-index="155"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_7_fbd92901.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_7_fbd92901.jpg"
+                         alt="Фото отеля #155">
+                </div>
+                                <div class="list-item "
+                     data-index="156"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_12_ea611e12.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_12_ea611e12.jpg"
+                         alt="Фото отеля #156">
+                </div>
+                                <div class="list-item "
+                     data-index="157"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_15_4b56f285.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_15_4b56f285.jpg"
+                         alt="Фото отеля #157">
+                </div>
+                                <div class="list-item "
+                     data-index="158"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_3_cdc06002.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_3_cdc06002.jpg"
+                         alt="Фото отеля #158">
+                </div>
+                                <div class="list-item "
+                     data-index="159"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_24_e15ca09d.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_24_e15ca09d.jpg"
+                         alt="Фото отеля #159">
+                </div>
+                                <div class="list-item "
+                     data-index="160"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_45_37fe7ba5.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_45_37fe7ba5.jpg"
+                         alt="Фото отеля #160">
+                </div>
+                                <div class="list-item "
+                     data-index="161"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_43_246c906d.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_43_246c906d.jpg"
+                         alt="Фото отеля #161">
+                </div>
+                                <div class="list-item "
+                     data-index="162"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_42_38a94ce6.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_42_38a94ce6.jpg"
+                         alt="Фото отеля #162">
+                </div>
+                                <div class="list-item "
+                     data-index="163"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_44_8947fc97.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_44_8947fc97.jpg"
+                         alt="Фото отеля #163">
+                </div>
+                                <div class="list-item "
+                     data-index="164"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_39_69281d42.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_39_69281d42.jpg"
+                         alt="Фото отеля #164">
+                </div>
+                                <div class="list-item "
+                     data-index="165"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_40_2bfa28f4.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_40_2bfa28f4.jpg"
+                         alt="Фото отеля #165">
+                </div>
+                                <div class="list-item "
+                     data-index="166"
+                     data-big="https://static.gotur.kz/img/h/big/42/837345.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837345.jpg"
+                         alt="Фото отеля #166">
+                </div>
+                                <div class="list-item "
+                     data-index="167"
+                     data-big="https://static.gotur.kz/img/h/big/42/837344.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/837344.jpg"
+                         alt="Фото отеля #167">
+                </div>
+                                <div class="list-item "
+                     data-index="168"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_46_0ac25f09.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_46_0ac25f09.jpg"
+                         alt="Фото отеля #168">
+                </div>
+                                <div class="list-item "
+                     data-index="169"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_2_d1634829.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_2_d1634829.jpg"
+                         alt="Фото отеля #169">
+                </div>
+                                <div class="list-item "
+                     data-index="170"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_2_4a6eedf0.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_2_4a6eedf0.jpg"
+                         alt="Фото отеля #170">
+                </div>
+                                <div class="list-item "
+                     data-index="171"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_4_aff8c7c8.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_4_aff8c7c8.jpg"
+                         alt="Фото отеля #171">
+                </div>
+                                <div class="list-item "
+                     data-index="172"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_7_b5130824.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_7_b5130824.jpg"
+                         alt="Фото отеля #172">
+                </div>
+                                <div class="list-item "
+                     data-index="173"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_7_43aea91e.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_7_43aea91e.jpg"
+                         alt="Фото отеля #173">
+                </div>
+                                <div class="list-item "
+                     data-index="174"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_4_b1b5227d.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_4_b1b5227d.jpg"
+                         alt="Фото отеля #174">
+                </div>
+                                <div class="list-item "
+                     data-index="175"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_2_1a8022a5.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_2_1a8022a5.jpg"
+                         alt="Фото отеля #175">
+                </div>
+                                <div class="list-item "
+                     data-index="176"
+                     data-big="https://static.gotur.kz/img/h/big/42/8373_9_a57f91c0.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/42/8373_9_a57f91c0.jpg"
+                         alt="Фото отеля #176">
+                </div>
+                        </div>
+    </div>
+</div>
+<a id="tours"></a>
+<div class="hotel-search-tours-result" id="tour-results">
+    <div class="result-item">
+        <div class="from">
+                <span class="date">12 дек.</span>
+            <span class="city">Алматы</span>
+        </div>
+        <div class="to">
+                <span class="date">16 дек.</span>
+            <span class="country">Таиланд</span>
+        </div>
+        <div class="period">
+            <span class="nights">
+                5 дней            </span>
+            <span class="meal">Завтрак включен</span>
+        </div>
+        <div class="price">
+            <span class="price">
+                787 534₸            </span>
+            <span class="tourists">
+                2 взрослых                            </span>
+        </div>
+
+        <button type="button" data-id="ST65a748807c25537c9048b4d7efbc0c0a"
+                class="btn-carrot open-tour-request tours-btn-analytics">Подробнее
+        </button>
+    </div>
+</div>
+
+<div class="wg-tour-composition">
+    <div class="tour-composition-title">
+        В туры обычно<br> включено:
+    </div>
+    <div class="tour-composition-items">
+                    <span class="tour-composition-item-fly">Перелет</span>
+                            <span class="tour-composition-item-transfer">Трансфер</span>
+                            <span class="tour-composition-item-accommodation">Проживание</span>
+                            <span class="tour-composition-item-meal">Питание</span>
+                <span class="tour-composition-item-tour-code">Туркод</span>
+                    <span class="tour-composition-item-insurance">Страховка</span>
+                    </div>
+</div>
+
+<div id="hotel-search-tours" class="hotel-search-tours">
+    <h4>Туры в THE BEACH HEIGHTS RESORT 4*</h4>
+    <div class="short-search short-search-hotel">
+    <div class="short-search_wrapper">
+        <div class="short-search_body short-search-tab-content active noselect loading ">
+    <div class="body_form">
+        <div class="form_from form_dropdown " data-type="depart-city">
+            <div class="form-title">
+                <label>Откуда?</label>
+                <span class="from_field">Из Алматы</span>
+            </div>
+            <div class="from_dropdown form_dropdown_menu">
+            </div>
+        </div>
+        <div class="form_direction form_dropdown tooltip-error hidden" data-type="destination">
+            <div class="form-title">
+                <label>Куда?</label>
+                <input type="text"
+                       class="direction_field"
+                       placeholder="Страна, курорт или отель"
+                       data-preview="Страна, курорт или отель"
+                       data-hotel-placeholder="Введите название отеля"
+                       value="">
+                <img class="preloader hidden" src="/img/load.gif" alt="Please, wait"/>
+                <span class="remove hidden"></span>
+            </div>
+            <div class="direction_dropdown form_dropdown_menu">
+                <div class="destination-list">
+                    <div class="direction_loading">Подождите, подгружаем список стран...</div>
+                </div>
+            </div>
+        </div>
+        <div class="form_date form_dropdown tooltip-error" data-type="date">
+            <div class="form-title">
+                <label>Дата:</label>
+                <span class="date_field">
+                    12.12 ± 3 дня
+                </span>
+            </div>
+            <div class="date_dropdown form_dropdown_menu">
+                <div class="days">
+                    <div class="pull-left">
+                        Выберите когда вам удобно лететь
+                    </div>
+                    <div class="pull-right">
+                        <div class="checkbox full-filling_checkbox">
+                            <input type="checkbox" checked>
+                            <label><span></span>3 дня</label>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="calendar">
+                    <div class="controls">
+                        <button type="button" class="left noselect"><img src="/img/arrow-left.svg"></button>
+                        <button type="button" class="right noselect"><img src="/img/arrow-right.svg">
+                        </button>
+                    </div>
+                    <div class="wrapper">
+                        <div class="months"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form_duration form_dropdown tooltip-error" data-type="duration">
+            <div class="form-title">
+                <label>Количество дней:</label>
+                <span class="duration_field">на 4-7 дней</span>
+            </div>
+            <div class="duration_dropdown form_dropdown_menu">
+                <div class="info">
+                    <p>Выбраны даты с <b>12.12</b><br>
+                        ±3 дня на <b>4-7 дней</b></p>
+                </div>
+                <div class="days"></div>
+            </div>
+        </div>
+        <div class="form_stars form_dropdown hidden" data-type="stars">
+            <div class="form-title">
+                <label>Кол-во звёзд:</label>
+                <span class="stars_field">любое</span>
+            </div>
+            <div class="stars_dropdown form_dropdown_menu">
+                <div class="form-dropdown_item" data-value="5">5 звезд</div>
+                <div class="form-dropdown_item" data-value="4">4 звезды</div>
+                <div class="form-dropdown_item" data-value="3">3 звезды</div>
+                <div class="form-dropdown_item" data-value="2">2 звезды</div>
+                <div class="form-dropdown_item" data-value="1">1 звезда</div>
+                <div class="form-dropdown_item form-dropdown_item__selected" data-value="0">любое</div>
+            </div>
+        </div>
+        <div class="form_tourists form_dropdown tooltip-error" data-type="tourists">
+            <div class="form-title">
+                <label>Человек:</label>
+                <span class="tourists_field">2 взр</span>
+            </div>
+            <div class="tourists_dropdown form_dropdown_menu">
+                <div class="counter adults-count">
+                    <label>Взрослые: </label>
+                    <button type="button" class="prev"></button>
+                    <span>2</span>
+                    <button type="button" class="next"></button>
+                </div>
+                <div class="counter children-count">
+                    <label>Дети: </label>
+                    <button type="button" class="prev"></button>
+                    <span>0</span>
+                    <button type="button" class="next"></button>
+                </div>
+                <div class="child ages hidden">
+                    <label>Возраст детей:</label>
+                    <input type="text" class="hidden" placeholder="-">
+                    <input type="text" class="hidden" placeholder="-">
+                    <input type="text" class="hidden" placeholder="-">
+                    <input type="text" class="hidden" placeholder="-">
+                </div>
+            </div>
+        </div>
+        <div class="form_search">
+            <form action="/poisk-tura.html">
+                <input type="hidden" id="wsf-city" name="departCity" value="1">
+                <input type="hidden" id="wsf-country" name="country" value="3">
+                <input type="hidden" id="wsf-region" name="region" value="">
+                <input type="hidden" id="wsf-hotel" name="hotels" value="8373">
+                <input type="hidden" id="wsf-date-from" name="dateFrom"
+                       value="09.12.2024">
+                <input type="hidden" id="wsf-date-to" name="dateTo"
+                       value="15.12.2024">
+                <input type="hidden" id="wsf-nights-from" name="nightsFrom" value="3">
+                <input type="hidden" id="wsf-nights-to" name="nightsTo" value="6">
+                <input type="hidden" id="wsf-adults" name="adult" value="2">
+                <input type="hidden" id="wsf-children" name="child" value="0">
+                <input type="hidden" id="wsf-ages" name="childAges" value="">
+                <input type="hidden" id="wsf-stars" name="stars" value="0">
+                <input type="hidden" id="wsf-search" name="search" value="1">
+                <button type="submit" id="w-st-findtours" class="">Найти</button>
+            </form>
+        </div>
+        <div class="search-progressbar"></div>
+    </div>
+    <div class="form-loading-overlay"></div>
+</div>
+    </div>
+</div></div>
+<div class="hotel-search-tours-result">
+    <app-filters></app-filters>
+    <app-root></app-root>
+</div>
+    <div class="hotel-callback">
+        <img src="/img/lifehaker.png">
+        <div>
+            <h4>Бронируйте тур у менеджера по телефону:
+                <span class="site-phone">
+                    <a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a>                </span>
+            </h4>
+                            <p>
+                    Позвоните менеджеру и назовите номер тура:
+                    <span style="font-weight: bold" id="tourID">ST65a748807c25537c9048b4d7efbc0c0a</span>
+                </p>
+                            <button type="button" class="btn-brand open-callback-popup">Заказать звонок</button>
+        </div>
+    </div>
+                    </div>
+                </div>
+                    <div class="site-block" id="hotel-info">
+        <div class="hotel-info js-info">
+            <h4>Об отеле</h4>
+                            <p class="hotel-info-description">Курортный отель The Beach Heights находится в 6 минутах ходьбы от пляжа Ката. К услугам гостей ресторан и фитнес-центр. Номера отеля оформлены в 4 стилях, свойственных различным тайским регионам. В них предоставляется бесплатный Wi-Fi.<br />
+Номера с балконом оборудованы кондиционером и телевизором с плоским экраном. В числе удобств обеденная зона с холодильником и электрическим чайником. В собственной ванной комнате установлен душ и предоставляются фен и бесплатные туалетно-косметические принадлежности. Также в распоряжении гостей мини-бар и гостиная зона.<br />
+К услугам гостей курортного отеля Beach Heights круглосуточная стойка регистрации, сад, открытый бассейн и экскурсионное бюро. Обустроена бесплатная парковка.<br />
+Отель находится в 3 км от обзорной площадки и в 1,5 км от статуи Большого Будды. Расстояние до международного аэропорта Пхукет составляет 32 км.Парам особенно нравится расположение — они оценили проживание в этом районе вдвоем на 8,4.Расстояние, указанное в описании, рассчитано с помощью © OpenStreetMap</p>
+                <button type="button" class="hotel-more-info js-more-info">Подробнее об отеле</button>
+                                <div class="hotel-info-features">
+                                            <li>
+                            <span style="background-image: url(/img/services/bathroom.png)"></span>
+                            <div class="feature-info">
+                                Ванная комната                                <span>Туалетная бумага<br/>Полотенца<br/>Полотенца/постельное белье за дополнительную плату<br/>Ванна или душ<br/>Тапочки<br/>Собственная ванная комната<br/>Туалет<br/>Бесплатные туалетно-косметические принадлежности<br/>Халат<br/>Фен<br/>Душ</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/bed.png)"></span>
+                            <div class="feature-info">
+                                Спальня                                <span>Белье<br/>Шкаф или гардероб</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/lighthouse.png)"></span>
+                            <div class="feature-info">
+                                Вид                                <span>Вид из окна</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/sunset.png)"></span>
+                            <div class="feature-info">
+                                На свежем воздухе                                <span>Терраса для загара<br/>Балкон<br/>Терраса<br/>Сад</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/food.png)"></span>
+                            <div class="feature-info">
+                                Кухня                                <span>Электрический чайник<br/>Холодильник</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/conditioning.png)"></span>
+                            <div class="feature-info">
+                                Удобства в номере                                <span>Сушилка для одежды<br/>Вешалка для одежды</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/sport.png)"></span>
+                            <div class="feature-info">
+                                Спорт и отдых                                <span>Кулинарный мастер-класс (Оплачивается отдельно)<br/>Экскурсия или презентация о местной культуре (Оплачивается отдельно)<br/>Счастливые часы (Оплачивается отдельно)<br/>Вечерняя программа<br/>Детский клуб<br/>Анимационный персонал<br/>Караоке (Оплачивается отдельно)</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/chair.png)"></span>
+                            <div class="feature-info">
+                                Гостиная зона                                <span>Гостиный уголок<br/>Рабочий стол</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/media.png)"></span>
+                            <div class="feature-info">
+                                Медиа и технологии                                <span>Телевизор с плоским экраном<br/>Спутниковые каналы<br/>Телефон<br/>Телевизор</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/drinks.png)"></span>
+                            <div class="feature-info">
+                                Питание и напитки                                <span>Кофейня (на территории)<br/>Фрукты (Оплачивается отдельно)<br/>Вино/шампанское<br/>Детское меню<br/>Снэк-бар<br/>Бар<br/>Мини-бар<br/>Ресторан</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/wifi.png)"></span>
+                            <div class="feature-info">
+                                Интернет                                <span>Wi-Fi предоставляется на территории всего отеля бесплатно.</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/parking.png)"></span>
+                            <div class="feature-info">
+                                Парковка                                <span>Бесплатная общественная парковка на месте (предварительный заказ не требуется) .<br/>Уличная парковка<br/>Парковка автомобиля персоналом</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/registration.png)"></span>
+                            <div class="feature-info">
+                                Стойка регистрации                                <span>Услуги консьержа<br/>Банкомат на территории отеля<br/>Хранение багажа<br/>Экскурсионное бюро<br/>Обмен валюты<br/>Круглосуточная стойка регистрации</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/surfing.png)"></span>
+                            <div class="feature-info">
+                                Развлечения и семейные услуги                                <span>Игровая зона в помещении<br/>Няня / услуги по уходу за детьми (Оплачивается отдельно)</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/cleaning.png)"></span>
+                            <div class="feature-info">
+                                Услуги уборки                                <span>Ежедневная уборка<br/>Услуги по глажению одежды (Оплачивается отдельно)<br/>Химчистка (Оплачивается отдельно)<br/>Прачечная (Оплачивается отдельно)</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/business.png)"></span>
+                            <div class="feature-info">
+                                Услуги бизнес-центра                                <span>Факс/ксерокопирование (Оплачивается отдельно)<br/>Бизнес-центр<br/>Конференц-зал/банкетный зал (Оплачивается отдельно)</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/star.png)"></span>
+                            <div class="feature-info">
+                                Безопасность                                <span>Огнетушители<br/>Видеонаблюдение снаружи здания<br/>Видеонаблюдение в местах общего пользования<br/>Датчики дыма<br/>Охранная сигнализация<br/>Вход по электронной карте<br/>Круглосуточная охрана<br/>Сейф</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/info.png)"></span>
+                            <div class="feature-info">
+                                Общие                                <span>Мини-маркет (на территории)<br/>Места для курения<br/>Кондиционер<br/>Услуга «звонок-будильник»<br/>Деревянный или паркетный пол<br/>Прокат автомобилей<br/>Доступны смежные номера<br/>Лифт<br/>Семейные номера<br/>Удобства для гостей с ограниченными физическими возможностями<br/>Номера для некурящих<br/>Услуга «звонок-будильник» / будильник<br/>Доставка еды и напитков в номер</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/map.png)"></span>
+                            <div class="feature-info">
+                                Доступность                                <span>Подходит для гостей в инвалидных креслах<br/>Полностью подходит для гостей с ограниченными физическими возможностями<br/>Лифт для доступа к верхним этажам</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/star.png)"></span>
+                            <div class="feature-info">
+                                2 бассейнов                                <span>Без ограничений по возрасту<br/>Полотенца для бассейна/пляжа<br/>Шезлонги/пляжные кресла<br/>Открыт круглый год<br/>Без ограничений по возрасту</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/massage.png)"></span>
+                            <div class="feature-info">
+                                Оздоровительные услуги                                <span>Детский бассейн<br/>Раздевалка со шкафчиками в фитнес-центре / спа-салоне<br/>Фитнес<br/>Массаж всего тела<br/>Массаж рук<br/>Массаж головы<br/>Массаж для пар<br/>Массаж ног<br/>Массаж шеи<br/>Массаж спины<br/>Пакеты услуг спа/велнесс<br/>Спа-лаундж/зона для релаксации<br/>Парная<br/>Спа-процедуры<br/>Обертывание<br/>Пилинг для тела<br/>Уход за телом<br/>Педикюр<br/>Маникюр<br/>Уход за лицом<br/>Косметические услуги<br/>Зонты от солнца (Оплачивается отдельно)<br/>Шезлонги/пляжные кресла<br/>Массаж (Оплачивается отдельно)<br/>Спа и оздоровительный центр (Оплачивается отдельно)<br/>Фитнес-центр</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/star.png)"></span>
+                            <div class="feature-info">
+                                Персонал говорит на этих языках                                <span>английский<br/>тайский<br/>китайский</span>
+                            </div>
+                        </li>
+                                        </div>
+                        </div>
+    </div>
+    <div class="site-block" id="hotel-reviews">
+    <div class="hotel-reviews">
+        <div class="site-header">
+            <h4>Отзывы о THE BEACH HEIGHTS RESORT 4* (34)</h4>
+        </div>
+
+        <ul class="reviews-tabs nav nav-tabs">
+                            <li class="active">
+                    <a href="#w0-review-tab0" data-toggle="tab">
+                        Хорошие (23)                    </a>
+                </li>
+                            <li class="">
+                    <a href="#w0-review-tab1" data-toggle="tab">
+                        Нейтральные (5)                    </a>
+                </li>
+                            <li class="">
+                    <a href="#w0-review-tab2" data-toggle="tab">
+                        Плохие (6)                    </a>
+                </li>
+                    </ul>
+
+        <div class="tab-content">
+                            <div id="w0-review-tab0"
+                     class="reviews-content tab-pane active">
+                                <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Расположение, номера, бассейн, чистота, персонал, порадовали разнообразные завтраки, рядом услуги стирка (самостоятельно загрузил машину)                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Olga</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">24.02.2024</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отличное соотношение цена/качество. пришлось из-за того что все забронировано было в 4 отелях данной ценовой категории, тут на удивление лучшие завтраки. Номер чистый, без запаха плесени.(останавливались тут же в апартах, был неочень номер)                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Sergey</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">14.02.2024</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Месть расположение                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Pavel</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">08.04.2024</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />В общем твердая четверка Хорошее расположение . отзывчивый персонал . Есть практически все что нужно.  Фотографии на сайте все реальные. у нас был Делюкс с балконом . все устроило. Если кому то не нравятся завтраки , надо просто прожить дольше чем неделю ,то есть  меню меняется.  Правда с кашей проблемы , ее нет .                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Eduard</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">17.05.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отличный отель! Считаю расположение идеальное. В шаговой доступности как пляж Ката, так и Карон. Очень много рядом разных кафешек, как с тайской кухней, так и с русской. Нам было актуально, так как, был маленький ребёнок. В номере убирались ежедневно, каждый день пополняли по 0,5 воды и пакетик кофе/сахар/сухие сливки на человека. Пляжные полотенца выдают на рецепшен. Завтраки достаточно разнообразные, мы голодными не оставались.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Sergey</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">15.05.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отличный номер, уборка каждый день, чистые полотенца также каждый день. WI-FI везде ловит. Хорошее расположение относительно городских объектов.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Татьяна</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">17.04.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Не хотели регистрировать по прибытии                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Александр</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">19.03.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Хорошее расположение отеля, рядом рынок и много кафешек.                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Турянский</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">17.02.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Замечательный отель по бюджетной цене                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Evgenii</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">17.12.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Хороший отель ,но в него возят туристов по путевкам ,готовьтесь что будет многолюдно на завтраке ,в целом все остальное очень хорошо ,убирают каждый день ,хорошее расположение ,до моря минут 7 идти ,все рядом ,прекрасный персонал !                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Екатерина</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">19.11.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Цена очень понравилась))) хорошие завтраки шведский стол. Доброжелательный персонал. Достаточно быстро выполняли просьбы. Кондиционер работал нестабильно,  обратились к техперсоналу , просто проходящему в коридоре. Сразу починил , поменял блок управления. Очень внимательные на завтраках, добавляли йогурт , тк знали, что мы его едим , в 10:45 спрашивали, можно ли убирать , или мы ещё что-то хотим взять. Порадовали. Убирали каждый день, меняли полотенца, постельное через день-два. Хорошая, ухоженная территория<br />Что не понравилось: <br />Вода не особо горячая,  просто тёплая. Но мыться можно вполне комфортно. Периодически попадали немного изношенные полотенца , не с дырами,  но .... после приёма душа вода стояла около унитаза,  видимо, через щели стеклянной перегородки                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Veronika</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">12.02.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отель расположен хорошо. В отдалении от основных улиц но в шаговой доступности от пляжей. За время проживания никто не беспокоил совсем.<br />Что не понравилось: <br />Если с утра не повесите табличку об уборке. то к вам не зайдут.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Mikhail</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">09.01.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />чисто<br />Что не понравилось: <br />-                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Natalia</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">07.01.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Провели карантинную неделю. Все отлично. Удобное месторасположение, можно дойти и до Каты и до Карон. Рынок был закрыт, но в целом есть места где можно покушать и закупиться.,<br />Что не понравилось: <br />Плохо работал wi-if                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Anastasiya</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">31.12.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8.8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Хороший уютный отель, близко к двум пляжам. Все, что необходимо - есть. Уютные номера. У нас был вид на горы. Понравилось. Вернулись бы ещё? Да!<br />Что не понравилось: <br />Жуткий ветер на 7 этаже, до такой степени, что мешает спать. На перилах балкона маленькая табличка о том, что не нужно оставлять сушить вещи на балконе. В первую же ночь улетела бесследно пляжная накидка. Жаль. Была оч красивая)))) о таких вещах все-таки помасштабнее предупреждать нужно.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Alena</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">24.01.2020</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что не понравилось: <br />Завтраки, певица которая поёт каждый вечер- фальшивит и не даёт спать.                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Aleksandr</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">30.11.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отель новый или обновлен, номера чистые и красивые. Везде чисто, бассейн чистый. Персонал приветливый. От ресепшена до двери корпуса довезут на электрокаре, хоть и 20 шагов идти - это прикольно. Полотенца чистые, можно брать пляжные полотенца. Рядом 2 продуктовых рынка, где можно наесться вкусно и дешево и все свежее. Так же рядом лучшая на Кате фруктовая точка с русскоговорящим продавцом, который выбирает самые вкусные и свежие мангустины.<br />Что не понравилось: <br />Ускорить заезд. Пришлось ждать почти час, пока заселяли китайцев, но давали лимонад.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Andrei</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">24.08.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9.6</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отличное местоположение. Вежливый,отзывчивый персонал. Великолепная еда<br />Что не понравилось: <br />Не очень качественная уборка номера                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Elena</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">18.08.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Прекрасное расположение отеля в шаговой доступности сразу от 2 пляжей - Ката и Карон. Номера соответствуют фотографиям. Территория отеля (включая бассейн) ухоженная. Понравились завтраки и в целом кухня (шеф - европеец).<br />Что не понравилось: <br />Единственное пожелание: установить перед зоной Ресепшн кран для возможности ополаскивать ноги после песка с пляжа. Около бассейна есть душ, но удобнее был бы все-таки кран.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Evos</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">16.05.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Все отлично! Останавливались парой второй раз. Отель стал еще лучше! Шикарные разнообразные завтраки!                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Елена</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">13.04.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8.8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отель располагается в 12 минутах ходьбы от пляжа Ката, это если идти сокращая через "речку-вонючку", которая в наш отдых совсем и не пахла, в отличии от прошлого года. А к концу отпуска её даже частично спустили. Территория номера маленькая, а точнее - это только бассейн и лобби, но для нас это не было минусом, так как в отеле только ночевали. Номер двухместный с 1 кроватью, ключ выдают один на номер. Номер приличный, убирают как и обычно в Таиланде, претензий нет. Но вот полотенца были все в ужасных пятнах! Хоть и стиранные, пахли свежо, но на вид фиии! Бельё постельное чистое, но вот подушки были неудобные совсем (впервые встречаюсь с таким в отеле). А самое ужасное - это муравьи в постели, приходилось пшикать цитронеллой.В номере есть зонтики, сейф, чайник, холодильник, в ванной - гель для душа и шампунь, ватные палочки, шапочка, санитарные пакеты. С регулировкой температуры воды проблем не было.Были 11 ночей. Номер был на 3 этаже корпуса В, балкон выходил на соседний отель The Orchid House Kata. Завтракали в Viking Restaurant, а обедали и ужинали уже второй год в Kalika Restaurant. Депозит в 100$ вернули без проблем в течение 10 минут, главное сохраните чек о его внесении. Персонал вежливый и улыбчивый.<br />Что не понравилось: <br />Полотенца в ужасных пятнах, хоть и стиранные, пахли свежо, но на вид фиии. Подушки совсем неудобные (впервые встречаюсь с таким в отеле).  Муравьи в постели, приходилось пшикать цитронеллой.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">A1Evtina</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">22.03.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9.6</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Не в первый раз в этом отеле. Хороший персонал, качество еды, до пляжа недалеко, по дороге лучший салон тай массажа а завтракать лучше в кафе на той же улице по дороге на пляж. Спокойный размеренный отдых. Бассейнов много, есть длинный где можно отлично поплавать с маской.<br />Что не понравилось: <br />Немного холодный кондиционер, душ кое где течет а капельный не работал вообще, слабый напор воды на 8 этаже.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Margarita</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">28.10.2018</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что не понравилось: <br />1. Проблемы с вай-фай в номере (или очень медленный, или временами совсем не работал, очень часто приходилось переподключать его, однако и это не помогало решить проблему)2. Мини-замечание: В номере не было кофе (только чай), а также зубной пасты, щёток и кондиционера для волос (были уверены, что все отели предоставляют и не взяли с собой)                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Tatiana</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">21.10.2018</span>
+                                        </div>
+            </div>
+                        <div class="more-reviews">
+                <a href="" class="btn-brand btn-more-reviews">Показать еще отзывы</a>
+            </div>
+                            </div>
+                            <div id="w0-review-tab1"
+                     class="reviews-content tab-pane ">
+                                <div class="reviews-item ">
+                <div class="rating good">6</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />хорошее расположение ,персонал                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Ekaterina</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">20.01.2024</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">6</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Главный плюс отеля в удобном месторасположении. Жаль, что закрыли короткую дорогу к морю вдоль речки.В принципе, уютно оформлена зона ресепшен, приятно посидеть, подождать, никто не напрягает. Можно оставить багаж. Есть обмен книгами.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Tatiana</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">12.04.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">7</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Заселили в номер с разбитым зеркалом,быстро решили проблему заменив на номер повышенной категории с кухней. Микроволновая печь была грязная,я попросила помыть-принесли новую😁 Вообщем персонал работает на отлично. Месторасположение супер,5 мин до моря,вокруг абсолютно все есть.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Irina</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">17.12.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">7.9</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Приветливый персонал!!!Живая Музыка<br />Что не понравилось: <br />Ужасные подушки                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Ihar</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">10.02.2020</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">7.5</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Если хочется тишины, нужно брать номер с видом на горы. С другой стороны бассейн и стройка шумно. Отель в целом хороший, если не пугают пакетные туристы их тут много оказалось, но у нас был очень тихий номер и соседи отличные, 7 этаж.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Pavel</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">27.01.2019</span>
+                                        </div>
+            </div>
+                                </div>
+                            <div id="w0-review-tab2"
+                     class="reviews-content tab-pane ">
+                                <div class="reviews-item ">
+                <div class="rating bad">5</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Удобное месторасположение, хороший номер с выходом в бассейн. Уборка каждый день.                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Anna</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">12.04.2024</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">5</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Просили заселиться пораньше, так как после длинного перелёта, нам не то что дали заселиться пораньше, но ещё и с опозданием заселили,когда начал спрашивать в чем дело, показывают на свет и говорят свет отключается лифт не работает                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Nayman_7</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">04.12.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">3</div>
+                <div class="header">Очень плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Чисто, хорошее расположение, рядом куча кафе, массажей, магазинов, 7/11, банкоматы, рынок
+В номере чисто                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Ilya</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">19.11.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">5</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Начнём с того,что, с нашим оператором Гульназ, мы отдыхаем уже 4ый!Отдыхали в Турции, Египте,ОАЭ, И, впервые в Таиланде!.Обращаясь к Гульназ,можно быть уверенным, что подберёт такой Тур,который устроит ВСЕ ПРЕДПОЧТЕНИЯ ТУРИСТА!!-КАЧЕСТВО-УДОБСТВО-ЦЕНА!!.И в Пхукете нам очень понравилось! Отель хороший, персонал приветливы, завтраки вкусные! Пляж--КАТА вообще шикарный!Из других отелей приезжали к нам автобусами за 20-30$ 
+Рядом несколько базаров,больших и маленьких магазинов, аптек,..Мы довольны поездкой!! СПАСИБО, ВАМ  ГУЛЬНАЗ!!! Готовимся к следующему путешествию с Вами весной!!!<br />Что не понравилось: <br />Минусов НЕ ЗАМЕТИЛИ                     </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Межез</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">23.12.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">4</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Очень понравилось расположение отеля, рядом магазины, рестораны, до пляжа 10 минут ходьбы. Отель чистый, уютный, убирают каждый день. Особая благодарность GOTOUR, в лице менеджера Гульдарай, за внимательное отношение к каждому клиенту. <br />Что не понравилось: <br />Завтраки в отеле скудные                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Шарлотта</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">30.11.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">3.3</div>
+                <div class="header">Очень плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />бассейн<br />Что не понравилось: <br />Персонал на ресепш при заселении вел себя грубо, настаивал, чтобы оплатили немедленно, требовали открыть чемодан и вынуть все вещи. Полотенца на пляж дают один раз в день, поменять на чистые, в случае дождя нельзя. В номере душ льется маленькой струйкой, напор горячей воды очень слабый, жаловались, бесполезно. Ремонт сделан наспех, все в номере отваливается. Убирают плохо. Высокий депозит при заселении, о котором не предупреждают заранее. Завтраки однообразны.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Artur</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">01.10.2018</span>
+                                        </div>
+            </div>
+                                </div>
+                    </div>
+    </div>
+</div>
+                <div class="not-that">
+                    <img src="/img/lifehaker.png" alt="">
+                    <h4>Не то, что вы искали?</h4>
+                    <a href="/poisk-tura.html?departCity=1&country=3&region=&hotels=8373&dateFrom=09.12.2024&dateTo=15.12.2024&nightsFrom=3&nightsTo=6&adult=2&child=0&childAges=&stars=0&search=1" class="btn-brand">Продолжить поиски</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="hidden tour-detail-callback-container">
+    <div class="callback-form tour-detail-callback-form">
+    <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">    <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">    <div class="form-group">
+        <label>Ваше номер:</label>
+        <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="+7">    </div>
+    <div class="form-group callback-submit-wrap">
+        <button type="button"
+            class="btn-carrot callback-form-submit"
+            data-form-type="short">Отправить заявку</button>
+    </div>
+    <div class="form-group callback-result-wrap hidden"></div>
+</div>
+</div>
+        <div class="clearfix"></div>
+    </main>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="logo">
+            <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            <div class="copyright">
+                Copyright © 2012–2024 «Gotour.kz».<br/>
+                    Юридический адрес:
+                    050010, Республика Казахстан,
+                    г. Алматы, Бостандыкский район,<br/>
+                    пр. Назарбаева д. 193, н.п. 66<br/>
+                    БИН 180940008518<br />
+                    Сайт не является публичной офертой            </div>
+        </div>
+        <div class="footer-links">
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Города вылета</div>
+                <div class="cities-list">
+                    <ul>
+                                                    <li>
+                                <a href="/tury/iz-almaty.html">
+                                    Алматы                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-astana.html">
+                                    Астана                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-moscow.html">
+                                    Москва                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktobe.html">
+                                    Актобе                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktay.html">
+                                    Актау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-karaganda.html">
+                                    Караганда                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-shymkent.html">
+                                    Шымкент                                </a>
+                            </li>
+                            </ul><ul>                            <li>
+                                <a href="/tury/iz-atiray.html">
+                                    Атырау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-semei.html">
+                                    Семей                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-taldikorgan.html">
+                                    Талдыкорган                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-temirtay.html">
+                                    Темиртау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-uralsk.html">
+                                    Уральск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-ust-kamenogorsk.html">
+                                    Усть-Каменогорск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-pavlodar.html">
+                                    Павлодар                                </a>
+                            </li>
+                                                </ul>
+                </div>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Популярные страны</div>
+                <ul>
+                    <li><a href="/tury/turciya.html">Турция</a></li>
+                    <li><a href="/tury/egypet.html">Египет</a></li>
+                    <li><a href="/tury/oae.html">ОАЭ</a></li>
+                    <li><a href="/tury/thailand.html">Таиланд</a></li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Другое</div>
+                <ul>
+                    <li><a href="/privacy.html">Политика
+                            конфиденциальности</a></li>
+                    <li><a href="/how-to-buy-tour.html">Как купить тур</a></li>
+                    <li><a href="/banners.html">Реклама</a></li>
+                    <li><a href="/for-hotel-admin.html">Для отельеров и
+                            заведений
+                        </a></li>
+                    <li>
+                        <a href="/legal-information/user-agreement.html" target="_blank">
+                            Пользовательское соглашение
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <a href="https://www.instagram.com/gotour.kz/" target="_blank" class="smm-link instagram-link">
+                    <img src="/img/social/instagram.png" alt="Instagram" class="smm-icon"></a>
+                <a href="https://www.facebook.com/gotour.kz" target="_blank" class="smm-link facebook-link">
+                    <img src="/img/social/facebook.png" alt="Facebook" class="smm-icon"></a>
+                <a href="https://t.me/gotour_kz" target="_blank" class="smm-link telegram-link">
+                    <img src="/img/social/telegram.svg" alt="Telegram" class="smm-icon"></a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</footer>
+
+<div class="modal fade" id="bspopup">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="callback-form-popup" class="hidden">
+    <div class="callback-form callback-form-popup text-center">
+        <div class="callback-on-working hidden">
+            <img src="/img/france-woman.png" alt="">
+            <p class="block-title">ПЕРЕЗВОНИМ ВАМ</p>
+        </div>
+        <div class="callback-night-time">
+            <img src="/img/night-time.png" alt="">
+            <p class="block-title">Извините, в данный момент офисы закрыты!</p>
+            <p class="block-hint">
+                Мы перезвоним вам <span class="fw-m nowrap">сегодня (09.12)</span> в удобное для вас время:
+            </p>
+            <div class="callback-choose-time">
+                <button type="button" class="active" data-time="11:00">11:00</button><button type="button" class="" data-time="12:00">12:00</button><button type="button" class="" data-time="13:00">13:00</button><button type="button" class="" data-time="14:00">14:00</button><button type="button" class="" data-time="15:00">15:00</button><button type="button" class="" data-time="16:00">16:00</button><button type="button" class="" data-time="17:00">17:00</button><button type="button" class="" data-time="18:00">18:00</button>            </div>
+        </div>
+        <div class="callback-inputs">
+            <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">            <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">            <input type="hidden" class="form-control callback-widget-delayed-time" name="callback-widget-delayed-time" value="11:00"><input type="hidden" class="form-control callback-widget-delayed-date" name="callback-widget-delayed-date" value="09.12.2024"><input type="hidden" class="form-control callback-widget-is-choose-time" name="callback-widget-is-choose-time" value="0">            <div class="form-group">
+                <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Укажите ваш номер телефона">                <span class="callback-submit-wrap">
+                    <button type="button"
+                        class="btn-carrot callback-form-submit callback-form-analytics">ПЕРЕЗВОНИТЕ МНЕ</button>
+                </span>
+            </div>
+        </div>
+        <div class="callback-result-wrap hidden"></div>
+    </div>
+</div>
+
+<script type="text/html" id="leave-subscribe-modal-content">
+    <div class="column-subscription subscription subscription-control leave-subscribe-modal">
+        <div>
+            <img class="lifehaker" src="/img/lifehaker.png" alt="lifehacker">
+        </div>
+        <div class="text-left subscribe-form-block">
+            <div class="leave-subscribe-modal-hint">Подпишитесь на рассылку и экономьте до 50% на турах!</div>
+            <div class="form-group tooltip-error">
+                <input type="hidden" class="subscription-city-control" value="3">
+                <input type="text" class="subscription-email-validate" placeholder="Введите ваш email">
+                <button type="submit" class="subscribe-btn subscribe-btn-analytics">Подписаться</button>
+
+                <div class="subscription-loading hide">
+                    Пожалуйста подождите <img src="/img/load.gif" alt="loading">
+                </div>
+                <div class="subscription-result hide"></div>
+            </div>
+        </div>
+    </div>
+</script>
+<div id="quiz-widget">
+    <div class="the-quiz">
+        <div class="quiz-content">
+            <header class="quiz-header">
+                <h4 class="text-title">
+                    Получите подборку туров по вашим<br/>критериям на
+                    <em class="hyperlink">WhatsApp</em>
+                </h4>
+                <p class="text-secondary">
+                    Туры подбираются вручную нашими специалистами!
+                </p>
+            </header>
+            <div class="quiz-body">
+                <form class="quiz-form" action="/quiz/create.html" method="post">
+<input type="hidden" name="_csrf" value="YKh57XCX4Av66Wx_GR7p-bkGdlGzVZGhR6F7Ju2ajlAN-D-KCtajOMyhJjRBUdio1F4OB-cn8vgW7zRphvz5CQ==">                    <div class="quiz-group">
+                        <p class="text-title">
+                            Куда?                        </p>
+                        <div class="quiz-row item-list">
+                                                            <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-40" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="40" data-attr="countries"><label class="quiz-control" for="quiz-country-40">ОАЭ</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-9" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="9" data-attr="countries"><label class="quiz-control" for="quiz-country-9">Египет</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-25" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="25" data-attr="countries"><label class="quiz-control" for="quiz-country-25">Турция</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-58" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="58" data-attr="countries"><label class="quiz-control" for="quiz-country-58">Мальдивы</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-45" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="45" data-attr="countries"><label class="quiz-control" for="quiz-country-45">Доминикана</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-53" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="53" data-attr="countries"><label class="quiz-control" for="quiz-country-53">Танзания</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-8" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="8" data-attr="countries"><label class="quiz-control" for="quiz-country-8">Грузия</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-28" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="28" data-attr="countries"><label class="quiz-control" for="quiz-country-28">Чехия</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-0" class="quiz-toggle quiz-checkbox" data-role="customCountries"><label class="quiz-control" for="quiz-country-0">Другое</label>                                </div>
+                                                        </div>
+                        <div class="quiz-row">
+                            <label class="quiz-control type-text invisible field-quizform-customcountries">
+<input type="text" class="quiz-input" name="QuizForm[customCountries]" value="" maxlength="50" data-attr="customCountries" placeholder="Укажите страну:">
+</label>                        </div>
+                    </div>
+                    <div class="quiz-group">
+                        <p class="text-title">
+                            Когда?                        </p>
+                        <div class="quiz-row item-list">
+                                                            <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-7d" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="7d" data-attr="periods"><label class="quiz-control" for="quiz-period-7d">В течение 7 дней</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-14d" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="14d" data-attr="periods"><label class="quiz-control" for="quiz-period-14d">В течение 14 дней</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-1m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="1m" data-attr="periods"><label class="quiz-control" for="quiz-period-1m">В течение месяца</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-2m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="2m" data-attr="periods"><label class="quiz-control" for="quiz-period-2m">Через 2 месяца</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-3m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="3m" data-attr="periods"><label class="quiz-control" for="quiz-period-3m">Через 3 месяца</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-6m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="6m" data-attr="periods"><label class="quiz-control" for="quiz-period-6m">В течение 6 месяцев</label>                                </div>
+                                                        </div>
+                    </div>
+                    <div class="quiz-group">
+                        <p class="text-title">
+                            На какой номер вам скинуть?                        </p>
+                        <div class="quiz-row">
+                            <label class="quiz-control type-text type-phone social-whatsapp field-quizform-phone required">
+<input type="text" class="quiz-input" name="QuizForm[phone]" maxlength="18" data-attr="phone" data-mask="(999) 999-99-99" placeholder="(___) ___-__-__" aria-required="true">
+</label>                        </div>
+                        <div class="quiz-row item-list">
+                            <div class="quiz-item">
+                                
+<input type="hidden" name="QuizForm[isCallbackAllowed]" value="0"><input type="checkbox" id="quiz-is-callback-allowed" class="quiz-toggle quiz-checkbox" name="QuizForm[isCallbackAllowed]" value="1" aria-required="true">
+<label class="quiz-control" for="quiz-is-callback-allowed">Можете мне позвонить!</label>                            </div>
+                        </div>
+                    </div>
+                </form>            </div>
+            <footer class="quiz-footer">
+                <p class="quiz-feedback"></p>
+                <button class="quiz-button" data-role="progress">
+                    <span class="progress-caption">Далее</span>
+                    <span class="progress-indicator"></span>
+                </button>
+            </footer>
+        </div>
+        <div class="quiz-completion">
+            <p class="text-title">Спасибо за заявку!</p>
+            <p>
+                Наши специалисты скоро свяжутся<br/>
+                с вами и предложат самые лучшие<br/>
+                варианты для отдыха!
+            </p>
+            <footer class="quiz-completion-footer">
+                <button class="quiz-button" data-role="complete">Отлично, жду!</button>
+            </footer>
+        </div>
+    </div>
+</div>
+<div class="hidden" id="timeoutPopup">
+    <div id="timeoutForm">
+        <img src="/img/waiting-man.png" alt="">
+        <div class="timeoutTitle">Получить свежие цены</div>
+        <div class="timeoutHelp">
+            Результаты поиска актуальны в течение <strong>15 минут!</strong>
+        </div>
+        <button id="repeatCurrentSearch" class="btn-brand">
+            Обновить поиск
+        </button>
+    </div>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXVW283"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Pixel -->
+<!-- /Pixel -->
+<div id="emerge-callback-form" class="callback-form">
+    <div class="emerge-callback-form">
+        <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">        <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">        <div class="form-group">
+        <input type="text" class="form-group callback-widget-name" name="callback-widget-name" value="" placeholder="Ваше Имя">        </div>
+        <div class="form-group">
+            <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Телефон">        </div>
+    </div>
+    <div class="emerge-callback">
+        <span class="site-phone"><a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a></span>
+        <button id="show-emerge-callback" type="button" class="btn-show-callback-form">Перезвоните мне</button>
+    </div>
+    <div class="callback-result-wrap hidden"></div>
+</div>
+
+<script src="/assets/6afec75e/jquery.min.js?v=1733117057"></script>
+<script src="/assets/ac4c6828/yii.js?v=1733117057"></script>
+<script src="/js/plugins/jquery.cookie.min.js?v=1730179335"></script>
+<script src="/js/plugins/bootstrap.min.js?v=1730179335" onload="window.registerBootstrapTooltip &amp;&amp; window.registerBootstrapTooltip()"></script>
+<script src="/assets/97214d0d/bundle.min.js?v=1733117057" onload="initSentry &amp;&amp; initSentry()"></script>
+<script src="/js/moment-with-locales.min.js?v=1730179335"></script>
+<script src="/js/plugins/maskedinput.min.js?v=1730179335"></script>
+<script src="/js/jquery.actual.min.js?v=1730179335"></script>
+<script src="/js/sockjs-0.3.2.min.js?v=1730179335"></script>
+<script src="/dist/common/core/js/core.min.js?v=1730179335"></script>
+<script src="/dist/desktop/common/main/js/main.min.js?v=1730179335"></script>
+<script src="/assets/940ba2f7/search.min.js?v=1733117060"></script>
+<script type="module" src="/assets/69fe9865/runtime-es2015.js?v=1733117078"></script>
+<script type="module" src="/assets/69fe9865/polyfills-es2015.js?v=1733117078"></script>
+<script src="/assets/69fe9865/runtime-es5.js?v=1733117078" nomodule="nomodule"></script>
+<script src="/assets/69fe9865/polyfills-es5.js?v=1733117078" nomodule="nomodule"></script>
+<script type="module" src="/assets/69fe9865/main-es2015.js?v=1733117078"></script>
+<script src="/assets/69fe9865/main-es5.js?v=1733117078" nomodule="nomodule"></script>
+<script src="/dist/common/search/js/search.min.js?v=1730179335"></script>
+<script src="/dist/desktop/pages/hotel/js/hotel.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/callback/core/js/core.min.js?v=1730179335" async="async"></script>
+<script src="/dist/desktop/widgets/find-form/form/js/form.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/subscription-form/common/js/common.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/subscription-form/leave-subscribe-modal/js/leave-subscribe-modal.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/quiz/js/quiz.min.js?v=1730179335" async="async"></script>
+<script>jQuery(function ($) {
+var wideSearchFormParams = {"values":{"countryId":3,"regionId":null,"departCityId":1,"nightsFrom":3,"nightsTo":6,"adult":2,"child":0,"childAges":[],"stars":0,"selectedHotel":{"id":8373,"name":"THE BEACH HEIGHTS RESORT 4* (Таиланд, Пхукет)","countryId":3},"mealIds":[],"selectedDate":"12.12.2024","isSoftDates":true,"combined":2,"search":1},"data":{"urls":{"getData":"\/find-tours\/get-data-for-wide.html","getRegions":"\/find-tours\/get-regions.html","getDates":"\/find-tours\/get-allowed-dates.html","getDestinations":"\/find-tours\/intelligent-search.html"}},"mode":"hotel"};
+var wideSearchForm = new WideSearchForm(wideSearchFormParams);
+
+var selector = "#tourID";
+if (typeof(window.utils.getShortTourId) === "function") {
+    window.utils.getShortTourId($(selector).text(), selector);
+}
+
+});</script>
+<script>jQuery(window).on('load', function () {
+if (window.Sentry) {
+                Sentry.configureScope(function(scope) {
+                    if (window.yaCounter18493072) {
+                        scope.setExtra("yandex_client_id", yaCounter18493072.getClientID());
+                    }
+                    scope.setExtra("is_mobile_version", window.app.isMobile);
+                });
+            }
+});</script></body>
+</html>

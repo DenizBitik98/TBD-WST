@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="65px" height="85px" viewBox="0 0 13 17">
+<filter filterUnits="objectBoundingBox" x="0.00" y="0.00" width="100.00" height="100.00" id="filter0">
+<feFlood flood-color="rgb(255,255,255)" result="coFloodOut1"/>
+<feComposite in="coFloodOut1" in2="SourceAlpha" operator="in" result="coOverlay1"/>
+<feBlend in="coOverlay1" in2="SourceGraphic" mode="normal" result="colorOverlay1"/>
+</filter>
+<clipPath id="clip0"><path fillRule="evenodd" d="M 12.54 16.89C 12.39 16.96 12.23 17 12.07 17 11.91 17 11.75 16.96 11.6 16.89 11.6 16.89 0.47 9.26 0.47 9.26 0.18 9.1-0 8.81-0 8.5-0 8.18 0.18 7.89 0.47 7.73 0.47 7.73 11.6 0.11 11.6 0.11 11.89-0.05 12.25-0.05 12.54 0.11 12.82 0.26 13 0.55 13 0.87 13 0.87 13 16.12 13 16.12 13 16.44 12.82 16.73 12.54 16.89Z"/></clipPath><defs>
+<symbol id="symbol0"><path fillRule="evenodd" d="M 12.54 16.89C 12.39 16.96 12.23 17 12.07 17 11.91 17 11.75 16.96 11.6 16.89 11.6 16.89 0.47 9.26 0.47 9.26 0.18 9.1-0 8.81-0 8.5-0 8.18 0.18 7.89 0.47 7.73 0.47 7.73 11.6 0.11 11.6 0.11 11.89-0.05 12.25-0.05 12.54 0.11 12.82 0.26 13 0.55 13 0.87 13 0.87 13 16.12 13 16.12 13 16.44 12.82 16.73 12.54 16.89Z"/></symbol></defs>
+<g><path fillRule="evenodd" d="M 12.54 16.89C 12.39 16.96 12.23 17 12.07 17 11.91 17 11.75 16.96 11.6 16.89 11.6 16.89 0.47 9.26 0.47 9.26 0.18 9.1-0 8.81-0 8.5-0 8.18 0.18 7.89 0.47 7.73 0.47 7.73 11.6 0.11 11.6 0.11 11.89-0.05 12.25-0.05 12.54 0.11 12.82 0.26 13 0.55 13 0.87 13 0.87 13 16.12 13 16.12 13 16.44 12.82 16.73 12.54 16.89Z" fill="rgb(0,0,0)" filter="url(#filter0)"/><use xlink:href="#symbol0" x="0" y="0" width="13" height="17" fill="none" stroke="rgb(69,141,239)" stroke-width="4.00px" clip-path="url(#clip0)"/></g></svg>

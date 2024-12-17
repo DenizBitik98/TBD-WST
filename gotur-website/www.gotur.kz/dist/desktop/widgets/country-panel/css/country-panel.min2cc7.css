@@ -1,0 +1,1 @@
+.country-panel{display:flex;justify-content:center}.country-panel .country-panel_item{color:#fff;font-size:18px;margin:0 5px;padding:8px 20px;border-radius:4px}.country-panel .country-panel_item.active{background-color:#fa715d}.country-panel .country-panel_item.active:hover{background-color:#f9634e}

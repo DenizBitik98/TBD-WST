@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <base href="https://www.gotur.kz/">
+    <meta charset="UTF-8">
+<link rel="apple-touch-icon" sizes="180x180" href="/appicon/apple-touch-icon.png">
+<link rel="mask-icon" href="/appicon/safari-pinned-tab.svg" color="#f06251">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/appicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/appicon/favicon-16x16.png">
+<link rel="shortcut icon" href="/appicon/favicon.ico">
+
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#0071d4">
+<meta name="msapplication-TileImage" content="/appicon/ms-icon-144x144.png">
+
+<meta name="theme-color" content="#0071d4">
+<meta name="apple-mobile-web-app-status-bar-style" content="#0071d4">
+
+<meta name="apple-mobile-web-app-title" content="Турагентство GOTOUR.KZ">
+<meta name="application-name" content="Турагентство GOTOUR.KZ"><meta name="google-site-verification" content="nobn0mtbRwAQHcL3W59PH-Gao9rteXQYgcYvaPQZkbU" />
+<meta name="wmail-verification" content='36246c1762379c1cad53ce96f5535c4b' />
+<meta name="yandex-verification" content="e4a55cdfe208dc62" />
+<meta name="facebook-domain-verification" content="mms3bvse53ek441uksblgotrfn182b" />
+    <title>Зона отдыха Деревушка | отзывы, цены, бронирование, адрес, телефоны - goTUR.kz</title>
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="hswE9P54Nh-WefeA-X7Bgon8S_PWF5EorYjV_pHRxd7rnEKThDl1LKAxvcuhMfDT5KQzpYJl8nH8xpqx-reyhw==">
+<script>
+    app = {
+        staticDomain: "https://static.gotur.kz",
+        googleMapApiKey: "AIzaSyDebOpjG3l-Y3fcxlzMKxBG6dAJwmdgy8Q",
+        yandexMapApiKey: "0f162d03-62bd-432b-86bb-653a4b66ff89",
+        urls: {
+            getShortId: "/tour/get-short-id.html",
+            addSubscription: "/subscription.html",
+            addSubscriptionSuccess: "/subscription-success.html",
+            findTour: "/tour/find.html",
+            addCallback: "/callback/create.html",
+            changeCallbackCallTime: "/callback/change-call-time.html",
+            setCity: "/site/set-city.html",
+            setCurrency: "/site/set-currency.html"
+        },
+        city: {
+            id: 1,
+        },
+        realCity: {
+            name: ""        },
+        cities: {"1":{"id":1,"name":"Алматы","depart_id":1,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"https://www.instagram.com/gotour.kz/","facebook":"https://www.facebook.com/gotour.kz/"},"contactsHidden":false},"2":{"id":2,"name":"Астана","depart_id":2,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"4":{"id":4,"name":"Актобе","depart_id":6,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"5":{"id":5,"name":"Актау","depart_id":8,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"8":{"id":8,"name":"Караганда","depart_id":4,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"9":{"id":9,"name":"Шымкент","depart_id":5,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"10":{"id":10,"name":"Атырау","depart_id":12,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"11":{"id":11,"name":"Семей","depart_id":0,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"12":{"id":12,"name":"Талдыкорган","depart_id":0,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"13":{"id":13,"name":"Темиртау","depart_id":0,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"14":{"id":14,"name":"Уральск","depart_id":10,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"15":{"id":15,"name":"Усть-Каменогорск","depart_id":11,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"16":{"id":16,"name":"Павлодар","depart_id":9,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true}},
+        cityTemplate: {
+            hiddenPhone: "<span class=\"hidden-phone\" role=\"button\" data-city=\"{{cityId}}\" data-type=\"{{type}}\"><span class=\"phone-code\">{{phoneCode}}</span><span class=\"btn-show-hidden-phone\">Показать</span></span>",
+            phoneLink: "<a class=\"site-phone-link phone-{{clearPhone}} clickable-phone\" href=\"{{href}}\">{{phone}}</a>",
+        },
+        sock: {
+            local: "//127.0.0.1:8888/serv",
+            main: "https://ws.gotour.kz/serv",
+        },
+                srcCount: 30,
+        v_uid: undefined,
+        currency: "kzt",
+        isMobile: 0,
+        isGeolocationEnabled: 0,
+        debug: 0,
+        loading: {
+            data: "",
+            dots: "",
+            circle: "<div class=\"circle-loader\"><svg viewBox=\"25 25 50 50\"><circle cx=\"50\" cy=\"50\" r=\"20\"></circle></svg></div>",
+        },
+                quizCountdownMs: 1000,
+    };
+</script>
+<meta name="description" content="Зона отдыха Деревушка на горячих источниках - одна из самых лучших, для отдыха с друзьями и семьей.">
+<meta name="keywords" content="">
+<link href="https://www.gotur.kz/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html" rel="canonical">
+<link href="/css/plugins/bootstrap.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/common/main/css/main.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/modules/hotelCatalog/css/hotelCatalog.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/ya-share/css/ya-share.min.css?v=1730179335" rel="stylesheet">
+<link href="/assets/560a4d5d/css/blueimp-gallery.min.css?v=1733117142" rel="stylesheet">
+<link href="/assets/d2eee371/css/comment.css?v=1733117067" rel="stylesheet">
+<link href="/dist/desktop/widgets/recent-hotels-block/css/recent-hotels-block.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/callback/core/css/core.min.css?v=1730179335" rel="stylesheet">
+<script>
+    // Google Tag Manager
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXVW283');
+    // End Google Tag Manager
+
+var yandexConfig = {"params":{"pageType":"other"},"enableClickMap":false,"enableWebVisor":false};</script></head>
+<body class="gotour-theme ">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","additionalType":"TravelAgency","address":{"@type":"PostalAddress","addressLocality":"Алматы, Казахстан","streetAddress":"Проспект Назарбаева 193, 1 этаж"},"name":"туристское агентство","email":"almaty@gotour.kz","openingHours":["Mo-Fr 10:00-19:00","Sa 10:00-15:00"],"priceRange":"155000-2150000KZT","telephone":["+7 (727) 344‒97‒88","+7 (747) 344‒97‒88","+7 (771) 171‒71‒86"],"image":"https://www.gotur.kz/img/gt-logo-white.png","url":"//www.gotur.kz","geo":{"@type":"GeoCoordinates","latitude":"76.948285","longitude":"43.239908"}}</script>    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.gotur.kz/","name":"Главная"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.gotur.kz/oteli.html","name":"Отели & Базы отдыха"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.gotur.kz/oteli/kazakhstan.html","name":"Казахстан"}},{"@type":"ListItem","position":4,"item":{"@id":"https://www.gotur.kz/oteli/kazakhstan/almatinskaia-obl.html","name":"Алматинская обл."}},{"@type":"ListItem","position":5,"item":{"@id":"https://www.gotur.kz/oteli/kazakhstan/almatinskaia-obl/chundzha.html","name":"Чунджа"}},{"@type":"ListItem","position":6,"item":{"@id":"https://www.gotur.kz/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html","name":"Зона отдыха Деревушка"}}]}</script><script>var stopDates = ["2020-02-15","2020-02-16","2020-02-22","2020-02-23","2020-02-29","2020-03-01"]
+    function registerBootstrapTooltip() {
+        if (window.jQuery && $.isFunction($.fn.tooltip)) {
+            jQuery.fn.extend({ bootstrapTooltip: $.fn.tooltip })
+        }
+    }
+function initSentry() {
+                    Sentry.init({
+                        dsn: 'https://72ea944f82714cbc9cc44c7e09d6315c@o50394.ingest.sentry.io/5377892',
+                        ignoreErrors: ["Failed to fetch","$ is not defined","Can't find variable: jQuery","Can't find variable: $","adsbygoogle.push() error: No slot size for availableWidth=0"],
+                        denyUrls: [],
+                        integrations: [
+                            new Sentry.Integrations.GlobalHandlers({
+                                onerror: true,
+                                onunhandledrejection: false
+                            })
+                        ]
+                    });
+                }
+var hotelRoadMapData = {"contactsViewLinkTemplate":"\u003Ca class=\u0022analytic-event popup\u0022 href=\u0022#\u0022 data-event=\u0022show-hotel-phone\u0022 data-href=\u0022\/hotelCatalog\/default\/show-contacts.html?id={{id}}\u0022 data-width=\u0022600\u0022\u003EПоказать телефон\u003C\/a\u003E","currentHotel":{"id":1328,"name":"Зона отдыха Деревушка","coordinates":{"lat":"43.63678796589425","lng":"80.05494832992554"}}};</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Hotel","name":"Зона отдыха Деревушка","image":"/uploads/hotels/1328/5e1c562bc6d15.jpg","description":"Зона отдыха Деревушка на горячих источниках - одна из самых лучших, для отдыха с друзьями и семьей.","address":{"@type":"PostalAddress","addressLocality":"Алматинская обл.","addressCountry":"Казахстан","streetAddress":"Казахстан, Алматинская обл., Уйгурский р-н, съезд на 97 км автотрассы (указатель-столбик на обочине)."},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5"},"starRating":0,"amenityFeature":[["Баня","Бассейн","Беседки"]]}</script><div class="wrapper">
+    
+<nav class="nav-bar">
+    <div class="container nav-bar-container">
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                <li>
+    <a href="/tury/goryashchie-tury/almaty.html" class="direct-link">Горящие туры</a>
+</li>
+                <li>
+    <a href="/tury/iz-almaty.html" class="direct-link">Цены на туры</a>
+</li>
+                <li class="dropdown">
+    <a href="/poisk-tura.html">Поиск онлайн <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/poisk-tura.html">Поиск туров</a></li>
+                    <li><a href="/aviabilety.html">Поиск авиабилетов</a></li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/tury.html">Отдых за рубежом <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/turciya/almaty.html">Туры в Турцию</a></li>
+                                            <li><a href="/tury/thailand/almaty.html">Туры в Таиланд</a></li>
+                                            <li><a href="/tury/oae/almaty.html">Туры в ОАЭ</a></li>
+                                            <li><a href="/tury/india/almaty.html">Туры в ГОА, Индия</a></li>
+                                            <li><a href="/tury/egypet/almaty.html">Туры в Египет</a></li>
+                                            <li><a href="/tury/vietnam/almaty.html">Туры в Вьетнам</a></li>
+                                            <li><a href="/tury/dominikanskaia-resp/almaty.html">Туры в Доминикану</a></li>
+                                            <li><a href="/tury/kitaj/almaty.html">Туры в Китай(Хайнань)</a></li>
+                                            <li><a href="/tury.html">Смотреть все туры</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Тематические туры <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/rannee-bronirovanie.html">Раннее бронирование туров</a></li>
+                                            <li><a href="/tury/gornolyzhnye-tury.html">Горнолыжные туры</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Горящие туры</a></li>
+                                            <li><a href="/tury/individualnye-i-vip-tury.html">Индивидуальные и VIP туры</a></li>
+                                            <li><a href="/tury/kombinirovannye-tury.html">Комбинированные туры</a></li>
+                                            <li><a href="/tury/morskie-kruizy.html">Морские круизы</a></li>
+                                            <li><a href="/tury/lechebnye-tury.html">Лечебные туры</a></li>
+                                            <li><a href="/tury/plyazhnyj-otdykh.html">Пляжный отдых</a></li>
+                                            <li><a href="/tury/svadebnye-tury.html">Свадебные туры</a></li>
+                                            <li><a href="/tury/tury-na-prazdniki-meropriyatiya.html">Туры на праздники, мероприятия</a></li>
+                                            <li><a href="/tury/shop-tury.html">Шоп-туры</a></li>
+                                            <li><a href="/tury/ekskursionnye-tury.html">Экскурсионные туры</a></li>
+                                            <li><a href="/tury/avtobusnye-tury.html">Автобусные туры</a></li>
+                                            <li><a href="/tury/detskij-otdykh.html">Детский отдых</a></li>
+                                            <li><a href="/tury/newyear.html">Новогодние туры</a></li>
+                                            <li><a href="/tury/spring-break-and-nauryz.html">Весенние каникулы и Наурыз</a></li>
+                                            <li><a href="/tury/may_holidays_tours.html">Туры на майские праздники</a></li>
+                                            <li><a href="/tury/osennie-kanikuly.html">Осенние каникулы</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Смотреть все</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Полезно знать <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/strany.html">О странах</a></li>
+                                            <li><a href="/oteli.html">Отели</a></li>
+                                            <li><a href="/blogs.html">Интересные статьи</a></li>
+                                            <li><a href="/news.html">Новости туризма</a></li>
+                                            <li><a href="/tury/vizy-registratsiya.html">Визы, регистрация</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/oteli/kazakhstan.html">Отдых в Казахстане <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Регионы <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan.html">Все зоны отдыха, санатории в Казахстане</a></li>
+                                            <li><a href="/oteli/kazakhstan/almatinskaia-obl.html">Алматинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/aktiubinskaia-obl.html">Актюбинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/atyrausaia-obl.html">Атыраусая обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/vostochno-kazakhstanskaia-obl.html">Восточно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zhambylskaia-oblast.html">Жамбылская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zapadno-kazakhstanskaia-obl.html">Западно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/karagandinskaia-obl.html">Карагандинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kostanaiskaia-obl.html">Костанайская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kyzylordinskaia-obl.html">Кызылординская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/mangistauskaia-obl.html">Мангистауская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/pavlodarskaia-obl.html">Павлодарская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/severo-kazakhstanskaia-obl.html">Северо-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/iuzhno-kazakhstanskaia-obl.html">Южно-Казахстанская обл.</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kapchagae.html">Отдых на Капчагае</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-alakole.html">Отдых на Алаколе</a></li>
+                                            <li><a href="/oteli/kazakhstan/goryachie-istochniki.html">Горячие источники</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-borovom.html">Отдых в Боровом</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-s-detmi.html">Отдых с детьми</a></li>
+                                            <li><a href="/oteli/kazakhstan/pokatatsya-na-lyzhakh-sankakh.html">Покататься на лыжах, санках</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-zerende.html">Отдых в Зеренде</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-balkhashe.html">Отдых на Балхаше</a></li>
+                                            <li><a href="/oteli/kazakhstan/vip-otdykh.html">VIP отдых</a></li>
+                                            <li><a href="/oteli/kazakhstan/okhota.html">Охота</a></li>
+                                            <li><a href="/oteli/kazakhstan/bassejny-i-akvaparki.html">Бассейны и Аквапарки</a></li>
+                                            <li><a href="/oteli/kazakhstan/rybalka.html">Рыбалка</a></li>
+                                            <li><a href="/oteli/kazakhstan/anatorii-lechenie-spa.html">Санатории, Лечение, СПА</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kaspii.html">Отдых на Каспии</a></li>
+                                            <li><a href="/oteli/kazakhstan/piknik.html">Пикник</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Виды зон отдыха <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/hostel.html">Hostel</a></li>
+                                            <li><a href="/oteli/kazakhstan/baza-otdykha.html">База отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/butik-otel.html">Бутик отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostevoj-dom.html">Гостевой дом</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinitsa.html">Гостиница</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinichnyj-kompleks.html">Гостиничный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/dom-otdykha.html">Дом отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/sanatorij.html">Санаторий</a></li>
+                                            <li><a href="/oteli/kazakhstan/kemping-otel.html">Кемпинг</a></li>
+                                            <li><a href="/oteli/kazakhstan/kottedzhnyj-kompleks.html">Коттеджный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/pansionat.html">Пансионат</a></li>
+                                            <li><a href="/oteli/kazakhstan/turbaza.html">Турбаза</a></li>
+                                            <li><a href="/oteli/kazakhstan/eko-otel.html">Эко отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/chastnyj-sektor.html">Частный сектор</a></li>
+                                            <li><a href="/oteli/kazakhstan/detskij-lager.html">Детский лагерь</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Туры выходного дня <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/holiday.html">Все туры выходного дня</a></li>
+                                            <li><a href="/holiday/almaty.html">В Алматы</a></li>
+                                            <li><a href="/holiday/astana.html">В Нур-Cултане (Астана)</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/company.html">О нас <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/turagentstva/operator.html">Наши партнеры</a></li>
+            </ul>
+</li>
+                <li>
+    <a href="/kontakti.html" class="direct-link">Контакты</a>
+</li>
+            </ul>
+        </div>
+        <div class="nav-bar-city-select">
+    Ваш город:&nbsp;
+    <div class="h-select main_hSelect" id="hSelectMainCity">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face" data-value="1">
+                <span>Алматы</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="1">
+                    <span>Алматы</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="2">
+                    <span>Астана</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="4">
+                    <span>Актобе</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="5">
+                    <span>Актау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="8">
+                    <span>Караганда</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="9">
+                    <span>Шымкент</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="10">
+                    <span>Атырау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="11">
+                    <span>Семей</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="12">
+                    <span>Талдыкорган</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="13">
+                    <span>Темиртау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="14">
+                    <span>Уральск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="15">
+                    <span>Усть-Каменогорск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="16">
+                    <span>Павлодар</span>
+                </div>
+                        </div>
+    </div>
+</div>
+        <div class="nav-bar-currency-select">
+    <div class="h-select main_hSelect" id="hSelectCurrency">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face">
+                <span>KZT</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="kzt">
+                    <span>KZT</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="usd">
+                    <span>USD</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="eur">
+                    <span>EUR</span>
+                </div>
+                    </div>
+    </div>
+</div>
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                    <li>
+        <a href="/login.html" class="direct-link login-button">Войти</a>
+    </li>
+                </ul>
+        </div>
+    </div>
+</nav>
+    <header class="only-contacts">
+    <div class="container">
+        <div class="header-common-elements">
+    <div class="logo">
+                    <a href="/">
+                <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            </a>
+                </div>
+                <div class="clearfix"></div>
+</div>
+    </div>
+</header>
+
+    
+    <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Главная</a></li>
+<li><a href="/oteli.html">Отели &amp; Базы отдыха</a></li>
+<li><a href="/oteli/kazakhstan.html">Казахстан</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl.html">Алматинская обл.</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha.html">Чунджа</a></li>
+<li class="active">Зона отдыха Деревушка</li>
+</ul>    </div>
+            <main>
+        <div class="container">
+    <div class="columns" id="main-content">
+        <div class="column">
+            <div class="site-block">
+    <div class="site-header">
+        <h1>Зона отдыха Деревушка</h1>
+    </div>
+    <div class="hotel-properties">
+        <div class="ya-share">
+        <div class="ya-share-icons">
+        <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,twitter"></div>    </div>
+</div>
+
+        <div class="hits"><span class="icon-eye"></span> 250458</div>
+        <div>ID отеля: 1328</div>
+        <div><a href="/for-hotel-admin.html">Вы владелец?</a></div>
+    </div>
+    <div class="hotel-main-info">
+        <div class="hotel-photo">
+            <img src="/uploads/hotels/260/thumb-5e1c562bc6d15.jpg" alt="Зона отдыха Деревушка">
+            <p class="hotel-support hotel-feature"><span class="icon-avatar"></span> Поддержка владельцем</p>            <div class="rating best">5/5.00</div>
+        </div>
+        <div class="hotel-info">
+                            <p class="hotel-tags">
+                    <span class="icon-tags"></span>
+                    База отдыха, Загородный, Горячие источники                </p>
+                                <p>Стоимость: от 6 000 тенге</p>
+                                <p class="recommendation"><span class="icon-thumbs-up"></span> GoTour Рекомендует</p>
+                        <hr>
+            <p>Расположение: <a href="/oteli/kazakhstan/almatinskaia-obl/chundzha.html">Чунджа</a>,
+                <a href="/oteli/kazakhstan/almatinskaia-obl.html">Алматинская обл.</a>,
+                <a href="/oteli/kazakhstan.html">Казахстан</a></p>
+                            <p><b>Адрес: </b>Казахстан, Алматинская обл., Уйгурский р-н, съезд на 97 км автотрассы (указатель-столбик на обочине).</p>
+                                <p class="hotel-phone"><b>Телефон: </b><a class="analytic-event popup" href="#" data-width="600" data-event="show-hotel-phone" data-href="/hotelCatalog/default/show-contacts.html?id=1328">Показать телефон</a>                </p>
+                                <p><b>Email: </b>aibek1970@inbox.ru</p>
+                        </div>
+    </div>
+</div>
+    <div class="site-block">
+        <div class="site-header">
+            <h4>Фото</h4>
+        </div>
+        <div id="hotel-photo-gallery" class="photo-gallery"><a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2911/medium.jpg?_=2373759106"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2911/medium.jpg?_=2373759106" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2912/medium.jpg?_=2373759106"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2912/medium.jpg?_=2373759106" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2913/medium.jpg?_=2373759106"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2913/medium.jpg?_=2373759106" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2914/medium.jpg?_=4202397716"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2914/medium.jpg?_=4202397716" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2915/medium.jpg?_=4202397716"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2915/medium.jpg?_=4202397716" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2916/medium.jpg?_=4202397716"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2916/medium.jpg?_=4202397716" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2918/medium.jpg?_=4202397716"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2918/medium.jpg?_=4202397716" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2919/medium.jpg?_=4202397716"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2919/medium.jpg?_=4202397716" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2922/medium.jpg?_=4202397716"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2922/medium.jpg?_=4202397716" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2924/medium.jpg?_=4202397716"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2924/medium.jpg?_=4202397716" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2925/medium.jpg?_=1791270277"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2925/medium.jpg?_=1791270277" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/2927/medium.jpg?_=1791270277"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/2927/medium.jpg?_=1791270277" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19147/medium.jpg?_=3113935673"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19147/medium.jpg?_=3113935673" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19148/medium.jpg?_=3113935673"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19148/medium.jpg?_=3113935673" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19149/medium.jpg?_=197058880"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19149/medium.jpg?_=197058880" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19150/medium.jpg?_=2092552662"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19150/medium.jpg?_=2092552662" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19981/medium.jpg?_=1726875778"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19981/medium.jpg?_=1726875778" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19982/medium.jpg?_=3550990050"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19982/medium.jpg?_=3550990050" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19983/medium.jpg?_=2762014324"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19983/medium.jpg?_=2762014324" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19984/medium.jpg?_=1034530766"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19984/medium.jpg?_=1034530766" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19985/medium.jpg?_=1252958040"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19985/medium.jpg?_=1252958040" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19986/medium.jpg?_=1252958040"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19986/medium.jpg?_=1252958040" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19987/medium.jpg?_=1252958040"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19987/medium.jpg?_=1252958040" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19988/medium.jpg?_=3570010875"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19988/medium.jpg?_=3570010875" alt=""></a>
+<a class="gallery-item" href="https://www.gotur.kz/uploads/galleries/hotels/1328/19989/medium.jpg?_=3570010875"><img src="https://www.gotur.kz/uploads/galleries/hotels/1328/19989/medium.jpg?_=3570010875" alt=""></a></div><div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="close">×</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+    <div class="site-block">
+    <div class="hotel-tabs">
+        <ul class="reviews-tabs nav nav-tabs">
+            <li class="active">
+            <a href="#w-default-tab0" data-toggle="tab">Описание</a>
+        </li>
+                <li class="">
+            <a href="#w-default-tab1" data-toggle="tab">Цены 2024</a>
+        </li>
+        </ul>
+
+<div class="tab-content">
+            <div id="w-default-tab0"
+             class="tab-pane active">
+            <div class="page-text"><p><b>Особенности: </b>Баня, Бассейн, Беседки</p><p><b>Детям: </b>Горки, Детская площадка, Детский бассейн, Детский городок</p><p><b>Разрешено брать с собой: </b>Алкоголь, Безалкогольные напитки, Десерты, Мясо, Фрукты</p><p><b>Кухня: </b>Восточная, Домашняя</p><p><b>Музыка: </b>Фоновая</p><p><b>Парковка: </b>Бесплатная</p><p><b>Бронирование: </b>По предоплате, По телефону</p><p bis_size="{&quot;x&quot;:20,&quot;y&quot;:-217,&quot;w&quot;:2190,&quot;h&quot;:62,&quot;abs_x&quot;:36,&quot;abs_y&quot;:589}"><strong bis_size="{&quot;x&quot;:20,&quot;y&quot;:-213,&quot;w&quot;:304,&quot;h&quot;:14,&quot;abs_x&quot;:36,&quot;abs_y&quot;:593}">Добро пожаловать на зону отдыха Деревушка</strong> - здесь Вы можете по-настоящему отдохнуть от забот и города. Приезжайте с семьей или друзьями, наслаждайтесь теплым бассейном &ndash; вода в бассейн подается прямиком с горячих минеральных источников. База отдыха &ldquo;Деревушка&rdquo; расположена в 300 км (в 3х - 4х часах езды) от города Алматы, в п. Чунджа. Отдыхающие размещаются в 2-х, 3-х, 4-х местных номерах одноэтажных коттеджей, выполненных в альпийском стиле. На территории базы три бассейна &ndash; один закрытый бассейн и два больших открытых бассейна глубиной: детский 110 - 150 см, взрослый 160 - 180 см. с горячей минеральной водой из подземных природных источников. На базе отдыха &ldquo;Деревушка&rdquo; вы сможете расслабиться, отдохнуть от шумного города и поправить свое здоровье.</p>
+
+<p bis_size="{&quot;x&quot;:20,&quot;y&quot;:-141,&quot;w&quot;:2190,&quot;h&quot;:20,&quot;abs_x&quot;:36,&quot;abs_y&quot;:665}">Это одна из лучших зон отдыха на горячих источниках.</p>
+
+<p bis_size="{&quot;x&quot;:20,&quot;y&quot;:-107,&quot;w&quot;:2190,&quot;h&quot;:20,&quot;abs_x&quot;:36,&quot;abs_y&quot;:699}">Дополнительные услуги отеля</p>
+
+<p bis_size="{&quot;x&quot;:20,&quot;y&quot;:-74,&quot;w&quot;:2190,&quot;h&quot;:41,&quot;abs_x&quot;:36,&quot;abs_y&quot;:732}">Охраняемая, ухоженная территория, облагороженная фонтанами, зелеными насаждениями, клумбами, скульптурами. На территории закрытый бассейн и два открытых бассейна с температурой воды 38-44 &deg;С, в летний период один из уличных бассейнов охлаждается до комфортной температуры 28-30 градусов,&nbsp;также на территории кафе, детская площадка, бесплатная автостоянка, сауна.</p>
+
+<ul bis_size="{&quot;x&quot;:20,&quot;y&quot;:-19,&quot;w&quot;:2190,&quot;h&quot;:196,&quot;abs_x&quot;:36,&quot;abs_y&quot;:787}">
+	<li bis_size="{&quot;x&quot;:60,&quot;y&quot;:-19,&quot;w&quot;:2110,&quot;h&quot;:21,&quot;abs_x&quot;:76,&quot;abs_y&quot;:787}">Комфортабельный отдых.</li>
+	<li bis_size="{&quot;x&quot;:60,&quot;y&quot;:2,&quot;w&quot;:2110,&quot;h&quot;:21,&quot;abs_x&quot;:76,&quot;abs_y&quot;:808}">Уютные номера.</li>
+	<li bis_size="{&quot;x&quot;:60,&quot;y&quot;:24,&quot;w&quot;:2110,&quot;h&quot;:21,&quot;abs_x&quot;:76,&quot;abs_y&quot;:830}">Плавательные бассейны.</li>
+	<li bis_size="{&quot;x&quot;:60,&quot;y&quot;:46,&quot;w&quot;:2110,&quot;h&quot;:21,&quot;abs_x&quot;:76,&quot;abs_y&quot;:852}">Детскую площадку.</li>
+	<li bis_size="{&quot;x&quot;:60,&quot;y&quot;:67,&quot;w&quot;:2110,&quot;h&quot;:21,&quot;abs_x&quot;:76,&quot;abs_y&quot;:873}">Завтраки, обеды, ужины - как дома!</li>
+	<li bis_size="{&quot;x&quot;:60,&quot;y&quot;:89,&quot;w&quot;:2110,&quot;h&quot;:21,&quot;abs_x&quot;:76,&quot;abs_y&quot;:895}">А также по желанию клиента:</li>
+	<li bis_size="{&quot;x&quot;:60,&quot;y&quot;:111,&quot;w&quot;:2110,&quot;h&quot;:21,&quot;abs_x&quot;:76,&quot;abs_y&quot;:917}">Рыбалка.</li>
+	<li bis_size="{&quot;x&quot;:60,&quot;y&quot;:133,&quot;w&quot;:2110,&quot;h&quot;:21,&quot;abs_x&quot;:76,&quot;abs_y&quot;:939}">Охота.</li>
+	<li bis_size="{&quot;x&quot;:60,&quot;y&quot;:155,&quot;w&quot;:2110,&quot;h&quot;:21,&quot;abs_x&quot;:76,&quot;abs_y&quot;:961}">Прогулки на лошадях.</li>
+</ul>
+
+<p bis_size="{&quot;x&quot;:20,&quot;y&quot;:189,&quot;w&quot;:2190,&quot;h&quot;:20,&quot;abs_x&quot;:36,&quot;abs_y&quot;:995}">На территории имеются бесетки с бесплатными мангалами, казанами и коктальницей - дрова необходимо привозить с собой.</p>
+
+<p bis_size="{&quot;x&quot;:20,&quot;y&quot;:223,&quot;w&quot;:2190,&quot;h&quot;:20,&quot;abs_x&quot;:36,&quot;abs_y&quot;:1029}">Удобства в номерах</p>
+
+<p bis_size="{&quot;x&quot;:20,&quot;y&quot;:257,&quot;w&quot;:2190,&quot;h&quot;:20,&quot;abs_x&quot;:36,&quot;abs_y&quot;:1063}">Размещение в 2х, 3х, 4х местных номерах со всеми удобствами (холодильник, телевизор, кондиционер, туалет, душ).</p>
+
+<p bis_size="{&quot;x&quot;:20,&quot;y&quot;:291,&quot;w&quot;:2190,&quot;h&quot;:20,&quot;abs_x&quot;:36,&quot;abs_y&quot;:1097}"><a bis_size="{&quot;x&quot;:20,&quot;y&quot;:294,&quot;w&quot;:131,&quot;h&quot;:14,&quot;abs_x&quot;:36,&quot;abs_y&quot;:1100}" href="https://www.google.com/maps/place/%D0%97%D0%BE%D0%BD%D0%B0+%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0+%22%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D1%83%D1%88%D0%BA%D0%B0%22/@43.6367837,80.0547228,19.54z/data=!4m8!1m2!2m1!1z0LTQtdGA0LXQstGD0YjQutCw!3m4!1s0x0:0xde11fa7a90d620f4!8m2!3d43.6370642!4d80.0550301">Месторасположение&nbsp;</a></p>
+
+<p bis_size="{&quot;x&quot;:20,&quot;y&quot;:325,&quot;w&quot;:2190,&quot;h&quot;:20,&quot;abs_x&quot;:36,&quot;abs_y&quot;:1131}"><a bis_size="{&quot;x&quot;:20,&quot;y&quot;:328,&quot;w&quot;:371,&quot;h&quot;:14,&quot;abs_x&quot;:36,&quot;abs_y&quot;:1134}" href="https://drive.google.com/file/d/0B57e3iB0vCCHSDRMZDF2a3diTGc/view" target="_blank">Медицинское заключение на природную миниральную воду</a></p>
+
+<p bis_size="{&quot;x&quot;:20,&quot;y&quot;:358,&quot;w&quot;:2190,&quot;h&quot;:20,&quot;abs_x&quot;:36,&quot;abs_y&quot;:1164}"><a bis_size="{&quot;x&quot;:20,&quot;y&quot;:362,&quot;w&quot;:70,&quot;h&quot;:14,&quot;abs_x&quot;:36,&quot;abs_y&quot;:1168}" href="https://disk.yandex.kz/i/fUlauBXxnhaPCw" target="_blank">Наше меню</a></p>
+</div>        </div>
+                <div id="w-default-tab1"
+             class="tab-pane ">
+            <div><p><span><strong>Стандартные 2, 3, 4 местные номера.</strong> В номерах санузлы, душ, телевизор, холодильник, кондиционер, чайник. </span></p>
+
+<h3><strong>Цены До 20 мая</strong></h3>
+
+<p><span><strong>Цены в будние дни</strong>&nbsp;<br />
+8000 тенге/сутки, включая завтрак</span></p>
+
+<p><span><strong>Цены в выходные дни </strong>(пятница, суббота, воскресенье)<br />
+12000 тенге/сутки, включая завтрак</span></p>
+
+<p><span>Пенсионерам 6000 тг&nbsp;<strong>только&nbsp;в будние дни.</strong><br />
+Детям с 5 до 10 лет скидка 30%.</span></p>
+
+<h3><strong>С 20 мая действуют летние цены!</strong></h3>
+
+<p><span><strong>Цены в будние дни</strong>&nbsp;<br />
+6000 тенге/сутки, включая завтрак</span></p>
+
+<p><span><strong>Цены в выходные дни </strong>(пятница, суббота, воскресенье)<br />
+8000 тенге/сутки, включая завтрак</span></p>
+
+<p><span>Пенсионерам 5000 тг&nbsp;<strong>только&nbsp;в будние дни.</strong><br />
+Детям с 5 до 10 лет скидка 30%.</span></p>
+
+<p><strong>Предлагаем 6 местные апартаменты</strong> с 2мя спальными комнатами и столовой и 7 местные апартаменты с 3мя спальными и столовой по цене 6000 тг в будние дни и 8000 тг с человека в выходные, включая завтрак.<br />
+В апартаментах 2 санузла, большой холодильник, микроволновка, телевизоры во всех комнатах, посуда.</p>
+
+<p><strong>Стоимость указана за 1 человека. Завтрак входит в стоимость проживания.</strong></p>
+
+<p><span>Дети до 5 лет размещаются бесплатно, без предоставления отдельного спального места.</span></p>
+
+<p><span>Именинникам скидка на проживание 50%. Скидка действует за 3 дня до дня рождения и 3 дня после дня рождения.</span></p>
+
+<p><span><strong>БЕСПЛАТНО предоставляются летние беседки, мангалы, казаны, коктальница.</strong></span></p>
+
+<p><strong>Цены в дни школьных каникул считаются по ценам выходных дней. Кроме летних. На летних каникулах у нас скидки!</strong></p>
+</div><p class="page-hint">
+    Всегда уточняйте стоимость проживания, питания и т.п.
+</p>        </div>
+        </div>
+    </div>
+</div>
+<div class="site-block hotel-objects">
+            <div class="hotel-object">
+            <h5>Номера стандартные - 2х, 3х, 4х местные</h5>
+            <div class="hotel-object-info">
+                <div class="hotel-object-desc"><p>Все номера стандартные - зависят от количества размещения. В номере: кондиционер, холодильник, плазменный телевизор, столы. В душевых комнатах горячая вода подается напрямую из минеральных источников</p>
+</div>
+                            </div>
+        </div>
+                <div class="hotel-object">
+            <h5>4-х местный номер</h5>
+            <div class="hotel-object-info">
+                <div class="hotel-object-desc"><p>В номере: кондиционер, холодильник, плазменный телевизор, столы. В душевых комнатах горячая вода подается напрямую из минеральных источников</p>
+</div>
+                            </div>
+        </div>
+                <div class="hotel-object">
+            <h5>3-х местный номер</h5>
+            <div class="hotel-object-info">
+                <div class="hotel-object-desc"><p>В номере: кондиционер, холодильник, плазменный телевизор, столы. В душевых комнатах горячая вода подается напрямую из минеральных источников</p>
+</div>
+                            </div>
+        </div>
+                <div class="hotel-object">
+            <h5>2-х местный номер </h5>
+            <div class="hotel-object-info">
+                <div class="hotel-object-desc"><p>В номере: кондиционер, холодильник, плазменный телевизор, столы. В душевых комнатах горячая вода подается напрямую из минеральных источников</p>
+</div>
+                            </div>
+        </div>
+                <div class="hotel-object">
+            <h5>6ти местные апартаменты</h5>
+            <div class="hotel-object-info">
+                <div class="hotel-object-desc"><p>6ти местные с апартаменты c 2 спальными комнатами и общей столовой по цене 7000тг в будние дни и 10000тг выходные дни с человека. Завтрак включен в стоимость.</p>
+
+<p>В каждом из апартаментов есть все для вашего удобства: 2 санузла, отдельная столовая, душ, большой холодильник,телевизор, кондиционер, микроволновая печь, посуда и тд</p>
+</div>
+                            </div>
+        </div>
+                <div class="hotel-object">
+            <h5>7ми местные апартаменты</h5>
+            <div class="hotel-object-info">
+                <div class="hotel-object-desc"><p>7ти местные с апартаменты c 3 спальными комнатами и общей столовой по цене 8000тг в будние дни и 11000тг выходные дни с человека. Завтрак включен в стоимость.</p>
+
+<p>В каждом из апартаментов есть все для вашего удобства: 2 санузла, отдельная столовая, душ, большой холодильник,телевизор, кондиционер, микроволновая печь, посуда и тд</p>
+</div>
+                            </div>
+        </div>
+        </div>
+<div class="site-block hotel-comments">
+    <div class="comment-wrapper" id="f930bd2e1328">
+    <div id="comment-pjax-container-w0" data-pjax-container="" data-pjax-timeout="20000" data-pjax-scrollto>    <div class="comments row">
+        <div class="col-md-12 col-sm-12">
+            <div class="site-header">
+                <h4>
+                    Отзывы, Вопросы, Комментарии (200)                </h4>
+            </div>
+            <ol id="w1" class="comments-list"><li class="comment" id="comment-18864">
+    <div class="comment-content" data-comment-content-id="18864">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="База отдыха Деревушка">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18864"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>База отдыха Деревушка</span>
+                <a class="comment-date" href="#comment-18864">год назад</a>            </div>
+            <div class="comment-body">
+                Друзья, начинается сезон летних скидок! В будние дни по 6000 тг в сутки с завтраком! Теперь считаем с пятницы на субботу как за будний день! В выходные дни с субботы на воскресенье по 8000 тг в сутки с завтраком! Дополнительные скидки: пенсионерам по 5000 тг в сутки с завтраком в будние дни (с понедельника до субботы!), именинникам 50% скидки на проживание, детям до 10 лет 30% скидки, детям до 5 лет бесплатно без койко места! Самая зелёная зона отдыха приглашает! Наши розы уже во всю начинают расцветать!            </div>
+        </div>
+    </div>
+</li>
+    <ul class="children">
+                    <li class="comment" id="comment-19002">
+                <li class="comment" id="comment-19002">
+    <div class="comment-content" data-comment-content-id="19002">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="База отдыха Деревушка">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="19002"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>База отдыха Деревушка</span>
+                <a class="comment-date" href="#comment-19002">8 месяцев назад</a>            </div>
+            <div class="comment-body">
+                Уважаемые наши гости, друзья! Хочется поделиться приятной для всех информацией: закупили новые и поменяли на всей зоне отдыха перед Наурызом матрасы, падушки, постельное бельё, полотенца! Матрасы на независимых пружинах 512 штучные, самые хорошие, двухсторонние - с одной стороны с кокосовой койрой средней жесткости, с другой стороны на поролоне мягкие. Можно выбирать кому как нравиться! Во все номера закупили внутренние двери, стеновые панели и будем постепенно менять. Ждём Вас! Более подробная информация и бронирование по телефону 87055540505.            </div>
+        </div>
+    </div>
+</li>
+            </li>
+            </ul>
+
+<li class="comment" id="comment-18846">
+    <div class="comment-content" data-comment-content-id="18846">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="Айнур">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18846"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>Айнур</span>
+                <a class="comment-date" href="#comment-18846">год назад</a>            </div>
+            <div class="comment-body">
+                Отдыхаем в любимой деревушке не в первый раз, так как это место, куда хочется возвращаться. Персонал очень вежливый и внимательный, вода - прелесть, после купания так приятно очутиться в чистых и теплых номерах, еда невероятно вкусная, каждый день у нас был праздник живота. Большие чистые бассейны с водой как парное молоко, сауна, крытый бассейн, разнообразие блюд  - что еще нужно для счастья?<br />
+Мой молодой человек из Америки был в первый раз на горячих источниках и влюбился в Деревушку, в ее атмосферу и красоту вокруг нее. Думаю, что мы будем возвращаться сюда каждый год. Т. Жанар отдельное спасибо!            </div>
+        </div>
+    </div>
+</li>
+
+<li class="comment" id="comment-18845">
+    <div class="comment-content" data-comment-content-id="18845">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="Айнур">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18845"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>Айнур</span>
+                <a class="comment-date" href="#comment-18845">год назад</a>            </div>
+            <div class="comment-body">
+                Отдыхаем в любимой деревушке не в первый раз, так как это место, куда хочется возвращаться. Персонал очень вежливый и внимательный, вода - прелесть, после купания так приятно очутиться в чистых и теплых номерах, еда невероятно вкусная, каждый день у нас был праздник живота. Большие чистые бассейны с водой как парное молоко, сауна, крытый бассейн, разнообразие блюд  - что еще нужно для счастья?<br />
+Мой молодой человек из Америки был в первый раз на горячих источниках и влюбился в Деревушку, в ее атмосферу и красоту вокруг нее. Думаю, что мы будем возвращаться сюда каждый год. Т. Жанар отдельное спасибо!            </div>
+        </div>
+    </div>
+</li>
+
+<li class="comment" id="comment-18818">
+    <div class="comment-content" data-comment-content-id="18818">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="База отдыха Деревушка">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18818"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>База отдыха Деревушка</span>
+                <a class="comment-date" href="#comment-18818">год назад</a>            </div>
+            <div class="comment-body">
+                Объявление: начинаем обзванивать, забронировавших ранее на Новый год клиентов. В результате освободились несколько номеров. Успейте забронировать по номеру 87055540505!            </div>
+        </div>
+    </div>
+</li>
+
+<li class="comment" id="comment-18814">
+    <div class="comment-content" data-comment-content-id="18814">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="Lia Lilla M">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18814"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>Lia Lilla M</span>
+                <a class="comment-date" href="#comment-18814">2 года назад</a>            </div>
+            <div class="comment-body">
+                В этой зоне есть как плюсы, так и минусы. Из плюсов - приятная территория, постоянно снуют работники, чистят, подметают, что-то ремонтируют. По вечерам ходят охранники. Есть столовая. Приветливые девушки на ресепшене, быстро отвечают на вопросы по брони. Оплата средних цен, с завтраком (правда, очень скудным - каша и чай). Уютные домики с комфортабельными комнатами, в которых все есть: хорошие кровати с чистым бельем, кондиционер, масляный обогреватель в зиму, большой санузел с душем, достаточно мебели, холодильник, чайник. Все в рабочем, хорошем состоянии. Минусов меньше, но они, к сожалению, перевесили, из-за чего мы больше не поедем в "Деревушку". Во-первых, с 9 утра до 9 вечера непрерывно играет музыка - на улицу вынесена огромная колонка, от которой вибрирует вся земля. И хотя песни звучат не на всю мощь, все равно целый день незатыкаемая музыка с басами и ударниками, от которой деться некуда, в конце дня приводит просто в бешенство. Во-вторых, бассейны полностью открытые, и когда пошел ледяной осенний дождь на весь день, находиться в них было невозможно. В-третьих, может, нам так не повезло, но в течение трех дней, что мы находились на территории, отключали электричество на 3-4 часа, в результате чего не работала столовая, в комнате все приборы, отключалась вода, ну и вообще сломался насос, качающий воду в бассейны. В итоге один из бассейнов стал холодным, для посетителей фактически остался один. Есть еще закрытый бассейн в помещении, но он забит детьми, шумно, душно, без вентиляции, плавать там невозможно. В общем, такой отдых превратился нам в мучение, а ведь и по карману бьет, и путь не близкий. Отдельно хочу сказать о таксистах - для тех, кто приезжает не на своих личных авто. В наше время таксуют все кому не лень, но я поражаюсь нашей публике: если ты берешь пассажиров и зарабатываешь на их перевозке, так это твоя работа и нужно следовать пожеланиям своих пассажиров. Одни просят открыть окна, потому что душно, другим не нравится музыка, третьим нужен свободный багажник, четвертым тесно и хотят ехать не как сельди в бочке. Но нет, все эти таксующие элементы набивают в свои грязные, неухоженные колымаги под завязку, врубают лично им понравившуюся музыку на всю катушку, включают печку и закупоривают окна, потому то их продует (непонятно, как они ходят по улицам, в скафандрах, не иначе). Короче, делают все наоборот и еще огрызаются, если их просят что-то изменить. А ехать-то 4-5 часов, это тяжко в такой обстановке! Конечно, тут вполне можно наладить туристические потоки со всеми удобствами и нормальной дорогой, как и на Алаколь, но это уже другая тема, и решить ее можно только на правительственном уровне. Но частным перевозчикам обладать хотя бы элементарной культурой и следить за чистотой своего салона можно же!            </div>
+        </div>
+    </div>
+</li>
+    <ul class="children">
+                    <li class="comment" id="comment-18815">
+                <li class="comment" id="comment-18815">
+    <div class="comment-content" data-comment-content-id="18815">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="База отдыха Деревушка">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18815"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>База отдыха Деревушка</span>
+                <a class="comment-date" href="#comment-18815">2 года назад</a>            </div>
+            <div class="comment-body">
+                Lia Lila, здравствуйте! Очень конечно не приятно, что остался такой осадок от поездки на горячие источники. Музыку после вашего замечания мы убавили и после обеда на «тихий час» вообще выключаем. И репертуар поменяли на более спокойную музыку. Спасибо за подсказку! Надо было просто обратиться к администраторам и они бы выключили музыку! Бассейны на улице у нас действительно с навесом от солнца. Дожди у нас осенью бывают максимум 2-3 дня за год. И многие идут в крытый бассейн. Завтраки у нас стандартные: в будние дни каша на молоке, хлеб, масло, чай. В выходные + варёное яйцо. И конечно на завтрак дополнительно можно заказать по меню наши завтраки, пиццу, хачапури, хычины и пр! Такси надо было заказывать у наших администраторов и попросить 4х местную машину. Наши водители проверенные, не хамят, могут забрать и отвезти прямо до дома.            </div>
+        </div>
+    </div>
+</li>
+    <ul class="children">
+                    <li class="comment" id="comment-19003">
+                <li class="comment" id="comment-19003">
+    <div class="comment-content" data-comment-content-id="19003">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="База отдыха Деревушка">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="19003"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>База отдыха Деревушка</span>
+                <a class="comment-date" href="#comment-19003">7 месяцев назад</a>            </div>
+            <div class="comment-body">
+                Надо добавить что после этого замечания на завтрак мы добавили варёное яйцо и в будние дни. На завтрак у нас каша на домашнем молоке, варёное яйцо, масло, хлеб, чай.            </div>
+        </div>
+    </div>
+</li>
+            </li>
+            </ul>
+            </li>
+            </ul>
+
+<li class="comment" id="comment-18483">
+    <div class="comment-content" data-comment-content-id="18483">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="Светлана">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18483"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>Светлана</span>
+                <a class="comment-date" href="#comment-18483">3 года назад</a>            </div>
+            <div class="comment-body">
+                Хочется выразить огромную благодарность администрации и всему персоналу зоны отдыха Деревушка за их внимательное отношение, чуткую организацию своей работы и отличное благоустройство территории. Чистые бассейны , один бассейн , с комфортной для летнего периода,  водой. Мы отдыхали с 12 по 14 июля. Остались очень довольны. Чистота, замечательный ландшафтный дизайн. Группа выпускников 1974года.            </div>
+        </div>
+    </div>
+</li>
+
+<li class="comment" id="comment-18408">
+    <div class="comment-content" data-comment-content-id="18408">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="Айгуль">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18408"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>Айгуль</span>
+                <a class="comment-date" href="#comment-18408">3 года назад</a>            </div>
+            <div class="comment-body">
+                Только вернулись с Деревушки)) очень понравилось, красивая территория, этакий оазис! Бассейны чистят регулярно, адекватный и дружелюбный персонал. Кухня неплохая, цены нормальные. Завтраки скромные (каша, яйцо, хлеб с маслом, чай), но учитывая стоимость за сутки, это нормально. <br />
+Однозначно поедем ещё раз)) <br />
+            </div>
+        </div>
+    </div>
+</li>
+
+<li class="comment" id="comment-18362">
+    <div class="comment-content" data-comment-content-id="18362">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="Назгуль">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18362"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>Назгуль</span>
+                <a class="comment-date" href="#comment-18362">3 года назад</a>            </div>
+            <div class="comment-body">
+                Отдыхали в "Деревушке" в конце января, всё очень понравилось! Благодарим персонал и администрацию за прекрасный отдых, за создание комфортных условий для нас! Брали номер на двоих с сестрой, всё очень чисто, удобно, предусмотрено всё до мелочей. Вода просто сказка! Несмотря на утренние -9, водичка была просто парное молоко! И чистая, что ооооочень важно! Персонал исключительно предупредителен, сервис безупречен. В еде мы не особо прихотливы, поэтому нас устроило. Территория ухоженная, невооружённым глазом видна забота персонала, везде убирают, скребут, метут. <br />
+Ещё раз, благодарим администрацию и персонал "Деревушки" за гостеприимный прием!            </div>
+        </div>
+    </div>
+</li>
+
+<li class="comment" id="comment-18360">
+    <div class="comment-content" data-comment-content-id="18360">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="Зухра">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18360"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>Зухра</span>
+                <a class="comment-date" href="#comment-18360">3 года назад</a>            </div>
+            <div class="comment-body">
+                Приятные впечатления оставили дни пребывания с 12 по 14 января 2021 года в зоне отдыха "Деревушка" :ухоженные территория и деревья, расчищенные дорожки, удобные скамейки. Постоянно тщательно мылись бассейны через день, а затем наполнялись свежий минеральной водой.<br />
+В номере было чисто, тепло, так как давали дополнительно отопительные приборы, если в этом была нужда. Постельное белье отличалось белизной.<br />
+ Персонал "Деревушки" начиная с администратора Оксаны всегда был приветливый и доброжелательным.<br />
+Оксана, и весь ваш слаженный, дружный коллектив, так держать и в дальнейшем!!! Всем вам в новом наступающем году здоровья, энергии, благополучие и достаток в каждой семье.<br />
+Мы уехали с большим удовлетворением и советуем всем отдохнуть в этой уютной "Деревушки"            </div>
+        </div>
+    </div>
+</li>
+
+<li class="comment" id="comment-18358">
+    <div class="comment-content" data-comment-content-id="18358">
+        <div class="comment-author-avatar">
+            <img src="/img/icons/no-avatar-50.jpg" alt="Зухра">        </div>
+        <div class="comment-details">
+            <div class="comment-action-buttons">
+                                                    <a class="comment-reply" href="#" data-action="reply" data-comment-id="18358"><span class='glyphicon glyphicon-share-alt'></span> Ответить</a>                            </div>
+            <div class="comment-author-name">
+                <span>Зухра</span>
+                <a class="comment-date" href="#comment-18358">3 года назад</a>            </div>
+            <div class="comment-body">
+                Остаёмся очень довольны отдыхом в деревушке, и хотим выразить огромную благодарность персоналу базы отдыха, за их труд и качественную работу.<br />
+<br />
+Зона отдыха "Деревушка" очень понравилась нашей семье ещё с самого заезда. Приветливый персонал, всегда готов незамедлительно помочь и видно, что относится к гостям добродушно. Нас быстро зарегистрировали в номерах и помогли донести сумки. Сама территория красива и интересно выполнена, везде содержат чистоту. Номера тёплые, убранные, обладают интересным расположением мебели. Касательно воды, могу сказать, что в каждом бассейне температура незначительно отличается, но это является плюсом, ведь так можно подобрать себе более подходящее.<br />
+<br />
+Хочется пожелать дальнейших успехов, побольше клиентов, процветания. В ближайшие дни приедем ещё и это точно не в последний раз.            </div>
+        </div>
+    </div>
+</li>
+
+<ul class="pagination"><li class="prev disabled"><span>&laquo;</span></li>
+<li class="active"><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=1&amp;per-page=10" data-page="0">1</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=2&amp;per-page=10" data-page="1">2</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=3&amp;per-page=10" data-page="2">3</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=4&amp;per-page=10" data-page="3">4</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=5&amp;per-page=10" data-page="4">5</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=6&amp;per-page=10" data-page="5">6</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=7&amp;per-page=10" data-page="6">7</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=8&amp;per-page=10" data-page="7">8</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=9&amp;per-page=10" data-page="8">9</a></li>
+<li><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=10&amp;per-page=10" data-page="9">10</a></li>
+<li class="next"><a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html?page=2&amp;per-page=10" data-page="1">&raquo;</a></li></ul></ol>            <div class="comment-form-container">
+    <form id="comment-form" class="comment-box" action="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html" method="post">
+<input type="hidden" name="_csrf" value="hswE9P54Nh-WefeA-X7Bgon8S_PWF5EorYjV_pHRxd7rnEKThDl1LKAxvcuhMfDT5KQzpYJl8nH8xpqx-reyhw==">    <div class="form-group field-comment-content required">
+<textarea id="comment-content" class="form-control" name="Comment[content]" rows="4" placeholder="Добавить комментарий..." data-comment="content" aria-required="true"></textarea><div class="help-block"></div>
+</div><div class="form-group field-comment-rating">
+<select id="comment-rating" class="form-control" name="Comment[rating]">
+<option value="">Без оценки</option>
+<option value="5">5</option>
+<option value="4">4</option>
+<option value="3">3</option>
+<option value="2">2</option>
+<option value="1">1</option>
+</select>
+</div><div class="form-group field-comment-entityid required">
+<input type="hidden" id="comment-entityid" class="form-control" name="Comment[entityId]" value="1328" data-comment="entityId">
+</div><div class="form-group field-comment-parentid">
+<input type="hidden" id="comment-parentid" class="form-control" name="Comment[parentId]" data-comment="parent-id">
+</div>    <div class="comment-box-partial">
+        <div class="button-container show">
+            <a id="cancel-reply" class="pull-right" href="#" data-action="cancel-reply">Нажмите здесь, чтобы отменить ответ.</a>                            <div>
+                    <a type="button" class="btn-carrot" id="comment-redirect" href="/login.html?url=%2Foteli%2Fkazakhstan%2Falmatinskaia-obl%2Fchundzha%2F1328-derevushka.html">Опубликовать Комментарий</a>
+                </div>
+                    </div>
+    </div>
+
+    </form>    <div class="clearfix"></div>
+</div>
+        </div>
+    </div>
+    </div></div>
+</div>
+<div class="site-block">
+    <ul class="reviews-tabs nav nav-tabs">
+            <li class="active">
+            <a href="#same-popular-hotels0" data-toggle="tab">ПОХОЖИЕ ОТЕЛИ</a>
+        </li>
+                <li class="">
+            <a href="#same-popular-hotels1" data-toggle="tab">ПОПУЛЯРНЫЕ ОТЕЛИ</a>
+        </li>
+        </ul>
+
+<div class="tab-content">
+            <div id="same-popular-hotels0"
+             class="tab-pane active">
+            <div class="findtours-results">
+            <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/akshi/4482-aquamarine-resort.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-3866ebfc0ed13e7174e7e960b0f8daec.jpg" alt="фото отеля">
+                </a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/akshi/4482-aquamarine-resort.html">Aquamarine resort</a>
+                </div>
+                <div class="item-info-dates">
+                    Акши, Казахстан, Алматинская обл.<br />Адрес: Алматинская обл., Алакольский район,п. Акши                </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 18 200тг<br /> до 61 500тг                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/akshi/4482-aquamarine-resort.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/3050-zona-otdykha-medved.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-c57630a04591174080c546154e25e7cf.jpg" alt="фото отеля">
+                </a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/3050-zona-otdykha-medved.html">Зона отдыха Медведь</a>
+                </div>
+                <div class="item-info-dates">
+                    Капчагай, Казахстан, Алматинская обл.<br />Адрес: Алматинская обл., северное побережье г. Капчагая, городские зоны отдыха, 6 улица.                </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 2 500тг<br /> до 7 000тг                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/3050-zona-otdykha-medved.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/almaty/4358-zona-otdykha-weekend-renovacio.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-8ae871198e1be43ff45fc1ba1a6f1379.jpg" alt="фото отеля">
+                </a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/almaty/4358-zona-otdykha-weekend-renovacio.html">Зона отдыха Weekend Renovacio</a>
+                </div>
+                <div class="item-info-dates">
+                    Алматы, Казахстан, Алматинская обл.<br />Адрес: Алматы, ущелье Алмаарасан, 5 км от кольца Аль-Фараби-Навои, Алмаарасанская трасса, 10-ый км, плотина №1.                </div>
+            </div>
+            <div class="item-price">
+                                <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/almaty/4358-zona-otdykha-weekend-renovacio.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4518-bon-voyage.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-5ef58ea172457.jpg" alt="фото отеля">
+                </a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4518-bon-voyage.html">зона отдыха Bon Voyage</a>
+                </div>
+                <div class="item-info-dates">
+                    Капчагай, Казахстан, Алматинская обл.<br />                </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 30 000тг<br /> до 60 000тг                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4518-bon-voyage.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1326-zona-otdykha-arman.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-1387325ab956c8c74bb3ab7914759e29.jpg" alt="фото отеля">
+                </a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1326-zona-otdykha-arman.html">зона отдыха Арман</a>
+                </div>
+                <div class="item-info-dates">
+                    Чунджа, Казахстан, Алматинская обл.<br />Адрес: Казахстан, Алматинская обл., Уйгурский р-н, на 59 км трассы Чунджа – Кольжат, 106 км по столбикам.                </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 4 000тг<br /> до 5 000тг                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1326-zona-otdykha-arman.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4776-la-dolce-vita.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-920314c6cfdd63891f5664aca390f444.jpg" alt="фото отеля">
+                </a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4776-la-dolce-vita.html">La Dolce Vita</a>
+                </div>
+                <div class="item-info-dates">
+                    Капчагай, Казахстан, Алматинская обл.<br />Адрес: Станция Боктер, ул. Зеленая, дом 3                </div>
+            </div>
+            <div class="item-price">
+                                <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4776-la-dolce-vita.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4769-zona-semejnogo-otdykha-zhajlau.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-5ec26b989f50d.jpg" alt="фото отеля">
+                </a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4769-zona-semejnogo-otdykha-zhajlau.html">Зона семейного отдыха Жайлау</a>
+                </div>
+                <div class="item-info-dates">
+                    Капчагай, Казахстан, Алматинская обл.<br />Адрес: Алматинская обл., Северное побережье Капчагая, городские зоны отдыха, 7 улица                </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 6 000тг                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4769-zona-semejnogo-otdykha-zhajlau.html">Подробнее</a>
+            </div>
+        </div>
+        </div>
+        </div>
+                <div id="same-popular-hotels1"
+             class="tab-pane ">
+            <div class="findtours-results">
+            <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/akshi/1321-baza-otdykha-pelikan.html"><img src="/img/no-hotel.jpg" class="lazy-img-watch"
+                                           data-src="/uploads/hotels/260/thumb-54f5be3ea3d707845e48b51427471fd9.jpg"
+                                           alt="фото отеля"></a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/akshi/1321-baza-otdykha-pelikan.html">База отдыха Пеликан</a>
+                </div>
+                <div class="item-info-dates">
+                    Акши, Казахстан, Алматинская обл.<br />Адрес: поселок Акши                </div>
+            </div>
+            <div class="item-price">
+                                <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/akshi/1321-baza-otdykha-pelikan.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/almaty/1372-4-sezona.html"><img src="/img/no-hotel.jpg" class="lazy-img-watch"
+                                           data-src="/uploads/hotels/260/thumb-9c95f21ed068edf7ca1f11dba5cf66a1.jpg"
+                                           alt="фото отеля"></a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>Motel</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/almaty/1372-4-sezona.html">Горно лыжный курорт - 4 сезона (Четыре сезона)</a>
+                </div>
+                <div class="item-info-dates">
+                    Алматы, Казахстан, Алматинская обл.<br />Адрес: Алм.обл., Аксайское ущелье, Республика Казахстан                </div>
+            </div>
+            <div class="item-price">
+                                <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/almaty/1372-4-sezona.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/akshi/3064-zona-otdykha-comfort-komfort.html"><img src="/img/no-hotel.jpg" class="lazy-img-watch"
+                                           data-src="/uploads/hotels/260/thumb-5f34d63842f71.jpg"
+                                           alt="фото отеля"></a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/akshi/3064-zona-otdykha-comfort-komfort.html">Зона отдыха Comfort (Комфорт)</a>
+                </div>
+                <div class="item-info-dates">
+                    Акши, Казахстан, Алматинская обл.<br />Адрес: Алматинская область., Алакольский район,п. Акши                 </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 50 000тг<br />                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/akshi/3064-zona-otdykha-comfort-komfort.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/4372-gostevoj-kompleks-relax.html"><img src="/img/no-hotel.jpg" class="lazy-img-watch"
+                                           data-src="/uploads/hotels/260/thumb-980b587f8f43a2bec21c11d2f59e861c.jpg"
+                                           alt="фото отеля"></a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>Гостиничный комплекс</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/4372-gostevoj-kompleks-relax.html">Гостевой Комплекс RELAX</a>
+                </div>
+                <div class="item-info-dates">
+                    Чунджа, Казахстан, Алматинская обл.<br />Адрес: Алматинская обл. Уйгурский р-н. 105 км трассы Чунджа Кольжат.                </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 8 000тг<br />                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/chundzha/4372-gostevoj-kompleks-relax.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/akshi/4692-baza-otdykha-edelvejs.html"><img src="/img/no-hotel.jpg" class="lazy-img-watch"
+                                           data-src="/uploads/hotels/260/thumb-6e6e9d08201f3c1fc7745817f7b0ffe7.jpg"
+                                           alt="фото отеля"></a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/akshi/4692-baza-otdykha-edelvejs.html">База отдыха Эдельвейс</a>
+                </div>
+                <div class="item-info-dates">
+                    Акши, Казахстан, Алматинская обл.<br />Адрес:  Алматинская обл, Алакольский район, п. Акши (правый берег)                </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 6 000тг<br /> до 28 000тг                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/akshi/4692-baza-otdykha-edelvejs.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4773-zona-otdykha-didar.html"><img src="/img/no-hotel.jpg" class="lazy-img-watch"
+                                           data-src="/uploads/hotels/260/thumb-ade842bd1c2218bc14aa48c83a4e586d.jpg"
+                                           alt="фото отеля"></a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4773-zona-otdykha-didar.html">Семейный пансионат Дидар</a>
+                </div>
+                <div class="item-info-dates">
+                    Капчагай, Казахстан, Алматинская обл.<br />Адрес: Казахстан, г. Капчагай, мкрн. Спутник 100                </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 3 000тг<br />                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/kapchagai/4773-zona-otdykha-didar.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="findtours-results-item">
+            <div class="item-img img-scale">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/koktuma/4995-pansionat-sultan.html"><img src="/img/no-hotel.jpg" class="lazy-img-watch"
+                                           data-src="/uploads/hotels/260/thumb-5ee9986c4c14f.jpg"
+                                           alt="фото отеля"></a>
+            </div>
+            <div class="item-info">
+                                    <div class="item-info-stars">
+                        <span>База отдыха</span></div>
+                                    <div class="item-info-hotel-name">
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/koktuma/4995-pansionat-sultan.html">Пансионат Султан</a>
+                </div>
+                <div class="item-info-dates">
+                    Коктума, Казахстан, Алматинская обл.<br />                </div>
+            </div>
+            <div class="item-price">
+                                    <div class="item-price-info">
+                        Стоимость
+                    </div>
+                                        <div class="item-price-new-price">
+                         от 8 000тг<br /> до 10 000тг                    </div>
+                                    <a type="button" class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/koktuma/4995-pansionat-sultan.html">Подробнее</a>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+</div>
+        </div>
+        <div class="column-right aside-block">
+            <div class="hotel-map site-block hotel-map__skeleton-bg" id="hotel-map">
+    <button type="button" class="btn-secondary hotel-map__load-map">Показать на карте</button>
+</div>
+                        
+<div class="site-block recent-hotels">
+    <div class="site-header">
+        <h4>Недавно вы смотрели</h4>
+    </div>
+            <div class="recent-hotel-item">
+            <div class="recent-hotel-image">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-5e1c562bc6d15.jpg"
+                         alt="Зона отдыха Деревушка">
+                </a>
+            </div>
+            <div class="recent-hotel-info">
+                <h3>
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html">Зона отдыха Деревушка</a>
+                </h3>
+                <a class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/chundzha/1328-derevushka.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="recent-hotel-item">
+            <div class="recent-hotel-image">
+                <a href="/oteli/kazakhstan/zhambylskaia-oblast/merke/57-sanatorii-merke.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-0548677e6432786dd8df61eb3aaec139.jpg"
+                         alt="Санаторий Мерке Радон">
+                </a>
+            </div>
+            <div class="recent-hotel-info">
+                <h3>
+                    <a href="/oteli/kazakhstan/zhambylskaia-oblast/merke/57-sanatorii-merke.html">Санаторий Мерке Радон</a>
+                </h3>
+                <a class="btn-secondary" href="/oteli/kazakhstan/zhambylskaia-oblast/merke/57-sanatorii-merke.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="recent-hotel-item">
+            <div class="recent-hotel-image">
+                <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/4426-sanatorij-okzhetpes.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-400e9e39bbe82a198f3d7fc97a1fb03a.jpg"
+                         alt="ЛОК Ок-жетпес (санаторий) ">
+                </a>
+            </div>
+            <div class="recent-hotel-info">
+                <h3>
+                    <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/4426-sanatorij-okzhetpes.html">ЛОК Ок-жетпес (санаторий) </a>
+                </h3>
+                <a class="btn-secondary" href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/4426-sanatorij-okzhetpes.html">Подробнее</a>
+            </div>
+        </div>
+        </div>
+
+            <div class="site-block">
+    <script id="tripster-widget-876414" src="https://experience.tripster.ru/partner/widget.js?country=kazakhstan&view=experience&template=horizontal&order=top&width=100%25&num=3&label=aside-desktop&version=2&partner=gotur981284&script_id=tripster-widget-876414" async></script>
+</div>
+        </div>
+    </div>
+</div>
+        <div class="clearfix"></div>
+    </main>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="logo">
+            <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            <div class="copyright">
+                Copyright © 2012–2024 ИП «GTKZ»<br/>
+                Фактический адрес:<br/>
+                Республика Казахстан, г. Алматы, Медеуский район,
+                улица Богенбай батыра, дом 81/36, нежилое помещение 54<br/>
+                Юридический адрес:<br/>
+                Республика Казахстан,  г. Алматы, Медеуский район,
+                улица Богенбай батыра, дом 81/36, нежилое помещение 54<br/>
+                БИН 911014350917            </div>
+        </div>
+        <div class="footer-links">
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Города вылета</div>
+                <div class="cities-list">
+                    <ul>
+                                                    <li>
+                                <a href="/tury/iz-almaty.html">
+                                    Алматы                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-astana.html">
+                                    Астана                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-moscow.html">
+                                    Москва                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktobe.html">
+                                    Актобе                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktay.html">
+                                    Актау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-karaganda.html">
+                                    Караганда                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-shymkent.html">
+                                    Шымкент                                </a>
+                            </li>
+                            </ul><ul>                            <li>
+                                <a href="/tury/iz-atiray.html">
+                                    Атырау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-semei.html">
+                                    Семей                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-taldikorgan.html">
+                                    Талдыкорган                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-temirtay.html">
+                                    Темиртау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-uralsk.html">
+                                    Уральск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-ust-kamenogorsk.html">
+                                    Усть-Каменогорск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-pavlodar.html">
+                                    Павлодар                                </a>
+                            </li>
+                                                </ul>
+                </div>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Популярные страны</div>
+                <ul>
+                    <li><a href="/tury/turciya.html">Турция</a></li>
+                    <li><a href="/tury/egypet.html">Египет</a></li>
+                    <li><a href="/tury/oae.html">ОАЭ</a></li>
+                    <li><a href="/tury/thailand.html">Таиланд</a></li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Другое</div>
+                <ul>
+                    <li><a href="/privacy.html">Политика
+                            конфиденциальности</a></li>
+                    <li><a href="/how-to-buy-tour.html">Как купить тур</a></li>
+                    <li><a href="/banners.html">Реклама</a></li>
+                    <li><a href="/for-hotel-admin.html">Для отельеров и
+                            заведений
+                        </a></li>
+                    <li>
+                        <a href="/legal-information/user-agreement.html" target="_blank">
+                            Пользовательское соглашение
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <a href="https://www.instagram.com/gotour.kz/" target="_blank" class="smm-link instagram-link">
+                    <img src="/img/social/instagram.png" alt="Instagram" class="smm-icon"></a>
+                <a href="https://www.facebook.com/gotour.kz" target="_blank" class="smm-link facebook-link">
+                    <img src="/img/social/facebook.png" alt="Facebook" class="smm-icon"></a>
+                <a href="https://t.me/gotour_kz" target="_blank" class="smm-link telegram-link">
+                    <img src="/img/social/telegram.svg" alt="Telegram" class="smm-icon"></a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</footer>
+
+<div class="modal fade" id="bspopup">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="callback-form-popup" class="hidden">
+    <div class="callback-form callback-form-popup text-center">
+        <div class="callback-on-working hidden">
+            <img src="/img/france-woman.png" alt="">
+            <p class="block-title">ПЕРЕЗВОНИМ ВАМ</p>
+        </div>
+        <div class="callback-night-time">
+            <img src="/img/night-time.png" alt="">
+            <p class="block-title">Извините, в данный момент офисы закрыты!</p>
+            <p class="block-hint">
+                Мы перезвоним вам <span class="fw-m nowrap">сегодня (09.12)</span> в удобное для вас время:
+            </p>
+            <div class="callback-choose-time">
+                <button type="button" class="active" data-time="11:00">11:00</button><button type="button" class="" data-time="12:00">12:00</button><button type="button" class="" data-time="13:00">13:00</button><button type="button" class="" data-time="14:00">14:00</button><button type="button" class="" data-time="15:00">15:00</button><button type="button" class="" data-time="16:00">16:00</button><button type="button" class="" data-time="17:00">17:00</button><button type="button" class="" data-time="18:00">18:00</button>            </div>
+        </div>
+        <div class="callback-inputs">
+            <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">            <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">            <input type="hidden" class="form-control callback-widget-delayed-time" name="callback-widget-delayed-time" value="11:00"><input type="hidden" class="form-control callback-widget-delayed-date" name="callback-widget-delayed-date" value="09.12.2024"><input type="hidden" class="form-control callback-widget-is-choose-time" name="callback-widget-is-choose-time" value="0">            <div class="form-group">
+                <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Укажите ваш номер телефона">                <span class="callback-submit-wrap">
+                    <button type="button"
+                        class="btn-carrot callback-form-submit callback-form-analytics">ПЕРЕЗВОНИТЕ МНЕ</button>
+                </span>
+            </div>
+        </div>
+        <div class="callback-result-wrap hidden"></div>
+    </div>
+</div>
+<div class="hidden" id="timeoutPopup">
+    <div id="timeoutForm">
+        <img src="/img/waiting-man.png" alt="">
+        <div class="timeoutTitle">Получить свежие цены</div>
+        <div class="timeoutHelp">
+            Результаты поиска актуальны в течение <strong>15 минут!</strong>
+        </div>
+        <button id="repeatCurrentSearch" class="btn-brand">
+            Обновить поиск
+        </button>
+    </div>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXVW283"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Pixel -->
+<!-- /Pixel -->
+<script src="/assets/6afec75e/jquery.min.js?v=1733117057"></script>
+<script src="/assets/ac4c6828/yii.js?v=1733117057"></script>
+<script src="/js/plugins/jquery.cookie.min.js?v=1730179335"></script>
+<script src="/js/plugins/bootstrap.min.js?v=1730179335" onload="window.registerBootstrapTooltip &amp;&amp; window.registerBootstrapTooltip()"></script>
+<script src="/assets/97214d0d/bundle.min.js?v=1733117057" onload="initSentry &amp;&amp; initSentry()"></script>
+<script src="/js/moment-with-locales.min.js?v=1730179335"></script>
+<script src="/js/plugins/maskedinput.min.js?v=1730179335"></script>
+<script src="/js/jquery.actual.min.js?v=1730179335"></script>
+<script src="/js/sockjs-0.3.2.min.js?v=1730179335"></script>
+<script src="/dist/common/core/js/core.min.js?v=1730179335"></script>
+<script src="/dist/desktop/common/main/js/main.min.js?v=1730179335"></script>
+<script src="/js/plugins/jquery.inputmask.min.js?v=1730179335"></script>
+<script src="/dist/desktop/modules/hotelCatalog/js/hotelCatalog.min.js?v=1730179335"></script>
+<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" async></script>
+<script src="//yastatic.net/share2/share.js" async></script>
+<script src="/assets/560a4d5d/js/blueimp-gallery.min.js?v=1733117142"></script>
+<script src="/assets/70013866/dosamigos-blueimp-gallery.js?v=1733117142"></script>
+<script src="/assets/d2eee371/js/comment.js?v=1733117067"></script>
+<script src="/dist/common/widgets/comments/js/comments.min.js?v=1730179335"></script>
+<script src="/assets/ac4c6828/yii.validation.js?v=1733117057"></script>
+<script src="/assets/ac4c6828/yii.activeForm.js?v=1733117057"></script>
+<script src="/assets/b82f615e/jquery.pjax.js?v=1733117067"></script>
+<script src="/dist/desktop/widgets/callback/core/js/core.min.js?v=1730179335" async="async"></script>
+<script>jQuery(function ($) {
+dosamigos.gallery.registerLightBoxHandlers('#hotel-photo-gallery a', []);
+jQuery('#f930bd2e1328').comment({"pjaxContainerId":"#comment-pjax-container-w0","formSelector":"#comment-form"});
+jQuery('#comment-form').yiiActiveForm([{"id":"comment-content","name":"content","container":".field-comment-content","input":"#comment-content","validateOnChange":false,"validateOnBlur":false,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Комментарий не может быть пустым."});yii.validation.string(value, messages, {"message":"Значение «Комментарий» должно быть строкой.","skipOnEmpty":1});}},{"id":"comment-rating","name":"rating","container":".field-comment-rating","input":"#comment-rating","validateOnChange":false,"validateOnBlur":false,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Значение «Rating» должно быть целым числом.","skipOnEmpty":1});}},{"id":"comment-entityid","name":"entityId","container":".field-comment-entityid","input":"#comment-entityid","validateOnChange":false,"validateOnBlur":false,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «ИД модели»."});yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Значение «ИД модели» должно быть целым числом.","skipOnEmpty":1});}},{"id":"comment-parentid","name":"parentId","container":".field-comment-parentid","input":"#comment-parentid","validateOnChange":false,"validateOnBlur":false,"validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Значение «Родитель» должно быть целым числом.","skipOnEmpty":1});}}], []);
+jQuery(document).pjax("#comment-pjax-container-w0 a", {"push":false,"replace":false,"timeout":20000,"scrollTo":true,"container":"#comment-pjax-container-w0"});
+jQuery(document).off("submit", "#comment-pjax-container-w0 form[data-pjax]").on("submit", "#comment-pjax-container-w0 form[data-pjax]", function (event) {jQuery.pjax.submit(event, {"push":false,"replace":false,"timeout":20000,"scrollTo":true,"container":"#comment-pjax-container-w0"});});
+});</script>
+<script>jQuery(window).on('load', function () {
+if (window.Sentry) {
+                Sentry.configureScope(function(scope) {
+                    if (window.yaCounter18493072) {
+                        scope.setExtra("yandex_client_id", yaCounter18493072.getClientID());
+                    }
+                    scope.setExtra("is_mobile_version", window.app.isMobile);
+                });
+            }
+});</script></body>
+</html>

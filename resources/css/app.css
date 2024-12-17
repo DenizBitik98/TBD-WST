@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+/* Логотип */
+.navbar-logo img {
+    height: 60px;
+    width: auto;
+}
+
+/* Главный блок hero */
+.hero {
+    background-color: #007BFF; /* Синий фон */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-blend-mode: overlay;
+}
+
+/* Информация */
+.contact-info {
+    font-size: 14px;
+    color: #555; /* Тёмно-серый цвет */
+}
+
+/* Строка поиска */
+.search-bar {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+}
+
+.search-bar .input-field {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    border-radius: 4px;
+    transition: border 0.3s ease-in-out;
+}
+
+.search-bar .input-field:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.search-bar .btn-primary {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.search-bar .btn-primary:hover {
+    background-color: #e65c00;
+    transform: translateY(-2px);
+}
+
+/* Карточки с анимацией */
+.service-card,
+.reason-card,
+.tour-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.service-card:hover,
+.reason-card:hover,
+.tour-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Стилизация селектов (кнопки выбора языка и валюты) */
+.custom-select {
+    appearance: none;
+    background-color: #ffffff;
+    color: #007BFF;
+    border: 2px solid #000000; /* Чёрная рамка */
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-select:hover,
+.custom-select:focus {
+    border-color: #007BFF;
+    box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.3);
+    background: #f9f9f9;
+}
+
+.custom-select option {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Кнопка "Войти" */
+.btn-login {
+    background-color: #ffffff;
+    color: #007BFF;
+    font-weight: 600;
+    border: 2px solid #000000;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: #007BFF;
+    color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Дополнительные стили для навигации */
+.nav-link {
+    font-weight: 600;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ff6600;
+}
+
+/* Мобильное меню */
+@media (max-width: 768px) {
+    .custom-select,
+    .btn-login {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+}

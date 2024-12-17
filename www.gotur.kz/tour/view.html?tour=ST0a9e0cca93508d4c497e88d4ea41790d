@@ -1,0 +1,2515 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <base href="https://www.gotur.kz/">
+    <meta charset="UTF-8">
+<link rel="apple-touch-icon" sizes="180x180" href="/appicon/apple-touch-icon.png">
+<link rel="mask-icon" href="/appicon/safari-pinned-tab.svg" color="#f06251">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/appicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/appicon/favicon-16x16.png">
+<link rel="shortcut icon" href="/appicon/favicon.ico">
+
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#0071d4">
+<meta name="msapplication-TileImage" content="/appicon/ms-icon-144x144.png">
+
+<meta name="theme-color" content="#0071d4">
+<meta name="apple-mobile-web-app-status-bar-style" content="#0071d4">
+
+<meta name="apple-mobile-web-app-title" content="Турагентство GOTOUR.KZ">
+<meta name="application-name" content="Турагентство GOTOUR.KZ"><meta name="google-site-verification" content="nobn0mtbRwAQHcL3W59PH-Gao9rteXQYgcYvaPQZkbU" />
+<meta name="wmail-verification" content='36246c1762379c1cad53ce96f5535c4b' />
+<meta name="yandex-verification" content="e4a55cdfe208dc62" />
+<meta name="facebook-domain-verification" content="mms3bvse53ek441uksblgotrfn182b" />
+    <title>Отель ISLAND VIEW RESORT (EX-SUNRISE ISLAND VIEW) 5* в Египет, Шарм-эль-Шейх - цены на Gotour</title>
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="99_lIaAtcz0lQ908QdRYAdGTncJ2huBjfezs2o_jAg2aj6NG2mwwDhMLl3cZm2lQvMvllCL0gzosoqOV5IV1VA==">
+<script>
+    app = {
+        staticDomain: "https://static.gotur.kz",
+        googleMapApiKey: "AIzaSyDebOpjG3l-Y3fcxlzMKxBG6dAJwmdgy8Q",
+        yandexMapApiKey: "0f162d03-62bd-432b-86bb-653a4b66ff89",
+        urls: {
+            getShortId: "/tour/get-short-id.html",
+            addSubscription: "/subscription.html",
+            addSubscriptionSuccess: "/subscription-success.html",
+            findTour: "/tour/find.html",
+            addCallback: "/callback/create.html",
+            changeCallbackCallTime: "/callback/change-call-time.html",
+            setCity: "/site/set-city.html",
+            setCurrency: "/site/set-currency.html"
+        },
+        city: {
+            id: 1,
+        },
+        realCity: {
+            name: ""        },
+        cities: {"1":{"id":1,"name":"Алматы","depart_id":1,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"https://www.instagram.com/gotour.kz/","facebook":"https://www.facebook.com/gotour.kz/"},"contactsHidden":false},"2":{"id":2,"name":"Астана","depart_id":2,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"4":{"id":4,"name":"Актобе","depart_id":6,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"5":{"id":5,"name":"Актау","depart_id":8,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"8":{"id":8,"name":"Караганда","depart_id":4,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"9":{"id":9,"name":"Шымкент","depart_id":5,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"10":{"id":10,"name":"Атырау","depart_id":12,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"11":{"id":11,"name":"Семей","depart_id":0,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"12":{"id":12,"name":"Талдыкорган","depart_id":0,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"13":{"id":13,"name":"Темиртау","depart_id":0,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"14":{"id":14,"name":"Уральск","depart_id":10,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"15":{"id":15,"name":"Усть-Каменогорск","depart_id":11,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"16":{"id":16,"name":"Павлодар","depart_id":9,"currentPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"altPhone":{"code":"+7 (747)","phone":"+7 (747) 344-97-88","clearPhone":"77473449788","href":"tel:+77473449788"},"socials":{"instagram":"","facebook":""},"contactsHidden":true}},
+        cityTemplate: {
+            hiddenPhone: "<span class=\"hidden-phone\" role=\"button\" data-city=\"{{cityId}}\" data-type=\"{{type}}\"><span class=\"phone-code\">{{phoneCode}}</span><span class=\"btn-show-hidden-phone\">Показать</span></span>",
+            phoneLink: "<a class=\"site-phone-link phone-{{clearPhone}} clickable-phone\" href=\"{{href}}\">{{phone}}</a>",
+        },
+        sock: {
+            local: "//127.0.0.1:8888/serv",
+            main: "https://ws.gotour.kz/serv",
+        },
+                srcCount: 30,
+        v_uid: undefined,
+        currency: "kzt",
+        isMobile: 0,
+        isGeolocationEnabled: 0,
+        debug: 0,
+        loading: {
+            data: "",
+            dots: "",
+            circle: "<div class=\"circle-loader\"><svg viewBox=\"25 25 50 50\"><circle cx=\"50\" cy=\"50\" r=\"20\"></circle></svg></div>",
+        },
+                quizCountdownMs: 1000,
+    };
+</script>
+<meta name="description" content="Хотите купить тур в ISLAND VIEW RESORT (EX-SUNRISE ISLAND VIEW) 5*? ➤➤➤ Сравнивайте цены на туры в режиме онлайн на сайте gotur.kz ⛱️ Бронируйте тур вашей мечты!">
+<link href="https://www.gotur.kz/hotel/island-view-resort.html" rel="canonical">
+<link href="/css/plugins/bootstrap.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/common/main/css/main.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/pages/hotel/css/hotel.min.css?v=1730179335" rel="stylesheet">
+<link href="/assets/69fe9865/styles.css?v=1733117078" rel="stylesheet">
+<link href="/dist/desktop/widgets/managerContact/css/managerContact.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/callback/core/css/core.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/find-form/form/css/form.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/callback/tour-detail/css/tour-detail.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/banner/css/banner.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/subscription-form/column/css/column.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/subscription-form/compact/css/compact.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/subscription-form/leave-subscribe-modal/css/leave-subscribe-modal.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/quiz/css/quiz.min.css?v=1730179335" rel="stylesheet">
+<script>var hotTableParams = {"tourIncludes":["hotel","transfer","flight","insurance","meal"],"hidePriceOnPages":false,"toursCollection":{"groupTours":false,"groupFields":["hotel.id","isCombined"],"pagination":{"pageSize":20},"sort":{"attribute":"price.forTour","direction":"ASC"}},"noPhotoLink":"\/img\/no-hotel.jpg","photoBasePath":"https:\/\/static.gotur.kz\/img\/h","searchByFilters":false,"isShowPriceByOne":false,"isShowHotelSearchInput":true,"isShowSameTours":false,"isRenderFilters":false,"isRenderShortTour":true,"isRenderTitle":false,"useTourRequestButton":true,"currencySign":"₸","paginationScrollToSelectorId":"hotel-search-tours","isPhotoSliderAvailable":false,"isRenderTourInclude":true,"isNeedScrollToTableTopOnFirstSearch":true,"isRenderChart":false,"tourViewUrl":"\/tour\/view.html?tour=","suggestHotelsUrl":"\/find-tours\/suggest-hotels.html","priceBoundRanges":[{"from":0,"to":10000,"label":"до 10 000 ₸"},{"from":10000,"to":20000,"label":"10 000 - 20 000 ₸"},{"from":20000,"to":30000,"label":"20 000 - 30 000 ₸"},{"from":30000,"to":40000,"label":"30 000 - 40 000 ₸"},{"from":40000,"to":50000,"label":"40 000 - 50 000 ₸"},{"from":50000,"to":60000,"label":"50 000 - 60 000 ₸"},{"from":60000,"to":70000,"label":"60 000 - 70 000 ₸"},{"from":70000,"to":999999999,"label":"₸ 70 000+"}]};
+
+    // Google Tag Manager
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXVW283');
+    // End Google Tag Manager
+
+var yandexConfig = {"params":{"pageType":"hotel"},"enableClickMap":false,"enableWebVisor":false};</script></head>
+<body class="gotour-theme ">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","additionalType":"TravelAgency","address":{"@type":"PostalAddress","addressLocality":"Алматы, Казахстан","streetAddress":"Проспект Назарбаева 193, 1 этаж"},"name":"туристское агентство","email":"almaty@gotour.kz","openingHours":["Mo-Fr 10:00-19:00","Sa 10:00-15:00"],"priceRange":"155000-2150000KZT","telephone":["+7 (727) 344‒97‒88","+7 (747) 344‒97‒88","+7 (771) 171‒71‒86"],"image":"https://www.gotur.kz/img/gt-logo-white.png","url":"//www.gotur.kz","geo":{"@type":"GeoCoordinates","latitude":"76.948285","longitude":"43.239908"}}</script><script>    function registerBootstrapTooltip() {
+        if (window.jQuery && $.isFunction($.fn.tooltip)) {
+            jQuery.fn.extend({ bootstrapTooltip: $.fn.tooltip })
+        }
+    }
+function initSentry() {
+                    Sentry.init({
+                        dsn: 'https://72ea944f82714cbc9cc44c7e09d6315c@o50394.ingest.sentry.io/5377892',
+                        ignoreErrors: ["Failed to fetch","$ is not defined","Can't find variable: jQuery","Can't find variable: $","adsbygoogle.push() error: No slot size for availableWidth=0"],
+                        denyUrls: [],
+                        integrations: [
+                            new Sentry.Integrations.GlobalHandlers({
+                                onerror: true,
+                                onunhandledrejection: false
+                            })
+                        ]
+                    });
+                }
+var tourHotel = {"name":"ISLAND VIEW RESORT (EX-SUNRISE ISLAND VIEW) 5*","coordinates":{"lat":27.96420753,"lng":34.39590141}};</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Hotel","name":"ISLAND VIEW RESORT (EX-SUNRISE ISLAND VIEW) 5*","image":"https://static.ht.kz/img/h/sm4x3/38/7428_1_84dc0cc7.jpg","description":"Курортный отель Island View находится в районе Шаркс Бэй, в 50 метрах от площади Сохо с ресторанами, кафе и пабами. К услугам гостей отдельный пляж, 4 бассейна в виде лагуны, 3 ресторана и 5 баров.\nВсе номера курортного отеля Island View располагают балконом с видом на бассейн, телевизором со спутниковыми каналами, письменным столом и мини-баром. В ванной комнате установлены ванна и душ.\nПо утрам для гостей накрывают завтрак «шведский стол», а вечером можно заказать блюда по меню. В курортном отеле Island View можно отведать блюда в эклектичной обстановке. В баре подают алкогольные и безалкогольные коктейли.\nВ спа-салоне курортного отеля Island View к вашим услугам множество расслабляющих процедур, в том числе полный массаж тела и лица. В современном тренажерном зале установлены новейшие кардиотренажеры. На территории отеля гости могут поиграть в бильярд, теннис и заняться сноркелингом.\nКурортный отель Island View расположен в 15 минутах езды от бухты Наама-Бэй с ресторанами и кафе. До международного аэропорта Шарм-эль-Шейха - 15 минут езды на автомобиле.Парам особенно нравится расположение — они оценили проживание в этом районе вдвоем на 8,9.Расстояние, указанное в описании, рассчитано с помощью © OpenStreetMap","address":{"@type":"PostalAddress","addressLocality":"Шарм-эль-Шейх","addressCountry":"Египет"},"aggregateRating":{"@type":"AggregateRating","ratingValue":7.6},"starRating":"5","amenityFeature":["А-ля карт","Детское меню","Детский бассейн","Детская кроватка","Бассейн с подогревом","Прачечная","Медсестра","Бассейн","Песок"],"review":[{"@type":"Review","reviewRating":{"ratingValue":10},"author":{"@type":"Person","name":"Ivan"},"reviewBody":"Наша семья часто отдыхает в Египте. Были в разных отелях. В Island View приезжаем не первый раз. Для детей здесь безопасно. Около бассейнов постоянно дежурят по несколько спасателей. Охрана на входе в отель,  в столовой, на ресепшене. Питание очень приличное. Даже детей всегда можно накормить. Вечером мясо, рыба, креветки, крабы... Очень вкусно! Отдельно хочу отметить здесь рестораны А-ля карт на пляже (в них нужно записываться заранее). Рыба и мясо от шеф-повара Мохаммеда тают во рту. Советую! Море живое, в отличие от других побережий. Постоянно видим красивейших Наполеонов, мурен, скатов. Кораллы здесь живые! И персонал - именно из-за их чуткого отношения мы приезжаем не первый раз. Любая ваша проблема будет решена, надо только её озвучить."},{"@type":"Review","reviewRating":{"ratingValue":10},"author":{"@type":"Person","name":"Aliaksandr"},"reviewBody":"Очень приятный  персонал, мвхмуд и тамир самые лучштюие на свете"},{"@type":"Review","reviewRating":{"ratingValue":9},"author":{"@type":"Person","name":"Alena"},"reviewBody":"Отель расположен в 2-х шагах от площади Сохо. Очень красивый вид на море. Интересная пляжная атмосфера, много активностей, хорошая музыка, хороший коралловый риф, рыбок много, есть даже свой большой наполеон, который позволяет себя рассмотреть близко. Нас заселили в номер выше классом совершенно бесплатно. Очень приятный персонал на рецепшн. Еда в ресторане вкусная, разнообразная. Отель компактный, нам показалось, хороший для отдыха с детками, так как там есть большая детская зона как на территории отеля, так и на пляже вход в море вдоль всего пляжа песчаный, но есть и понтон."},{"@type":"Review","reviewRating":{"ratingValue":2},"author":{"@type":"Person","name":"Valeriya"},"reviewBody":"Близко к аэропорту. Это единственный плюс"},{"@type":"Review","reviewRating":{"ratingValue":8},"author":{"@type":"Person","name":"Gancvgein"},"reviewBody":"Хороший, уютный отель. Прям на Сохо. Вкусная еда, крабы и морепродукты каждый день. Шикарный риф. Команда анимации хорошая. Уборка в номере - великолепно, все чисто. Вода, чай, кофе, чайник. Быстрое заселение. Можно пользоваться электрокаром - вас довезут куда нужно на территории отеля. Хочу отметить - открытая терасса в столовой, но нет ворон. Включают запись хищных птиц и вороны улетают. Комнаты большие, большая ванная. Хороший вай фай на ресепшен. Номер с шикарным видом на море. Радовали пенной вечеринкой и различными шоу.отмечу диспенсеры с жидким мылом и шампунем - это экологично! Во всех общих туалетах чисто, бумага везде есть.прям на пляж приходит черная цапля ловить рыбу. Ресторан Аля кард вкусный, и рыбный и итальяно. Про алкоголь ничего не скажу - не употребляем. Взяли этот отель на заметку, вернемся обязательно! В столовой соблюден температурный режим, прохлодно, что позволяет комфортно питаться. Уютный ресепшен, вкусно пахнет и мягкие диванные зоны."},{"@type":"Review","reviewRating":{"ratingValue":8},"author":{"@type":"Person","name":"Liuba"},"reviewBody":"Понравилось месторасположение , пирс, первая линия. Выбрала отель из за моря и рыбок . В номере был очень большой балкон. Бассейн для взрослых без детей  отличный , персонал там понравился в отличии персонала на море, баре . Персонал на ресепшене тоже хороший ."}]}</script><div class="wrapper">
+    
+<nav class="nav-bar">
+    <div class="container nav-bar-container">
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                <li>
+    <a href="/tury/goryashchie-tury/almaty.html" class="direct-link">Горящие туры</a>
+</li>
+                <li>
+    <a href="/tury/iz-almaty.html" class="direct-link">Цены на туры</a>
+</li>
+                <li class="dropdown">
+    <a href="/poisk-tura.html">Поиск онлайн <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/poisk-tura.html">Поиск туров</a></li>
+                    <li><a href="/aviabilety.html">Поиск авиабилетов</a></li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/tury.html">Отдых за рубежом <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/turciya/almaty.html">Туры в Турцию</a></li>
+                                            <li><a href="/tury/thailand/almaty.html">Туры в Таиланд</a></li>
+                                            <li><a href="/tury/oae/almaty.html">Туры в ОАЭ</a></li>
+                                            <li><a href="/tury/india/almaty.html">Туры в ГОА, Индия</a></li>
+                                            <li><a href="/tury/egypet/almaty.html">Туры в Египет</a></li>
+                                            <li><a href="/tury/vietnam/almaty.html">Туры в Вьетнам</a></li>
+                                            <li><a href="/tury/dominikanskaia-resp/almaty.html">Туры в Доминикану</a></li>
+                                            <li><a href="/tury/kitaj/almaty.html">Туры в Китай(Хайнань)</a></li>
+                                            <li><a href="/tury.html">Смотреть все туры</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Тематические туры <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/rannee-bronirovanie.html">Раннее бронирование туров</a></li>
+                                            <li><a href="/tury/gornolyzhnye-tury.html">Горнолыжные туры</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Горящие туры</a></li>
+                                            <li><a href="/tury/individualnye-i-vip-tury.html">Индивидуальные и VIP туры</a></li>
+                                            <li><a href="/tury/kombinirovannye-tury.html">Комбинированные туры</a></li>
+                                            <li><a href="/tury/morskie-kruizy.html">Морские круизы</a></li>
+                                            <li><a href="/tury/lechebnye-tury.html">Лечебные туры</a></li>
+                                            <li><a href="/tury/plyazhnyj-otdykh.html">Пляжный отдых</a></li>
+                                            <li><a href="/tury/svadebnye-tury.html">Свадебные туры</a></li>
+                                            <li><a href="/tury/tury-na-prazdniki-meropriyatiya.html">Туры на праздники, мероприятия</a></li>
+                                            <li><a href="/tury/shop-tury.html">Шоп-туры</a></li>
+                                            <li><a href="/tury/ekskursionnye-tury.html">Экскурсионные туры</a></li>
+                                            <li><a href="/tury/avtobusnye-tury.html">Автобусные туры</a></li>
+                                            <li><a href="/tury/detskij-otdykh.html">Детский отдых</a></li>
+                                            <li><a href="/tury/newyear.html">Новогодние туры</a></li>
+                                            <li><a href="/tury/spring-break-and-nauryz.html">Весенние каникулы и Наурыз</a></li>
+                                            <li><a href="/tury/may_holidays_tours.html">Туры на майские праздники</a></li>
+                                            <li><a href="/tury/osennie-kanikuly.html">Осенние каникулы</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Смотреть все</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Полезно знать <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/strany.html">О странах</a></li>
+                                            <li><a href="/oteli.html">Отели</a></li>
+                                            <li><a href="/blogs.html">Интересные статьи</a></li>
+                                            <li><a href="/news.html">Новости туризма</a></li>
+                                            <li><a href="/tury/vizy-registratsiya.html">Визы, регистрация</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/oteli/kazakhstan.html">Отдых в Казахстане <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Регионы <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan.html">Все зоны отдыха, санатории в Казахстане</a></li>
+                                            <li><a href="/oteli/kazakhstan/almatinskaia-obl.html">Алматинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/aktiubinskaia-obl.html">Актюбинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/atyrausaia-obl.html">Атыраусая обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/vostochno-kazakhstanskaia-obl.html">Восточно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zhambylskaia-oblast.html">Жамбылская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zapadno-kazakhstanskaia-obl.html">Западно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/karagandinskaia-obl.html">Карагандинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kostanaiskaia-obl.html">Костанайская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kyzylordinskaia-obl.html">Кызылординская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/mangistauskaia-obl.html">Мангистауская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/pavlodarskaia-obl.html">Павлодарская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/severo-kazakhstanskaia-obl.html">Северо-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/iuzhno-kazakhstanskaia-obl.html">Южно-Казахстанская обл.</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kapchagae.html">Отдых на Капчагае</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-alakole.html">Отдых на Алаколе</a></li>
+                                            <li><a href="/oteli/kazakhstan/goryachie-istochniki.html">Горячие источники</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-borovom.html">Отдых в Боровом</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-s-detmi.html">Отдых с детьми</a></li>
+                                            <li><a href="/oteli/kazakhstan/pokatatsya-na-lyzhakh-sankakh.html">Покататься на лыжах, санках</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-zerende.html">Отдых в Зеренде</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-balkhashe.html">Отдых на Балхаше</a></li>
+                                            <li><a href="/oteli/kazakhstan/vip-otdykh.html">VIP отдых</a></li>
+                                            <li><a href="/oteli/kazakhstan/okhota.html">Охота</a></li>
+                                            <li><a href="/oteli/kazakhstan/bassejny-i-akvaparki.html">Бассейны и Аквапарки</a></li>
+                                            <li><a href="/oteli/kazakhstan/rybalka.html">Рыбалка</a></li>
+                                            <li><a href="/oteli/kazakhstan/anatorii-lechenie-spa.html">Санатории, Лечение, СПА</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kaspii.html">Отдых на Каспии</a></li>
+                                            <li><a href="/oteli/kazakhstan/piknik.html">Пикник</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Виды зон отдыха <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/hostel.html">Hostel</a></li>
+                                            <li><a href="/oteli/kazakhstan/baza-otdykha.html">База отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/butik-otel.html">Бутик отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostevoj-dom.html">Гостевой дом</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinitsa.html">Гостиница</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinichnyj-kompleks.html">Гостиничный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/dom-otdykha.html">Дом отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/sanatorij.html">Санаторий</a></li>
+                                            <li><a href="/oteli/kazakhstan/kemping-otel.html">Кемпинг</a></li>
+                                            <li><a href="/oteli/kazakhstan/kottedzhnyj-kompleks.html">Коттеджный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/pansionat.html">Пансионат</a></li>
+                                            <li><a href="/oteli/kazakhstan/turbaza.html">Турбаза</a></li>
+                                            <li><a href="/oteli/kazakhstan/eko-otel.html">Эко отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/chastnyj-sektor.html">Частный сектор</a></li>
+                                            <li><a href="/oteli/kazakhstan/detskij-lager.html">Детский лагерь</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Туры выходного дня <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/holiday.html">Все туры выходного дня</a></li>
+                                            <li><a href="/holiday/almaty.html">В Алматы</a></li>
+                                            <li><a href="/holiday/astana.html">В Нур-Cултане (Астана)</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/company.html">О нас <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/turagentstva/operator.html">Наши партнеры</a></li>
+            </ul>
+</li>
+                <li>
+    <a href="/kontakti.html" class="direct-link">Контакты</a>
+</li>
+            </ul>
+        </div>
+        <div class="nav-bar-city-select">
+    Ваш город:&nbsp;
+    <div class="h-select main_hSelect" id="hSelectMainCity">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face" data-value="1">
+                <span>Алматы</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="1">
+                    <span>Алматы</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="2">
+                    <span>Астана</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="4">
+                    <span>Актобе</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="5">
+                    <span>Актау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="8">
+                    <span>Караганда</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="9">
+                    <span>Шымкент</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="10">
+                    <span>Атырау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="11">
+                    <span>Семей</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="12">
+                    <span>Талдыкорган</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="13">
+                    <span>Темиртау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="14">
+                    <span>Уральск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="15">
+                    <span>Усть-Каменогорск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="16">
+                    <span>Павлодар</span>
+                </div>
+                        </div>
+    </div>
+</div>
+        <div class="nav-bar-currency-select">
+    <div class="h-select main_hSelect" id="hSelectCurrency">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face">
+                <span>KZT</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="kzt">
+                    <span>KZT</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="usd">
+                    <span>USD</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="eur">
+                    <span>EUR</span>
+                </div>
+                    </div>
+    </div>
+</div>
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                    <li>
+        <a href="/login.html" class="direct-link login-button">Войти</a>
+    </li>
+                </ul>
+        </div>
+    </div>
+</nav>
+    <header class="only-contacts">
+    <div class="container">
+        <div class="header-common-elements">
+    <div class="logo">
+                    <a href="/">
+                <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            </a>
+                </div>
+                <div class="header-phone">
+            <img src="/img/phone-circle.png"
+                 alt="">
+            <span class="phone-text">Наш телефон:</span>
+            <span class="site-phone"><a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a></span>
+        </div>
+                    <div class="header-whatsapp-phone">
+                <img src="/img/whatsapp.svg"
+                     alt="">
+                <span class="whatsapp-text">Наш WhatsApp:</span>
+                <span class="site-phone"><a class="js-whatsapp-phone-conversion site-phone-link whatsapp-button" href="https://wa.me/77711717126?text=Здравствуйте. Я хочу подобрать тур.">+7 (771) 171-71-26</a></span>
+            </div>
+                    <div class="clearfix"></div>
+</div>
+    </div>
+</header>
+
+    <div class="promo promo-pos-dt">
+            <a href="/banner/go.html?id=53" rel="nofollow">
+            <img src="/uploads/banners/64490e5f3413e.jpg" alt="Бронируйте туры через наш чат бот в телеграме" title="Бронируйте туры через наш чат бот в телеграме">
+        </a>
+    </div>
+
+
+    <div class="container">
+            </div>
+            <main>
+            <div class="container">
+        <div class="columns">
+            <div class="column-left">
+                <div class="site-block">
+                    <div class="site-header">
+    <h4>Расположение отеля</h4>
+</div>
+<div class="hotel-map">
+            <div class="tour-hotel-map hotel-map__skeleton-bg" id="tour-hotel-map">
+            <button type="button" class="btn-secondary hotel-map__load-map">Показать на карте</button>
+        </div>
+                    <button type="button"
+                class="btn-brand js-slide-to"
+                data-target="#hotel-info">Подробнее об отеле
+        </button>
+    </div>
+                </div>
+                <div class="manager-contacts">
+    <div class="avatar">
+        <div class="avatar-wrapper">
+            <img src="https://static.gotur.kz/fls/avatar/1625032088b52e1a15.png"
+                 alt=" ">
+        </div>
+        <span class="status-green">На связи</span>
+    </div>
+    <div class="name">
+             </div>
+    <div class="address">пр. Назарбаева 193</div>
+    <div class="site-phone">
+        <a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a>    </div>
+    <div class="callback-form callback-offer-manager">
+    <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">    <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">    <div class="form-group">
+        <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Укажите ваш номер телефона">    </div>
+    <div class="callback-result-wrap hidden"></div>
+    <div class="callback-submit-wrap">
+        <button type="button" class="btn-carrot callback-form-submit callback-form-analytics">Перезвоните мне</button>
+    </div>
+</div>
+</div>
+            </div>
+            <div class="column">
+                <div class="site-block">
+                    <div class="hotel-wrapper">
+                        <div class="hotel-intro">
+                            <div class="hotel-name">
+                                <span class="name">ISLAND VIEW RESORT (EX-SUNRISE ISLAND VIEW) 5*</span>
+                                <span class="region">Египет, Шарм-эль-Шейх</span>
+                            </div>
+                                                            <div class="hotel-rating">
+                                    <div class="reviews">
+                                        <span>У отеля хороший рейтинг</span>
+                                                                                    <a href="#"
+                                               class="js-slide-to"
+                                               data-target="#hotel-reviews">
+                                                Показать все отзывы (68)
+                                            </a>
+                                                                            </div>
+                                    <div class="rating">
+                                        7.6/10
+                                    </div>
+                                </div>
+                                                        </div>
+                        <div class="hotel-gallery">
+    <div class="gallery-main-image" id="bigImg_wrap">
+        <div class="hotel-min-price-wrapper hidden">
+            <span class="hotel-min-price"></span><br />
+            <span class="search-people-count">за 2 взрослых</span>
+        </div>
+        <div class="controls gallery-controls">
+            <span class="bigImg_wrap_left left"></span>
+            <span class="bigImg_wrap_right right"></span>
+            <div class="blur-bg"
+                 style="background-image: url('https://static.gotur.kz/img/h/big/38/7428_1_84dc0cc7.jpg')"></div>
+        </div>
+        <img id="bigImg" data-max="52" data-cur="0"
+             src="https://static.gotur.kz/img/h/big/38/7428_1_84dc0cc7.jpg" alt="">
+    </div>
+    <div class="hotel-pictures-slider">
+        <div class="images gallery-images-list" id="previewImagesWrap">
+                            <div class="list-item active"
+                     data-index="0"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_1_84dc0cc7.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_1_84dc0cc7.jpg"
+                         alt="Фото отеля #0">
+                </div>
+                                <div class="list-item "
+                     data-index="1"
+                     data-big="https://static.gotur.kz/img/h/big/38/74283.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/74283.jpg"
+                         alt="Фото отеля #1">
+                </div>
+                                <div class="list-item "
+                     data-index="2"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_6_36de50cc.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_6_36de50cc.jpg"
+                         alt="Фото отеля #2">
+                </div>
+                                <div class="list-item "
+                     data-index="3"
+                     data-big="https://static.gotur.kz/img/h/big/38/74282.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/74282.jpg"
+                         alt="Фото отеля #3">
+                </div>
+                                <div class="list-item "
+                     data-index="4"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_5_454e5995.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_5_454e5995.jpg"
+                         alt="Фото отеля #4">
+                </div>
+                                <div class="list-item "
+                     data-index="5"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_4_6f3eb891.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_4_6f3eb891.jpg"
+                         alt="Фото отеля #5">
+                </div>
+                                <div class="list-item "
+                     data-index="6"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_2_f742862f.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_2_f742862f.jpg"
+                         alt="Фото отеля #6">
+                </div>
+                                <div class="list-item "
+                     data-index="7"
+                     data-big="https://static.gotur.kz/img/h/big/38/74285.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/74285.jpg"
+                         alt="Фото отеля #7">
+                </div>
+                                <div class="list-item "
+                     data-index="8"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_27_51813d00.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_27_51813d00.jpg"
+                         alt="Фото отеля #8">
+                </div>
+                                <div class="list-item "
+                     data-index="9"
+                     data-big="https://static.gotur.kz/img/h/big/38/74287.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/74287.jpg"
+                         alt="Фото отеля #9">
+                </div>
+                                <div class="list-item "
+                     data-index="10"
+                     data-big="https://static.gotur.kz/img/h/big/38/742820.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742820.jpg"
+                         alt="Фото отеля #10">
+                </div>
+                                <div class="list-item "
+                     data-index="11"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_3_1dfb5ba0.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_3_1dfb5ba0.jpg"
+                         alt="Фото отеля #11">
+                </div>
+                                <div class="list-item "
+                     data-index="12"
+                     data-big="https://static.gotur.kz/img/h/big/38/742826.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742826.jpg"
+                         alt="Фото отеля #12">
+                </div>
+                                <div class="list-item "
+                     data-index="13"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_7_e95006db.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_7_e95006db.jpg"
+                         alt="Фото отеля #13">
+                </div>
+                                <div class="list-item "
+                     data-index="14"
+                     data-big="https://static.gotur.kz/img/h/big/38/74281.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/74281.jpg"
+                         alt="Фото отеля #14">
+                </div>
+                                <div class="list-item "
+                     data-index="15"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_5_de404868.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_5_de404868.jpg"
+                         alt="Фото отеля #15">
+                </div>
+                                <div class="list-item "
+                     data-index="16"
+                     data-big="https://static.gotur.kz/img/h/big/38/74286.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/74286.jpg"
+                         alt="Фото отеля #16">
+                </div>
+                                <div class="list-item "
+                     data-index="17"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_2_7944e1db.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_2_7944e1db.jpg"
+                         alt="Фото отеля #17">
+                </div>
+                                <div class="list-item "
+                     data-index="18"
+                     data-big="https://static.gotur.kz/img/h/big/38/74288.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/74288.jpg"
+                         alt="Фото отеля #18">
+                </div>
+                                <div class="list-item "
+                     data-index="19"
+                     data-big="https://static.gotur.kz/img/h/big/38/742812.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742812.jpg"
+                         alt="Фото отеля #19">
+                </div>
+                                <div class="list-item "
+                     data-index="20"
+                     data-big="https://static.gotur.kz/img/h/big/38/742813.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742813.jpg"
+                         alt="Фото отеля #20">
+                </div>
+                                <div class="list-item "
+                     data-index="21"
+                     data-big="https://static.gotur.kz/img/h/big/38/742815.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742815.jpg"
+                         alt="Фото отеля #21">
+                </div>
+                                <div class="list-item "
+                     data-index="22"
+                     data-big="https://static.gotur.kz/img/h/big/38/742816.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742816.jpg"
+                         alt="Фото отеля #22">
+                </div>
+                                <div class="list-item "
+                     data-index="23"
+                     data-big="https://static.gotur.kz/img/h/big/38/742818.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742818.jpg"
+                         alt="Фото отеля #23">
+                </div>
+                                <div class="list-item "
+                     data-index="24"
+                     data-big="https://static.gotur.kz/img/h/big/38/742819.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742819.jpg"
+                         alt="Фото отеля #24">
+                </div>
+                                <div class="list-item "
+                     data-index="25"
+                     data-big="https://static.gotur.kz/img/h/big/38/742821.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742821.jpg"
+                         alt="Фото отеля #25">
+                </div>
+                                <div class="list-item "
+                     data-index="26"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_24_1fa8f1d1.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_24_1fa8f1d1.jpg"
+                         alt="Фото отеля #26">
+                </div>
+                                <div class="list-item "
+                     data-index="27"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_24_f1e9e705.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_24_f1e9e705.jpg"
+                         alt="Фото отеля #27">
+                </div>
+                                <div class="list-item "
+                     data-index="28"
+                     data-big="https://static.gotur.kz/img/h/big/38/742824.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742824.jpg"
+                         alt="Фото отеля #28">
+                </div>
+                                <div class="list-item "
+                     data-index="29"
+                     data-big="https://static.gotur.kz/img/h/big/38/742811.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742811.jpg"
+                         alt="Фото отеля #29">
+                </div>
+                                <div class="list-item "
+                     data-index="30"
+                     data-big="https://static.gotur.kz/img/h/big/38/74289.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/74289.jpg"
+                         alt="Фото отеля #30">
+                </div>
+                                <div class="list-item "
+                     data-index="31"
+                     data-big="https://static.gotur.kz/img/h/big/38/742810.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742810.jpg"
+                         alt="Фото отеля #31">
+                </div>
+                                <div class="list-item "
+                     data-index="32"
+                     data-big="https://static.gotur.kz/img/h/big/38/742817.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742817.jpg"
+                         alt="Фото отеля #32">
+                </div>
+                                <div class="list-item "
+                     data-index="33"
+                     data-big="https://static.gotur.kz/img/h/big/38/742822.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742822.jpg"
+                         alt="Фото отеля #33">
+                </div>
+                                <div class="list-item "
+                     data-index="34"
+                     data-big="https://static.gotur.kz/img/h/big/38/742823.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742823.jpg"
+                         alt="Фото отеля #34">
+                </div>
+                                <div class="list-item "
+                     data-index="35"
+                     data-big="https://static.gotur.kz/img/h/big/38/742814.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742814.jpg"
+                         alt="Фото отеля #35">
+                </div>
+                                <div class="list-item "
+                     data-index="36"
+                     data-big="https://static.gotur.kz/img/h/big/38/74284.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/74284.jpg"
+                         alt="Фото отеля #36">
+                </div>
+                                <div class="list-item "
+                     data-index="37"
+                     data-big="https://static.gotur.kz/img/h/big/38/742827.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742827.jpg"
+                         alt="Фото отеля #37">
+                </div>
+                                <div class="list-item "
+                     data-index="38"
+                     data-big="https://static.gotur.kz/img/h/big/38/742829.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742829.jpg"
+                         alt="Фото отеля #38">
+                </div>
+                                <div class="list-item "
+                     data-index="39"
+                     data-big="https://static.gotur.kz/img/h/big/38/742830.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742830.jpg"
+                         alt="Фото отеля #39">
+                </div>
+                                <div class="list-item "
+                     data-index="40"
+                     data-big="https://static.gotur.kz/img/h/big/38/742825.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/742825.jpg"
+                         alt="Фото отеля #40">
+                </div>
+                                <div class="list-item "
+                     data-index="41"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_31_6ce2f95f.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_31_6ce2f95f.jpg"
+                         alt="Фото отеля #41">
+                </div>
+                                <div class="list-item "
+                     data-index="42"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_28_09dfa294.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_28_09dfa294.jpg"
+                         alt="Фото отеля #42">
+                </div>
+                                <div class="list-item "
+                     data-index="43"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_32_563d7952.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_32_563d7952.jpg"
+                         alt="Фото отеля #43">
+                </div>
+                                <div class="list-item "
+                     data-index="44"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_32_8dd3dc53.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_32_8dd3dc53.jpg"
+                         alt="Фото отеля #44">
+                </div>
+                                <div class="list-item "
+                     data-index="45"
+                     data-big="https://static.gotur.kz/img/h/big/38/1595911118e43e0197.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/1595911118e43e0197.jpg"
+                         alt="Фото отеля #45">
+                </div>
+                                <div class="list-item "
+                     data-index="46"
+                     data-big="https://static.gotur.kz/img/h/big/38/1595911500ef2519b0.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/1595911500ef2519b0.jpg"
+                         alt="Фото отеля #46">
+                </div>
+                                <div class="list-item "
+                     data-index="47"
+                     data-big="https://static.gotur.kz/img/h/big/38/1595911564ec64bae2.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/1595911564ec64bae2.jpg"
+                         alt="Фото отеля #47">
+                </div>
+                                <div class="list-item "
+                     data-index="48"
+                     data-big="https://static.gotur.kz/img/h/big/38/7428_28_eb7e5611.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/7428_28_eb7e5611.jpg"
+                         alt="Фото отеля #48">
+                </div>
+                                <div class="list-item "
+                     data-index="49"
+                     data-big="https://static.gotur.kz/img/h/big/38/1604647414e339f419.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/1604647414e339f419.jpg"
+                         alt="Фото отеля #49">
+                </div>
+                                <div class="list-item "
+                     data-index="50"
+                     data-big="https://static.gotur.kz/img/h/big/38/160464745997a5dda2.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/160464745997a5dda2.jpg"
+                         alt="Фото отеля #50">
+                </div>
+                                <div class="list-item "
+                     data-index="51"
+                     data-big="https://static.gotur.kz/img/h/big/38/160464752332970ba4.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/160464752332970ba4.jpg"
+                         alt="Фото отеля #51">
+                </div>
+                                <div class="list-item "
+                     data-index="52"
+                     data-big="https://static.gotur.kz/img/h/big/38/16046475230335f14d.jpg">
+                    <img src="https://static.gotur.kz/img/h/sm4x3/38/16046475230335f14d.jpg"
+                         alt="Фото отеля #52">
+                </div>
+                        </div>
+    </div>
+</div>
+<a id="tours"></a>
+<div class="hotel-search-tours-result" id="tour-results">
+    <div class="result-item">
+        <div class="from">
+                <span class="date">23 дек.</span>
+            <span class="city">Алматы</span>
+        </div>
+        <div class="to">
+                <span class="date">29 дек.</span>
+            <span class="country">Египет</span>
+        </div>
+        <div class="period">
+            <span class="nights">
+                7 дней            </span>
+            <span class="meal">Все включено</span>
+        </div>
+        <div class="price">
+            <span class="price">
+                801 663₸            </span>
+            <span class="tourists">
+                2 взрослых                            </span>
+        </div>
+
+        <button type="button" data-id="ST0a9e0cca93508d4c497e88d4ea41790d"
+                class="btn-carrot open-tour-request tours-btn-analytics">Подробнее
+        </button>
+    </div>
+</div>
+
+<div class="wg-tour-composition">
+    <div class="tour-composition-title">
+        В туры обычно<br> включено:
+    </div>
+    <div class="tour-composition-items">
+                    <span class="tour-composition-item-fly">Перелет</span>
+                            <span class="tour-composition-item-transfer">Трансфер</span>
+                            <span class="tour-composition-item-accommodation">Проживание</span>
+                            <span class="tour-composition-item-meal">Питание</span>
+                <span class="tour-composition-item-tour-code">Туркод</span>
+                    <span class="tour-composition-item-insurance">Страховка</span>
+                    </div>
+</div>
+
+<div id="hotel-search-tours" class="hotel-search-tours">
+    <h4>Туры в ISLAND VIEW RESORT (EX-SUNRISE ISLAND VIEW) 5*</h4>
+    <div class="short-search short-search-hotel">
+    <div class="short-search_wrapper">
+        <div class="short-search_body short-search-tab-content active noselect loading ">
+    <div class="body_form">
+        <div class="form_from form_dropdown " data-type="depart-city">
+            <div class="form-title">
+                <label>Откуда?</label>
+                <span class="from_field">Из Алматы</span>
+            </div>
+            <div class="from_dropdown form_dropdown_menu">
+            </div>
+        </div>
+        <div class="form_direction form_dropdown tooltip-error hidden" data-type="destination">
+            <div class="form-title">
+                <label>Куда?</label>
+                <input type="text"
+                       class="direction_field"
+                       placeholder="Страна, курорт или отель"
+                       data-preview="Страна, курорт или отель"
+                       data-hotel-placeholder="Введите название отеля"
+                       value="">
+                <img class="preloader hidden" src="/img/load.gif" alt="Please, wait"/>
+                <span class="remove hidden"></span>
+            </div>
+            <div class="direction_dropdown form_dropdown_menu">
+                <div class="destination-list">
+                    <div class="direction_loading">Подождите, подгружаем список стран...</div>
+                </div>
+            </div>
+        </div>
+        <div class="form_date form_dropdown tooltip-error" data-type="date">
+            <div class="form-title">
+                <label>Дата:</label>
+                <span class="date_field">
+                    23.12 ± 3 дня
+                </span>
+            </div>
+            <div class="date_dropdown form_dropdown_menu">
+                <div class="days">
+                    <div class="pull-left">
+                        Выберите когда вам удобно лететь
+                    </div>
+                    <div class="pull-right">
+                        <div class="checkbox full-filling_checkbox">
+                            <input type="checkbox" checked>
+                            <label><span></span>3 дня</label>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="calendar">
+                    <div class="controls">
+                        <button type="button" class="left noselect"><img src="/img/arrow-left.svg"></button>
+                        <button type="button" class="right noselect"><img src="/img/arrow-right.svg">
+                        </button>
+                    </div>
+                    <div class="wrapper">
+                        <div class="months"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form_duration form_dropdown tooltip-error" data-type="duration">
+            <div class="form-title">
+                <label>Количество дней:</label>
+                <span class="duration_field">на 6-9 дней</span>
+            </div>
+            <div class="duration_dropdown form_dropdown_menu">
+                <div class="info">
+                    <p>Выбраны даты с <b>23.12</b><br>
+                        ±3 дня на <b>6-9 дней</b></p>
+                </div>
+                <div class="days"></div>
+            </div>
+        </div>
+        <div class="form_stars form_dropdown hidden" data-type="stars">
+            <div class="form-title">
+                <label>Кол-во звёзд:</label>
+                <span class="stars_field">любое</span>
+            </div>
+            <div class="stars_dropdown form_dropdown_menu">
+                <div class="form-dropdown_item" data-value="5">5 звезд</div>
+                <div class="form-dropdown_item" data-value="4">4 звезды</div>
+                <div class="form-dropdown_item" data-value="3">3 звезды</div>
+                <div class="form-dropdown_item" data-value="2">2 звезды</div>
+                <div class="form-dropdown_item" data-value="1">1 звезда</div>
+                <div class="form-dropdown_item form-dropdown_item__selected" data-value="0">любое</div>
+            </div>
+        </div>
+        <div class="form_tourists form_dropdown tooltip-error" data-type="tourists">
+            <div class="form-title">
+                <label>Человек:</label>
+                <span class="tourists_field">2 взр</span>
+            </div>
+            <div class="tourists_dropdown form_dropdown_menu">
+                <div class="counter adults-count">
+                    <label>Взрослые: </label>
+                    <button type="button" class="prev"></button>
+                    <span>2</span>
+                    <button type="button" class="next"></button>
+                </div>
+                <div class="counter children-count">
+                    <label>Дети: </label>
+                    <button type="button" class="prev"></button>
+                    <span>0</span>
+                    <button type="button" class="next"></button>
+                </div>
+                <div class="child ages hidden">
+                    <label>Возраст детей:</label>
+                    <input type="text" class="hidden" placeholder="-">
+                    <input type="text" class="hidden" placeholder="-">
+                    <input type="text" class="hidden" placeholder="-">
+                    <input type="text" class="hidden" placeholder="-">
+                </div>
+            </div>
+        </div>
+        <div class="form_search">
+            <form action="/poisk-tura.html">
+                <input type="hidden" id="wsf-city" name="departCity" value="1">
+                <input type="hidden" id="wsf-country" name="country" value="18">
+                <input type="hidden" id="wsf-region" name="region" value="">
+                <input type="hidden" id="wsf-hotel" name="hotels" value="7428">
+                <input type="hidden" id="wsf-date-from" name="dateFrom"
+                       value="20.12.2024">
+                <input type="hidden" id="wsf-date-to" name="dateTo"
+                       value="26.12.2024">
+                <input type="hidden" id="wsf-nights-from" name="nightsFrom" value="5">
+                <input type="hidden" id="wsf-nights-to" name="nightsTo" value="8">
+                <input type="hidden" id="wsf-adults" name="adult" value="2">
+                <input type="hidden" id="wsf-children" name="child" value="0">
+                <input type="hidden" id="wsf-ages" name="childAges" value="">
+                <input type="hidden" id="wsf-stars" name="stars" value="0">
+                <input type="hidden" id="wsf-search" name="search" value="1">
+                <button type="submit" id="w-st-findtours" class="">Найти</button>
+            </form>
+        </div>
+        <div class="search-progressbar"></div>
+    </div>
+    <div class="form-loading-overlay"></div>
+</div>
+    </div>
+</div></div>
+<div class="hotel-search-tours-result">
+    <app-filters></app-filters>
+    <app-root></app-root>
+</div>
+    <div class="hotel-callback">
+        <img src="/img/lifehaker.png">
+        <div>
+            <h4>Бронируйте тур у менеджера по телефону:
+                <span class="site-phone">
+                    <a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a>                </span>
+            </h4>
+                            <p>
+                    Позвоните менеджеру и назовите номер тура:
+                    <span style="font-weight: bold" id="tourID">ST0a9e0cca93508d4c497e88d4ea41790d</span>
+                </p>
+                            <button type="button" class="btn-brand open-callback-popup">Заказать звонок</button>
+        </div>
+    </div>
+                    </div>
+                </div>
+                    <div class="site-block" id="hotel-info">
+        <div class="hotel-info js-info">
+            <h4>Об отеле</h4>
+                            <p class="hotel-info-description">Курортный отель Island View находится в районе Шаркс Бэй, в 50 метрах от площади Сохо с ресторанами, кафе и пабами. К услугам гостей отдельный пляж, 4 бассейна в виде лагуны, 3 ресторана и 5 баров.<br />
+Все номера курортного отеля Island View располагают балконом с видом на бассейн, телевизором со спутниковыми каналами, письменным столом и мини-баром. В ванной комнате установлены ванна и душ.<br />
+По утрам для гостей накрывают завтрак «шведский стол», а вечером можно заказать блюда по меню. В курортном отеле Island View можно отведать блюда в эклектичной обстановке. В баре подают алкогольные и безалкогольные коктейли.<br />
+В спа-салоне курортного отеля Island View к вашим услугам множество расслабляющих процедур, в том числе полный массаж тела и лица. В современном тренажерном зале установлены новейшие кардиотренажеры. На территории отеля гости могут поиграть в бильярд, теннис и заняться сноркелингом.<br />
+Курортный отель Island View расположен в 15 минутах езды от бухты Наама-Бэй с ресторанами и кафе. До международного аэропорта Шарм-эль-Шейха - 15 минут езды на автомобиле.Парам особенно нравится расположение — они оценили проживание в этом районе вдвоем на 8,9.Расстояние, указанное в описании, рассчитано с помощью © OpenStreetMap</p>
+                <button type="button" class="hotel-more-info js-more-info">Подробнее об отеле</button>
+                                <div class="hotel-info-features">
+                                            <li>
+                            <span style="background-image: url(/img/services/bathroom.png)"></span>
+                            <div class="feature-info">
+                                Ванная комната                                <span>Собственная ванная комната<br/>Туалет<br/>Ванна<br/>Душ</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/sunset.png)"></span>
+                            <div class="feature-info">
+                                На свежем воздухе                                <span>Пляж (первая линия)<br/>Терраса для загара<br/>Частная пляжная зона<br/>Балкон<br/>Терраса<br/>Сад</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/sport.png)"></span>
+                            <div class="feature-info">
+                                Спорт и отдых                                <span>Пляж<br/>Вечерняя программа<br/>Анимационный персонал<br/>Ныряние с маской и трубкой<br/>Дайвинг<br/>Бильярд<br/>Детская игровая площадка<br/>Теннисный корт</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/media.png)"></span>
+                            <div class="feature-info">
+                                Медиа и технологии                                <span>Спутниковые каналы<br/>Телефон<br/>Телевизор</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/drinks.png)"></span>
+                            <div class="feature-info">
+                                Питание и напитки                                <span>Снэк-бар<br/>Бар<br/>Мини-бар<br/>Ресторан</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/wifi.png)"></span>
+                            <div class="feature-info">
+                                Интернет                                <span>Wi-Fi предоставляется в общественных зонах за  дополнительную плату.</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/parking.png)"></span>
+                            <div class="feature-info">
+                                Парковка                                <span>Бесплатная частная парковка на месте (предварительный заказ не требуется) .<br/>Парковка</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/registration.png)"></span>
+                            <div class="feature-info">
+                                Стойка регистрации                                <span>Услуги консьержа<br/>Банкомат на территории отеля<br/>Хранение багажа<br/>Круглосуточная стойка регистрации</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/cleaning.png)"></span>
+                            <div class="feature-info">
+                                Услуги уборки                                <span>Услуги по глажению одежды<br/>Химчистка<br/>Прачечная</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/business.png)"></span>
+                            <div class="feature-info">
+                                Услуги бизнес-центра                                <span>Факс/ксерокопирование<br/>Конференц-зал/банкетный зал</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/star.png)"></span>
+                            <div class="feature-info">
+                                Безопасность                                <span>Сейф</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/info.png)"></span>
+                            <div class="feature-info">
+                                Общие                                <span>Кондиционер<br/>Курение на всей территории запрещено<br/>Прокат автомобилей<br/>Церковь/храм<br/>Семейные номера<br/>Парикмахерская/салон красоты<br/>Номера для некурящих<br/>Доставка еды и напитков в номер</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/star.png)"></span>
+                            <div class="feature-info">
+                                4 бассейнов                                <span>Открыт круглый год<br/>Время работы<br/>Без ограничений по возрасту<br/>Водная горка<br/>Полотенца для бассейна/пляжа<br/>Бар у бассейна<br/>Шезлонги/пляжные кресла<br/>Зонты от солнца<br/>Открыт круглый год<br/>Время работы<br/>Без ограничений по возрасту<br/>Бассейн с подогревом<br/>Водная горка<br/>Полотенца для бассейна/пляжа<br/>Шезлонги/пляжные кресла<br/>Зонты от солнца<br/>Открыт круглый год<br/>Время работы<br/>Без ограничений по возрасту<br/>Полотенца для бассейна/пляжа<br/>Бар у бассейна<br/>Шезлонги/пляжные кресла<br/>Зонты от солнца<br/>Открыт круглый год<br/>Время работы<br/>Только для взрослых<br/>Бассейн с видом<br/>Бар у бассейна<br/>Шезлонги/пляжные кресла<br/>Зонты от солнца</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/massage.png)"></span>
+                            <div class="feature-info">
+                                Оздоровительные услуги                                <span>Шезлонги/пляжные кресла<br/>Массаж<br/>Спа и оздоровительный центр<br/>Фитнес-центр<br/>Сауна</span>
+                            </div>
+                        </li>
+                                                <li>
+                            <span style="background-image: url(/img/services/star.png)"></span>
+                            <div class="feature-info">
+                                Персонал говорит на этих языках                                <span>арабский<br/>английский</span>
+                            </div>
+                        </li>
+                                        </div>
+                        </div>
+    </div>
+    <div class="site-block" id="hotel-reviews">
+    <div class="hotel-reviews">
+        <div class="site-header">
+            <h4>Отзывы о ISLAND VIEW RESORT (EX-SUNRISE ISLAND VIEW) 5* (68)</h4>
+        </div>
+
+        <ul class="reviews-tabs nav nav-tabs">
+                            <li class="active">
+                    <a href="#w0-review-tab0" data-toggle="tab">
+                        Хорошие (40)                    </a>
+                </li>
+                            <li class="">
+                    <a href="#w0-review-tab1" data-toggle="tab">
+                        Нейтральные (16)                    </a>
+                </li>
+                            <li class="">
+                    <a href="#w0-review-tab2" data-toggle="tab">
+                        Плохие (12)                    </a>
+                </li>
+                    </ul>
+
+        <div class="tab-content">
+                            <div id="w0-review-tab0"
+                     class="reviews-content tab-pane active">
+                                <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Наша семья часто отдыхает в Египте. Были в разных отелях. В Island View приезжаем не первый раз. Для детей здесь безопасно. Около бассейнов постоянно дежурят по несколько спасателей. Охрана на входе в отель,  в столовой, на ресепшене. Питание очень приличное. Даже детей всегда можно накормить. Вечером мясо, рыба, креветки, крабы... Очень вкусно! Отдельно хочу отметить здесь рестораны А-ля карт на пляже (в них нужно записываться заранее). Рыба и мясо от шеф-повара Мохаммеда тают во рту. Советую! Море живое, в отличие от других побережий. Постоянно видим красивейших Наполеонов, мурен, скатов. Кораллы здесь живые! И персонал - именно из-за их чуткого отношения мы приезжаем не первый раз. Любая ваша проблема будет решена, надо только её озвучить.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Ivan</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">30.10.2024</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Очень приятный  персонал, мвхмуд и тамир самые лучштюие на свете                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Aliaksandr</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">02.01.2024</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отель расположен в 2-х шагах от площади Сохо. Очень красивый вид на море. Интересная пляжная атмосфера, много активностей, хорошая музыка, хороший коралловый риф, рыбок много, есть даже свой большой наполеон, который позволяет себя рассмотреть близко. Нас заселили в номер выше классом совершенно бесплатно. Очень приятный персонал на рецепшн. Еда в ресторане вкусная, разнообразная. Отель компактный, нам показалось, хороший для отдыха с детками, так как там есть большая детская зона как на территории отеля, так и на пляже вход в море вдоль всего пляжа песчаный, но есть и понтон.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Alena</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">25.12.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Хороший, уютный отель. Прям на Сохо. Вкусная еда, крабы и морепродукты каждый день. Шикарный риф. Команда анимации хорошая. Уборка в номере - великолепно, все чисто. Вода, чай, кофе, чайник. Быстрое заселение. Можно пользоваться электрокаром - вас довезут куда нужно на территории отеля. Хочу отметить - открытая терасса в столовой, но нет ворон. Включают запись хищных птиц и вороны улетают. Комнаты большие, большая ванная. Хороший вай фай на ресепшен. Номер с шикарным видом на море. Радовали пенной вечеринкой и различными шоу.отмечу диспенсеры с жидким мылом и шампунем - это экологично! Во всех общих туалетах чисто, бумага везде есть.прям на пляж приходит черная цапля ловить рыбу. Ресторан Аля кард вкусный, и рыбный и итальяно. Про алкоголь ничего не скажу - не употребляем. Взяли этот отель на заметку, вернемся обязательно! В столовой соблюден температурный режим, прохлодно, что позволяет комфортно питаться. Уютный ресепшен, вкусно пахнет и мягкие диванные зоны.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Gancvgein</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">24.10.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Понравилось месторасположение , пирс, первая линия. Выбрала отель из за моря и рыбок . В номере был очень большой балкон. Бассейн для взрослых без детей  отличный , персонал там понравился в отличии персонала на море, баре . Персонал на ресепшене тоже хороший .                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Liuba</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">01.10.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Очень хороший отель за свои деньги.
+Подняли бесплатно категорию номера. 
+Номера подуставшие,  но все работало. Полотенца меняли, если попросишь. Кровати очень удобные
+Отличный риф, много рыбок. На пляже всегда были свободные лежаки. 
+Классный Спа, очень профессиональные массажисты. Обязательно к посещению, релакс на все 100%.
+Аниматоры никогда не давали скучать, каждое утро зарядка, танцы. 
+Еда довольно однообразная,  но вкусная. Вкусное мясо, овощи.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Александра</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">26.09.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Нам дали хороший номер. Красивый коралловый риф, один из лучших в Шарме.                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Oleksandr</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">18.03.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Вежливый персонал, готовность помочь в решении вопросов, вкусная разнообразная еда                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Aleksei</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">16.03.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Всё  было отлично.  приветливый персонал , чисто. вместо обычного номера поселили в полулюкс с видом на море.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Ekaterina</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">08.01.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Понравилось всё,  цена соответствует качеству, очень приветливый весь персонал                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Maksym</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">01.11.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Никому не верьте. Хорошо там. Отель на первой береговой линии, пляж сразу после номеров начинается, пляж маленький но зато чисто свой. Бар на пляже имеется и еще один если подняться чуть выше. Прямо на пляже еды нет, надо вверх метра три подняться. Водные горки две: для взрослых и для детей. Риф замечательный, поверьте, есть с чем сравнить. Мурен видели, скатов и еще каких то больших интересных рыб, помимо маленьких. В номерах мебель не новая, но чисто, постельное белье чистое, полотенца белоснежные. Шампуни, гели для душа во флакончиках есть всегда, мыло в дозаторах. В день на человека ставят в номер по 1.5 литра воды. Когда мы заселились, получили комплимент от отеля - 2 блюда: одно со сладостями, одно с фруктами. Еда вкусная, были и кальмары и крабы в том числе. И фруктов и овощей было очень много всяких разных. Так что и на разнообразие жаловаться не приходится. Рядом красочный Бродвей - Сохо с поющими фонтанами. Есть где вечером погулять (хотя анимационная команда в отеле тоже старается). Через день были восточные танцы в отеле. Весь персонал очень доброжелательный, отзывчивый. Отдельное спасибо мистеру Амру. В общем, это был мой счастливый отдых.
+P.S. Кто захочет проехать до Старого города, Наама бей или еще куда нибудь, спросите, где у них ходят маршрутки. Это от отеля 10 минут в сторону отеля Конкорд. Обменяйте доллары на фунты. Проезд хоть куда на 1 человека будет стоить 6-10 фунтов, то есть 0,5 доллара. Только у водителей маршрутки не спрашивайте, сколько стоит проезд, а просто передавайте.<br />Что не понравилось: <br />Затрудняюсь ответить. Очень позитивный отдых получился.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Anna</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">06.09.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Как и каждый год в течение 5 лет отличный отдых благодаря лучшему гестрелейшену Ирине, доброжелательному персоналу отеля и ресторна, его отличнейшим поварам, общительным аниматорам Ирине, Кристине и Арине и ,конечно же, шикарному Красному морю!!<br />Что не понравилось: <br />Но, к сожалению, и уборка, как обычно, не на высоте. Хочется чтобы почаще и получше убирали полы в номерах и пляж у моря.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Natalya</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">03.07.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />местоположение, пляж, риф, еда выше всяких похвал.<br />Что не понравилось: <br />старые номера, сантехника                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Марина</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">19.11.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />В этом году очень понравилось как кормили, с душой и фантазией.<br />Что не понравилось: <br />Уборка номера ужасно, белье не меняли ни разу, полотенца тоже. По тому что был уборщик понимали по отсутствию доллара,пару раз оставили и перестали.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Vladimir</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">12.11.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />отличное местоположение ,отличный риф на пляже !<br />Что не понравилось: <br />целевая аудитория отеля -это местный контингент. 90% отдыхающих -местные , отсюда полное отсутствие развлечений в отеле .                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Rustem</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">10.08.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8.3</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Абсолютно все , кроме указанного выше !!! Шикарная бухта с кораллами . Идеальное месторасположение, прямо на Сохо.Очень вкусная и разнообразная кухня.<br />Что не понравилось: <br />Состояние номеров. Уж очень как то все старенькое и разваливающееся. Жаль , что отсутствует лифт к морю. Не понятно почему, но выезжая , нам предъявили каких то 3 доллара, якобы из за разницы в курсе 10 дней назад, хотя мы полностью оплатили свое проживание в день заезда. Этих денег не жалко, не приятне сам факт. В остальном , это замечательный отель.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Konstantin</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">09.08.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Как будто и не уезжали 2года назад. Вернулись как к себе домой - даже получили номер в доме напротив предыдущего.Как и в прошлые 2 раза все было великолепно. Особенно питание и персонал. Кормили очень вкусно. Нам показалось, что у нас был гастрономический тур.Отель сохранил сотрудников, которые ещё были в самый первый наш приезд 4 года назад. Очень приятно, когда узнаешь знакомые лица и они тебя приветствуют как старых друзей. Как и всегда на высоте была guestrelation Ирина, решала все наши вопросы и замечания быстро и на отлично. Так же как и раньше замечательная команда аниматоров - Fadi, Bola и Лена.💃🕺Наши дети (7 и 9 лет) плакали, когда надо было расставаться.Красное море - самое шикарное море!!🌊⛱Р.S Персонал весь привит и несмотря на жару ходит в масках. А вообще из-за маленькой наполняемости отеля социальное дистанциррвание соблюдается.Хотим поскорее вернуться обратно😉😊<br />Что не понравилось: <br />Единственное появились замечания к пляжу - стали хуже убирать мусор и палки на песке.И хотелось бы, чтобы обратно вернули 2й понтон. Иногда его не хватало.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Наталья</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">04.07.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отдыхаем в этом отеле не первый раз. Как всегда ожидания теплого - семенного приёма подтвердились! На запросы - просьбы реагировали оперативно. Команда 5+!  
+Питание хорошее, готовят очень вкусно и очень многооооо! Приходилось пропускать обед, что бы в спорт зале, после отпуска, не пришлось отрабатывать..........)
+Отпуск провели отлично!!!                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Ivan</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">02.07.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отличное расположение, при выходе из отеля попадаешь в СОХО. Персонал приветливый, все вежливые и улыбаются. Питание вкусное и разнообразное. Многие понимают по русски. В отеле работает русскоговорящая менеджер Ирина, активно помогала решать мелкие бытовые вопросы. Всё понравилось, спасибо!                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Dmitry</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">16.06.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Месторасположение - рядом площадь Soho, лучшее место в Шарме                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Олександр</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">27.05.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Жили а номере 221, номера старенькие, мебель когда то в 90 была шикарной, вентиляция в номере немного шумная, но нашему сну ничто не помешает, по чистоте не очень, но расположение отеля перекрывает все минусы, прекрасный риф бухты Шаркс бэй, справа Риксос, слева Конкорд и Хилтон пляж очень приятный, расслабляющая музыка, иногда долбила наша попса, но редко, очень понравился фитнес на пляже. Теперь по кухне, когда только заехали были в шоке от очередей и того, что все блюда нужно брать сразу, иначе можно остаться без клубника, но потом просто делали точно также. Один раз мы попали на ужин египетская ночь и были в большом восторге от кухни и общего настроения, от декораций и блюд на гриле, спасибо повару, к сожалению, не помню имя, высокий мужчина, персонал вообще в целом приятный, никаких шиканий в нашу сторону мы не заметили, все всегда приветливые и улыбчивые, как говорится как ты так и к тебе, в целом всегда можно найти что поесть, так как мы не слишком привередливы, из изысков которых не ожидали один раз были крабы и через день клубника. Когда мы заехали в первый день были очень разочарованы и пожалели что вторую половину отпуска переехали из другого отеля из бухты Наама бэй, но потом наше мнение поменялось и мы отлично провели время. В пяти минутах ходьбы Сохо, каждый вечер гуляли. Естественно как и везде в отелях пять звёзд средней категории пиво разбавлено водой, наливается в пластиковые стаканчики по 100 мл), остальной алкоголь пить невозможно. Отель рекомендую по рифу и расположению. Лестница на пляж не высокая, подниматься спускаться совсем не напрягало, есть волейбол. В основном отдыхает народ с Украины.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Julia</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">11.04.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отель старый. Еда хорошая. Была даже египетская ночь. Номера чистые. Уютные. Мне понравились. Нномер 110. Убираются плохо но каждый день. Территория огромная.есть разбитые домики. Там грязь. Цена качество соответствует 4 балла. Интернет в холле. Столовая очень старая. Стулья столы в ужасном состоянии. Облезлые. Персонал ходит в рваных ботинках и грязных рубашках. Есть злые сотрудники.<br />Что не понравилось: <br />Реставрировать отель немножко хотя бы. Пляж очень грязный. Анимации самособирающая. Хочешь сам играй в волейбол и боччу. Сотрудники неухожиные.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Tatiana</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">04.04.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что не понравилось: <br />Качество алкоголя.                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Alexey</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">17.03.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Рекомендую этот отель, если вы едите в поездку для того чтобы комфортно провести время на берегу красного моря. Отель конечно не новый, но при этом этот вопрос совершенно меркнет, т.к. доброжелательное отношение и забота персонала поражает. Весь персонал отеля готов помочь в любой ситуации:
+1. Подходя к любому бару сотрудник уже знает и помнит, что вы предпочитаете пить
+2. Приходя на завтрак, обед, ужин менеджер ресторана знает тебя в лицо и обращается по имени. Что поражает, менеджер интересуется почему вас не были например на завтраке или обеде, все ли в порядке.
+3. Менеджер по работе с клиентами на протяжении всего отдыха уточняет все ли в порядке и готова решить любой вопрос.
+Сотрудники разговаривают на нескольких языках, в том числе и на русском языке. 
+4. Сотрудники около бассейна и моря всегда помогут вам поставить шезлонг, зонтик от солнца.
+5. Сотрудники анимации профессиональные, активности все интересные. Каждый день новая программа.
+Питание разнообразное, вкусное.
+Территория чистая.
+На территории отеля есть все необходимое.
+От отеля вы сможете добраться на такси или маршрутке до старого города.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Valeriya</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">15.03.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Ухоженная территория, достойное питание, отличный риф, шикарные рыбки:) номер большой, терраса, ванная большая. Персонал в столовой вежливый, стремится помочь.:) Уборка ежедневная, смена полотенец ежедневная.<br />Что не понравилось: <br />Владельцу отеля надо грамотно решить проблему заселения людей, прилетающих в 3 часа ночи. Есть раннее заселение с 7 утра за 10 долларов. Логично заселять сразу при оплате 10 долларов таких людей, номера свободные есть. А тут на рецепции потребовали 125 долларов, чтобы заселить сразу. За 4 часа сна 125 долларов? У нас сутки стоили меньше.Настроение было испорчено, 3,5 часа мы мучились в креслах холла.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Elena</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">07.03.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Море,обслуживание,питание<br />Что не понравилось: <br />Алкогольные напитки                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Елена</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">06.12.2020</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />спа салон<br />Что не понравилось: <br />не возвращают деньги за неиспользованные дни проживания. ( В связи с коронавирусом и решением правительства Египта  о закрытии всех аэропортов  с 19 марта пришлось срочно выехать) , хотя в соседнем отеле Pyramisa Beach Resort  деньги за неиспользованные дни вернули -нашим друзьям)                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Olga</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">23.03.2020</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Очень большая и красивая территория,прекрасный пляж(много лежаков),огромные номера(кровать очень удобна),отзывчивый персонал(отдельное спасибо Mohammed Abd Nabi), веселые ребята из анимации трудятся не покладая рук.Еда в ресторанах разнообразна (очень понравился вечер в Fatima). Благодарю отель за отличный отпуск, успехов!                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Oxana</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">09.03.2020</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отличный отель. Супер риф. Близость к Сохо - 1 минута. Хорошая парковка для машины. Полотенца меняют каждый день. Приветливый персонал. Мужу в день рождения подарили торт с поздравлениями на ужине, было приятно. Отель подойдет для семей с детьми любого возраста, есть водные горки как для маленьких, так и для взрослых, детская площадка, детский клуб, мини диско. На пляже 2 понтона, есть песчаный пляж для детей. Через месяц у дочки день Рождения. Вернёмся к вам снова!!!<br />Что не понравилось: <br />Подушатаные номера. Но чисто! Смените одеяла - они сбитые в комки. Еда не очень, но голодными не останетесь. В бассейне с подогревом прохладно. Но на все это можно закрыть глаза, ведь плюсы покрывают минусы. И цена отличная.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Anastasiia</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">29.02.2020</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8.3</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Все понравилось, риф супер<br />Что не понравилось: <br />Необходимо заменить шезлонги ну и в комнатах обновить мебели и сантехнику                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Vladimir</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">15.12.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отдыхала в этом отеле уже не первый раз, Все было замечательно и я ничуть не пожалела о своем возвращении сюда. Отзывчивый и вежливый персонал, все профессионалы своего дела. Питание-выше всяких похвал. Море продолжает впечатлять и удивлять. А еще хочу выразить огромную благодарность и признательность администратору Нине. Если бы не ее отзывчивость и участие, вряд ли мое путешествие закончилось безоблачно. Большое-большое спасибоё<br />Что не понравилось: <br />К сожалению, в этот раз, не все ладно было с пляжем. Часть, которая ближе к VIP-зоне, была не всегда чистой. Правда, подозреваю, что это больше вина отдыхающих, чем сотрудников.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Tatyana</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">17.11.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8.8</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Как обычно суперперсонал в ресторанах,на пляже,ресепшене,спа-центре, супергестрэлэйшн, супераниматоры и просто шикарное питание!Месторасположение отличное!А море и риф просто фантастические!<br />Что не понравилось: <br />Хотелось бы лучшей уборки в номерах и в ресторанах                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Наталья</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">19.06.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9.6</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отдых оправдал ожидания. Риф, наверное, лучший из ближайших. Отличная кухня. За две недели не надоели мясо, рыба, крабы. Приветливый и отзывчивый персонал. Есть две водные горки, где катаются и взрослые и дети. Вечером есть куда прогуляться. Рядом площадь "СОХО" с фантанами. Такой мини Лас-Вегас. Ошибся с датой выезда, так без проблем вернули деньги за лишние сутки.<br />Что не понравилось: <br />Часть лежаков на пляже пора обновить. Так же удивило отсутствие матрасиков на лежаки. Но это все не критично.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Denisovich</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">03.06.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что не понравилось: <br />Все понравилось                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Velena62</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">23.05.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9.2</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Природа. Shark\'s Bay лучшее место в Шарме. Очень красивый риф. Дружелюбный персонал. Отсутствие течений.<br />Что не понравилось: <br />Подача напитков в пластиковых одноразовых стаканчиках. Подавать пиво по 150 миллилитров - это логике не поддаётся. Из-за этого очередь в баре на пляже. К тому же, это очень не экологично. Отвратительный кофе во всех барах и ресторане. Нормальный - за дополнительную плату. В других отелях варят натуральный кофе, здесь же - нечто непонятное из большого бойлера, либо растворимый.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Igor</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">08.05.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Добрый день! Вернулись из отеля две недели назад,нам все очень понравилось!!! Встретили нас просто шикарно, только мы переступили порог , тут же к нам подошла гестрелейшен Нина попросила наши паспорта,принесла бланк для оформления и буквально через минуту нас пригласили получать ключи от номера,хотя мы приехали в отель в 12 ч дня! Ребята работают очень оперативно! Спасибо им за это ОГРОМНОЕ!!! Поселили нас в номер 311, он был выше всяких похвал.Люди которые пишут что им здесь кушать нечего, вот я вам реально поражаюсь, что вы дома едите???????? Никого не слушайте,кто пишет что есть нечего! Голодными вы точно не останетесь! И какие здесь десерты - это отдельная песня! Вся еда всегда очень вкусная! В номере убираются, полотенце на пол кинул - поменяют, лично у нас с этим проблем не было никогда! Ребята аниматоры стараются как могут,другое дело что вы никто не хотите с ними веселиться, а пишите что они ничего не делают и вам было скучно!!!!!!!Фади,Даня,Влад,Карина стараются вас расшевелить,у диджея Фади всегда отличная подборка треков. Всем кто хотел веселья - его получали!!!Любителям ночных развлечений аниматоры каждый день предлагают выезд на дискотеки,сразу после вечернего шоу, в лучшие клубы Шарма Вот собственно и все. Отель суперский!!! Бронировали на Букинге,долго пытались подловить предложение,так как наслышаны о востребованности отеля.Все работают для вашего удовольствия,чтобы вам отдыхалось хорошо! Лично мы с мужем не нашли ни одного МИНУСА. Вечером ,в шаговой доступности Площадь Сохо, кому не сидится в отеле - велком! Для желающих поездка в старый город не составит труда: на местной "маршрутке" 20 мин , 5 фунтов и Вы бродите по лавочкам и ресторанам. Прямо на пляже для желающих есть клуб дайвинга. Находиться на одном из красивейших рифов и не нырнуть было бы серьезным промахом. Это наше с мужем сугубо личное мнение - отель и персонал АЙЛАНД ВЬЮ супер!!! СПАСИБО ВСЕМ ОГРОМНОЕ ЗА НАШ ОТДЫХ!!! В октябре ждите снова, уже все забронировано!                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Svetlana1971</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">14.04.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />В этот раз пользовалась услугами спа и осталась очень довольна работой массажистов.Идет активный ремонт номеров.<br />Что не понравилось: <br />Вайфай слабоват,хотелось бы второй пантон                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Alla</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">20.03.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">8.3</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Очень понравилась команда аниматоров - Анастасия, Карина, Мария, Влад, Алина. Питание достаточно разнообразное. В наличии были и фрукты, и рыба, и мясо. Красивый риф рядом с отелем, но вход только с понтона. Красивая, зеленая территория отеля.<br />Что не понравилось: <br />Старый номерной фонд. Заканчивались напитки на пляже и были очереди, при этом отель не был заполнен полностью. Автоматы для воды и кофе развернуты в сторону бара, что дополнительно создавало очереди. Некоторый обслуживающий персонал вел себя по-хамски. Хорошо, что таких людей было мало. В основном все же были приветливые.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Наталья</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">02.03.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">10</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отдыхали  в отеле Island View Resort третий раз. Были в отеле несколько лет назад в июне, в феврале. Знали, что отель встречает гостей очень гостеприимно. В феврале 2019 г. на очередную свадебную годовщину решено было ехать в свой любимый отель. По приезду на ресепшн нас встретили и заселили как постоянных гостей, за что мы очень благодарны. Расположение номера было просто великолепно, постоянное внимание работников отеля радовало каждый день. Фрукты в номер, поздравление в день праздника нашего все это делало  отдых незабываемым.Пляж и риф у этого отеля очень удачно расположены: ветер в зимний период не докучает, т.к. с двух сторон пляж закрыт высокими стенами, песочек мелкий. Душ, передевалки, бар - все рядом. На пляже проводится целый день анимация.Риф с рыбками и кораллами. Нам повезло- именно в праздничный день мы несколько минут наблюдали за черепахой, которая плавала рядом с нами.Особую благодарность хотелось бы выразить Нине и Ирине за создание на отдыхе атмосферы праздника. Так не хотелось уезжать домой. Очень надеемся на скорое возвращение в отель!<br />Что не понравилось: <br />Качество спиртных напитков                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Galina</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">02.03.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating best">9.6</div>
+                <div class="header">Хорошо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отдыхали с мужем в этом отеле 10 дней в ноябре 2018. Было очень комфортно. Номер дали без всяких доплат, именно, тот, который мы просили, чистый, хоть и не новый. Да, мебель \'устала\', но всё исправно работало. Убирали номер тоже отлично.
+Прилетели стамбульским рейсом, в отеле были в два часа ночи, в номере нас ждала  корзина фруктов,  а на ресепшн ещё и повар, который предложил приготовить для нас поздний ужин. Вообще, отношение в отеле к туристам, как к дорогим гостям. Девочки из службы по работе с  постояльцами дежурят в ресторане, звонят в номер, чтобы узнать всё ли в порядке, нет ли каких-нибудь проблем или жалоб. Нина, Ирина, спасибо Вам огромное.
+ Отель был, практически, полный. Не смотря на это места на пляже были. Правда, украинские туристы, которые составляли большинство отдыхающих, приносили на пляж под пиво вяленую рыбу мешками, поэтому запах иногда не радовал. Пиво на пляже разливали в маленькие пластиковые стаканчики, очередь была.
+ Риф у самого отеля интересен для начинающих знакомиться с обитателями Красного моря. Для тех, кто как мы, уже много различных рифов видели, бедноват. Но, если отплыть в правую сторону, то между отельским спуском и понтоном соседнего Савоя очень много разной  живности, туда же приходят и три Наполеона. А дальше направо, между Савоем и следующей Сьеррой роскошные коралловые сады, но видов рыб поменьше.
+ В ресторане народу тоже было много. Но, официанты \'летали\', убирая посуду. Больше минуты-двух она на столах не стояла.  Если заканчивалось какое-то блюдо, то в течение нескольких минут приносили свежее. И я не помню, чтобы даже в лучшие времена в \'бюджетных пятерках\' так кормили.  На завтрак омлет или яичница, варёные яйца, каша, молочная вермишель, блинчики, закуски. На обед и ужин мясо, печень, курица, индейка, перепелки, морепродукты, масса разных гарниров, выпечка, отдельная стойка, где на обед и ужин пекли пироги и пиццу прямо при нас.<br />Что не понравилось: <br />Из двух понтонов работает только один, поэтому при полном отеле приходилось пропускать друг друга и подстраиваться. Сложнее всего было в выходные, когда заехала местная молодёжь. Они плохо плавают, поэтому висели на понтоне со всех сторон, не отплывая. И ещё один момент, оставивший неприятное впечатление. Мы приехали в цветущий отель, вся территория была ухоженной. Во время нашего отдыха все кусты и деревья постригли до полной \'лысости\'. Остались стоять голые скелеты, вид был ужасный. Конечно, они позже отрастут снова, но почему-то ответственным за территорию не пришло в голову, что мы приезжаем в тёплые страны, в том числе, и за буйной южной растительностью...В остальном всё было отлично, отель оправдал все наши ожидания.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Irina</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">26.11.2018</span>
+                                        </div>
+            </div>
+                        <div class="more-reviews">
+                <a href="" class="btn-brand btn-more-reviews">Показать еще отзывы</a>
+            </div>
+                            </div>
+                            <div id="w0-review-tab1"
+                     class="reviews-content tab-pane ">
+                                <div class="reviews-item ">
+                <div class="rating good">7</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Море, еда, площадь Сохо.<br />Что не понравилось: <br />Уборка в номерах, шезлонги старые и рваные. Комары и насекомые,которых не травят                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Vas29</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">09.10.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">7</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Красивый подводный мир. Питание отличное. Близко Сохо,есть где погулять. Есть водные горки.<br />Что не понравилось: <br />Уборка в номерах плохая. Заселили в  номер с грязным полом. Балкон вообще не убирали от голубиного помёта (жаловались,не помогло). На пляже старые шезлонги. 
+Администрации нужно обратить внимание на клининг номеров.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Vas29</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">09.10.2022</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">7</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />При заселении мне был выдан номер не соответствующий бронированию.
+После финансового "подмазывания" сотрудников ресепшен мне был выдан соответствующий номер.
+При выселении из отеля выяснилось, что сотрудник производивший моё заселение и производивший прием оплаты, взял с меня меньшую сумму, и как следствие потребовали сумму на 47 долларов больше оплаченной.
+Фото номеров прилагаю.<br />Что не понравилось: <br />Доброжелательный обслуживающий персонал.
+Удобство расположения номеров на территории.
+Красивый коралловый риф.
+Вкусная и разнообразная еда.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Локтионов</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">27.10.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">6</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />1. Неплохое расположение - 1-я линия, рядом улица SOHO, через дорогу приличный супермаркет.2. Отсутствие сильного ветра на пляже, я не видел красных флагов и доступ в море был всегда.3. Есть бассейн примыкающий к бару - очень удобно заказывать коктейль или еще что-то не выходя из воды.4. В баре на 2-м этаже делают очень неплохие коктейли по all-inclusive.<br />Что не понравилось: <br />1. Отель требует ремонта - в номере была полуразрушенная и покрытая плесенью душевая кабина с протекающим краном.2. Коралловый риф практически мертвый. Кораллы голые, никаких актиний и других живых организмов на них уже нет. Рыбки еще плавают, но их разнообразие оставляет желать лучшего. Никаких черепах тоже нет, хотя раньше были.3. Питание соответствует отелю 3*, не больше. Ассортимент каждый день практически один и тот же. 4. Напитки наливают в 100-граммовые пластиковые стаканчики. Будь то вода, пиво или еще что-то.4. Некоторые сотрудники, например в баре при бассейне, реально грубые. При заказе нескольких стаканчиков (100 граммовых!) напитка, предлагают заплатить за бутылку и не отвлекать их каждые 10 минут.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Anton</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">31.05.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">6</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Жили мы в отеле Island View Resort с 20-26.03.2021. В семейном двухкомнатном номере 552. Отель сейчас готовится к сезону: красят, моют, чинят, сажают кусты и цветы, пальмы... За наши 6 дней тут многое преобразилось.. персонал очень старается, что бы нам все понравилось, любое желание моментально исполнялось. Чайник с кружками принесли в номер, вазу с фруктами подарок от отеля, приятно. Если уборщик забыл поменять полотенца или поставить воду, цифра 1 на тел и сообщаем ресепшен, через 3 мин все приносят. Вся еда в ресторане за стеклом, самим брать нельзя в связи с коронавирусом, но сотрудник вам выдаст все, что захотите из еды в неограниченном количестве. Все сотрудники в масках, всем измеряют температуру. Каждый день дыня, яблоки, гуава,  финики, апельсины, мандарины, лимоны, мед, пару дней клубника очень вкусная. Овощи, салаты любые. Мясо, рыба, курица, рис, картошка, супы, каши на завтрак, йогурты, яйца любые, колбаса, сыр, выпечка, тортики, чай зелёный не нашла, только чёрный, кофе, лате. Все выдают в пластиковых стаканчиках разовых. Приборы ложки, вилки, ножи с салфетками завернуты и опечатаны тоже выдают каждому на стол. Свежевыжатых соков и мороженного при нас не было. Алкоголь не пью, но его много разного, видела пиво из банок и из стеклянных бутылок наливали, еще виски, бренди.. попали на рыбный вечер, было все: крабы, кальмары, омары, разные виды рыбы, музыка, танцы, свечи.. очень красочно, понравилось. В отеле доброжелательность, отзывчивость,  вежливость сотрудников скрасила недостатки отеля, еще почти все говорят по русски.. каждый день анимация на пляже с отдыхающими делают зарядку, танцуют, йога, вечером мини диско детям, были шоу программы танец живота, юбка. Пляж песочек очень нежный, дети в восторге. Отель выбирали по цене и бухта Шаркс Бэй нравится, ветров нет.<br />Что не понравилось: <br />Отель старенький, мебель, сантехника, лежаки требуют замены. После паузы с туристами отель похож на заброшенный апокалипсис.. мало цветов и пальм по сравнению с другими отелями в Шарме..                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Марина</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">27.03.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">6</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Пляж,кораллы,подход к ним.<br />Что не понравилось: <br />Старый отель,грязно в номерах,но зато на кровати каждый день новые рисунки или животные                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Джонни</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">18.02.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">6</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Очень удачное расположение отеля - рядом с прогулочной зоной СОХО. Можно выходить из отеля - каждый вечер гулять, смотреть представления, посещать магазины и кафе. В отеле много зелени, видна постоянная работа персонала. Много бассейнов, рядом море, красивый коралл, есть рыбки. В номере большой балкон. Отличная работа ресепшн и других сотрудников.<br />Что не понравилось: <br />Очень старый номерной фонд. Вся мебель старая, антикварный телевизор. Номера требуют ремонта. Нужна замена дверей и сантехники. Пляж один на два отеля. Пляж маленький, лежаков мало. Можно найти свободные места только на третьем уровне, и то потому что его не все находят.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Виталий</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">28.12.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">7.1</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Отдыхали с мужем в отеле в конце октября второй раз. Сам отель как всегда на высшем уровне, но было одно большое разочарование: в прошлый раз когда мы ездили в Айланд вью, гэстрэлейшен была Нина, человек которому важно, чтобы гости отеля были всем довольны, при любой просьбе- незамедлительное решение проблемы. Сейчас гэстрэлейшен сидит девочка Ирина, вот ей реально на все наплавать(очень хотелось написать другое слово) При любой просьбе - перевод стрелок на ресепшн , а там ребята не все разговаривают на русском языке ( Нина всегда подходила с нами и переводила наши просьбы) Так как мы из России , то у нас не было тур.оператора ( мы летаем через букинг) и нам не кому было объяснить чем можно воспользоваться в отеле.Так мы и не узнали куда нам можно было бы сходить и как развлечься, хорошо что аниматорская команда супер, вот они нас и развлекали. Очень хочется верить, что это наше предвзятое мнение, но создалось такое впечатление,что либо Ирина очень ленива, либо ей просто не нравятся русские люди! Мы очень хотели вернуться в Ваш отель  и в третий раз, но видимо передумаем, так как такие недоброжелательные сотрудники портят все впечатление об отеле, очень жаль!!!<br />Что не понравилось: <br />Guest Relation Ирина; в номере так кран, вода в душе не регулировалась и температура воды менялась сама по себе; при заезде в отель в номере было очень грязно                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Tanya</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">10.11.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">6.2</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Еда хорошая, расположение хорошее, именно тут море прекрасное, можно и купаться и наблюдать красивых рыбок.<br />Что не понравилось: <br />Теперь по-порядку. Забронировали отель через Booking, заранее, написали в отель, взяли Сопроводительное письмо от Tophotels, получили из отеля ответ, что нас ждут и на этом всё окончилось. Прилетели ночью, около 2-х часов, усталые и вымотанные долгим перелётом и ничего, даже приветственного коктейля. Долго подбирали номер, хотя работником этого отеля Ниной было обещано по почте, что нас ждут и подготовят номер с чайником. В итоге пришлось вызывать ночного менеджера и решать эту ситуацию - за что ему ОГРОМНОЕ СПАСИБО. После его вмешательства появились и фрукты, и чайник в номер, и перекус. По номерам: номера внешне как-бы и ничего, но если присмотреться то-убитые, ванная комната просто ужас (мы попросили поменять фен и прикрутить душ и держатель в ванной) В туалете на бассейне (около моря) намного лучше: и ремонт и сантехника. Не понравился бармен в баре на ресепшене-Ахмед-просто хам высшей категории. С арабами он общается доброжелательно, а мы просили воду и на нас даже не посмотрел. А вот парень на бассейне возле пляжа - Hamada - очень душевный и внимательный и тактичный. Еда в ресторане хорошая, но с фруктами иногда напряг. Поедем ли мы в этот отель в третий раз? Навряд ли. Руководители, займитесь делом по реновации отеля. Скоро россияне поедут к вам и что?Когда мы отдыхали на бассейне, видели делегацию видимо мелких руководителей, которые указывали парню на бассейне на листву, которая под палящим солнцем слегка упала на дорожку. Так хотелось подойти и отправиться с ними в номер и указать на "опавшую" обстановку там.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Kseniia</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">18.07.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">7.5</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Хороший небольшой пляж,  великолепный риф при этом можно плыть  в оду сторону до Сивы Шарм, в другую  до мыса мимо, Савоя и т.д. и все равно  отельный риф лучше и интереснее именно в районе отельного рифа я видел мурен, пятнистых хвостоколов, большого черного манта и прочую диковинную живность. Да, номера подуставшие и тем у кого требования к своей персоне  завышены отель вряд ли понравится. Еда была отменная, ходил к окончанию процесса приема пищи всего хватало особенно порадовала, что старший менеджмент ест там же и то же. Значит за кухней следят. Думаю приеду еще.<br />Что не понравилось: <br />был молодой уборщик наверное только взяли на работу убирался так себе, пока  ст.менеджеру не пожаловались. Пожаловались потому как дошло до казуса оставили доллар, доллар забрал, а убраться забыл, ну вааще!!! После вливаний менеджера качество уборки чутка, улучшилось, но если уменья  то нет)))                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Mikhail</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">23.05.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating good">6.2</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Весь персонал дружелюбный и улыбчивый.Территория отеля красивая и ухоженная (большое за это спасибо садовникам). Менеджеры по отелю все решали быстро и оперативно , за что тоже большое спасибо. Анимация молодцы, веселые,общительные. Замечательный коралл на пляже.<br />Что не понравилось: <br />Номер убитый и ушатанный , мне  не приятно было находиться в номере , а тем более принимать душ-потому что ванная комната это был полный ужас . По питанию все одно и тоже практически каждый день. Этот отель не заслуживает 5* , Адекватная оценка по звездам 3* , а так как это Египет 4* с натяжкой.В соседнем номере делали ремонт, и такое впечатление как будто я сам участвовал в этом ремонте. Вы конечно молодцы что пытаетесь делать ремонт в номерах , но делайте там где нет отдыхающих. Я 9 раз в Шарм Эль Шейхе и это самый неудавшийся мой отдых за все разы.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Antoniuk</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">05.04.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating good">7.1</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Очень красивый риф, персонал отзывчивый, питание хорошее с приличным выбором. Територия зелёная как в коттеджном посёлке:)<br />Что не понравилось: <br />В номерах очень старый и убитый санузел с ванной, унитазы за все время ни разу не мыли. Я не придираюсь, но было мало принято пользоваться санузлом и кстати это и в общих туалетах так же.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Ruslan</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">26.02.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating good">7.1</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Хорошее, удобное расположение отеля, вечером есть где погулять, рядом местный променад - Сохо. Очень неплохое место для пляжа. Красивое место для плавания, есть, что посмотреть. Питание: довольно приличное, вкусное , большой ассортимент блюд, всегда в наличии разные мясные блюда(говядина, курица, индейка, баранина, печень) и  рыба, отличные десерты, фрукты, вино белое и красное, правда слабенькое, столовое, различные спиртные напитки, пиво. Очень правильно устроено обслуживание в ресторане, незаметно происходит уборка использованной посуды, смена приборов, чисто.  Персонал обходителен, вежлив, деликатен. Радует, что при возникновении каких-либо проблем при проживании, все решалось достаточно быстро! Удобные номера с гостиной, которые имеют балкон или террасу.<br />Что не понравилось: <br />К сожалению, обстановка в номерах достаточно пошарпана, интерьер и мебель, требуют обновления. Некачественно проводится уборка в номерах, лишь бы поставить галочку. Хотелось бы чтобы протирался пол, тумбочки и столы, обязательно зеркала и сантехника. А то приходится всегда иметь в наличии тряпку и проводить уборку самостоятельно, не дожидаясь уборки! Уборка, это ведь наведение чистоты и порядка, а не смена белья. На пляже лежаки староваты, продавленные и вытертые. На самом деле на 5 звезд отель не тянет, моя оценка - 4.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Lolita</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">19.12.2018</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating good">7.5</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Море, бассейн, еда, номер-все понравилось, просто чувствовалось, что отель уже старый и ремонта давно не было. А так чисто, убираются каждый день.<br />Что не понравилось: <br />Ванная комната в плохом состоянии, шторы не закрывались совсем,протекало.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Nikita</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">29.11.2018</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating good">7.1</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что не понравилось: <br />Сделать более доступным интернет, повысить его качество.                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Anatolii</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">25.11.2018</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating good">7.5</div>
+                <div class="header">Приемлемо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />очень нравится расположение. еда для Египта очень хорошо. пляж- прекрасный риф.<br />Что не понравилось: <br />состояние номеров это огромный минус отеля.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Svetlana</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">15.11.2018</span>
+                                        </div>
+            </div>
+                        <div class="more-reviews">
+                <a href="" class="btn-brand btn-more-reviews">Показать еще отзывы</a>
+            </div>
+                            </div>
+                            <div id="w0-review-tab2"
+                     class="reviews-content tab-pane ">
+                                <div class="reviews-item ">
+                <div class="rating bad">2</div>
+                <div class="header">Очень плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Близко к аэропорту. Это единственный плюс                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Valeriya</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">21.09.2024</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">4</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />1. Очень хорошая бухта, безветренная и с красивым рифом. 
+2. Эффективная работа русскоговорящего менеджера Ирины: она слышала пожелания, всегда адекватно реагировала, пыталась решать проблемы и возвращалась за обратной связью.
+3. В целом доброжелательно настроенный персонал.
+4. Хорошие рестораны а-ля карт, в которые можно записаться бесплатно. В итальянском и рыбном было очень вкусно, душевно и не так многолюдно, как в основном ресторане.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Veronika</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">30.07.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">3</div>
+                <div class="header">Очень плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Расположение, Риф,персонал нижнего уровня официанты  уборка номера ,анимация.                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Frotrio</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">28.05.2023</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">5</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Только море.<br />Что не понравилось: <br />Пляжные полотенца поменять очень проблематично.                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Аноним</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">23.11.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">1</div>
+                <div class="header">Очень плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что не понравилось: <br />Сервиса нет. В номерах запах как на вокзале. Лучший из худшиз                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Жамаль</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">24.08.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">2</div>
+                <div class="header">Очень плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Самое красивое-море!Расположение к скверу,но прогуляться там можно лишь 2 раза,не больше,ярко,чисто,красиво!Понравился повар по тесту(не знаю как его назвать) очень милый и виртуозно обращался с тестом,главное  вкусно!<br />Что не понравилось: <br />Номерной фонд -это что то...В азии в 3* лучше!не то что уставшая мебель,ощущение,что ты находишься на заброшенной даче,в которой ночуют бомжи!Вот честно,я себя им ощущала находясь в номере(Расположение настолько неудобное,что можно по тропинкам блуждать,ища свой номер в темноте.Наш номер был у моря,а столовая на рецепшене я скажу-прилично идти!Особенно если у вас ночной вылет,чемодан тяжелый,ЖЕСТЬ!!!!Пошли на последний ужин,зашли к админу,сказать,что вылет ночной,сдать полотенца -которые уже как половые тряпки,драные,ключи? Нет не нужно,все ок! Еле доперли чемоданы,шли минут 15 ,т.к тяжело идти столько  по тропинкам из камней,сдаем ключ-в ответ-сейчас наш сотрудник пойдет осматривать номер,ждите....Сотрудник этот бегает вокруг нас что то говорит,улыбается,у нас такси ждет...Мы стояли мин 15,потом пошли,садясь в такси,бежит-СТОЙ!!!Я думаю,ппц...подстава...Муж пошел разбираться...вернулся еще мин через 15,говорит ждал пока из нашего номера вернется этот сотрудник,а то вдруг вы полотенца уперли...Я в шоке,осталось меньше 3 часов до вылета,а во время пандемии там в аэропорту МАРАЗМ!!!Еда не вкусная,супы -вода,мясо иногда как резина,были крабы-в рот не вгонишь!горечь!А! Ванная комната -брррр!!!я в шлепках купалась,ванна вся в грибке,но как ни странно туалет свежий!Утром каждый день в 8-30 приходили и тарабанили в дверь-уборка номера!Такого я нигде не видела,стучит до тех пор пока не встанешь!Зато на завтрак не проспишь!На пляже официанты приторговывали пивом из бара,чтоб не по 150 грамм пить и гостям за 10 баксов косяк предлагали(худощявый высокий парень).                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Anastasiia</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">06.03.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">3</div>
+                <div class="header">Очень плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Хорошее расположение. На этом наверное все.<br />Что не понравилось: <br />Словами этот отель не описать, нужно видеть!!!))) 
+Номера настолько старые, что динозавры их видимо застали. 
+В номерах при заезде грязно, слои пыли! 
+Ванная это нечто, привет грибок так сказать! 
+Кстати, номера закрываются на КЛЮЧ. Давно такого не видели?)) 
+Территория: все старое, на территории недострой, грязно, пыльно, в общем жесть! 
+Лежаки такие же старинные и пластмассовые, все сломанные! Лежать на них одно « удовольствие»! Но это ещё не все, будьте готовы, что даже найдя нормальный лежак, местные мухи Вас атакуют! 
+Персонал: официантам на вас все ровно, грубые. На ресепшн пытались решить наш вопрос ( хотели поменять этот УБОГИЙ номер, или вообще съехать отсюда, но у них все номера такие.)
+Еда: курица, рыба, говядина. 
+Все одного вида. На этом все. 
+Десертов 2 вида. 
+Алкоголь: вино разбавлено водой настолько, как будто пьёшь забродивший морс. Мы его пить не смогли. Остальное все дешёвого качества, налитое на отвали) 
+5ю звездами и не пахнет. Твердая 3ка.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Артем</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">23.02.2021</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">5</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Хорошее расположение отеля рядом с площадью Сохо. Шикарный риф в бухте Sharks Bay, очень много рыбок и кораллов.<br />Что не понравилось: <br />Питание однообразное, все по выдаче, как в заводской столовой. Многие продукты не доварены. Персонал не приветливый, все делают медленно, через силу.  Мы были в этом отеле в 2015 году, за пять лет он стал хуже в пять раз, стройка как шла пять лет назад так и идет. Номера требуют ремонта, особенно санузлы. Все в ужасном состоянии.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Sergey</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">12.03.2020</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">5.8</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Риф и рыбы, бухта, местоположение-близость сохо<br />Что не понравилось: <br />Грязь в ресторане. На столах нет скатертей, плетеные подложки под тарелку, их не меняют и не протирают между гостями, просто уносят тарелки и раскладывают новые вилки, если до вас кушали неопрятно, все останется неубранным. Края у столиков на улице рефленые, многолетний слой грязи забился во все щели, обивка на стульях такая грязная жирная и липкая что на улице приходится ходить выбирать стул на который можно присесть. Неудивительно, случилось сильное отравление у обоих, хорошо лекарства были, и оставались всего две ночи, дальше поехали в другой отель. Блюда в ресторане очень разнообразные, большой выбор, еслиб не грязь, можно есть. На ресепшн мебель потертая как с помойки, номера убитые обшарпанные, на пляже очень тесно, треть лежаков продавлены поломаны.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Аноним</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">23.11.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">5.8</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Море, риф, рыбы, бухта. Отличное местоположение, сохо.<br />Что не понравилось: <br />Грязь в ресторане. Плетеные подложки под тарелками не меняют и не протирают между гостями, просто уносят тарелки и раскладывают новые приборы. если до вас кушали неопрятно, все так и останется. Жирная заляпанная обивка на стульях, столы на улице  грязные. Выбор блюд  разнообразный, но мы заработали пищевое отравление в первый же день. Мебель на ресепшн потертая, номер обшарпанный, часть лежаков продавлены.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Аноним</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">23.11.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item ">
+                <div class="rating bad">5.5</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Шикарный коралловый риф! В столовой повара стараются, но еда на 3 день уже начала надоедать. Отель рядом с Сохо, было где вечером прогуляться.<br />Что не понравилось: <br />2 раза подходили на решепшн, просили ужин по возвращению с экскурсии. В итоге по приезду ночью нас голодных и уставших так и не накормили.  Бронировали номер люкс, вся мебель в номере старая, лет 30, в номере пыльно. Убрались только нескольких наших просьб. Один раз отключили всю воду. Дали только ночью.                    </p>
+                                            <a class="review-more-text js-more-info" href="#">Читать полностью</a>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Хохлома</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">29.05.2019</span>
+                                        </div>
+            </div>
+                        <div class="reviews-item hidden">
+                <div class="rating bad">5.8</div>
+                <div class="header">Плохо</div>
+                <div class="review-text js-info">
+                                        <p>
+                        Что понравилось: <br />Море, погода и Soho<br />Что не понравилось: <br />Обшарпанная мебель, старая сантехника                    </p>
+                                    </div>
+                <div class="review-author">
+                    <span class="author-name">Olga</span>
+                    <span class="author-status">турист</span>
+                                            <span class="add">07.03.2019</span>
+                                        </div>
+            </div>
+                        <div class="more-reviews">
+                <a href="" class="btn-brand btn-more-reviews">Показать еще отзывы</a>
+            </div>
+                            </div>
+                    </div>
+    </div>
+</div>
+                <div class="not-that">
+                    <img src="/img/lifehaker.png" alt="">
+                    <h4>Не то, что вы искали?</h4>
+                    <a href="/poisk-tura.html?departCity=1&country=18&region=&hotels=7428&dateFrom=20.12.2024&dateTo=26.12.2024&nightsFrom=5&nightsTo=8&adult=2&child=0&childAges=&stars=0&search=1" class="btn-brand">Продолжить поиски</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="hidden tour-detail-callback-container">
+    <div class="callback-form tour-detail-callback-form">
+    <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">    <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">    <div class="form-group">
+        <label>Ваше номер:</label>
+        <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="+7">    </div>
+    <div class="form-group callback-submit-wrap">
+        <button type="button"
+            class="btn-carrot callback-form-submit"
+            data-form-type="short">Отправить заявку</button>
+    </div>
+    <div class="form-group callback-result-wrap hidden"></div>
+</div>
+</div>
+        <div class="clearfix"></div>
+    </main>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="logo">
+            <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            <div class="copyright">
+                Copyright © 2012–2024 «Gotour.kz».<br/>
+                    Юридический адрес:
+                    050010, Республика Казахстан,
+                    г. Алматы, Бостандыкский район,<br/>
+                    пр. Назарбаева д. 193, н.п. 66<br/>
+                    БИН 180940008518<br />
+                    Сайт не является публичной офертой            </div>
+        </div>
+        <div class="footer-links">
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Города вылета</div>
+                <div class="cities-list">
+                    <ul>
+                                                    <li>
+                                <a href="/tury/iz-almaty.html">
+                                    Алматы                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-astana.html">
+                                    Астана                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-moscow.html">
+                                    Москва                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktobe.html">
+                                    Актобе                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktay.html">
+                                    Актау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-karaganda.html">
+                                    Караганда                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-shymkent.html">
+                                    Шымкент                                </a>
+                            </li>
+                            </ul><ul>                            <li>
+                                <a href="/tury/iz-atiray.html">
+                                    Атырау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-semei.html">
+                                    Семей                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-taldikorgan.html">
+                                    Талдыкорган                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-temirtay.html">
+                                    Темиртау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-uralsk.html">
+                                    Уральск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-ust-kamenogorsk.html">
+                                    Усть-Каменогорск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-pavlodar.html">
+                                    Павлодар                                </a>
+                            </li>
+                                                </ul>
+                </div>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Популярные страны</div>
+                <ul>
+                    <li><a href="/tury/turciya.html">Турция</a></li>
+                    <li><a href="/tury/egypet.html">Египет</a></li>
+                    <li><a href="/tury/oae.html">ОАЭ</a></li>
+                    <li><a href="/tury/thailand.html">Таиланд</a></li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Другое</div>
+                <ul>
+                    <li><a href="/privacy.html">Политика
+                            конфиденциальности</a></li>
+                    <li><a href="/how-to-buy-tour.html">Как купить тур</a></li>
+                    <li><a href="/banners.html">Реклама</a></li>
+                    <li><a href="/for-hotel-admin.html">Для отельеров и
+                            заведений
+                        </a></li>
+                    <li>
+                        <a href="/legal-information/user-agreement.html" target="_blank">
+                            Пользовательское соглашение
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <a href="https://www.instagram.com/gotour.kz/" target="_blank" class="smm-link instagram-link">
+                    <img src="/img/social/instagram.png" alt="Instagram" class="smm-icon"></a>
+                <a href="https://www.facebook.com/gotour.kz" target="_blank" class="smm-link facebook-link">
+                    <img src="/img/social/facebook.png" alt="Facebook" class="smm-icon"></a>
+                <a href="https://t.me/gotour_kz" target="_blank" class="smm-link telegram-link">
+                    <img src="/img/social/telegram.svg" alt="Telegram" class="smm-icon"></a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</footer>
+
+<div class="modal fade" id="bspopup">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="callback-form-popup" class="hidden">
+    <div class="callback-form callback-form-popup text-center">
+        <div class="callback-on-working hidden">
+            <img src="/img/france-woman.png" alt="">
+            <p class="block-title">ПЕРЕЗВОНИМ ВАМ</p>
+        </div>
+        <div class="callback-night-time">
+            <img src="/img/night-time.png" alt="">
+            <p class="block-title">Извините, в данный момент офисы закрыты!</p>
+            <p class="block-hint">
+                Мы перезвоним вам <span class="fw-m nowrap">сегодня (09.12)</span> в удобное для вас время:
+            </p>
+            <div class="callback-choose-time">
+                <button type="button" class="active" data-time="11:00">11:00</button><button type="button" class="" data-time="12:00">12:00</button><button type="button" class="" data-time="13:00">13:00</button><button type="button" class="" data-time="14:00">14:00</button><button type="button" class="" data-time="15:00">15:00</button><button type="button" class="" data-time="16:00">16:00</button><button type="button" class="" data-time="17:00">17:00</button><button type="button" class="" data-time="18:00">18:00</button>            </div>
+        </div>
+        <div class="callback-inputs">
+            <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">            <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">            <input type="hidden" class="form-control callback-widget-delayed-time" name="callback-widget-delayed-time" value="11:00"><input type="hidden" class="form-control callback-widget-delayed-date" name="callback-widget-delayed-date" value="09.12.2024"><input type="hidden" class="form-control callback-widget-is-choose-time" name="callback-widget-is-choose-time" value="0">            <div class="form-group">
+                <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Укажите ваш номер телефона">                <span class="callback-submit-wrap">
+                    <button type="button"
+                        class="btn-carrot callback-form-submit callback-form-analytics">ПЕРЕЗВОНИТЕ МНЕ</button>
+                </span>
+            </div>
+        </div>
+        <div class="callback-result-wrap hidden"></div>
+    </div>
+</div>
+
+<script type="text/html" id="leave-subscribe-modal-content">
+    <div class="column-subscription subscription subscription-control leave-subscribe-modal">
+        <div>
+            <img class="lifehaker" src="/img/lifehaker.png" alt="lifehacker">
+        </div>
+        <div class="text-left subscribe-form-block">
+            <div class="leave-subscribe-modal-hint">Подпишитесь на рассылку и экономьте до 50% на турах!</div>
+            <div class="form-group tooltip-error">
+                <input type="hidden" class="subscription-city-control" value="3">
+                <input type="text" class="subscription-email-validate" placeholder="Введите ваш email">
+                <button type="submit" class="subscribe-btn subscribe-btn-analytics">Подписаться</button>
+
+                <div class="subscription-loading hide">
+                    Пожалуйста подождите <img src="/img/load.gif" alt="loading">
+                </div>
+                <div class="subscription-result hide"></div>
+            </div>
+        </div>
+    </div>
+</script>
+<div id="quiz-widget">
+    <div class="the-quiz">
+        <div class="quiz-content">
+            <header class="quiz-header">
+                <h4 class="text-title">
+                    Получите подборку туров по вашим<br/>критериям на
+                    <em class="hyperlink">WhatsApp</em>
+                </h4>
+                <p class="text-secondary">
+                    Туры подбираются вручную нашими специалистами!
+                </p>
+            </header>
+            <div class="quiz-body">
+                <form class="quiz-form" action="/quiz/create.html" method="post">
+<input type="hidden" name="_csrf" value="99_lIaAtcz0lQ908QdRYAdGTncJ2huBjfezs2o_jAg2aj6NG2mwwDhMLl3cZm2lQvMvllCL0gzosoqOV5IV1VA==">                    <div class="quiz-group">
+                        <p class="text-title">
+                            Куда?                        </p>
+                        <div class="quiz-row item-list">
+                                                            <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-40" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="40" data-attr="countries"><label class="quiz-control" for="quiz-country-40">ОАЭ</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-9" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="9" data-attr="countries"><label class="quiz-control" for="quiz-country-9">Египет</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-25" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="25" data-attr="countries"><label class="quiz-control" for="quiz-country-25">Турция</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-58" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="58" data-attr="countries"><label class="quiz-control" for="quiz-country-58">Мальдивы</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-45" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="45" data-attr="countries"><label class="quiz-control" for="quiz-country-45">Доминикана</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-53" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="53" data-attr="countries"><label class="quiz-control" for="quiz-country-53">Танзания</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-8" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="8" data-attr="countries"><label class="quiz-control" for="quiz-country-8">Грузия</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-28" class="quiz-toggle quiz-checkbox" name="QuizForm[countries][]" value="28" data-attr="countries"><label class="quiz-control" for="quiz-country-28">Чехия</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-country-0" class="quiz-toggle quiz-checkbox" data-role="customCountries"><label class="quiz-control" for="quiz-country-0">Другое</label>                                </div>
+                                                        </div>
+                        <div class="quiz-row">
+                            <label class="quiz-control type-text invisible field-quizform-customcountries">
+<input type="text" class="quiz-input" name="QuizForm[customCountries]" value="" maxlength="50" data-attr="customCountries" placeholder="Укажите страну:">
+</label>                        </div>
+                    </div>
+                    <div class="quiz-group">
+                        <p class="text-title">
+                            Когда?                        </p>
+                        <div class="quiz-row item-list">
+                                                            <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-7d" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="7d" data-attr="periods"><label class="quiz-control" for="quiz-period-7d">В течение 7 дней</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-14d" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="14d" data-attr="periods"><label class="quiz-control" for="quiz-period-14d">В течение 14 дней</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-1m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="1m" data-attr="periods"><label class="quiz-control" for="quiz-period-1m">В течение месяца</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-2m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="2m" data-attr="periods"><label class="quiz-control" for="quiz-period-2m">Через 2 месяца</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-3m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="3m" data-attr="periods"><label class="quiz-control" for="quiz-period-3m">Через 3 месяца</label>                                </div>
+                                                                <div class="quiz-item">
+                                    <input type="checkbox" id="quiz-period-6m" class="quiz-toggle quiz-checkbox" name="QuizForm[periods][]" value="6m" data-attr="periods"><label class="quiz-control" for="quiz-period-6m">В течение 6 месяцев</label>                                </div>
+                                                        </div>
+                    </div>
+                    <div class="quiz-group">
+                        <p class="text-title">
+                            На какой номер вам скинуть?                        </p>
+                        <div class="quiz-row">
+                            <label class="quiz-control type-text type-phone social-whatsapp field-quizform-phone required">
+<input type="text" class="quiz-input" name="QuizForm[phone]" maxlength="18" data-attr="phone" data-mask="(999) 999-99-99" placeholder="(___) ___-__-__" aria-required="true">
+</label>                        </div>
+                        <div class="quiz-row item-list">
+                            <div class="quiz-item">
+                                
+<input type="hidden" name="QuizForm[isCallbackAllowed]" value="0"><input type="checkbox" id="quiz-is-callback-allowed" class="quiz-toggle quiz-checkbox" name="QuizForm[isCallbackAllowed]" value="1" aria-required="true">
+<label class="quiz-control" for="quiz-is-callback-allowed">Можете мне позвонить!</label>                            </div>
+                        </div>
+                    </div>
+                </form>            </div>
+            <footer class="quiz-footer">
+                <p class="quiz-feedback"></p>
+                <button class="quiz-button" data-role="progress">
+                    <span class="progress-caption">Далее</span>
+                    <span class="progress-indicator"></span>
+                </button>
+            </footer>
+        </div>
+        <div class="quiz-completion">
+            <p class="text-title">Спасибо за заявку!</p>
+            <p>
+                Наши специалисты скоро свяжутся<br/>
+                с вами и предложат самые лучшие<br/>
+                варианты для отдыха!
+            </p>
+            <footer class="quiz-completion-footer">
+                <button class="quiz-button" data-role="complete">Отлично, жду!</button>
+            </footer>
+        </div>
+    </div>
+</div>
+<div class="hidden" id="timeoutPopup">
+    <div id="timeoutForm">
+        <img src="/img/waiting-man.png" alt="">
+        <div class="timeoutTitle">Получить свежие цены</div>
+        <div class="timeoutHelp">
+            Результаты поиска актуальны в течение <strong>15 минут!</strong>
+        </div>
+        <button id="repeatCurrentSearch" class="btn-brand">
+            Обновить поиск
+        </button>
+    </div>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXVW283"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Pixel -->
+<!-- /Pixel -->
+<div id="emerge-callback-form" class="callback-form">
+    <div class="emerge-callback-form">
+        <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">        <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">        <div class="form-group">
+        <input type="text" class="form-group callback-widget-name" name="callback-widget-name" value="" placeholder="Ваше Имя">        </div>
+        <div class="form-group">
+            <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Телефон">        </div>
+    </div>
+    <div class="emerge-callback">
+        <span class="site-phone"><a class="site-phone-link phone-77473449788 clickable-phone" href="tel:+77473449788">+7 (747) 344-97-88</a></span>
+        <button id="show-emerge-callback" type="button" class="btn-show-callback-form">Перезвоните мне</button>
+    </div>
+    <div class="callback-result-wrap hidden"></div>
+</div>
+
+<script src="/assets/6afec75e/jquery.min.js?v=1733117057"></script>
+<script src="/assets/ac4c6828/yii.js?v=1733117057"></script>
+<script src="/js/plugins/jquery.cookie.min.js?v=1730179335"></script>
+<script src="/js/plugins/bootstrap.min.js?v=1730179335" onload="window.registerBootstrapTooltip &amp;&amp; window.registerBootstrapTooltip()"></script>
+<script src="/assets/97214d0d/bundle.min.js?v=1733117057" onload="initSentry &amp;&amp; initSentry()"></script>
+<script src="/js/moment-with-locales.min.js?v=1730179335"></script>
+<script src="/js/plugins/maskedinput.min.js?v=1730179335"></script>
+<script src="/js/jquery.actual.min.js?v=1730179335"></script>
+<script src="/js/sockjs-0.3.2.min.js?v=1730179335"></script>
+<script src="/dist/common/core/js/core.min.js?v=1730179335"></script>
+<script src="/dist/desktop/common/main/js/main.min.js?v=1730179335"></script>
+<script src="/assets/940ba2f7/search.min.js?v=1733117060"></script>
+<script type="module" src="/assets/69fe9865/runtime-es2015.js?v=1733117078"></script>
+<script type="module" src="/assets/69fe9865/polyfills-es2015.js?v=1733117078"></script>
+<script src="/assets/69fe9865/runtime-es5.js?v=1733117078" nomodule="nomodule"></script>
+<script src="/assets/69fe9865/polyfills-es5.js?v=1733117078" nomodule="nomodule"></script>
+<script type="module" src="/assets/69fe9865/main-es2015.js?v=1733117078"></script>
+<script src="/assets/69fe9865/main-es5.js?v=1733117078" nomodule="nomodule"></script>
+<script src="/dist/common/search/js/search.min.js?v=1730179335"></script>
+<script src="/dist/desktop/pages/hotel/js/hotel.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/callback/core/js/core.min.js?v=1730179335" async="async"></script>
+<script src="/dist/desktop/widgets/find-form/form/js/form.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/subscription-form/common/js/common.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/subscription-form/leave-subscribe-modal/js/leave-subscribe-modal.min.js?v=1730179335"></script>
+<script src="/dist/desktop/widgets/quiz/js/quiz.min.js?v=1730179335" async="async"></script>
+<script>jQuery(function ($) {
+var wideSearchFormParams = {"values":{"countryId":18,"regionId":null,"departCityId":1,"nightsFrom":5,"nightsTo":8,"adult":2,"child":0,"childAges":[],"stars":0,"selectedHotel":{"id":7428,"name":"ISLAND VIEW RESORT (EX-SUNRISE ISLAND VIEW) 5* (Египет, Шарм-эль-Шейх)","countryId":18},"mealIds":[],"selectedDate":"23.12.2024","isSoftDates":true,"combined":2,"search":1},"data":{"urls":{"getData":"\/find-tours\/get-data-for-wide.html","getRegions":"\/find-tours\/get-regions.html","getDates":"\/find-tours\/get-allowed-dates.html","getDestinations":"\/find-tours\/intelligent-search.html"}},"mode":"hotel"};
+var wideSearchForm = new WideSearchForm(wideSearchFormParams);
+
+var selector = "#tourID";
+if (typeof(window.utils.getShortTourId) === "function") {
+    window.utils.getShortTourId($(selector).text(), selector);
+}
+
+});</script>
+<script>jQuery(window).on('load', function () {
+if (window.Sentry) {
+                Sentry.configureScope(function(scope) {
+                    if (window.yaCounter18493072) {
+                        scope.setExtra("yandex_client_id", yaCounter18493072.getClientID());
+                    }
+                    scope.setExtra("is_mobile_version", window.app.isMobile);
+                });
+            }
+});</script></body>
+</html>

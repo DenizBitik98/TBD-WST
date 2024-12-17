@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <base href="https://www.gotur.kz/">
+    <meta charset="UTF-8">
+<link rel="apple-touch-icon" sizes="180x180" href="/appicon/apple-touch-icon.png">
+<link rel="mask-icon" href="/appicon/safari-pinned-tab.svg" color="#f06251">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/appicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/appicon/favicon-16x16.png">
+<link rel="shortcut icon" href="/appicon/favicon.ico">
+
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#0071d4">
+<meta name="msapplication-TileImage" content="/appicon/ms-icon-144x144.png">
+
+<meta name="theme-color" content="#0071d4">
+<meta name="apple-mobile-web-app-status-bar-style" content="#0071d4">
+
+<meta name="apple-mobile-web-app-title" content="Турагентство GOTOUR.KZ">
+<meta name="application-name" content="Турагентство GOTOUR.KZ"><meta name="google-site-verification" content="nobn0mtbRwAQHcL3W59PH-Gao9rteXQYgcYvaPQZkbU" />
+<meta name="wmail-verification" content='36246c1762379c1cad53ce96f5535c4b' />
+<meta name="yandex-verification" content="e4a55cdfe208dc62" />
+<meta name="facebook-domain-verification" content="mms3bvse53ek441uksblgotrfn182b" />
+    <title>Акмолинская обл., отели, зоны отдыха, санатории, гостиницы - цены, отзывы, контакты - goTUR.kz</title>
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="kSgK0888ZoQCBXfy-jTW1ty8_HX8iCOxSdm54lrhwaH8eEy0tX0ltzRNPbmie-eHseSEI6j6QOgYl_atMYe2-A==">
+<script>
+    app = {
+        staticDomain: "https://static.gotur.kz",
+        googleMapApiKey: "AIzaSyDebOpjG3l-Y3fcxlzMKxBG6dAJwmdgy8Q",
+        yandexMapApiKey: "0f162d03-62bd-432b-86bb-653a4b66ff89",
+        urls: {
+            getShortId: "/tour/get-short-id.html",
+            addSubscription: "/subscription.html",
+            addSubscriptionSuccess: "/subscription-success.html",
+            findTour: "/tour/find.html",
+            addCallback: "/callback/create.html",
+            changeCallbackCallTime: "/callback/change-call-time.html",
+            setCity: "/site/set-city.html",
+            setCurrency: "/site/set-currency.html"
+        },
+        city: {
+            id: 1,
+        },
+        realCity: {
+            name: ""        },
+        cities: {"1":{"id":1,"name":"Алматы","depart_id":1,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"https://www.instagram.com/gotour.kz/","facebook":"https://www.facebook.com/gotour.kz/"},"contactsHidden":false},"2":{"id":2,"name":"Астана","depart_id":2,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"4":{"id":4,"name":"Актобе","depart_id":6,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"5":{"id":5,"name":"Актау","depart_id":8,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"8":{"id":8,"name":"Караганда","depart_id":4,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"9":{"id":9,"name":"Шымкент","depart_id":5,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"10":{"id":10,"name":"Атырау","depart_id":12,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"11":{"id":11,"name":"Семей","depart_id":0,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"12":{"id":12,"name":"Талдыкорган","depart_id":0,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"13":{"id":13,"name":"Темиртау","depart_id":0,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"14":{"id":14,"name":"Уральск","depart_id":10,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"15":{"id":15,"name":"Усть-Каменогорск","depart_id":11,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true},"16":{"id":16,"name":"Павлодар","depart_id":9,"currentPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"altPhone":{"code":"8 (777)","phone":"8 (777) 125-75-75","clearPhone":"87771257575","href":"tel:+77771257575"},"socials":{"instagram":"","facebook":""},"contactsHidden":true}},
+        cityTemplate: {
+            hiddenPhone: "<span class=\"hidden-phone\" role=\"button\" data-city=\"{{cityId}}\" data-type=\"{{type}}\"><span class=\"phone-code\">{{phoneCode}}</span><span class=\"btn-show-hidden-phone\">Показать</span></span>",
+            phoneLink: "<a class=\"site-phone-link phone-{{clearPhone}} clickable-phone\" href=\"{{href}}\">{{phone}}</a>",
+        },
+        sock: {
+            local: "//127.0.0.1:8888/serv",
+            main: "https://ws.gotour.kz/serv",
+        },
+                srcCount: 30,
+        v_uid: undefined,
+        currency: "kzt",
+        isMobile: 0,
+        isGeolocationEnabled: 0,
+        debug: 0,
+        loading: {
+            data: "",
+            dots: "",
+            circle: "<div class=\"circle-loader\"><svg viewBox=\"25 25 50 50\"><circle cx=\"50\" cy=\"50\" r=\"20\"></circle></svg></div>",
+        },
+                quizCountdownMs: 1000,
+    };
+</script>
+<meta name="description" content="Описание отелей, баз отдыха, зон отдыха и санаториев Казахстана, Турции, ОАЭ, Китая, ГОА, Таиланда и других стран – стоимость, отзывы, контакты, описание. Бронирование отелей.">
+<meta name="keywords" content="">
+<link href="https://www.gotur.kz/oteli/kazakhstan/akmolinskaia-obl/zerenda.html" rel="canonical">
+<link href="/css/plugins/bootstrap.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/common/main/css/main.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/modules/hotelCatalog/css/hotelCatalog.min.css?v=1730179335" rel="stylesheet">
+<link href="/assets/2d76a567/themes/smoothness/jquery-ui.css?v=1733117078" rel="stylesheet">
+<link href="/assets/560a4d5d/css/blueimp-gallery.min.css?v=1733117142" rel="stylesheet">
+<link href="/dist/desktop/widgets/banner/css/banner.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/popular-directions-in-kazakhstan/css/popular-directions-in-kazakhstan.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/recent-hotels-block/css/recent-hotels-block.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/last-comments-block/css/last-comments-block.min.css?v=1730179335" rel="stylesheet">
+<link href="/dist/desktop/widgets/callback/core/css/core.min.css?v=1730179335" rel="stylesheet">
+<script>
+    // Google Tag Manager
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXVW283');
+    // End Google Tag Manager
+
+var yandexConfig = {"params":{"pageType":"other"},"enableClickMap":false,"enableWebVisor":false};</script></head>
+<body class="gotour-theme ">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","additionalType":"TravelAgency","address":{"@type":"PostalAddress","addressLocality":"Алматы, Казахстан","streetAddress":"Проспект Назарбаева 193, 1 этаж"},"name":"туристское агентство","email":"almaty@gotour.kz","openingHours":["Mo-Fr 10:00-19:00","Sa 10:00-15:00"],"priceRange":"155000-2150000KZT","telephone":["+7 (727) 344‒97‒88","+7 (747) 344‒97‒88","+7 (771) 171‒71‒86"],"image":"https://www.gotur.kz/img/gt-logo-white.png","url":"//www.gotur.kz","geo":{"@type":"GeoCoordinates","latitude":"76.948285","longitude":"43.239908"}}</script>    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.gotur.kz/","name":"Главная"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.gotur.kz/oteli.html","name":"Отели & Базы отдыха"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.gotur.kz/oteli/kazakhstan.html","name":"Казахстан"}},{"@type":"ListItem","position":4,"item":{"@id":"https://www.gotur.kz/oteli/kazakhstan/akmolinskaia-obl/zerenda.html","name":"Акмолинская обл."}}]}</script><script>    function registerBootstrapTooltip() {
+        if (window.jQuery && $.isFunction($.fn.tooltip)) {
+            jQuery.fn.extend({ bootstrapTooltip: $.fn.tooltip })
+        }
+    }
+function initSentry() {
+                    Sentry.init({
+                        dsn: 'https://72ea944f82714cbc9cc44c7e09d6315c@o50394.ingest.sentry.io/5377892',
+                        ignoreErrors: ["Failed to fetch","$ is not defined","Can't find variable: jQuery","Can't find variable: $","adsbygoogle.push() error: No slot size for availableWidth=0"],
+                        denyUrls: [],
+                        integrations: [
+                            new Sentry.Integrations.GlobalHandlers({
+                                onerror: true,
+                                onunhandledrejection: false
+                            })
+                        ]
+                    });
+                }</script><div class="wrapper">
+    
+<nav class="nav-bar">
+    <div class="container nav-bar-container">
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                <li>
+    <a href="/tury/goryashchie-tury/almaty.html" class="direct-link">Горящие туры</a>
+</li>
+                <li>
+    <a href="/tury/iz-almaty.html" class="direct-link">Цены на туры</a>
+</li>
+                <li class="dropdown">
+    <a href="/poisk-tura.html">Поиск онлайн <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/poisk-tura.html">Поиск туров</a></li>
+                    <li><a href="/aviabilety.html">Поиск авиабилетов</a></li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/tury.html">Отдых за рубежом <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/turciya/almaty.html">Туры в Турцию</a></li>
+                                            <li><a href="/tury/thailand/almaty.html">Туры в Таиланд</a></li>
+                                            <li><a href="/tury/oae/almaty.html">Туры в ОАЭ</a></li>
+                                            <li><a href="/tury/india/almaty.html">Туры в ГОА, Индия</a></li>
+                                            <li><a href="/tury/egypet/almaty.html">Туры в Египет</a></li>
+                                            <li><a href="/tury/vietnam/almaty.html">Туры в Вьетнам</a></li>
+                                            <li><a href="/tury/dominikanskaia-resp/almaty.html">Туры в Доминикану</a></li>
+                                            <li><a href="/tury/kitaj/almaty.html">Туры в Китай(Хайнань)</a></li>
+                                            <li><a href="/tury.html">Смотреть все туры</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Тематические туры <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/tury/rannee-bronirovanie.html">Раннее бронирование туров</a></li>
+                                            <li><a href="/tury/gornolyzhnye-tury.html">Горнолыжные туры</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Горящие туры</a></li>
+                                            <li><a href="/tury/individualnye-i-vip-tury.html">Индивидуальные и VIP туры</a></li>
+                                            <li><a href="/tury/kombinirovannye-tury.html">Комбинированные туры</a></li>
+                                            <li><a href="/tury/morskie-kruizy.html">Морские круизы</a></li>
+                                            <li><a href="/tury/lechebnye-tury.html">Лечебные туры</a></li>
+                                            <li><a href="/tury/plyazhnyj-otdykh.html">Пляжный отдых</a></li>
+                                            <li><a href="/tury/svadebnye-tury.html">Свадебные туры</a></li>
+                                            <li><a href="/tury/tury-na-prazdniki-meropriyatiya.html">Туры на праздники, мероприятия</a></li>
+                                            <li><a href="/tury/shop-tury.html">Шоп-туры</a></li>
+                                            <li><a href="/tury/ekskursionnye-tury.html">Экскурсионные туры</a></li>
+                                            <li><a href="/tury/avtobusnye-tury.html">Автобусные туры</a></li>
+                                            <li><a href="/tury/detskij-otdykh.html">Детский отдых</a></li>
+                                            <li><a href="/tury/newyear.html">Новогодние туры</a></li>
+                                            <li><a href="/tury/spring-break-and-nauryz.html">Весенние каникулы и Наурыз</a></li>
+                                            <li><a href="/tury/may_holidays_tours.html">Туры на майские праздники</a></li>
+                                            <li><a href="/tury/osennie-kanikuly.html">Осенние каникулы</a></li>
+                                            <li><a href="/tury/goryashchie-tury.html">Смотреть все</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Полезно знать <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/strany.html">О странах</a></li>
+                                            <li><a href="/oteli.html">Отели</a></li>
+                                            <li><a href="/blogs.html">Интересные статьи</a></li>
+                                            <li><a href="/news.html">Новости туризма</a></li>
+                                            <li><a href="/tury/vizy-registratsiya.html">Визы, регистрация</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/oteli/kazakhstan.html">Отдых в Казахстане <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Регионы <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan.html">Все зоны отдыха, санатории в Казахстане</a></li>
+                                            <li><a href="/oteli/kazakhstan/almatinskaia-obl.html">Алматинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/aktiubinskaia-obl.html">Актюбинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/atyrausaia-obl.html">Атыраусая обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/vostochno-kazakhstanskaia-obl.html">Восточно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zhambylskaia-oblast.html">Жамбылская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/zapadno-kazakhstanskaia-obl.html">Западно-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/karagandinskaia-obl.html">Карагандинская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kostanaiskaia-obl.html">Костанайская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/kyzylordinskaia-obl.html">Кызылординская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/mangistauskaia-obl.html">Мангистауская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/pavlodarskaia-obl.html">Павлодарская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/severo-kazakhstanskaia-obl.html">Северо-Казахстанская обл.</a></li>
+                                            <li><a href="/oteli/kazakhstan/iuzhno-kazakhstanskaia-obl.html">Южно-Казахстанская обл.</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Популярные направления <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kapchagae.html">Отдых на Капчагае</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-alakole.html">Отдых на Алаколе</a></li>
+                                            <li><a href="/oteli/kazakhstan/goryachie-istochniki.html">Горячие источники</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-borovom.html">Отдых в Боровом</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-s-detmi.html">Отдых с детьми</a></li>
+                                            <li><a href="/oteli/kazakhstan/pokatatsya-na-lyzhakh-sankakh.html">Покататься на лыжах, санках</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-v-zerende.html">Отдых в Зеренде</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-balkhashe.html">Отдых на Балхаше</a></li>
+                                            <li><a href="/oteli/kazakhstan/vip-otdykh.html">VIP отдых</a></li>
+                                            <li><a href="/oteli/kazakhstan/okhota.html">Охота</a></li>
+                                            <li><a href="/oteli/kazakhstan/bassejny-i-akvaparki.html">Бассейны и Аквапарки</a></li>
+                                            <li><a href="/oteli/kazakhstan/rybalka.html">Рыбалка</a></li>
+                                            <li><a href="/oteli/kazakhstan/anatorii-lechenie-spa.html">Санатории, Лечение, СПА</a></li>
+                                            <li><a href="/oteli/kazakhstan/otdykh-na-kaspii.html">Отдых на Каспии</a></li>
+                                            <li><a href="/oteli/kazakhstan/piknik.html">Пикник</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Виды зон отдыха <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/oteli/kazakhstan/hostel.html">Hostel</a></li>
+                                            <li><a href="/oteli/kazakhstan/baza-otdykha.html">База отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/butik-otel.html">Бутик отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostevoj-dom.html">Гостевой дом</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinitsa.html">Гостиница</a></li>
+                                            <li><a href="/oteli/kazakhstan/gostinichnyj-kompleks.html">Гостиничный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/dom-otdykha.html">Дом отдыха</a></li>
+                                            <li><a href="/oteli/kazakhstan/sanatorij.html">Санаторий</a></li>
+                                            <li><a href="/oteli/kazakhstan/kemping-otel.html">Кемпинг</a></li>
+                                            <li><a href="/oteli/kazakhstan/kottedzhnyj-kompleks.html">Коттеджный комплекс</a></li>
+                                            <li><a href="/oteli/kazakhstan/pansionat.html">Пансионат</a></li>
+                                            <li><a href="/oteli/kazakhstan/turbaza.html">Турбаза</a></li>
+                                            <li><a href="/oteli/kazakhstan/eko-otel.html">Эко отель</a></li>
+                                            <li><a href="/oteli/kazakhstan/chastnyj-sektor.html">Частный сектор</a></li>
+                                            <li><a href="/oteli/kazakhstan/detskij-lager.html">Детский лагерь</a></li>
+                                    </ul>
+            </li>
+                    <li class="dropdown-submenu-wrapper">
+                <span class="menu-fake-item">Туры выходного дня <span class="caret-right"></span></span>
+                <ul class="dropdown-submenu">
+                                            <li><a href="/holiday.html">Все туры выходного дня</a></li>
+                                            <li><a href="/holiday/almaty.html">В Алматы</a></li>
+                                            <li><a href="/holiday/astana.html">В Нур-Cултане (Астана)</a></li>
+                                    </ul>
+            </li>
+            </ul>
+</li>
+                <li class="dropdown">
+    <a href="/company.html">О нас <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+                    <li><a href="/turagentstva/operator.html">Наши партнеры</a></li>
+            </ul>
+</li>
+                <li>
+    <a href="/kontakti.html" class="direct-link">Контакты</a>
+</li>
+            </ul>
+        </div>
+        <div class="nav-bar-city-select">
+    Ваш город:&nbsp;
+    <div class="h-select main_hSelect" id="hSelectMainCity">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face" data-value="1">
+                <span>Алматы</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="1">
+                    <span>Алматы</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="2">
+                    <span>Астана</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="4">
+                    <span>Актобе</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="5">
+                    <span>Актау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="8">
+                    <span>Караганда</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="9">
+                    <span>Шымкент</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="10">
+                    <span>Атырау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="11">
+                    <span>Семей</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="12">
+                    <span>Талдыкорган</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="13">
+                    <span>Темиртау</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="14">
+                    <span>Уральск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="15">
+                    <span>Усть-Каменогорск</span>
+                </div>
+                                <div class="h-select-item"
+                     data-value="16">
+                    <span>Павлодар</span>
+                </div>
+                        </div>
+    </div>
+</div>
+        <div class="nav-bar-currency-select">
+    <div class="h-select main_hSelect" id="hSelectCurrency">
+        <div class="h-select-face-wrap">
+            <div class="h-select-face">
+                <span>KZT</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="h-select-items">
+                            <div class="h-select-item"
+                     data-value="kzt">
+                    <span>KZT</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="usd">
+                    <span>USD</span>
+                </div>
+                            <div class="h-select-item"
+                     data-value="eur">
+                    <span>EUR</span>
+                </div>
+                    </div>
+    </div>
+</div>
+        <div class="nav-bar-menu">
+            <ul class="nav navbar-nav">
+                    <li>
+        <a href="/login.html" class="direct-link login-button">Войти</a>
+    </li>
+                </ul>
+        </div>
+    </div>
+</nav>
+    <header class="only-contacts">
+    <div class="container">
+        <div class="header-common-elements">
+    <div class="logo">
+                    <a href="/">
+                <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            </a>
+                </div>
+                <div class="clearfix"></div>
+</div>
+    </div>
+</header>
+
+    
+    <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Главная</a></li>
+<li><a href="/oteli.html">Отели &amp; Базы отдыха</a></li>
+<li><a href="/oteli/kazakhstan.html">Казахстан</a></li>
+<li class="active">Акмолинская обл.</li>
+</ul>    </div>
+            <main>
+        <div class="container">
+    <div class="columns" id="main-content">
+        <div class="column">
+            
+<div class="site-block">
+<div class="site-header">
+    <h1>Акмолинская обл.<small>Казахстан</small></h1>
+</div>
+<div class="hotel-navigation">
+    <div class="hotel-autocomplete">
+        <input type="text" id="w0" placeholder="Поиск по названию - отеля, зоны отдыха...">    </div>
+    <div class="hotel-nav-categories">
+        <ul>
+                            <li>
+                    <span class="icon-paperclip"></span>
+                    <a href="#"
+                       data-target="#hotel-nav-direction"
+                       class="collapse">Направления</a>
+                </li>
+                            <li>Фильтр:</li>
+            <li>
+                <a href="#"
+                   data-target="#hotel-nav-country"
+                   class="collapse ">Казахстан</a>
+            </li>
+                            <li><a href="#"
+                       data-target="#hotel-nav-type"
+                       class="collapse ">Вид</a></li>
+                <li><a href="#"
+                       data-target="#hotel-nav-region"
+                       class="collapse ">Акмолинская обл.</a></li>
+                                <li><a href="#"
+                       data-target="#hotel-nav-city"
+                       class="collapse open">Город</a></li>
+                        </ul>
+        <div id="hotel-nav-direction" class="hidden">
+            <h2>Популярные направления в Казахстане</h2>
+            <div class="list">
+                <a class="" href="/oteli/kazakhstan/goryachie-istochniki.html">Горячие источники</a><a class="" href="/oteli/kazakhstan/detskie-lagerya.html">Детские лагеря</a><a class="" href="/oteli/kazakhstan/sanatorii-lechenie-spa.html">Санатории/Лечение/СПА</a><a class="" href="/oteli/kazakhstan/otdykh-s-detmi.html">Отдых с детьми</a><a class="" href="/oteli/kazakhstan/pokatatsya-na-lyzhakh-sankakh.html">Покататься на лыжах/санках</a><a class="" href="/oteli/kazakhstan/otdykh-na-kapchagae.html">Отдых на Капчагае</a><a class="" href="/oteli/kazakhstan/otdykh-na-alakole.html">Отдых на Алаколе</a><a class="" href="/oteli/kazakhstan/otdykh-v-borovom.html">Отдых в Боровом</a><a class="" href="/oteli/kazakhstan/otdykh-v-zerende.html">Отдых в Зеренде</a><a class="" href="/oteli/kazakhstan/otdykh-na-balkhashe.html">Отдых на Балхаше</a><a class="" href="/oteli/kazakhstan/vip-otdykh.html">VIP отдых </a><a class="" href="/oteli/kazakhstan/okhota.html">Охота </a><a class="" href="/oteli/kazakhstan/bassejny-i-akvaparki.html">Бассейны и Аквапарки</a><a class="" href="/oteli/kazakhstan/rybalka.html">Рыбалка</a><a class="" href="/oteli/kazakhstan/otdykh-na-kaspii.html">Отдых на Каспии</a><a class="" href="/oteli/kazakhstan/piknik.html">Пикник</a><a class="" href="/oteli/kazakhstan/otdykh-na-buhtyrme.html">Отдых на Бухтарме</a>            </div>
+        </div>
+        <div id="hotel-nav-country" class="hidden">
+            <h2>Страны</h2>
+            <div class="list">
+                <a class="active" href="/oteli/kazakhstan.html">Казахстан</a><a class="" href="/oteli/kyrgyzstan.html">Кыргызстан</a>            </div>
+        </div>
+                    <div id="hotel-nav-type" class="hidden">
+                <h2>Виды Отелей, Баз отдыха, Санаториев</h2>
+                <div class="list">
+                    <a class="" href="/oteli/kazakhstan/detskij-lager/akmolinskaia-obl.html">Детский лагерь</a><a class="" href="/oteli/kazakhstan/akvapark/akmolinskaia-obl.html">Аквапарк</a><a class="" href="/oteli/kazakhstan/chastnyj-sektor/akmolinskaia-obl.html">Частный сектор</a><a class="" href="/oteli/kazakhstan/eko-otel/akmolinskaia-obl.html">Эко отель</a><a class="" href="/oteli/kazakhstan/ekzotika/akmolinskaia-obl.html">Экзотика</a><a class="" href="/oteli/kazakhstan/turbaza/akmolinskaia-obl.html">Турбаза</a><a class="" href="/oteli/kazakhstan/spa-otel/akmolinskaia-obl.html">СПА-отель</a><a class="" href="/oteli/kazakhstan/pansion/akmolinskaia-obl.html">Пансион</a><a class="" href="/oteli/kazakhstan/pansionat/akmolinskaia-obl.html">Пансионат</a><a class="" href="/oteli/kazakhstan/ozdorovitelnyj-kompleks/akmolinskaia-obl.html">Оздоровительный комплекс</a><a class="" href="/oteli/kazakhstan/obshchezhitie/akmolinskaia-obl.html">Общежитие</a><a class="" href="/oteli/kazakhstan/butik-otel/akmolinskaia-obl.html">Бутик отель</a><a class="" href="/oteli/kazakhstan/baza-otdykha/akmolinskaia-obl.html">База отдыха</a><a class="" href="/oteli/kazakhstan/apart-otel/akmolinskaia-obl.html">Апарт-отель</a><a class="" href="/oteli/kazakhstan/motel/akmolinskaia-obl.html">Motel</a><a class="" href="/oteli/kazakhstan/hostel/akmolinskaia-obl.html">Hostel</a><a class="" href="/oteli/kazakhstan/villa/akmolinskaia-obl.html">Вилла</a><a class="" href="/oteli/kazakhstan/gostevoj-dom/akmolinskaia-obl.html">Гостевой дом</a><a class="" href="/oteli/kazakhstan/mini-otel/akmolinskaia-obl.html">Мини отель</a><a class="" href="/oteli/kazakhstan/kottedzhnyj-kompleks/akmolinskaia-obl.html">Коттеджный комплекс</a><a class="" href="/oteli/kazakhstan/klubnyj-otel/akmolinskaia-obl.html">Клубный отель</a><a class="" href="/oteli/kazakhstan/kemping-otel/akmolinskaia-obl.html">Кемпинг отель</a><a class="" href="/oteli/kazakhstan/sanatorij/akmolinskaia-obl.html">Санаторий</a><a class="" href="/oteli/kazakhstan/zamok/akmolinskaia-obl.html">Замок</a><a class="" href="/oteli/kazakhstan/zagorodnyj-dom/akmolinskaia-obl.html">Загородный дом</a><a class="" href="/oteli/kazakhstan/dom-otdykha/akmolinskaia-obl.html">Дом отдыха</a><a class="" href="/oteli/kazakhstan/dizajn-otel/akmolinskaia-obl.html">Дизайн отел</a><a class="" href="/oteli/kazakhstan/gostinichnyj-kompleks/akmolinskaia-obl.html">Гостиничный комплекс</a><a class="" href="/oteli/kazakhstan/gostinitsa/akmolinskaia-obl.html">Гостиница</a>                </div>
+            </div>
+            <div id="hotel-nav-region" class="hidden">
+                <h2>Регионы</h2>
+                <div class="list">
+                    <a class="" href="/oteli/kazakhstan/aktiubinskaia-obl.html">Актюбинская обл.</a><a class="" href="/oteli/kazakhstan/almatinskaia-obl.html">Алматинская обл.</a><a class="" href="/oteli/kazakhstan/vostochno-kazakhstanskaia-obl.html">Восточно-Казахстанская обл.</a><a class="" href="/oteli/kazakhstan/atyrausaia-obl.html">Атырауская обл.</a><a class="" href="/oteli/kazakhstan/zhambylskaia-oblast.html">Жамбылская область </a><a class="" href="/oteli/kazakhstan/karagandinskaia-obl.html">Карагандинская обл.</a><a class="" href="/oteli/kazakhstan/kyzylordinskaia-obl.html">Кызылординская обл.</a><a class="" href="/oteli/kazakhstan/kostanaiskaia-obl.html">Костанайская обл.</a><a class="" href="/oteli/kazakhstan/mangistauskaia-obl.html">Мангистауская обл.</a><a class="" href="/oteli/kazakhstan/pavlodarskaia-obl.html">Павлодарская обл.</a><a class="" href="/oteli/kazakhstan/severo-kazakhstanskaia-obl.html">Северо-Казахстанская обл.</a><a class="" href="/oteli/kazakhstan/iuzhno-kazakhstanskaia-obl.html">Южно-Казахстанская обл.</a><a class="" href="/oteli/kazakhstan/zapadno-kazakhstanskaia-obl.html">Западно-Казахстанская обл.</a><a class="active" href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a><a class="" href="/oteli/kazakhstan/turkestanskaya-obl.html">Туркестанская обл.</a>                </div>
+            </div>
+                            <div id="hotel-nav-city" class="">
+                    <h2>Города</h2>
+                    <div class="list">
+                        <a class="" href="/oteli/kazakhstan/akmolinskaia-obl/borovoe.html">Боровое</a><a class="" href="/oteli/kazakhstan/akmolinskaia-obl/burabaj.html">Бурабай</a><a class="" href="/oteli/kazakhstan/akmolinskaia-obl/zerenda.html">Зеренда</a><a class="" href="/oteli/kazakhstan/akmolinskaia-obl/katyrkol.html">Катырколь</a><a class="" href="/oteli/kazakhstan/akmolinskaia-obl/kokshetau.html">Кокшетау</a><a class="" href="/oteli/kazakhstan/akmolinskaia-obl/shch-uchinsk.html">Щучинск</a><a class="" href="/oteli/kazakhstan/akmolinskaia-obl/astana.html">Нур-Султан (Астана)</a>                    </div>
+                </div>
+                    </div>
+</div>
+<div id="w1" class="hotel-list">
+<div class="hotel-item" data-key="4740"><div class="hotel-image">
+    <div id="gallery-4740" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/shch-uchinsk/4740-park-house-kokshetau.html">Park House Kokshetau</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Гостиница, Загородный, Отдых в Боровом        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/shch-uchinsk.html">Щучинск</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/shch-uchinsk/4740-park-house-kokshetau.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+        <div class="hits"><span class="icon-eye"></span> 51744</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="1416"><div class="hotel-image">
+    <div id="gallery-1416" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/1416-gostinitsa-alma-ata.html">гостиница Алма-Ата</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Гостиница, Городской, Отдых в Боровом        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj.html">Бурабай</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/1416-gostinitsa-alma-ata.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+        <div class="hits"><span class="icon-eye"></span> 50619</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="4611"><div class="hotel-image">
+    <div id="gallery-4611" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/astana/4611-rixos-president-astana.html">Rixos President Astana (Банкетный зал)</a>
+    </h3>
+            <p class="recommendation"><span class="icon-thumbs-up"></span> GoTour Рекомендует</p>
+        <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/astana.html">Нур-Султан (Астана)</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+            <p><b>Выездное обслуживание</b>: Банкеты, Кофе-брейки, Фуршеты, Шведские столы</p>
+                <p><b>Особенности</b>: Wi-Fi, Обслуживают официанты, ТВ большой экран</p>
+                <p><b>Парковка</b>: Бесплатная, охраняемая, Подземный паркинг</p>
+            <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/astana/4611-rixos-president-astana.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+        <div class="hits"><span class="icon-eye"></span> 41315</div>
+    </div>
+</div>
+<div class="promo promo-pos-b2">
+            <a href="/banner/go.html?id=1" rel="nofollow">
+            <img src="/uploads/banners/629115e918f9e.jpeg" alt="База отдыха Малибу" title="База отдыха Малибу">
+        </a>
+    </div>
+
+
+<div class="hotel-item" data-key="54"><div class="hotel-image">
+    <div id="gallery-54" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/54-marsel.html">Марсель </a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Гостевой дом, Городской, Отдых в Боровом        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj.html">Бурабай</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/54-marsel.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+        <div class="hits"><span class="icon-eye"></span> 48124</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="61"><div class="hotel-image">
+    <div id="gallery-61" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/shch-uchinsk/61-pansionat-zhumbaktas.html">Пансионат "Жумбактас"</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Пансионат, Загородный, Отдых в Боровом        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/shch-uchinsk.html">Щучинск</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/shch-uchinsk/61-pansionat-zhumbaktas.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+        <div class="hits"><span class="icon-eye"></span> 64740</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="48"><div class="hotel-image">
+    <div id="gallery-48" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/48-usadba-smotritskikh.html">Усадьба Смотрицких</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Частный сектор, Загородный, Отдых в Боровом        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj.html">Бурабай</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/48-usadba-smotritskikh.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating best">5/5.00</div>
+            <div class="comments-count text-center">2 отзыва        </div>
+            <div class="hits"><span class="icon-eye"></span> 55120</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="43"><div class="hotel-image">
+            <a href="/oteli/kazakhstan/akmolinskaia-obl/borovoe/43-samal.html"><img src="/img/no-hotel.jpg" class="lazy-img-watch" data-src="/uploads/hotels/260/thumb-8b6e33345ac8d5ffd9cf0d107a7d9e9d.jpg"
+                               alt="САМАЛ"></a>
+            </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/borovoe/43-samal.html">САМАЛ</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Гостиница, Загородный, Отдых в Боровом        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/borovoe.html">Боровое</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/borovoe/43-samal.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating best">5/5.00</div>
+            <div class="comments-count text-center">1 отзыв        </div>
+            <div class="hits"><span class="icon-eye"></span> 57109</div>
+    </div>
+</div>
+
+<div class="hotel-item" data-key="77"><div class="hotel-image">
+    <div id="gallery-77" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/zerenda/77-zeren.html">Санаторно-оздоровительный комплекс "Зерен-нур"</a>
+    </h3>
+            <p class="recommendation"><span class="icon-thumbs-up"></span> GoTour Рекомендует</p>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Гостиничный комплекс, Загородный, Отдых в Зеренде        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/zerenda.html">Зеренда</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/zerenda/77-zeren.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+            <div class="comments-count text-center">11 отзывов        </div>
+            <div class="hits"><span class="icon-eye"></span> 149769</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="4426"><div class="hotel-image">
+    <div id="gallery-4426" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/4426-sanatorij-okzhetpes.html">ЛОК Ок-жетпес (санаторий) </a>
+    </h3>
+            <p class="recommendation"><span class="icon-thumbs-up"></span> GoTour Рекомендует</p>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Санаторий        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj.html">Бурабай</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/4426-sanatorij-okzhetpes.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+            <div class="comments-count text-center">11 отзывов        </div>
+            <div class="hits"><span class="icon-eye"></span> 104492</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="4421"><div class="hotel-image">
+    <div id="gallery-4421" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/kokshetau/4421-elikti-park.html">Elikti Park (Еликты парк)</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            База отдыха, Загородный, Отдых с детьми, Покататься на лыжах/санках, Отдых в Зеренде        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/kokshetau.html">Кокшетау</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/kokshetau/4421-elikti-park.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+            <div class="comments-count text-center">28 отзывов        </div>
+            <div class="hits"><span class="icon-eye"></span> 59125</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="4801"><div class="hotel-image">
+    <div id="gallery-4801" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/4801-hotel-insar.html">Гостиничный комплекс Инсар (Insar)</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Гостиничный комплекс, Загородный        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj.html">Бурабай</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+            <p><b>Особенности</b>: бесплатный Wi-Fi пляж, места для пикника, принадлежности для барбекю </p>
+                <p><b>Активный отдых</b>: пляж, верховая езда, велоспорт, маршруты для пеших прогулок, игровая комната, катание на лыжах
+</p>
+                <p><b>Парковка</b>: бесплатная частная парковка на месте, парковочные места для людей с ограниченными физическими возможностями, охраняемая парковка</p>
+            <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/4801-hotel-insar.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+        <div class="hits"><span class="icon-eye"></span> 4038</div>
+    </div>
+</div>
+
+<div class="hotel-item" data-key="1422"><div class="hotel-image">
+    <div id="gallery-1422" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/1422-nurlytau.html">Нурлытау</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Гостиница, Городской, Отдых в Боровом        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj.html">Бурабай</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/1422-nurlytau.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+            <div class="comments-count text-center">1 отзыв        </div>
+            <div class="hits"><span class="icon-eye"></span> 44333</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="4904"><div class="hotel-image">
+    <div id="gallery-4904" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/katyrkol/4904-Rufus-Lodge.html">Rufus Lodge</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Гостиница        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/katyrkol.html">Катырколь</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/katyrkol/4904-Rufus-Lodge.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+            <div class="comments-count text-center">1 отзыв        </div>
+            <div class="hits"><span class="icon-eye"></span> 4031</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="1421"><div class="hotel-image">
+    <div id="gallery-1421" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/1421-gostinitsa-gloriia.html">Гостиница Глория (GLORIA hotel)</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Motel, Городской, Отдых в Боровом        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj.html">Бурабай</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/1421-gostinitsa-gloriia.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating best">5/5.00</div>
+            <div class="comments-count text-center">1 отзыв        </div>
+            <div class="hits"><span class="icon-eye"></span> 44822</div>
+    </div>
+</div>
+<div class="hotel-item" data-key="1267"><div class="hotel-image">
+    <div id="gallery-1267" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel"><div class="slides"></div>
+<h3 class="title"></h3>
+<a class="prev">‹</a>
+<a class="next">›</a>
+<a class="play-pause"></a>
+<ol class="indicator"></ol></div>    </div>
+<div class="hotel-info">
+    <h3>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/borovoe/1267-turist.html">Турист</a>
+    </h3>
+            <p class="hotel-tags">
+            <span class="icon-tags"></span>
+            Гостевой дом, Загородный, Отдых в Боровом        </p>
+            <p class="hotel-address">
+        <span class="icon-location-black"></span>
+        <a href="/oteli/kazakhstan/akmolinskaia-obl/borovoe.html">Боровое</a>,
+        <a href="/oteli/kazakhstan/akmolinskaia-obl.html">Акмолинская обл.</a>,
+        <a href="/oteli/kazakhstan.html">Казахстан</a>
+    </p>
+        <p><a class="btn-carrot" href="/oteli/kazakhstan/akmolinskaia-obl/borovoe/1267-turist.html">Подробнее</a></p>
+</div>
+<div class="hotel-params">
+        <div class="rating ">-/5.00</div>
+        <div class="hits"><span class="icon-eye"></span> 46641</div>
+    </div>
+</div>
+<ul class="pagination"><li class="prev disabled"><span>&laquo;</span></li>
+<li class="active"><a href="/oteli/kazakhstan/akmolinskaia-obl.html" data-page="0">1</a></li>
+<li><a href="/oteli/kazakhstan/akmolinskaia-obl.html?page=2" data-page="1">2</a></li>
+<li><a href="/oteli/kazakhstan/akmolinskaia-obl.html?page=3" data-page="2">3</a></li>
+<li><a href="/oteli/kazakhstan/akmolinskaia-obl.html?page=4" data-page="3">4</a></li>
+<li><a href="/oteli/kazakhstan/akmolinskaia-obl.html?page=5" data-page="4">5</a></li>
+<li><a href="/oteli/kazakhstan/akmolinskaia-obl.html?page=6" data-page="5">6</a></li>
+<li><a href="/oteli/kazakhstan/akmolinskaia-obl.html?page=7" data-page="6">7</a></li>
+<li class="next"><a href="/oteli/kazakhstan/akmolinskaia-obl.html?page=2" data-page="1">&raquo;</a></li></ul></div><div class="page-text"><h2>Отдых и туры в Казахстан 2020</h2>
+
+<p>Отдых в Казахстане привлекает туристов из многих стран ближнего и дальнего зарубежья. Внутренний туризм Казахстана предлагает множественные варианты отдыха, как для семейного отдыха так и эко туры. Если Вы - любитель активного отдыха, дикой природы, снежных горных вершин и крутых горнолыжных трасс, таинственных пещер и голубых горных озер - значит туры в Казахстан Вас приятно удивят. Этот отдых не только зарядит вас энерргией, но и подарит незабываемые эмоции.&nbsp;</p>
+
+<p><strong>Лучшие курорты Казахстана, гостиницы и зоны отдыха</strong> представлены на нашем сайте. Основные и популярные направления отдыха в Казахстане: отдых на Алаколе, Боровое, Горячие источники и другие. Вы также можете&nbsp;<a href="index.php?option=com_agents&amp;view=agents&amp;Itemid=211&amp;country_works=1894" title="Турагентства - предоставляющщие туры по Казахстану">воспользоваться услугами наших квалифицированных турагентов</a> для подбора и бронирования своего отдыха. Мы знаем все о лучшем и комфортном отдыхе в Казахстане.</p>
+
+<p>Всю красоту, историю и глубину традиций Казахского гостеприимства Вы можете посмотреть <a href="index.php?country_id[]=1894:kazakhstan&amp;option=com_agents&amp;view=agent_blogs&amp;Itemid=214" title="Блог - записи о Казахстане">на страницах нашего блога</a>. На страницах блога мы рассказываем о самых интересных и красивых местах страны.&nbsp;</p>
+
+<p>Где отдохнуть в Казахстане?<br />
+Популярные направления отдыха в Казахстане:</p>
+
+<p><strong>зоны отдыха в Алматинской области</strong><br />
+<a href="oteli/kazakhstan/almatinskaia-obl/kapchagai.html" target="_blank">зоны отдыха на Капчагае</a>; <a href="oteli/kazakhstan/almatinskaia-obl/akshi.html" target="_blank" title="отдых на Алаколе - Акши">отдых на Алаколе - Акши</a>; <a href="oteli/kazakhstan/almatinskaia-obl/koktuma.html" target="_blank" title="отдыха на Алаколе - Коктума">отдыха на Алаколе - Коктума</a>; <a href="oteli/kazakhstan/almatinskaia-obl/chundzha.html" target="_blank" title="горячие источники Чунджа">горячие источники Чунджа</a></p>
+
+<p><strong>зоны отдыха в Акмолинской области</strong><br />
+<a href="oteli/kazakhstan/akmolinskaia-obl/borovoe.html" target="_blank" title="зоны отдыха в Боровом">зоны отдыха в Боровом</a>; <a href="oteli/kazakhstan/akmolinskaia-obl/burabaj.html" target="_blank" title="зоны отдыха в Бурабае">зоны отдыха в Бурабае</a>; <a href="oteli/kazakhstan/akmolinskaia-obl/shch-uchinsk.html" target="_blank" title="зоны отдыха в Щучинске">зоны отдыха в Щучинске</a>; <a href="oteli/kazakhstan/akmolinskaia-obl/zerenda.html" target="_blank" title="зоны отдыха в Зеренде">зоны отдыха в Зеренде</a></p>
+</div>
+    </div>
+
+        </div>
+        <div class="column-right aside-block">
+            <div class="popular-directions site-block">
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/goryachie-istochniki.html">Горячие источники</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/detskie-lagerya.html">Детские лагеря</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/sanatorii-lechenie-spa.html">Санатории/Лечение/СПА</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/otdykh-s-detmi.html">Отдых с детьми</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/pokatatsya-na-lyzhakh-sankakh.html">Покататься на лыжах/санках</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/otdykh-na-kapchagae.html">Отдых на Капчагае</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/otdykh-na-alakole.html">Отдых на Алаколе</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/otdykh-v-borovom.html">Отдых в Боровом</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/otdykh-v-zerende.html">Отдых в Зеренде</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/otdykh-na-balkhashe.html">Отдых на Балхаше</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/vip-otdykh.html">VIP отдых </a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/okhota.html">Охота </a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/bassejny-i-akvaparki.html">Бассейны и Аквапарки</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/rybalka.html">Рыбалка</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/otdykh-na-kaspii.html">Отдых на Каспии</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/piknik.html">Пикник</a>
+    </div>
+        <div class="popular-direction">
+        <a class="" href="/oteli/kazakhstan/otdykh-na-buhtyrme.html">Отдых на Бухтарме</a>
+    </div>
+    </div>
+                        
+<div class="site-block recent-hotels">
+    <div class="site-header">
+        <h4>Недавно вы смотрели</h4>
+    </div>
+            <div class="recent-hotel-item">
+            <div class="recent-hotel-image">
+                <a href="/oteli/kazakhstan/almatinskaia-obl/almaty/1372-4-sezona.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-9c95f21ed068edf7ca1f11dba5cf66a1.jpg"
+                         alt="Горно лыжный курорт - 4 сезона (Четыре сезона)">
+                </a>
+            </div>
+            <div class="recent-hotel-info">
+                <h3>
+                    <a href="/oteli/kazakhstan/almatinskaia-obl/almaty/1372-4-sezona.html">Горно лыжный курорт - 4 сезона (Четыре сезона)</a>
+                </h3>
+                <a class="btn-secondary" href="/oteli/kazakhstan/almatinskaia-obl/almaty/1372-4-sezona.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="recent-hotel-item">
+            <div class="recent-hotel-image">
+                <a href="/oteli/kazakhstan/kostanaiskaia-obl/kostanai/83-sosnovyi-bor.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-1d73e13563b8be946c0f00bab252d7ea.jpg"
+                         alt="Сосновый бор">
+                </a>
+            </div>
+            <div class="recent-hotel-info">
+                <h3>
+                    <a href="/oteli/kazakhstan/kostanaiskaia-obl/kostanai/83-sosnovyi-bor.html">Сосновый бор</a>
+                </h3>
+                <a class="btn-secondary" href="/oteli/kazakhstan/kostanaiskaia-obl/kostanai/83-sosnovyi-bor.html">Подробнее</a>
+            </div>
+        </div>
+                <div class="recent-hotel-item">
+            <div class="recent-hotel-image">
+                <a href="/oteli/kazakhstan/vostochno-kazakhstanskaia-obl/ust-kamenogorsk/1403-tsentr-otdykha-altaiskie-alpy.html">
+                    <img src="/img/no-hotel.jpg"
+                         class="lazy-img-watch"
+                         data-src="/uploads/hotels/260/thumb-47ab8f4b2c91e37bf1f1a0e143bfa7c1.jpg"
+                         alt="Центр отдыха Алтайские Альпы">
+                </a>
+            </div>
+            <div class="recent-hotel-info">
+                <h3>
+                    <a href="/oteli/kazakhstan/vostochno-kazakhstanskaia-obl/ust-kamenogorsk/1403-tsentr-otdykha-altaiskie-alpy.html">Центр отдыха Алтайские Альпы</a>
+                </h3>
+                <a class="btn-secondary" href="/oteli/kazakhstan/vostochno-kazakhstanskaia-obl/ust-kamenogorsk/1403-tsentr-otdykha-altaiskie-alpy.html">Подробнее</a>
+            </div>
+        </div>
+        </div>
+
+            <div class="site-block last-comments">
+    <div class="site-header">
+        <h4>Последние комментарии</h4>
+    </div>
+            <div class="comment-info">
+            <h4>
+                Санаторий «Березняки»            </h4>
+            <div class="comment">
+                Согласен с вами на 100%. В этом месте просто всё отвратитель...<br><a href="/oteli/kazakhstan/karagandinskaia-obl/bereznyaki/30-dom-otdykha-berezniaki.html#comment-19068">Все Отзывы</a>            </div>
+        </div>
+                <div class="comment-info">
+            <h4>
+                ЛОК Ок-жетпес (санаторий)             </h4>
+            <div class="comment">
+                ЦЕНА???????<br><a href="/oteli/kazakhstan/akmolinskaia-obl/burabaj/4426-sanatorij-okzhetpes.html#comment-19067">Все Отзывы</a>            </div>
+        </div>
+                <div class="comment-info">
+            <h4>
+                Санаторий Мерке Радон            </h4>
+            <div class="comment">
+                Если вы рискнете приехать в этот санаторий то берите с собой...<br><a href="/oteli/kazakhstan/zhambylskaia-oblast/merke/57-sanatorii-merke.html#comment-19066">Все Отзывы</a>            </div>
+        </div>
+                <div class="comment-info">
+            <h4>
+                Санаторий Мерке Радон            </h4>
+            <div class="comment">
+                Совет всем особенно женщинам не приезжать в этот сан-рий. Ес...<br><a href="/oteli/kazakhstan/zhambylskaia-oblast/merke/57-sanatorii-merke.html#comment-19065">Все Отзывы</a>            </div>
+        </div>
+        
+</div><div class="site-block">
+    <script id="tripster-widget-876414" src="https://experience.tripster.ru/partner/widget.js?country=kazakhstan&view=experience&template=horizontal&order=top&width=100%25&num=3&label=aside-desktop&version=2&partner=gotur981284&script_id=tripster-widget-876414" async></script>
+</div>
+        </div>
+    </div>
+</div>
+        <div class="clearfix"></div>
+    </main>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="logo">
+            <img src="/img/gt-logo-white.png" alt="Турагентство GOTOUR">
+            <div class="copyright">
+                Copyright © 2012–2024 ИП «GTKZ»<br/>
+                Фактический адрес:<br/>
+                Республика Казахстан, г. Алматы, Медеуский район,
+                улица Богенбай батыра, дом 81/36, нежилое помещение 54<br/>
+                Юридический адрес:<br/>
+                Республика Казахстан,  г. Алматы, Медеуский район,
+                улица Богенбай батыра, дом 81/36, нежилое помещение 54<br/>
+                БИН 911014350917            </div>
+        </div>
+        <div class="footer-links">
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Города вылета</div>
+                <div class="cities-list">
+                    <ul>
+                                                    <li>
+                                <a href="/tury/iz-almaty.html">
+                                    Алматы                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-astana.html">
+                                    Астана                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-moscow.html">
+                                    Москва                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktobe.html">
+                                    Актобе                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-aktay.html">
+                                    Актау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-karaganda.html">
+                                    Караганда                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-shymkent.html">
+                                    Шымкент                                </a>
+                            </li>
+                            </ul><ul>                            <li>
+                                <a href="/tury/iz-atiray.html">
+                                    Атырау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-semei.html">
+                                    Семей                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-taldikorgan.html">
+                                    Талдыкорган                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-temirtay.html">
+                                    Темиртау                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-uralsk.html">
+                                    Уральск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-ust-kamenogorsk.html">
+                                    Усть-Каменогорск                                </a>
+                            </li>
+                                                        <li>
+                                <a href="/tury/iz-pavlodar.html">
+                                    Павлодар                                </a>
+                            </li>
+                                                </ul>
+                </div>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Популярные страны</div>
+                <ul>
+                    <li><a href="/tury/turciya.html">Турция</a></li>
+                    <li><a href="/tury/egypet.html">Египет</a></li>
+                    <li><a href="/tury/oae.html">ОАЭ</a></li>
+                    <li><a href="/tury/thailand.html">Таиланд</a></li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <div class="footer-links_item-heading">Другое</div>
+                <ul>
+                    <li><a href="/privacy.html">Политика
+                            конфиденциальности</a></li>
+                    <li><a href="/how-to-buy-tour.html">Как купить тур</a></li>
+                    <li><a href="/banners.html">Реклама</a></li>
+                    <li><a href="/for-hotel-admin.html">Для отельеров и
+                            заведений
+                        </a></li>
+                    <li>
+                        <a href="/legal-information/user-agreement.html" target="_blank">
+                            Пользовательское соглашение
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links_item">
+                <a href="https://www.instagram.com/gotour.kz/" target="_blank" class="smm-link instagram-link">
+                    <img src="/img/social/instagram.png" alt="Instagram" class="smm-icon"></a>
+                <a href="https://www.facebook.com/gotour.kz" target="_blank" class="smm-link facebook-link">
+                    <img src="/img/social/facebook.png" alt="Facebook" class="smm-icon"></a>
+                <a href="https://t.me/gotour_kz" target="_blank" class="smm-link telegram-link">
+                    <img src="/img/social/telegram.svg" alt="Telegram" class="smm-icon"></a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</footer>
+
+<div class="modal fade" id="bspopup">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="callback-form-popup" class="hidden">
+    <div class="callback-form callback-form-popup text-center">
+        <div class="callback-on-working hidden">
+            <img src="/img/france-woman.png" alt="">
+            <p class="block-title">ПЕРЕЗВОНИМ ВАМ</p>
+        </div>
+        <div class="callback-night-time">
+            <img src="/img/night-time.png" alt="">
+            <p class="block-title">Извините, в данный момент офисы закрыты!</p>
+            <p class="block-hint">
+                Мы перезвоним вам <span class="fw-m nowrap">сегодня (09.12)</span> в удобное для вас время:
+            </p>
+            <div class="callback-choose-time">
+                <button type="button" class="active" data-time="11:00">11:00</button><button type="button" class="" data-time="12:00">12:00</button><button type="button" class="" data-time="13:00">13:00</button><button type="button" class="" data-time="14:00">14:00</button><button type="button" class="" data-time="15:00">15:00</button><button type="button" class="" data-time="16:00">16:00</button><button type="button" class="" data-time="17:00">17:00</button><button type="button" class="" data-time="18:00">18:00</button>            </div>
+        </div>
+        <div class="callback-inputs">
+            <input type="hidden" class="form-control callback-widget-city_id" name="callback-widget-city_id" value="1">            <input type="hidden" class="form-control callback-widget-form_type_id" name="callback-widget-form_type_id" value="0" data-default="0">            <input type="hidden" class="form-control callback-widget-delayed-time" name="callback-widget-delayed-time" value="11:00"><input type="hidden" class="form-control callback-widget-delayed-date" name="callback-widget-delayed-date" value="09.12.2024"><input type="hidden" class="form-control callback-widget-is-choose-time" name="callback-widget-is-choose-time" value="0">            <div class="form-group">
+                <input type="text" class="callback-widget-phone phone-mask" name="callback-widget-phone" value="" placeholder="Укажите ваш номер телефона">                <span class="callback-submit-wrap">
+                    <button type="button"
+                        class="btn-carrot callback-form-submit callback-form-analytics">ПЕРЕЗВОНИТЕ МНЕ</button>
+                </span>
+            </div>
+        </div>
+        <div class="callback-result-wrap hidden"></div>
+    </div>
+</div>
+<div class="hidden" id="timeoutPopup">
+    <div id="timeoutForm">
+        <img src="/img/waiting-man.png" alt="">
+        <div class="timeoutTitle">Получить свежие цены</div>
+        <div class="timeoutHelp">
+            Результаты поиска актуальны в течение <strong>15 минут!</strong>
+        </div>
+        <button id="repeatCurrentSearch" class="btn-brand">
+            Обновить поиск
+        </button>
+    </div>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXVW283"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Pixel -->
+<!-- /Pixel -->
+<script src="/assets/6afec75e/jquery.min.js?v=1733117057"></script>
+<script src="/assets/ac4c6828/yii.js?v=1733117057"></script>
+<script src="/js/plugins/jquery.cookie.min.js?v=1730179335"></script>
+<script src="/js/plugins/bootstrap.min.js?v=1730179335" onload="window.registerBootstrapTooltip &amp;&amp; window.registerBootstrapTooltip()"></script>
+<script src="/assets/97214d0d/bundle.min.js?v=1733117057" onload="initSentry &amp;&amp; initSentry()"></script>
+<script src="/js/moment-with-locales.min.js?v=1730179335"></script>
+<script src="/js/plugins/maskedinput.min.js?v=1730179335"></script>
+<script src="/js/jquery.actual.min.js?v=1730179335"></script>
+<script src="/js/sockjs-0.3.2.min.js?v=1730179335"></script>
+<script src="/dist/common/core/js/core.min.js?v=1730179335"></script>
+<script src="/dist/desktop/common/main/js/main.min.js?v=1730179335"></script>
+<script src="/js/plugins/jquery.inputmask.min.js?v=1730179335"></script>
+<script src="/dist/desktop/modules/hotelCatalog/js/hotelCatalog.min.js?v=1730179335"></script>
+<script src="/assets/2d76a567/jquery-ui.min.js?v=1733117078"></script>
+<script src="/assets/560a4d5d/js/blueimp-gallery.min.js?v=1733117142"></script>
+<script src="/assets/70013866/dosamigos-blueimp-gallery.js?v=1733117142"></script>
+<script src="/dist/desktop/widgets/callback/core/js/core.min.js?v=1730179335" async="async"></script>
+<script>jQuery(function ($) {
+jQuery('#w0').autocomplete({"source":"\/hotelCatalog\/default\/search.html","minLength":"3","autoFill":true,"select":function( event, ui ) {
+                    window.location = ui.item.link;
+                }});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w2']=blueimp.Gallery(["/uploads/hotels/260/thumb-6d883c67dc178d0bc0078a5b55c8d44d.jpg","https://www.gotur.kz/uploads/galleries/hotels/4740/18425/medium.jpg?_=1082651635","https://www.gotur.kz/uploads/galleries/hotels/4740/18426/medium.jpg?_=1082651635","https://www.gotur.kz/uploads/galleries/hotels/4740/18427/medium.jpg?_=3650003529","https://www.gotur.kz/uploads/galleries/hotels/4740/18428/medium.jpg?_=2928251615","https://www.gotur.kz/uploads/galleries/hotels/4740/18429/medium.jpg?_=2928251615","https://www.gotur.kz/uploads/galleries/hotels/4740/18430/medium.jpg?_=2928251615","https://www.gotur.kz/uploads/galleries/hotels/4740/18431/medium.jpg?_=820840316","https://www.gotur.kz/uploads/galleries/hotels/4740/18432/medium.jpg?_=820840316","https://www.gotur.kz/uploads/galleries/hotels/4740/18433/medium.jpg?_=820840316"], {"container":"#gallery-4740","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w3']=blueimp.Gallery(["/uploads/hotels/260/thumb-b101fa9bdd0c35b4319fa7cdeb1495ae.jpg","https://www.gotur.kz/uploads/galleries/hotels/1416/7217/medium.jpg?_=1680370883","https://www.gotur.kz/uploads/galleries/hotels/1416/7218/medium.jpg?_=1680370883","https://www.gotur.kz/uploads/galleries/hotels/1416/7219/medium.jpg?_=1680370883","https://www.gotur.kz/uploads/galleries/hotels/1416/7220/medium.jpg?_=1680370883","https://www.gotur.kz/uploads/galleries/hotels/1416/7221/medium.jpg?_=1680370883","https://www.gotur.kz/uploads/galleries/hotels/1416/7222/medium.jpg?_=4103565650","https://www.gotur.kz/uploads/galleries/hotels/1416/7223/medium.jpg?_=4103565650","https://www.gotur.kz/uploads/galleries/hotels/1416/7224/medium.jpg?_=4103565650"], {"container":"#gallery-1416","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w4']=blueimp.Gallery(["/uploads/hotels/260/thumb-4b840fef3f76a1200400aeae109a3d97.jpg","https://www.gotur.kz/uploads/galleries/hotels/4611/13518/medium.jpg?_=747172631","https://www.gotur.kz/uploads/galleries/hotels/4611/13519/medium.jpg?_=747172631","https://www.gotur.kz/uploads/galleries/hotels/4611/13520/medium.jpg?_=747172631","https://www.gotur.kz/uploads/galleries/hotels/4611/13521/medium.jpg?_=747172631","https://www.gotur.kz/uploads/galleries/hotels/4611/13522/medium.jpg?_=3045171885","https://www.gotur.kz/uploads/galleries/hotels/4611/13523/medium.jpg?_=3045171885"], {"container":"#gallery-4611","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w5']=blueimp.Gallery(["/uploads/hotels/260/thumb-a27a3b73d355048c6bab885897085f62.jpg","https://www.gotur.kz/uploads/galleries/hotels/54/9899/medium.jpg?_=838213419","https://www.gotur.kz/uploads/galleries/hotels/54/9900/medium.jpg?_=838213419","https://www.gotur.kz/uploads/galleries/hotels/54/9901/medium.jpg?_=838213419","https://www.gotur.kz/uploads/galleries/hotels/54/9902/medium.jpg?_=838213419","https://www.gotur.kz/uploads/galleries/hotels/54/9903/medium.jpg?_=838213419","https://www.gotur.kz/uploads/galleries/hotels/54/9904/medium.jpg?_=838213419","https://www.gotur.kz/uploads/galleries/hotels/54/9905/medium.jpg?_=838213419","https://www.gotur.kz/uploads/galleries/hotels/54/9906/medium.jpg?_=838213419","https://www.gotur.kz/uploads/galleries/hotels/54/9907/medium.jpg?_=838213419"], {"container":"#gallery-54","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w6']=blueimp.Gallery(["/uploads/hotels/260/thumb-00d9b1e39f02d57be65ad2a9a6eaa3b8.jpg","https://www.gotur.kz/uploads/galleries/hotels/61/144/medium.jpg?_=1189111450","https://www.gotur.kz/uploads/galleries/hotels/61/145/medium.jpg?_=1189111450","https://www.gotur.kz/uploads/galleries/hotels/61/146/medium.jpg?_=1189111450","https://www.gotur.kz/uploads/galleries/hotels/61/147/medium.jpg?_=1189111450","https://www.gotur.kz/uploads/galleries/hotels/61/148/medium.jpg?_=1189111450","https://www.gotur.kz/uploads/galleries/hotels/61/149/medium.jpg?_=1189111450","https://www.gotur.kz/uploads/galleries/hotels/61/150/medium.jpg?_=1189111450","https://www.gotur.kz/uploads/galleries/hotels/61/151/medium.jpg?_=837244428","https://www.gotur.kz/uploads/galleries/hotels/61/152/medium.jpg?_=837244428","https://www.gotur.kz/uploads/galleries/hotels/61/153/medium.jpg?_=837244428","https://www.gotur.kz/uploads/galleries/hotels/61/154/medium.jpg?_=837244428","https://www.gotur.kz/uploads/galleries/hotels/61/155/medium.jpg?_=837244428","https://www.gotur.kz/uploads/galleries/hotels/61/156/medium.jpg?_=837244428","https://www.gotur.kz/uploads/galleries/hotels/61/157/medium.jpg?_=837244428","https://www.gotur.kz/uploads/galleries/hotels/61/158/medium.jpg?_=837244428","https://www.gotur.kz/uploads/galleries/hotels/61/159/medium.jpg?_=837244428","https://www.gotur.kz/uploads/galleries/hotels/61/160/medium.jpg?_=837244428"], {"container":"#gallery-61","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w7']=blueimp.Gallery(["/uploads/hotels/260/thumb-c1572c59821062c96d0fc33ad32a2983.jpg","https://www.gotur.kz/uploads/galleries/hotels/48/15563/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15564/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15565/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15566/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15567/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15568/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15569/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15570/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15571/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15572/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15573/medium.jpg?_=1067538963","https://www.gotur.kz/uploads/galleries/hotels/48/15574/medium.jpg?_=1600574454","https://www.gotur.kz/uploads/galleries/hotels/48/15575/medium.jpg?_=1600574454","https://www.gotur.kz/uploads/galleries/hotels/48/15576/medium.jpg?_=1600574454","https://www.gotur.kz/uploads/galleries/hotels/48/15577/medium.jpg?_=1600574454","https://www.gotur.kz/uploads/galleries/hotels/48/15578/medium.jpg?_=1600574454","https://www.gotur.kz/uploads/galleries/hotels/48/15579/medium.jpg?_=1600574454","https://www.gotur.kz/uploads/galleries/hotels/48/15580/medium.jpg?_=1600574454","https://www.gotur.kz/uploads/galleries/hotels/48/15581/medium.jpg?_=1600574454"], {"container":"#gallery-48","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w8']=blueimp.Gallery(["/uploads/hotels/260/thumb-d48ed900e79fa9547169c26138b4cd8d.jpg","https://www.gotur.kz/uploads/galleries/hotels/77/15519/medium.jpg?_=1091577518","https://www.gotur.kz/uploads/galleries/hotels/77/15520/medium.jpg?_=1091577518","https://www.gotur.kz/uploads/galleries/hotels/77/15521/medium.jpg?_=1091577518","https://www.gotur.kz/uploads/galleries/hotels/77/15522/medium.jpg?_=1091577518","https://www.gotur.kz/uploads/galleries/hotels/77/15523/medium.jpg?_=1091577518","https://www.gotur.kz/uploads/galleries/hotels/77/15524/medium.jpg?_=1091577518","https://www.gotur.kz/uploads/galleries/hotels/77/15525/medium.jpg?_=1091577518","https://www.gotur.kz/uploads/galleries/hotels/77/15526/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15527/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15528/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15529/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15530/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15531/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15532/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15533/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15534/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15535/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15536/medium.jpg?_=907482680","https://www.gotur.kz/uploads/galleries/hotels/77/15537/medium.jpg?_=2937997186","https://www.gotur.kz/uploads/galleries/hotels/77/15538/medium.jpg?_=2937997186","https://www.gotur.kz/uploads/galleries/hotels/77/15539/medium.jpg?_=2937997186","https://www.gotur.kz/uploads/galleries/hotels/77/15540/medium.jpg?_=2937997186"], {"container":"#gallery-77","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w9']=blueimp.Gallery(["/uploads/hotels/260/thumb-400e9e39bbe82a198f3d7fc97a1fb03a.jpg","https://www.gotur.kz/uploads/galleries/hotels/4426/6133/medium.jpg?_=375409360","https://www.gotur.kz/uploads/galleries/hotels/4426/6134/medium.jpg?_=375409360","https://www.gotur.kz/uploads/galleries/hotels/4426/6135/medium.jpg?_=375409360","https://www.gotur.kz/uploads/galleries/hotels/4426/6136/medium.jpg?_=375409360","https://www.gotur.kz/uploads/galleries/hotels/4426/6137/medium.jpg?_=375409360","https://www.gotur.kz/uploads/galleries/hotels/4426/6138/medium.jpg?_=1634171462","https://www.gotur.kz/uploads/galleries/hotels/4426/6139/medium.jpg?_=1634171462","https://www.gotur.kz/uploads/galleries/hotels/4426/6140/medium.jpg?_=1634171462","https://www.gotur.kz/uploads/galleries/hotels/4426/6141/medium.jpg?_=1634171462","https://www.gotur.kz/uploads/galleries/hotels/4426/6142/medium.jpg?_=1634171462","https://www.gotur.kz/uploads/galleries/hotels/4426/6143/medium.jpg?_=1634171462","https://www.gotur.kz/uploads/galleries/hotels/4426/6144/medium.jpg?_=1634171462","https://www.gotur.kz/uploads/galleries/hotels/4426/6145/medium.jpg?_=1634171462","https://www.gotur.kz/uploads/galleries/hotels/4426/6146/medium.jpg?_=1634171462","https://www.gotur.kz/uploads/galleries/hotels/4426/6147/medium.jpg?_=1634171462"], {"container":"#gallery-4426","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w10']=blueimp.Gallery(["/uploads/hotels/260/thumb-30f9b58c35822c66d13cd50104e1520a.jpg","https://www.gotur.kz/uploads/galleries/hotels/4421/5980/medium.jpg?_=3238879159","https://www.gotur.kz/uploads/galleries/hotels/4421/5981/medium.jpg?_=3238879159","https://www.gotur.kz/uploads/galleries/hotels/4421/5982/medium.jpg?_=3238879159","https://www.gotur.kz/uploads/galleries/hotels/4421/5983/medium.jpg?_=3238879159","https://www.gotur.kz/uploads/galleries/hotels/4421/5984/medium.jpg?_=3238879159","https://www.gotur.kz/uploads/galleries/hotels/4421/5985/medium.jpg?_=3238879159","https://www.gotur.kz/uploads/galleries/hotels/4421/5986/medium.jpg?_=3238879159","https://www.gotur.kz/uploads/galleries/hotels/4421/5987/medium.jpg?_=3054137121","https://www.gotur.kz/uploads/galleries/hotels/4421/5988/medium.jpg?_=3054137121","https://www.gotur.kz/uploads/galleries/hotels/4421/5989/medium.jpg?_=3054137121","https://www.gotur.kz/uploads/galleries/hotels/4421/5990/medium.jpg?_=3054137121","https://www.gotur.kz/uploads/galleries/hotels/4421/5991/medium.jpg?_=3054137121"], {"container":"#gallery-4421","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w11']=blueimp.Gallery(["/uploads/hotels/260/thumb-5d0a2b75a9719.jpg","https://www.gotur.kz/uploads/galleries/hotels/4801/17672/medium.jpg?_=3178782936","https://www.gotur.kz/uploads/galleries/hotels/4801/17673/medium.jpg?_=3178782936","https://www.gotur.kz/uploads/galleries/hotels/4801/17674/medium.jpg?_=3178782936","https://www.gotur.kz/uploads/galleries/hotels/4801/17675/medium.jpg?_=3178782936","https://www.gotur.kz/uploads/galleries/hotels/4801/17676/medium.jpg?_=3397341262"], {"container":"#gallery-4801","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w12']=blueimp.Gallery(["/uploads/hotels/260/thumb-0a437fb45f4388e89321519e6c196fa1.jpg","https://www.gotur.kz/uploads/galleries/hotels/1422/16471/medium.jpg?_=246810692","https://www.gotur.kz/uploads/galleries/hotels/1422/16472/medium.jpg?_=246810692","https://www.gotur.kz/uploads/galleries/hotels/1422/16473/medium.jpg?_=246810692","https://www.gotur.kz/uploads/galleries/hotels/1422/16474/medium.jpg?_=246810692","https://www.gotur.kz/uploads/galleries/hotels/1422/16475/medium.jpg?_=246810692","https://www.gotur.kz/uploads/galleries/hotels/1422/16476/medium.jpg?_=246810692","https://www.gotur.kz/uploads/galleries/hotels/1422/16477/medium.jpg?_=246810692","https://www.gotur.kz/uploads/galleries/hotels/1422/16478/medium.jpg?_=246810692","https://www.gotur.kz/uploads/galleries/hotels/1422/16479/medium.jpg?_=246810692","https://www.gotur.kz/uploads/galleries/hotels/1422/16480/medium.jpg?_=246810692"], {"container":"#gallery-1422","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w13']=blueimp.Gallery(["/uploads/hotels/260/thumb-5d3807922f81e.jpg","https://www.gotur.kz/uploads/galleries/hotels/4904/18776/medium.jpg?_=1498842365","https://www.gotur.kz/uploads/galleries/hotels/4904/18777/medium.jpg?_=3227505991","https://www.gotur.kz/uploads/galleries/hotels/4904/18778/medium.jpg?_=3227505991","https://www.gotur.kz/uploads/galleries/hotels/4904/18779/medium.jpg?_=3076056529","https://www.gotur.kz/uploads/galleries/hotels/4904/18780/medium.jpg?_=2181251914"], {"container":"#gallery-4904","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w14']=blueimp.Gallery(["/uploads/hotels/260/thumb-14fb90d3d777dfef0d30bcbfa812c2e5.jpg","https://www.gotur.kz/uploads/galleries/hotels/1421/8573/medium.jpg?_=3732424870","https://www.gotur.kz/uploads/galleries/hotels/1421/8574/medium.jpg?_=3732424870","https://www.gotur.kz/uploads/galleries/hotels/1421/8575/medium.jpg?_=3732424870","https://www.gotur.kz/uploads/galleries/hotels/1421/8576/medium.jpg?_=3732424870","https://www.gotur.kz/uploads/galleries/hotels/1421/8577/medium.jpg?_=3732424870","https://www.gotur.kz/uploads/galleries/hotels/1421/8578/medium.jpg?_=2843703344"], {"container":"#gallery-1421","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+blueimp_galleries = ( typeof blueimp_galleries != 'undefined' && blueimp_galleries instanceof Array ) ? blueimp_galleries : [];blueimp_galleries['w15']=blueimp.Gallery(["/uploads/hotels/260/thumb-a5f10fbd19f01d5dc9cda9ccb53fcb94.jpg","https://www.gotur.kz/uploads/galleries/hotels/1267/9799/medium.jpg?_=450579688","https://www.gotur.kz/uploads/galleries/hotels/1267/9800/medium.jpg?_=450579688","https://www.gotur.kz/uploads/galleries/hotels/1267/9801/medium.jpg?_=450579688","https://www.gotur.kz/uploads/galleries/hotels/1267/9802/medium.jpg?_=450579688","https://www.gotur.kz/uploads/galleries/hotels/1267/9803/medium.jpg?_=2321830265"], {"container":"#gallery-1267","startSlideshow":false,"indicatorContainer":null,"preloadRange":1,"carousel":true});
+});</script>
+<script>jQuery(window).on('load', function () {
+if (window.Sentry) {
+                Sentry.configureScope(function(scope) {
+                    if (window.yaCounter18493072) {
+                        scope.setExtra("yandex_client_id", yaCounter18493072.getClientID());
+                    }
+                    scope.setExtra("is_mobile_version", window.app.isMobile);
+                });
+            }
+});</script></body>
+</html>

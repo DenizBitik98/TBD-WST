@@ -1,0 +1,7 @@
+Mirror in progress since Fri, 06 Dec 2024 00:45:50 .. please wait!
+httrack https://www.gotur.kz/ -O ./gotur-website 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=143153
+UID=1000
+GID=1000
+START=1733427950
