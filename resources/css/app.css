@@ -8,17 +8,50 @@
 
 /* Логотип */
 .navbar-logo img {
-    height: 60px;
+    height: 60px; /* Высота логотипа */
     width: auto;
 }
 
 /* Главный блок hero */
 .hero {
     background-color: #007BFF; /* Синий фон */
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    background-blend-mode: overlay;
+    background-size: cover; /* Заполнение фона */
+    background-position: center; /* Центрирование фонового изображения */
+    color: #fff; /* Белый текст */
+    text-align: center; /* Центрирование содержимого */
+    padding: 120px 20px 80px 20px; /* Отступы сверху и снизу */
+}
+
+/* Заголовок и описание в hero */
+.hero h1 {
+    margin-bottom: 20px; /* Отступ вниз от заголовка */
+    font-size: 3rem; /* Размер заголовка */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero p {
+    margin-bottom: 40px; /* Отступ вниз от описания */
+    font-size: 1.2rem; /* Размер текста */
+    color: #f0f0f0;
+}
+
+/* Кнопка "Посмотреть туры" */
+.hero .btn-primary {
+    background-color: #FF6600; /* Оранжевый цвет */
+    color: #fff; /* Белый текст */
+    padding: 12px 24px; /* Отступы для кнопки */
+    border-radius: 30px; /* Закруглённые углы */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для кнопки */
+}
+
+.hero .btn-primary:hover {
+    background-color: #E65C00; /* Темнее при наведении */
+    transform: translateY(-3px); /* Легкий подъем */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Тень при наведении */
 }
 
 /* Информация */
@@ -143,5 +176,13 @@
 
     .hero {
         padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
     }
 }
