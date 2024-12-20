@@ -9,14 +9,6 @@ Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('h
 Route::view('/about', 'about')->name('about');
 Route::view('/contact', 'contact')->name('contact');
 
-// Каталог туров
-Route::prefix('tours')->group(function () {
-    Route::get('/', [\App\Http\Controllers\TourController::class, 'index'])->name('tours.index');
-    Route::get('/{id}', [\App\Http\Controllers\TourController::class, 'show'])->name('tours.show')
-         ->whereNumber('id'); // Ограничение на числовой параметр
-    Route::get('/search', [\App\Http\Controllers\TourController::class, 'search'])->name('tours.search');
-});
-
 // Личный кабинет партнёра
 Route::middleware(['auth', 'partner'])->prefix('partners')->group(function () {
     Route::get('/dashboard', [\App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');

@@ -11,9 +11,10 @@
 
     <div class="mt-8">
         <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Контактная информация</h2>
-        <p class="text-lg text-gray-600 dark:text-gray-300">Email: <a href="mailto:info@tbd.kz" class="text-blue-500 hover:underline">info@tbd.kz</a></p>
-        <p class="text-lg text-gray-600 dark:text-gray-300">Телефон: +7 (701) 123-45-67</p>
-        <p class="text-lg text-gray-600 dark:text-gray-300">Адрес: г. Алматы, проспект Абая, 10</p>
+        <p class="text-lg text-gray-600 dark:text-gray-300"><strong>Название компании:</strong> ТОО TBD (Тибиди)</p>
+        <p class="text-lg text-gray-600 dark:text-gray-300">Email: <a href="mailto:sales@tbd.kz" class="text-blue-500 hover:underline">sales@tbd.kz</a></p>
+        <p class="text-lg text-gray-600 dark:text-gray-300">Телефон: Tel.: +7 727 344 98 13</p>
+        <p class="text-lg text-gray-600 dark:text-gray-300">Адрес: Алматы, ул. Ауэзова 48, 6 эт/1</p>
     </div>
 
     <div class="mt-8">
@@ -25,8 +26,16 @@
                 <input type="text" name="name" id="name" class="mt-1 block w-full rounded-md bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:ring-blue-500 dark:focus:ring-blue-500" required>
             </div>
             <div class="mb-4">
+                <label for="company" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Название компании</label>
+                <input type="text" name="company" id="company" class="mt-1 block w-full rounded-md bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:ring-blue-500 dark:focus:ring-blue-500">
+            </div>
+            <div class="mb-4">
                 <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Email</label>
                 <input type="email" name="email" id="email" class="mt-1 block w-full rounded-md bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:ring-blue-500 dark:focus:ring-blue-500" required>
+            </div>
+            <div class="mb-4">
+                <label for="phone" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Телефон</label>
+                <input type="text" name="phone" id="phone" class="mt-1 block w-full rounded-md bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:ring-blue-500 dark:focus:ring-blue-500">
             </div>
             <div class="mb-4">
                 <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Сообщение</label>

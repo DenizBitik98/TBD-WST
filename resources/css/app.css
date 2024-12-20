@@ -6,183 +6,78 @@
 @import 'swiper/css/navigation';
 @import 'swiper/css/pagination';
 
-/* Логотип */
-.navbar-logo img {
-    height: 60px; /* Высота логотипа */
-    width: auto;
-}
-
-/* Главный блок hero */
+/* === Hero Section === */
 .hero {
-    background-color: #007BFF; /* Синий фон */
-    background-size: cover; /* Заполнение фона */
-    background-position: center; /* Центрирование фонового изображения */
-    color: #fff; /* Белый текст */
-    text-align: center; /* Центрирование содержимого */
-    padding: 120px 20px 80px 20px; /* Отступы сверху и снизу */
+    @apply bg-blue-500 text-white text-center py-20 px-5;
 }
 
-/* Заголовок и описание в hero */
 .hero h1 {
-    margin-bottom: 20px; /* Отступ вниз от заголовка */
-    font-size: 3rem; /* Размер заголовка */
-    font-weight: bold;
-    text-transform: uppercase;
+    @apply text-4xl font-bold uppercase mb-5;
 }
 
 .hero p {
-    margin-bottom: 40px; /* Отступ вниз от описания */
-    font-size: 1.2rem; /* Размер текста */
-    color: #f0f0f0;
+    @apply text-lg text-gray-100 mb-8;
 }
 
-/* Кнопка "Посмотреть туры" */
 .hero .btn-primary {
-    background-color: #FF6600; /* Оранжевый цвет */
-    color: #fff; /* Белый текст */
-    padding: 12px 24px; /* Отступы для кнопки */
-    border-radius: 30px; /* Закруглённые углы */
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для кнопки */
+    @apply bg-orange-500 text-white py-3 px-6 rounded-full font-bold uppercase shadow-md transform transition-transform duration-300 hover:bg-orange-600 hover:-translate-y-2 hover:shadow-lg;
 }
 
-.hero .btn-primary:hover {
-    background-color: #E65C00; /* Темнее при наведении */
-    transform: translateY(-3px); /* Легкий подъем */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+/* === Navbar === */
+.navbar-logo img {
+    height: 60px;
+    width: auto;
 }
 
-/* Информация */
-.contact-info {
-    font-size: 14px;
-    color: #555; /* Тёмно-серый цвет */
+.nav-link {
+    @apply font-semibold text-white transition-colors duration-300 hover:text-orange-500;
 }
 
-/* Строка поиска */
+/* === Custom Select === */
+.custom-select {
+    @apply appearance-none bg-white border-2 border-black text-blue-500 font-semibold rounded-lg py-2 px-4 shadow-sm transition-colors hover:bg-gray-100 focus:border-blue-500 focus:outline-none;
+}
+
+/* === Buttons === */
+.btn-login {
+    @apply bg-white text-blue-500 font-semibold border-2 border-black py-2 px-4 rounded-lg uppercase transition-all duration-300 hover:bg-blue-500 hover:text-white hover:shadow-md;
+}
+
+/* === Swiper === */
+.swiper-container {
+    @apply w-full h-80;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    @apply text-orange-500 hover:text-orange-600 transition-colors;
+}
+
+/* === Card Components === */
+.service-card, .reason-card, .tour-card {
+    @apply rounded-lg overflow-hidden transition-transform duration-300 shadow-md hover:-translate-y-2 hover:shadow-lg;
+}
+
+/* === Search Bar === */
 .search-bar {
-    max-width: 800px;
-    margin: 0 auto;
-    display: grid;
-    gap: 10px;
+    @apply max-w-2xl mx-auto grid gap-4;
 }
 
 .search-bar .input-field {
-    border: 1px solid #ddd;
-    padding: 10px 12px;
-    border-radius: 4px;
-    transition: border 0.3s ease-in-out;
+    @apply border border-gray-300 py-2 px-4 rounded-md transition-all focus:border-blue-500 focus:outline-none;
 }
 
-.search-bar .input-field:focus {
-    border-color: #007BFF;
-    outline: none;
-}
-
-.search-bar .btn-primary {
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 6px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease-in-out, transform 0.2s;
-}
-
-.search-bar .btn-primary:hover {
-    background-color: #e65c00;
-    transform: translateY(-2px);
-}
-
-/* Карточки с анимацией */
-.service-card,
-.reason-card,
-.tour-card {
-    transition: transform 0.2s, box-shadow 0.2s;
-    border-radius: 6px;
-    overflow: hidden;
-}
-
-.service-card:hover,
-.reason-card:hover,
-.tour-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Стилизация селектов (кнопки выбора языка и валюты) */
-.custom-select {
-    appearance: none;
-    background-color: #ffffff;
-    color: #007BFF;
-    border: 2px solid #000000; /* Чёрная рамка */
-    font-weight: 600;
-    padding: 8px 12px;
-    border-radius: 6px;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-.custom-select:hover,
-.custom-select:focus {
-    border-color: #007BFF;
-    box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.3);
-    background: #f9f9f9;
-}
-
-.custom-select option {
-    background-color: #ffffff;
-    color: #333;
-}
-
-/* Кнопка "Войти" */
-.btn-login {
-    background-color: #ffffff;
-    color: #007BFF;
-    font-weight: 600;
-    border: 2px solid #000000;
-    padding: 8px 16px;
-    border-radius: 6px;
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-login:hover {
-    background-color: #007BFF;
-    color: #ffffff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-/* Дополнительные стили для навигации */
-.nav-link {
-    font-weight: 600;
-    color: #ffffff;
-    transition: color 0.3s ease-in-out;
-}
-
-.nav-link:hover {
-    color: #ff6600;
-}
-
-/* Мобильное меню */
+/* === Responsive Styles === */
 @media (max-width: 768px) {
-    .custom-select,
-    .btn-login {
-        padding: 6px 10px;
-        font-size: 14px;
-    }
-
-    .hero {
-        padding: 20px;
-    }
-
     .hero h1 {
-        font-size: 2rem;
+        @apply text-3xl;
     }
 
     .hero p {
-        font-size: 1rem;
+        @apply text-base;
+    }
+
+    .custom-select, .btn-login {
+        @apply py-1 px-2 text-sm;
     }
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ $title ?? config('app.name', 'TBD WST') }}</title>
+    <title>{{ $title ?? config('app.name', 'TBD') }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
 
     <!-- Additional Meta -->
     <meta name="description" content="Туристическая компания ТОО TBD - ваш надежный партнер в сфере B2B туризма.">
-    <meta name="keywords" content="туризм, агентства, туры, B2B, TBD WST">
+    <meta name="keywords" content="туризм, агентства, туры, B2B, TBD">
 </head>
 <body class="font-sans antialiased bg-gray-100 dark:bg-gray-900">
     <div class="min-h-screen flex flex-col">
@@ -34,16 +34,12 @@
 
         <!-- Page Content -->
         <main class="flex-grow">
-            @yield('content') <!-- Используем секцию вместо $slot -->
+            @yield('content')
         </main>
 
         <!-- Footer -->
-        <footer class="bg-gray-800 text-white text-center py-4">
-            <div class="container mx-auto">
-                <p>&copy; {{ date('Y') }} ТОО TBD (Тибиди). Все права защищены.</p>
-                <p>Свяжитесь с нами: <a href="mailto:info@tbd.kz" class="text-blue-400 hover:underline">info@tbd.kz</a></p>
-            </div>
-        </footer>
+        <x-footer />
     </div>
 </body>
 </html>
+

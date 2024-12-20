@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Tour;
-use App\Models\Testimonial;
 
 class HomeController extends Controller
 {
@@ -16,21 +14,28 @@ class HomeController extends Controller
     public function index()
     {
         try {
-            // Получение туров с пагинацией
-            $tours = Tour::paginate(10);
+            // Данные для секции "Почему выбирают нас"
+            $reasons = [
+                ['icon' => '🔒', 'title' => 'Надежность', 'desc' => 'Мы работаем с проверенными партнерами.'],
+                ['icon' => '🌍', 'title' => 'Широкий выбор', 'desc' => 'Туры, отели, трансферы и многое другое.'],
+                ['icon' => '📞', 'title' => 'Поддержка', 'desc' => 'Профессиональная поддержка 24/7.']
+            ];
 
-            // Получение отзывов с пагинацией
-            $testimonials = Testimonial::paginate(5);
+            // Дополнительные данные
+            $additionalData = [
+                'welcomeMessage' => 'Добро пожаловать в TBD',
+                'ctaText' => 'Свяжитесь с нами для сотрудничества!'
+            ];
         } catch (\Exception $e) {
             // Логирование ошибки
             \Log::error('Ошибка загрузки данных на главной странице: ' . $e->getMessage());
-            
-            // Передача пустых коллекций в представление
-            $tours = collect([]);
-            $testimonials = collect([]);
+
+            // Передача пустых данных в представление
+            $reasons = [];
+            $additionalData = [];
         }
 
         // Передача данных в представление
-        return view('home', compact('tours', 'testimonials'));
+        return view('home', compact('reasons', 'additionalData'));
     }
 }
